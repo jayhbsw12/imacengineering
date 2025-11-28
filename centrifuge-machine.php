@@ -340,6 +340,6 @@
 <script src="js/slider-testimonial.js"></script>
 <script src="js/testimonial-slider.js"></script>
 <script src="js/logo-slider.js"></script>
-<script src="js/portfolio.js"></script>
+
 <script src="js/banner-logo-slider.js"></script>
 <?php include("footer.php"); ?>

@@ -123,7 +123,7 @@
 <script src="js/slider.js?v=<?= ASSET_VERSION ?>" defer></script>
 <script src="js/slider-testimonial.js?v=<?= ASSET_VERSION ?>" defer></script>
 <script src="js/logo-slider.js?v=<?= ASSET_VERSION ?>" defer></script>
-<script src="js/portfolio.js?v=<?= ASSET_VERSION ?>" defer></script>
+
 <!-- <script src="js/portfolio-n.js?v=<?= ASSET_VERSION ?>" defer></script> -->
 
 <!-- Inline logic wrapped to run after DOM is parsed -->

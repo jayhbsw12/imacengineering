@@ -1586,5 +1586,5 @@ document.addEventListener("DOMContentLoaded", function () {
 <script src="js/slider.js"></script>
 <script src="js/slider-testimonial.js"></script>
 <script src="js/logo-slider.js"></script>
-<script src="js/portfolio.js"></script>
+
 <?php include("footer.php"); ?>

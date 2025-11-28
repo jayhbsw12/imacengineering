@@ -177,7 +177,7 @@
 <script src="js/slider-testimonial.js"></script>
 <script src="js/testimonial-slider.js"></script>
 <script src="js/logo-slider.js"></script>
-<script src="js/portfolio.js"></script>
+
 <script src="js/banner-logo-slider.js"></script>
 <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
 <script src='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js'></script>

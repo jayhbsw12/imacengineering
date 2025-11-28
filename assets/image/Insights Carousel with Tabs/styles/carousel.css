@@ -1,0 +1,214 @@
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  gap: 32px;
+  width: 100%;
+}
+
+.card {
+  flex: 0 0 auto; /* Prevent resizing */
+  width: calc(25% - 30px);  /* Set dynamic width based on your calculation */
+  background: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-image {
+  width: 100%;
+  height: 286px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-category {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--accent-color);
+  margin-bottom: 15px;
+}
+
+.card-title {
+  font-size: 23.5px;
+  font-weight: 600;
+  line-height: 35.24px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.author-avatar {
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-name {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--primary-color);
+}
+
+.card-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.card-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.article-type,
+.read-time {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--primary-color);
+}
+
+.meta-arrow {
+  width: 15px;
+  height: 15px;
+  margin-left: auto;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.carousel-btn {
+  width: 50px;
+  height: 50px;
+  border: 2px solid var(--primary-color);
+  background: var(--white);
+  border-radius: 50%;
+  font-size: 24px;
+  color: var(--primary-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.carousel-btn:hover {
+  background: var(--primary-color);
+  color: var(--white);
+}
+
+.carousel-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.carousel-btn:disabled:hover {
+  background: var(--white);
+  color: var(--primary-color);
+}
+
+@media (max-width: 1200px) {
+  .card {
+    flex: 0 0 calc(33.333% - 14px);
+  }
+  
+  .card-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 0 0 calc(50% - 10px);
+  }
+  
+  .carousel-track {
+    gap: 15px;
+  }
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  
+  .card-image {
+    height: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    flex: 0 0 calc(100% - 10px);
+  }
+  
+  .carousel-track {
+    gap: 10px;
+  }
+  
+  .card-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .card-image {
+    height: 180px;
+  }
+  
+  .carousel-controls {
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
+  .carousel-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+}

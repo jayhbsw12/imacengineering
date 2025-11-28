@@ -1,0 +1,32 @@
+/* CSS Variables */
+:root {
+  /* Colors */
+  --color-primary: #ff4612;
+  --color-white: #ffffff;
+  --color-text-light: #fefefe;
+  --color-text-dark: #24282b;
+  
+  /* Fonts */
+  --font-poppins: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-inter: 'poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  
+  /* Font Sizes */
+  --font-size-hero: 40px;
+  --font-size-industry: 18px;
+  
+  /* Font Weights */
+  --font-weight-semibold: 600;
+  --font-weight-regular: 400; 
+  
+  /* Line Heights */
+  --line-height-hero: 55px;
+  --line-height-industry: 21.784px;
+  
+  /* Spacing */
+  --container-max-width: 1920px;
+  --container-height: 629px;
+  
+  /* Breakpoints */
+  --breakpoint-tablet: 768px;
+  --breakpoint-mobile: 480px;
+}

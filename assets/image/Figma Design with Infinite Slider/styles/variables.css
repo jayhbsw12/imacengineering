@@ -1,0 +1,15 @@
+/* CSS Variables */
+:root {
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei", "Source Han Sans CN", sans-serif;
+  --font-secondary: 'Poppins', var(--font-primary);
+  
+  --color-primary: #ff4612;
+  --color-white: #ffffff;
+  --color-overlay: rgba(0, 0, 0, 0.2);
+  
+  --container-width: 1920px;
+  --container-height: 900px;
+  
+  --transition-duration: 0.8s;
+  --transition-easing: cubic-bezier(0.4, 0, 0.2, 1);
+}

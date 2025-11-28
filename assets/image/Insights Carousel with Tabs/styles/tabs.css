@@ -1,0 +1,121 @@
+.insights-tab-navigation {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  font-family: 'Poppins', var(--default-font-family);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 55px;
+  color: var(--primary-color);
+  cursor: pointer;
+  padding: 0 0 10px 0;
+  margin-right: 151px;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.tab-button:hover {
+  color: var(--accent-color);
+}
+
+.tab-button.active {
+  color: var(--primary-color);
+}
+
+.tab-underline {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 112px;
+  background-color: var(--primary-color);
+  transition: transform 0.3s ease;
+}
+
+.tab-underline.case-studies {
+  transform: translateX(252px);
+}
+
+.explore-link {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 17.06px;
+  font-weight: 400;
+  line-height: 25.6px;
+  color: var(--accent-color);
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+
+.arrow-icon {
+  width: 14px;
+  height: 14px;
+}
+
+@media (max-width: 1200px) {
+  .tab-button {
+    font-size: 32px;
+    line-height: 44px;
+    margin-right: 100px;
+  }
+  
+  .tab-underline.case-studies {
+    transform: translateX(200px);
+  }
+  
+  .explore-link {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .insights-tab-navigation {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .tab-button {
+    font-size: 28px;
+    line-height: 38px;
+    margin-right: 60px;
+  }
+  
+  .tab-underline {
+    width: 80px;
+  }
+  
+  .tab-underline.case-studies {
+    transform: translateX(140px);
+  }
+  
+  .explore-link {
+    align-self: flex-end;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tab-button {
+    font-size: 24px;
+    line-height: 32px;
+    margin-right: 40px;
+  }
+  
+  .tab-underline {
+    width: 60px;
+  }
+  
+  .tab-underline.case-studies {
+    transform: translateX(100px);
+  }
+}

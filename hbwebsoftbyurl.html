@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>API Documentation | The Unique IT Solution</title>
+    <link rel="icon" href="https://theuniqueitsolution.com/favicon.ico"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    :root {
+      --primary-color: #0056b3;
+      --accent-color: #0a66c2;
+      --bg-color: #f8f9fa;
+      --text-color: #333;
+      --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      font-family: var(--font-family);
+      background-color: var(--bg-color);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: white;
+      border-bottom: 1px solid #ddd;
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      color: var(--text-color);
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: var(--accent-color);
+      margin-top: 40px;
+    }
+
+    code {
+      background-color: #eee;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    label {
+      font-weight: bold;
+      margin-top: 10px;
+      display: block;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: var(--primary-color);
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #004099;
+    }
+
+    #status, #status2 {
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .response-box {
+      margin-top: 10px;
+      padding: 12px;
+      background-color: #f4f4f4;
+      border: 1px solid #ccc;
+      white-space: pre-wrap;
+      font-family: monospace;
+      border-radius: 4px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+      border-top: 1px solid #ddd;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://theuniqueitsolution.com/static/media/logo.0da2ade63f51648aec4c.webp" alt="Company Logo" />
+    <div>API Documentation</div>
+  </header>
+
+  <div class="container">
+    <h1>📘 API Reference – The Unique IT Solution</h1>
+
+    <!-- Section 1: Validate Blog Access -->
+    <h2>🔐 1.  Blog Access</h2>
+
+    <div class="section">
+      <strong>Endpoint:</strong>
+      <p><code>GET https://hbapi.hbsoftweb.com/api/frontend/blogs?token=</code></p>
+
+      <label for="tokenInput">Token</label>
+      <input type="text" id="tokenInput" value="02708a2b7a21947944fe7585d14aebabea65a9e8df95946c834581b2cd1c7cab" />
+
+      <button onclick="validateAccess()">Validate</button>
+
+      <div id="status"></div>
+      <div id="response" class="response-box"></div>
+    </div>
+
+    <!-- Section 2: Blog by URL -->
+    <h2>📄 2. Get Blog by URL</h2>
+
+    <div class="section">
+      <strong>Endpoint:</strong>
+      <p><code>GET https://hbapi.hbsoftweb.com/api/frontend/blog-by-url?blogUrl=&token=</code></p>
+
+      <label for="blogUrlInput">Blog URL</label>
+      <input type="text" id="blogUrlInput" value="Future-of-Decentralized-Finance" />
+
+      <label for="tokenInput2">Token</label>
+      <input type="text" id="tokenInput2" value="02708a2b7a21947944fe7585d14aebabea65a9e8df95946c834581b2cd1c7cab" />
+
+      <button onclick="fetchBlog()">Fetch Blog</button>
+
+      <div id="status2"></div>
+      <div id="response2" class="response-box"></div>
+    </div>
+
+    <footer>
+      &copy; 2025 The Unique IT Solution | All rights reserved.
+    </footer>
+  </div>
+
+  <script>
+    function validateAccess() {
+      const token = document.getElementById('tokenInput').value.trim();
+      const statusEl = document.getElementById('status');
+      const responseEl = document.getElementById('response');
+
+      if (!token) {
+        alert('Please enter a token.');
+        return;
+      }
+
+      const url = `https://hbapi.hbsoftweb.com/api/frontend/blogs?token=${encodeURIComponent(token)}`;
+      statusEl.textContent = '🔄 Validating...';
+      statusEl.style.color = '#000';
+      responseEl.textContent = '';
+
+      fetch(url)
+        .then(res => res.json())
+        .then(data => {
+          statusEl.textContent = data.isSuccessfull ? '✅ Access Granted' : '❌ Access Denied';
+          statusEl.style.color = data.isSuccessfull ? 'green' : 'red';
+          responseEl.textContent = JSON.stringify(data, null, 2);
+        })
+        .catch(err => {
+          statusEl.textContent = '❌ Error';
+          statusEl.style.color = 'red';
+          responseEl.textContent = err.toString();
+        });
+    }
+
+    function fetchBlog() {
+      const blogUrl = document.getElementById('blogUrlInput').value.trim();
+      const token = document.getElementById('tokenInput2').value.trim();
+      const statusEl = document.getElementById('status2');
+      const responseEl = document.getElementById('response2');
+
+      if (!blogUrl || !token) {
+        alert('Please enter both blogUrl and token.');
+        return;
+      }
+
+      const url = `https://hbapi.hbsoftweb.com/api/frontend/blog-by-url?blogUrl=${encodeURIComponent(blogUrl)}&token=${encodeURIComponent(token)}`;
+      statusEl.textContent = '🔄 Fetching blog...';
+      statusEl.style.color = '#000';
+      responseEl.textContent = '';
+
+      fetch(url)
+        .then(res => res.json())
+        .then(data => {
+          statusEl.textContent = data.isSuccessfull ? '✅ Blog Fetched' : '❌ Failed to fetch';
+          statusEl.style.color = data.isSuccessfull ? 'green' : 'red';
+          responseEl.textContent = JSON.stringify(data, null, 2);
+        })
+        .catch(err => {
+          statusEl.textContent = '❌ Error';
+          statusEl.style.color = 'red';
+          responseEl.textContent = err.toString();
+        });
+    }
+  </script>
+
+</body>
+</html>

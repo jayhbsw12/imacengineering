@@ -1,0 +1,353 @@
+.logo-slider-inside-service {
+  position: absolute;
+  bottom: 93px;
+  left: 100px;
+  right: 100px;
+  z-index: 3;
+}
+
+
+.logo-flex-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.banner-logo-slider {
+  flex: 1;
+  overflow: hidden;
+  height: 40px;
+}
+
+.logo-slider-inside-service .banner-logo-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+}
+
+.logo-slider-inside-service .banner-logo-slider {
+  overflow: hidden;
+  height: 40px;
+}
+
+.logo-slider-inside-service .banner-logo-track {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  animation: logoSlide 20s linear infinite;
+}
+
+.banner-logo-section {
+  position: relative;
+  background: var(--white);
+  padding: 22px 0 0;
+  z-index: 4;
+}
+
+.logo-divider {
+  position: relative;
+  width: 100%;
+  height: 1px;
+  background: var(--overlay-light);
+  margin-bottom: 21.5px;
+}
+
+.banner-logo-container {
+  max-width: 1265px;
+  margin: 0 auto;
+  padding: 0 350px;
+}
+
+.logo-header {
+  display: flex;
+  align-items: center;
+  height: 72px;
+  padding: 24px 0;
+  margin-bottom: 0;
+}
+
+.banner-logo-title {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: left;
+}
+
+.banner-logo-slider {
+  overflow: hidden;
+  height: 40px;
+}
+
+.banner-logo-track {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  animation: logoSlide 20s linear infinite;
+}
+
+.banner-logo-item {
+  flex-shrink: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  overflow: hidden;
+}
+
+
+/* Logo Elements Styles */
+.logo-image-container {
+  width: 138.45px;
+  height: 37.42px;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo-elements {
+  position: relative;
+  width: 100.002px;
+  height: 32.742px;
+  margin: 2.339px 0 0 18.709px;
+}
+
+.logo-element-1 {
+  position: absolute;
+  width: 24.42%;
+  height: 99.63%;
+  top: 0;
+  left: 28.28%;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/logo-element-1.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.logo-element-2 {
+  position: absolute;
+  width: 15.18%;
+  height: 100%;
+  top: 0;
+  left: 53.8%;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/logo-element-2.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.logo-element-3 {
+  position: absolute;
+  width: 30%;
+  height: 74.69%;
+  top: 25.02%;
+  left: 70%;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/logo-element-3.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.logo-element-4 {
+  position: absolute;
+  width: 25.15%;
+  height: 74.68%;
+  top: 25.09%;
+  left: 0;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/logo-element-4.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+
+.partner-logo {
+  max-height: 40px;
+  object-fit: contain;
+}
+/* Complex Logo Styles */
+.logo-complex {
+  width: 140.51px;
+  height: 36.86px;
+  position: relative;
+}
+
+.complex-icon-1 {
+  position: absolute;
+  width: 22.92%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/icon-element-1.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.complex-icon-2 {
+  position: absolute;
+  width: 1.9%;
+  height: 54.26%;
+  top: 15.89%;
+  left: 86.77%;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/icon-element-2.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.complex-icon-3 {
+  position: absolute;
+  width: 4.35%;
+  height: 55.02%;
+  top: 16.99%;
+  left: 53.45%;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/icon-element-3.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.complex-icon-4 {
+  position: absolute;
+  width: 10.07%;
+  height: 43.95%;
+  top: 26.82%;
+  left: 58.52%;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/icon-element-4.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.complex-icon-5 {
+  position: absolute;
+  width: 10.07%;
+  height: 43.95%;
+  top: 26.82%;
+  left: 75.44%;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/icon-element-5.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.complex-icon-6 {
+  position: absolute;
+  width: 10.07%;
+  height: 43.95%;
+  top: 26.82%;
+  left: 89.93%;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/icon-element-6.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.complex-icon-7 {
+  position: absolute;
+  width: 4.85%;
+  height: 43.47%;
+  top: 26.82%;
+  left: 69.86%;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/icon-element-7.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.complex-icon-8 {
+  position: absolute;
+  width: 13.87%;
+  height: 43.4%;
+  top: 27.92%;
+  left: 26.98%;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/icon-element-8.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.complex-icon-9 {
+  position: absolute;
+  width: 10.07%;
+  height: 43.95%;
+  top: 27.96%;
+  left: 42.11%;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/icon-element-9.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+/* Brand Logo Styles */
+.brand-logo {
+  width: 162.53px;
+  height: 31.89px;
+  position: relative;
+}
+
+.brand-icon-1 {
+  position: absolute;
+  width: 13.47%;
+  height: 97.17%;
+  top: 1.36%;
+  left: 43.62%;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/brand-icon-1.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.brand-icon-2 {
+  position: absolute;
+  width: 11.99%;
+  height: 95.67%;
+  top: 1.36%;
+  left: 87.55%;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/brand-icon-2.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.brand-icon-3 {
+  position: absolute;
+  width: 11.01%;
+  height: 68.77%;
+  top: 29.87%;
+  left: 74.58%;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/brand-icon-3.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.brand-icon-4 {
+  position: absolute;
+  width: 13.18%;
+  height: 68.16%;
+  top: 29.91%;
+  left: 59.74%;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/brand-icon-4.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.brand-icon-5 {
+  position: absolute;
+  width: 13.1%;
+  height: 68.16%;
+  top: 30.41%;
+  left: 13.84%;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/brand-icon-5.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.brand-icon-6 {
+  position: absolute;
+  width: 11.99%;
+  height: 67.12%;
+  top: 30.41%;
+  left: 29.57%;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/brand-icon-6.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+.brand-icon-7 {
+  position: absolute;
+  width: 11.4%;
+  height: 65.62%;
+  top: 31.91%;
+  left: 0.28%;
+  background: url(https://static.codia.ai/custom_image/2025-07-05/131851/brand-icon-7.svg) no-repeat center;
+  background-size: 100% 100%;
+}
+
+/* Logo slider animation */
+@keyframes logoSlide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Pause animation on hover */
+.banner-logo-slider:hover .banner-logo-track {
+  animation-play-state: paused;
+}

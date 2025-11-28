@@ -1,0 +1,67 @@
+.main-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.content-section {
+  position: relative;
+  /*width: 1920px;*/
+  margin: -119px 0 0 0;
+  background: #ffffff;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.content-box {
+  position: relative;
+  /*width: 1920px;*/
+  /*height: 2190px;*/
+  margin: 81px 0 0 0;
+  background: #ffffff;
+  z-index: 2;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 1440px;
+}
+
+/* Hero Section */
+.hero-blog {
+  padding: 8rem 0 8rem;
+  text-align: left;
+  min-height: auto !important;
+  background: url("https://designmasters.in/imac/assets/image/banner-bg.webp") !important;
+}
+.hero-label {
+  font-size: 0.9rem;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-transform: lowercase;
+}
+
+.hero-title-blog {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+  color: #fff;
+  text-transform: none;
+}
+
+.content-box .custom-latest-blog-wrapper,
+.content-box .articles-grid {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .content-box {
+    margin: 254px 0 0 0;
+  }
+}

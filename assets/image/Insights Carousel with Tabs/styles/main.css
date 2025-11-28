@@ -1,0 +1,110 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+  --primary-color: #24282b;
+  --secondary-color: #6c6969;
+  --accent-color: #ff4612;
+  --background-color: #f3f3f3;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', var(--default-font-family);
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  line-height: 1.6;
+}
+
+.main-container-insights {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+.insights-header {
+  text-align: center;
+  padding: 109px 0 50px;
+}
+
+.insights-title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 55px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.insights-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--secondary-color);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.insight-content-section {
+  padding: 0 81px;
+}
+
+.section-title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 55px;
+  color: var(--primary-color);
+  margin: 30px 0 50px;
+}
+
+@media (max-width: 1200px) {
+  .insight-content-section {
+    padding: 0 40px;
+  }
+  
+  .insights-title,
+  .section-title {
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    padding: 0 15px;
+  }
+  
+  .insight-content-section {
+    padding: 0 20px;
+  }
+  
+  .insights-header {
+    padding: 60px 0 30px;
+  }
+  
+  .insights-title,
+  .section-title {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  
+  .insights-subtitle {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .insights-title,
+  .section-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}

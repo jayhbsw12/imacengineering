@@ -343,20 +343,23 @@ if (typeof module !== 'undefined' && module.exports) {
   };
 }
 
-// Process accordion
-const processHeaders = document.querySelectorAll('.process-header');
+// Process accordion (wrapped in IIFE to avoid redeclaration errors if script reloads)
+(function () {
+  const processHeaders = document.querySelectorAll('.process-header');
+  if (!processHeaders || processHeaders.length === 0) return;
 
-processHeaders.forEach(header => {
+  processHeaders.forEach(header => {
     header.addEventListener('click', function () {
-        const description = this.nextElementSibling;
-        const arrow = this.querySelector('img');  // Ensure this targets the correct element
+      const description = this.nextElementSibling;
+      const arrow = this.querySelector('img');
 
-        if (description.classList.contains('hidden')) {
-            description.classList.remove('hidden');
-            arrow.style.transform = 'rotate(180deg)';
-        } else {
-            description.classList.add('hidden');
-            arrow.style.transform = 'rotate(0deg)';
-        }
+      if (description.classList.contains('hidden')) {
+        description.classList.remove('hidden');
+        if (arrow) arrow.style.transform = 'rotate(180deg)';
+      } else {
+        description.classList.add('hidden');
+        if (arrow) arrow.style.transform = 'rotate(0deg)';
+      }
     });
-});
+  });
+})();

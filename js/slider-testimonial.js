@@ -1,4 +1,5 @@
-class TestimonialSlider {
+if (typeof window.TestimonialSlider === 'undefined') {
+  class TestimonialSlider {
   constructor() {
     this.sliderTrack = document.getElementById('sliderTrack');
     this.slides = document.querySelectorAll('.testimonial-slide');
@@ -168,6 +169,8 @@ class TestimonialSlider {
     this.prevBtn.removeEventListener('click', () => this.prevSlide());
     this.nextBtn.removeEventListener('click', () => this.nextSlide());
   }
+  }
+  window.TestimonialSlider = TestimonialSlider;
 }
 
 // Initialize slider when DOM is loaded

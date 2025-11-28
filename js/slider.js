@@ -9,6 +9,7 @@
       this.autoPlayInterval = 5000;
       this.isTransitioning = false;
       this.titleToIndexMap = {};
+      this.autoPlayTimer = null;
 
       // cache + helpers
       this.sliderWrapper = document.querySelector(".slider-wrapper");
@@ -47,134 +48,126 @@
       };
       window.addEventListener("resize", remeasure);
 
-
-        this.sliderWrapper = document.querySelector(".slider-wrapper");
-        this.slideWidth = 0;
-        this.rafId = null;
-
-        this.buildTitleToIndexMap();
-        this.measure(); // measure once at load
-        this.init();
-        this.bindResize(); // keep measurements fresh
+      if ("ResizeObserver" in window && this.sliderWrapper) {
+        const ro = new ResizeObserver(() => remeasure());
+        ro.observe(this.sliderWrapper);
       }
-
-      buildTitleToIndexMap() {
-        this.slides.forEach((slide, index) => {
-          const title = slide.querySelector("h1.slide-title")?.textContent?.trim();
-          if (title) this.titleToIndexMap[title] = index;
-        });
-      }
-
-      // ✅ Measure slides only once (or when resized)
-      measure() {
-        if (!this.slides.length) return;
-        const rect = this.slides[0].getBoundingClientRect(); // single layout read
-        this.slideWidth = rect.width || 0;
-      }
-
-      // ✅ Handle resize with debounce or ResizeObserver
-      bindResize() {
-        let t;
-        const remeasure = () => {
-          clearTimeout(t);
-          t = setTimeout(() => {
-            this.measure();
-            this.updateSliderPosition(); // write only
-          }, 120);
-        };
-        window.addEventListener("resize", remeasure);
-
-        if ("ResizeObserver" in window && this.sliderWrapper) {
-          const ro = new ResizeObserver(() => remeasure());
-          ro.observe(this.sliderWrapper);
-        }
-      }
-
-      init() {
-        this.setupEventListeners();
-        this.startAutoPlay();
-        this.updateNavDots(this.currentSlide);
-        this.activateSlide(this.currentSlide);
-        this.bindFeatureCardClicks();
-      }
-
-      setupEventListeners() {
-        this.navDots.forEach((dot, index) => {
-          dot.addEventListener("click", () => {
-            if (!this.isTransitioning) this.goToSlide(index);
-          });
-        });
-
-        const sliderContainer = document.querySelector(".slider-container");
-        if (sliderContainer) {
-          sliderContainer.addEventListener("mouseenter", () =>
-            this.pauseAutoPlay()
-          );
-          sliderContainer.addEventListener("mouseleave", () =>
-            this.startAutoPlay()
-          );
-        }
-
-        document.addEventListener("keydown", (e) => {
-          if (!this.isTransitioning) {
-            if (e.key === "ArrowLeft") this.previousSlide();
-            else if (e.key === "ArrowRight") this.nextSlide();
-          }
-        });
-      }
-
-      activateSlide(index) {
-        this.slides.forEach((slide, i) => {
-          slide.classList.toggle("active", i === index);
-        });
-        this.updateSliderPosition();
-      }
-
-      // ✅ No layout reads here; only GPU writes via rAF
-      updateSliderPosition() {
-        if (!this.sliderWrapper) return;
-        const x = -(this.currentSlide * this.slideWidth);
-
-        if (this.rafId) cancelAnimationFrame(this.rafId);
-        this.rafId = requestAnimationFrame(() => {
-          this.sliderWrapper.style.transform = `translate3d(${x}px, 0, 0)`;
-          this.rafId = null;
-        });
-      }
-
-      goToSlide(targetIndex) {
-        if (targetIndex === this.currentSlide || this.isTransitioning) return;
-        this.isTransitioning = true;
-
-        const nextSlide = this.slides[targetIndex];
-        if (nextSlide) nextSlide.style.display = "block";
-
-        setTimeout(() => {
-          this.currentSlide = targetIndex;
-          this.updateNavDots(targetIndex);
-          this.activateSlide(targetIndex);
-          this.isTransitioning = false;
-        }, 800);
-      }
-
-      nextSlide() {
-        // ...existing code...
-      }
-      // ...existing code...
     }
 
-    // ✅ Initialise and handle tab visibility (single instance)
-    document.addEventListener("DOMContentLoaded", () => {
-      window.sliderInstance = new InfiniteSlider();
-    });
+    init() {
+      this.setupEventListeners();
+      this.startAutoPlay();
+      this.updateNavDots(this.currentSlide);
+      this.activateSlide(this.currentSlide);
+      this.bindFeatureCardClicks();
+    }
 
-    document.addEventListener("visibilitychange", () => {
-      const slider = window.sliderInstance;
-      if (slider) {
-        document.hidden ? slider.pauseAutoPlay() : slider.startAutoPlay();
+    setupEventListeners() {
+      this.navDots.forEach((dot, index) => {
+        dot.addEventListener("click", () => {
+          if (!this.isTransitioning) this.goToSlide(index);
+        });
+      });
+
+      const sliderContainer = document.querySelector(".slider-container");
+      if (sliderContainer) {
+        sliderContainer.addEventListener("mouseenter", () =>
+          this.pauseAutoPlay()
+        );
+        sliderContainer.addEventListener("mouseleave", () =>
+          this.startAutoPlay()
+        );
       }
-    });
-  })();
+
+      document.addEventListener("keydown", (e) => {
+        if (!this.isTransitioning) {
+          if (e.key === "ArrowLeft") this.previousSlide();
+          else if (e.key === "ArrowRight") this.nextSlide();
+        }
+      });
+    }
+
+    activateSlide(index) {
+      this.slides.forEach((slide, i) => {
+        slide.classList.toggle("active", i === index);
+      });
+      this.updateSliderPosition();
+    }
+
+    // ✅ No layout reads here; only GPU writes via rAF
+    updateSliderPosition() {
+      if (!this.sliderWrapper) return;
+      const x = -(this.currentSlide * this.slideWidth);
+
+      if (this.rafId) cancelAnimationFrame(this.rafId);
+      this.rafId = requestAnimationFrame(() => {
+        this.sliderWrapper.style.transform = `translate3d(${x}px, 0, 0)`;
+        this.rafId = null;
+      });
+    }
+
+    goToSlide(targetIndex) {
+      if (targetIndex === this.currentSlide || this.isTransitioning) return;
+      this.isTransitioning = true;
+
+      const nextSlide = this.slides[targetIndex];
+      if (nextSlide) nextSlide.style.display = "block";
+
+      setTimeout(() => {
+        this.currentSlide = targetIndex;
+        this.updateNavDots(targetIndex);
+        this.activateSlide(targetIndex);
+        this.isTransitioning = false;
+      }, 800);
+    }
+
+    nextSlide() {
+      const nextIndex = (this.currentSlide + 1) % this.totalSlides;
+      this.goToSlide(nextIndex);
+    }
+
+    previousSlide() {
+      const prevIndex = (this.currentSlide - 1 + this.totalSlides) % this.totalSlides;
+      this.goToSlide(prevIndex);
+    }
+
+    updateNavDots(index) {
+      this.navDots.forEach((dot, i) => {
+        dot.classList.toggle("active", i === index);
+      });
+    }
+
+    bindFeatureCardClicks() {
+      // Placeholder for feature card click binding if needed
+    }
+
+    startAutoPlay() {
+      this.pauseAutoPlay(); // Clear any existing interval
+      this.autoPlayTimer = setInterval(() => {
+        this.nextSlide();
+      }, this.autoPlayInterval);
+    }
+
+    pauseAutoPlay() {
+      if (this.autoPlayTimer) {
+        clearInterval(this.autoPlayTimer);
+        this.autoPlayTimer = null;
+      }
+    }
+  }
+
+  // ✅ Initialise and handle tab visibility (single instance)
+  document.addEventListener("DOMContentLoaded", () => {
+    window.sliderInstance = new InfiniteSlider();
+  });
+
+  document.addEventListener("visibilitychange", () => {
+    const slider = window.sliderInstance;
+    if (slider) {
+      document.hidden ? slider.pauseAutoPlay() : slider.startAutoPlay();
+    }
+  });
+})();
 
 
 

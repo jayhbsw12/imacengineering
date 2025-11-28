@@ -302,26 +302,28 @@ window.TabManager = window.TabManager || class TabManager {
 };
 
 // Slider functionality for mobile
-class SliderManager {
-  constructor() {
-    this.currentSlide = 0;
-    this.init();
-  }
-
-  init() {
-    if (window.innerWidth <= 768) {
-      this.setupMobileSlider();
+if (typeof SliderManager === "undefined") {
+  class SliderManager {
+    constructor() {
+      this.currentSlide = 0;
+      this.init();
     }
 
-    window.addEventListener("resize", () => {
+    init() {
       if (window.innerWidth <= 768) {
         this.setupMobileSlider();
-      } else {
-        this.removeMobileSlider();
       }
-    });
+
+      window.addEventListener("resize", () => {
+        if (window.innerWidth <= 768) {
+          this.setupMobileSlider();
+        } else {
+          this.removeMobileSlider();
+        }
+      });
+    }
+    // ...existing code for SliderManager...
   }
-  // ...existing code for SliderManager...
 }
 
 // form js

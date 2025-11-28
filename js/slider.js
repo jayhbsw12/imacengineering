@@ -297,34 +297,35 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // ===== counters – rAF + textContent (no layout thrash) =====
-const counters = document.querySelectorAll(".stat-number");
-counters.forEach((el) => {
-  const target = Number(el.getAttribute("data-target") || "0");
-  const suffix = el.getAttribute("data-suffix") || "";
-  const duration = 2000; // ms
-  const start = performance.now();
-  let lastShown = -1;
+(function() {
+  const counters = document.querySelectorAll(".stat-number");
+  counters.forEach((el) => {
+    const target = Number(el.getAttribute("data-target") || "0");
+    const suffix = el.getAttribute("data-suffix") || "";
+    const duration = 2000; // ms
+    const start = performance.now();
+    let lastShown = -1;
 
-  function tick(now) {
-    const t = Math.min(1, (now - start) / duration);
-    const value = Math.ceil(target * t);
+    function tick(now) {
+      const t = Math.min(1, (now - start) / duration);
+      const value = Math.ceil(target * t);
 
-    if (value !== lastShown) {
-      el.textContent = value.toString(); // avoids layout compared to innerText
-      lastShown = value;
+      if (value !== lastShown) {
+        el.textContent = value.toString(); // avoids layout compared to innerText
+        lastShown = value;
+      }
+
+      if (t < 1) {
+        requestAnimationFrame(tick);
+      } else {
+        let formatted = target;
+        if (target >= 1000) formatted = target / 1000 + "K";
+        el.textContent = formatted + "+" + suffix;
+      }
     }
-
-    if (t < 1) {
-      requestAnimationFrame(tick);
-    } else {
-      let formatted = target;
-      if (target >= 1000) formatted = target / 1000 + "K";
-      el.textContent = formatted + "+" + suffix;
-    }
-  }
-
-  requestAnimationFrame(tick);
-});
+    requestAnimationFrame(tick);
+  });
+})();
 
 // ===== slider js – Optimised for performance and no forced reflows =====
 

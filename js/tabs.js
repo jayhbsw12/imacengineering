@@ -78,135 +78,135 @@ window.TabManager = window.TabManager || class TabManager {
 };
 
 // Slider functionality for mobile
-class SliderManager {
-  constructor() {
-    this.currentSlide = 0;
-    this.init();
-  }
+// class SliderManager {
+//   constructor() {
+//     this.currentSlide = 0;
+//     this.init();
+//   }
 
-  init() {
-    if (window.innerWidth <= 768) {
-      this.setupMobileSlider();
-    }
+//   init() {
+//     if (window.innerWidth <= 768) {
+//       this.setupMobileSlider();
+//     }
     
-    window.addEventListener('resize', () => {
-      if (window.innerWidth <= 768) {
-        this.setupMobileSlider();
-      } else {
-        this.removeMobileSlider();
-      }
-    });
-  }
+//     window.addEventListener('resize', () => {
+//       if (window.innerWidth <= 768) {
+//         this.setupMobileSlider();
+//       } else {
+//         this.removeMobileSlider();
+//       }
+//     });
+//   }
 
-  setupMobileSlider() {
-    const grids = document.querySelectorAll('.cards-grid');
+//   setupMobileSlider() {
+//     const grids = document.querySelectorAll('.cards-grid');
     
-    grids.forEach(grid => {
-      if (!grid.classList.contains('slider-enabled')) {
-        grid.classList.add('slider-enabled');
-        this.addSliderControls(grid);
-      }
-    });
-  }
+//     grids.forEach(grid => {
+//       if (!grid.classList.contains('slider-enabled')) {
+//         grid.classList.add('slider-enabled');
+//         this.addSliderControls(grid);
+//       }
+//     });
+//   }
 
-  removeMobileSlider() {
-    const grids = document.querySelectorAll('.cards-grid');
+//   removeMobileSlider() {
+//     const grids = document.querySelectorAll('.cards-grid');
     
-    grids.forEach(grid => {
-      grid.classList.remove('slider-enabled');
-      const controls = grid.parentNode.querySelector('.slider-controls');
-      if (controls) {
-        controls.remove();
-      }
-    });
-  }
+//     grids.forEach(grid => {
+//       grid.classList.remove('slider-enabled');
+//       const controls = grid.parentNode.querySelector('.slider-controls');
+//       if (controls) {
+//         controls.remove();
+//       }
+//     });
+//   }
 
-  addSliderControls(grid) {
-    const container = grid.parentNode;
-    const cards = grid.querySelectorAll('.insight-card');
+//   addSliderControls(grid) {
+//     const container = grid.parentNode;
+//     const cards = grid.querySelectorAll('.insight-card');
     
-    if (cards.length <= 1) return;
+//     if (cards.length <= 1) return;
 
-    const controlsHTML = `
-      <div class="slider-controls">
-        <button class="slider-btn prev" aria-label="Previous slide">‹</button>
-        <div class="slider-dots">
-          ${Array.from(cards).map((_, index) => 
-            `<button class="dot ${index === 0 ? 'active' : ''}" data-slide="${index}"></button>`
-          ).join('')}
-        </div>
-        <button class="slider-btn next" aria-label="Next slide">›</button>
-      </div>
-    `;
+//     const controlsHTML = `
+//       <div class="slider-controls">
+//         <button class="slider-btn prev" aria-label="Previous slide">‹</button>
+//         <div class="slider-dots">
+//           ${Array.from(cards).map((_, index) => 
+//             `<button class="dot ${index === 0 ? 'active' : ''}" data-slide="${index}"></button>`
+//           ).join('')}
+//         </div>
+//         <button class="slider-btn next" aria-label="Next slide">›</button>
+//       </div>
+//     `;
     
-    container.insertAdjacentHTML('afterend', controlsHTML);
+//     container.insertAdjacentHTML('afterend', controlsHTML);
     
-    this.bindSliderEvents(container);
-  }
+//     this.bindSliderEvents(container);
+//   }
 
-  bindSliderEvents(container) {
-    const prevBtn = container.parentNode.querySelector('.prev');
-    const nextBtn = container.parentNode.querySelector('.next');
-    const dots = container.parentNode.querySelectorAll('.dot');
-    const grid = container.querySelector('.cards-grid');
-    const cards = grid.querySelectorAll('.insight-card');
+//   bindSliderEvents(container) {
+//     const prevBtn = container.parentNode.querySelector('.prev');
+//     const nextBtn = container.parentNode.querySelector('.next');
+//     const dots = container.parentNode.querySelectorAll('.dot');
+//     const grid = container.querySelector('.cards-grid');
+//     const cards = grid.querySelectorAll('.insight-card');
 
-    prevBtn?.addEventListener('click', () => {
-      this.currentSlide = this.currentSlide > 0 ? this.currentSlide - 1 : cards.length - 1;
-      this.updateSlider(grid, cards, dots);
-    });
+//     prevBtn?.addEventListener('click', () => {
+//       this.currentSlide = this.currentSlide > 0 ? this.currentSlide - 1 : cards.length - 1;
+//       this.updateSlider(grid, cards, dots);
+//     });
 
-    nextBtn?.addEventListener('click', () => {
-      this.currentSlide = this.currentSlide < cards.length - 1 ? this.currentSlide + 1 : 0;
-      this.updateSlider(grid, cards, dots);
-    });
+//     nextBtn?.addEventListener('click', () => {
+//       this.currentSlide = this.currentSlide < cards.length - 1 ? this.currentSlide + 1 : 0;
+//       this.updateSlider(grid, cards, dots);
+//     });
 
-    dots.forEach((dot, index) => {
-      dot.addEventListener('click', () => {
-        this.currentSlide = index;
-        this.updateSlider(grid, cards, dots);
-      });
-    });
+//     dots.forEach((dot, index) => {
+//       dot.addEventListener('click', () => {
+//         this.currentSlide = index;
+//         this.updateSlider(grid, cards, dots);
+//       });
+//     });
 
-    // Touch events for swipe
-    let startX = 0;
-    let endX = 0;
+//     // Touch events for swipe
+//     let startX = 0;
+//     let endX = 0;
 
-    grid.addEventListener('touchstart', (e) => {
-      startX = e.touches[0].clientX;
-    });
+//     grid.addEventListener('touchstart', (e) => {
+//       startX = e.touches[0].clientX;
+//     });
 
-    grid.addEventListener('touchend', (e) => {
-      endX = e.changedTouches[0].clientX;
-      const diff = startX - endX;
+//     grid.addEventListener('touchend', (e) => {
+//       endX = e.changedTouches[0].clientX;
+//       const diff = startX - endX;
 
-      if (Math.abs(diff) > 50) {
-        if (diff > 0) {
-          // Swipe left - next
-          this.currentSlide = this.currentSlide < cards.length - 1 ? this.currentSlide + 1 : 0;
-        } else {
-          // Swipe right - prev
-          this.currentSlide = this.currentSlide > 0 ? this.currentSlide - 1 : cards.length - 1;
-        }
-        this.updateSlider(grid, cards, dots);
-      }
-    });
-  }
+//       if (Math.abs(diff) > 50) {
+//         if (diff > 0) {
+//           // Swipe left - next
+//           this.currentSlide = this.currentSlide < cards.length - 1 ? this.currentSlide + 1 : 0;
+//         } else {
+//           // Swipe right - prev
+//           this.currentSlide = this.currentSlide > 0 ? this.currentSlide - 1 : cards.length - 1;
+//         }
+//         this.updateSlider(grid, cards, dots);
+//       }
+//     });
+//   }
 
-  updateSlider(grid, cards, dots) {
-    const translateX = -this.currentSlide * 100;
-    grid.style.transform = `translateX(${translateX}%)`;
+//   updateSlider(grid, cards, dots) {
+//     const translateX = -this.currentSlide * 100;
+//     grid.style.transform = `translateX(${translateX}%)`;
     
-    dots.forEach((dot, index) => {
-      dot.classList.toggle('active', index === this.currentSlide);
-    });
-  }
-}
+//     dots.forEach((dot, index) => {
+//       dot.classList.toggle('active', index === this.currentSlide);
+//     });
+//   }
+// }
 
 // Initialize when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
   new TabManager();
-  new SliderManager();
+  // new SliderManager();
 });
 
 // Add CSS for mobile slider

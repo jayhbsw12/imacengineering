@@ -432,8 +432,6 @@
           </section>
           <!-- team area end  -->
 
-<?php include("popup.php"); ?>
-
 <script>
     async submitForm() {
     const submitBtn = this.form.querySelector('.submit-btn');

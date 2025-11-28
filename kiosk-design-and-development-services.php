@@ -716,7 +716,6 @@
       </div>
    </div>
 </section>
-<?php include("popup.php"); ?>
 <!-- contact section end -->
 <script>
    document.addEventListener('DOMContentLoaded', function() {

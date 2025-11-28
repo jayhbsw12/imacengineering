@@ -126,7 +126,7 @@
    <link rel="stylesheet" href="css/industries.css?v=<?= ASSET_VERSION ?>">
    <!-- <link rel="stylesheet" href="css/insights.css?v=<?= ASSET_VERSION ?>"> -->
    <link rel="stylesheet" href="css/logo-slider.css?v=<?= ASSET_VERSION ?>">
-   <link rel="stylesheet" href="css/portfolio-n.css?v=<?= ASSET_VERSION ?>">
+   <!-- <link rel="stylesheet" href="css/portfolio-n.css?v=<?= ASSET_VERSION ?>"> -->
    <link rel="stylesheet" href="css/testimonial.css?v=<?= ASSET_VERSION ?>">
    <link rel="stylesheet" href="css/service-hero.css?v=<?= ASSET_VERSION ?>">
    <link rel="stylesheet" href="css/banner-logos.css?v=<?= ASSET_VERSION ?>">

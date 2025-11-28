@@ -241,7 +241,7 @@ class AccessibilityEnhancer {
       .appointment-link:focus,
       .quote-btn:focus,
       .mobile-menu-toggle:focus {
-        outline: 2px solid var(--color-primary);
+        /* outline: 2px solid var(--color-primary); */
         outline-offset: 2px;
       }
       

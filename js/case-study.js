@@ -302,7 +302,10 @@ class CaseStudiesApp {
 
 // Initialize the application when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-    new CaseStudiesApp();
+    // Only initialize when the case studies grid exists on the page
+    if (document.getElementById('caseStudiesGrid')) {
+        new CaseStudiesApp();
+    }
 });
 
 // Handle potential image loading errors gracefully

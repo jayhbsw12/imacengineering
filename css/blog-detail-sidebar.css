@@ -1,0 +1,14 @@
+/* Sticky sidebar for blog-detail.php Table of Contents */
+@media (min-width: 1025px) {
+  .sidebar-sticky-wrapper {
+    position: sticky;
+    top: 100px; /* adjust as needed for header height */
+    z-index: 2;
+  }
+}
+@media (max-width: 1024px) {
+  .sidebar-sticky-wrapper {
+    position: static !important;
+    top: auto !important;
+  }
+}

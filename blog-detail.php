@@ -135,6 +135,8 @@ $publishedHuman = $published ? date('d M Y', strtotime($published)) : '';
 <!-- Font Awesome for FAQ chevrons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
 
+<!-- Sticky sidebar CSS for Table of Contents -->
+<link rel="stylesheet" href="css/blog-detail-sidebar.css">
 <?php
 // ===== Build JSON-LD here and let header.php print it via $JSON_LD_SCRIPTS =====
 $JSON_LD_SCRIPTS = [];
@@ -260,12 +262,14 @@ if (!empty($ogImage)) {
 
     <main class="content-wrapper-blog">
       <aside class="sidebar" id="tableOfContents">
-        <nav class="toc-nav">
-          <h3 class="toc-title" id="toc-title">Table of Contents</h3>
-          <ul class="toc-list" id="toc-list">
-            <!-- Dynamic TOC items -->
-          </ul>
-        </nav>
+        <div class="sidebar-sticky-wrapper">
+          <nav class="toc-nav">
+            <h3 class="toc-title" id="toc-title">Table of Contents</h3>
+            <ul class="toc-list" id="toc-list">
+              <!-- Dynamic TOC items -->
+            </ul>
+          </nav>
+        </div>
       </aside>
 
       <article class="main-article">

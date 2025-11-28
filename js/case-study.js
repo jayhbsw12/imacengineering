@@ -357,7 +357,7 @@ class HorizontalCarousel {
         if (this.track && this.prevBtn && this.nextBtn && this.indicators) {
             this.init();
         } else {
-            console.error('Carousel: Required elements not found. Check for #carouselTrack, #prevBtn, #nextBtn, #carouselIndicators');
+            return;
         }
     }
     

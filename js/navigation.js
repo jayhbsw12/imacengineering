@@ -210,7 +210,7 @@ class AccessibilityEnhancer {
     skipLink.className = 'skip-link';
     skipLink.style.cssText = `
       position: absolute;
-      top: -40px;
+      top: -50px;
       left: 6px;
       background: var(--color-primary);
       color: white;

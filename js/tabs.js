@@ -210,65 +210,65 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Add CSS for mobile slider
-// const sliderStyles = `
-//   @media (max-width: 768px) {
-//     .cards-grid.slider-enabled {
-//       display: flex;
-//       transition: transform 0.3s ease;
-//       width: ${100 * 4}%;
-//     }
+const sliderStyles = `
+  @media (max-width: 768px) {
+    .cards-grid.slider-enabled {
+      display: flex;
+      transition: transform 0.3s ease;
+      width: ${100 * 4}%;
+    }
     
-//     .cards-grid.slider-enabled .insight-card {
-//       flex: 0 0 100%;
-//       margin-right: 20px;
-//     }
+    .cards-grid.slider-enabled .insight-card {
+      flex: 0 0 100%;
+      margin-right: 20px;
+    }
     
-//     .slider-controls {
-//       display: flex;
-//       align-items: center;
-//       justify-content: center;
-//       gap: 20px;
-//       margin-top: 30px;
-//     }
+    .slider-controls {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
     
-//     .slider-btn {
-//       background: var(--primary-color);
-//       color: white;
-//       border: none;
-//       width: 40px;
-//       height: 40px;
-//       border-radius: 50%;
-//       font-size: 20px;
-//       cursor: pointer;
-//       transition: background-color 0.3s ease;
-//     }
+    .slider-btn {
+      background: var(--primary-color);
+      color: white;
+      border: none;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      font-size: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
     
-//     .slider-btn:hover {
-//       background: #e63d0f;
-//     }
+    .slider-btn:hover {
+      background: #e63d0f;
+    }
     
-//     .slider-dots {
-//       display: flex;
-//       gap: 10px;
-//     }
+    .slider-dots {
+      display: flex;
+      gap: 10px;
+    }
     
-//     .dot {
-//       width: 12px;
-//       height: 12px;
-//       border-radius: 50%;
-//       border: none;
-//       background: #ccc;
-//       cursor: pointer;
-//       transition: background-color 0.3s ease;
-//     }
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: none;
+      background: #ccc;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
     
-//     .dot.active {
-//       background: var(--primary-color);
-//     }
-//   }
-// `;
+    .dot.active {
+      background: var(--primary-color);
+    }
+  }
+`;
 
 // Inject slider styles
 const styleSheet = document.createElement('style');
-// styleSheet.textContent = sliderStyles;
+styleSheet.textContent = sliderStyles;
 document.head.appendChild(styleSheet);

@@ -79,7 +79,7 @@ section.hero-section-blog-detail {
 .sidebar {
   position: relative;
   width: 300px;
-  height: auto;
+  height: fit-content;
   padding: 20px;
   margin-left: 61px;
   background: rgba(255, 255, 255, 0.9);

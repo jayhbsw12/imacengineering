@@ -64,7 +64,7 @@ p.benefit-text.last-card {
 }
 
 /* BOX STYLE AROUND EACH PARAGRAPH */
-.about-container p {
+/* .about-container p {
     border: 2px solid #f74311;
     padding: 15px 18px;
     border-radius: 6px;
@@ -72,10 +72,10 @@ p.benefit-text.last-card {
     position: relative;
     display: flex;
     align-items: flex-start;
-}
+} */
 
 /* ICON BOX – LEFT RED SQUARE */
-.about-container p::before {
+/* .about-container p::before {
     content: "";
     width: 28px;
     height: 28px;
@@ -84,7 +84,7 @@ p.benefit-text.last-card {
     display: inline-block;
     margin-right: 12px;
     flex-shrink: 0;
-}
+} */
 
 
 

@@ -293,8 +293,12 @@ class Carousel {
     this.cards = document.querySelectorAll('.card');
     this.currentIndex = 0;
     this.cardsToShow = this.getCardsToShow();
-    this.maxIndex = this.cards.length - this.cardsToShow;
-    
+    this.maxIndex = Math.max(this.cards.length - this.cardsToShow, 0);
+
+    // If the essential DOM elements are missing, abort initialization silently.
+    // This allows the script to run on pages that don't include the carousel.
+    if (!this.track) return;
+
     this.init();
     this.setupEventListeners();
     this.handleResize();
@@ -314,37 +318,39 @@ class Carousel {
   }
 
   setupEventListeners() {
-    this.prevBtn.addEventListener('click', () => this.prevSlide());
-    this.nextBtn.addEventListener('click', () => this.nextSlide());
+    if (this.prevBtn) this.prevBtn.addEventListener('click', () => this.prevSlide());
+    if (this.nextBtn) this.nextBtn.addEventListener('click', () => this.nextSlide());
     
     // Touch/swipe support
     let startX = 0;
     let currentX = 0;
     let isDragging = false;
 
-    this.track.addEventListener('touchstart', (e) => {
-      startX = e.touches[0].clientX;
-      isDragging = true;
-    });
+    if (this.track) {
+      this.track.addEventListener('touchstart', (e) => {
+        startX = e.touches[0].clientX;
+        isDragging = true;
+      });
 
-    this.track.addEventListener('touchmove', (e) => {
-      if (!isDragging) return;
-      currentX = e.touches[0].clientX;
-    });
+      this.track.addEventListener('touchmove', (e) => {
+        if (!isDragging) return;
+        currentX = e.touches[0].clientX;
+      });
 
-    this.track.addEventListener('touchend', () => {
-      if (!isDragging) return;
-      isDragging = false;
-      
-      const diff = startX - currentX;
-      if (Math.abs(diff) > 100) {
-        if (diff > 0) {
-          this.nextSlide();
-        } else {
-          this.prevSlide();
+      this.track.addEventListener('touchend', () => {
+        if (!isDragging) return;
+        isDragging = false;
+
+        const diff = startX - currentX;
+        if (Math.abs(diff) > 100) {
+          if (diff > 0) {
+            this.nextSlide();
+          } else {
+            this.prevSlide();
+          }
         }
-      }
-    });
+      });
+    }
 
     // Keyboard navigation
     document.addEventListener('keydown', (e) => {
@@ -389,19 +395,26 @@ prevSlide() {
   }
 }
 updateCarousel() {
-   const card = this.cards[0];
-  const cardStyle = window.getComputedStyle(card);
-  const cardMarginRight = 430; // use fixed gap from your CSS
+  // Defensive guards: ensure track and at least one card exist
+  if (!this.track) return;
+  if (!this.cards || this.cards.length === 0) return;
 
-  const cardWidth = card.offsetWidth; // accurate width
+  const card = this.cards[0];
+  if (!card) return;
+
+  const cardMarginRight = 430; // use fixed gap from your CSS
+  const cardWidth = card.offsetWidth || 0; // accurate width when available
   const translateX = -(this.currentIndex * (cardWidth + cardMarginRight));
 
-  this.track.style.transform = `translateX(${translateX}px)`;
+  // Ensure style property exists before setting transform
+  if (this.track.style) {
+    this.track.style.transform = `translateX(${translateX}px)`;
+  }
 }
 
   updateButtons() {
-    this.prevBtn.disabled = this.currentIndex === 0;
-    this.nextBtn.disabled = this.currentIndex >= this.maxIndex;
+    if (this.prevBtn) this.prevBtn.disabled = this.currentIndex === 0;
+    if (this.nextBtn) this.nextBtn.disabled = this.currentIndex >= this.maxIndex;
   }
 
   goToSlide(index) {
@@ -413,7 +426,5 @@ updateCarousel() {
   }
 }
 
-// Initialize carousel when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-  new Carousel();
-});
+// Carousel is initialized when `TabManager` runs (and assigned to `window.carousel`).
+// No-op here to avoid double-initialization on pages without carousel markup.

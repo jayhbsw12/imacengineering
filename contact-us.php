@@ -100,8 +100,8 @@
       <div class="section-header">
         <div class="section-title-wrapper">
           <div class="title-wrapper">
-            <h2 class="section-title large has_fade_anim">We’ve been
-              waiting for you!</h2>
+            <h1 class="section-title large has_fade_anim">We’ve been
+              waiting for you!</h1>
           </div>
         </div>
         <div class="text-wrapper">

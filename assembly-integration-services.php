@@ -309,7 +309,7 @@
    <!-- Product Development Process Section -->
    <section class="product-development-section">
       <div class="development-container">
-         <h1 class="section-title-process">The Process Behind Our Assembly Services</h1>
+         <h2 class="section-title-process">The Process Behind Our Assembly Services</h2>
          <div class="accordion-container">
             <div class="accordion-images">
                <img src="assets/Process/Integration Services WEBP/Component-Inspection-&-Preparation.webp" alt="Component Inspection & Preparation" class="accordion-image active" data-tab="Component Inspection">

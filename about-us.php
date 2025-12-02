@@ -183,7 +183,7 @@
         </div>
 
         <div class="arx_8">
-          <h1 class="arx_7">Researchers, designers, and innovators creating engineering products that change world.</h1>
+          <h2 class="arx_7">Researchers, designers, and innovators creating engineering products that change world.</h2>
           <p class="arx_4">From ideation to building prototypes we solve problems others can't. Our research finds opportunities, our design creates solutions, our manufacturing makes them practical worldwide.</p>
 
           <div class="arx_15">
@@ -233,9 +233,9 @@
       </div>
 
       <div class="right-content-accordion">
-        <h1 class="main-title-accordion">
+        <h2 class="main-title-accordion">
           iDES Mission & Vision Statements That Will Change Industries Worldwide! 
-        </h1>
+        </h2>
 
         <div class="accordion-ux">
           <div class="accordion-ux-item active">
@@ -270,9 +270,9 @@
             <!-- Header Section -->
             <div class="header-section">
                 <div class="main-content">
-                    <h1 class="main-title">
+                    <h2 class="main-title">
                         Committed to the Core Values
-                    </h1>
+                    </h2>
                 </div>
                 <div class="subtitle-content">
                     <p class="subtitle">

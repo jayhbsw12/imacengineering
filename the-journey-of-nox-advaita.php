@@ -46,7 +46,7 @@
             <p>The team prioritized ease of assembly and maintenance by reducing part count and simplifying fastening methods. A specific challenge was meeting the requirement for minimum screws on visible surfaces, which limited conventional mounting strategies. This required concealed fasteners, snap-fit parts, and alternate bracket placements.</p>
             <p>These challenges collectively required creative mechanical design, careful material and hinge selection, and precise planning to ensure the product met both functional and aesthetic goals without compromising manufacturing feasibility. The solutions achieved a balance between serviceability, structural integrity, and user-focused design, all within a compact and visually clean product architecture.</p>
         </div>
-        <img src="assets/case-study-images/NOX-Adviata.webp" class="case-detail-image">
+        <img src="assets/case-study-images/NOX-Adviata.webp" class="case-detail-image" alt="NOX-Adviata">
         <div class="detail-obj">
             <h4><b>Solution:</b></h4>
             <p>The project involved a series of innovative design modifications aimed at enhancing functionality, safety, and aesthetics. A bracket with a locking knob was incorporated into the monitor rack to prevent the monitor from tipping over, ensuring stability during use.</p>

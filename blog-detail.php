@@ -136,7 +136,7 @@ $publishedHuman = $published ? date('d M Y', strtotime($published)) : '';
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
 
 <!-- Sticky sidebar CSS for Table of Contents -->
-<link rel="stylesheet" href="css/blog-detail-sidebar.css">
+<link rel="stylesheet" href="/css/blog-detail-sidebar.css">
 <?php
 // ===== Build JSON-LD here and let header.php print it via $JSON_LD_SCRIPTS =====
 $JSON_LD_SCRIPTS = [];
@@ -300,8 +300,8 @@ if (!empty($ogImage)) {
           <div class="author-card">
             <div class="author-content">
               <div class="author-image">
-                <img id="author-img"
-                  src="<?php echo !empty($BLOG_DATA['authorImage']) ? htmlspecialchars($BLOG_DATA['authorImage'], ENT_QUOTES, 'UTF-8') : 'assets/images/author-placeholder.png'; ?>"
+                  <img id="author-img"
+                    src="<?php echo !empty($BLOG_DATA['authorImage']) ? htmlspecialchars($BLOG_DATA['authorImage'], ENT_QUOTES, 'UTF-8') : '/assets/images/author-placeholder.png'; ?>"
                   alt="Author" class="author-avatar" />
               </div>
               <div class="author-details">
@@ -681,10 +681,10 @@ $PAGE_TITLE = htmlspecialchars($pageTitleSuffix, ENT_QUOTES, 'UTF-8');
 </script>
 
 <!-- Keep your existing scripts; no functional changes needed -->
-<script src="js/blog-script.js"></script>
-<script src="js/slider.js"></script>
-<script src="js/slider-testimonial.js"></script>
-<script src="js/logo-slider.js"></script>
+<script src="/js/blog-script.js"></script>
+<script src="/js/slider.js"></script>
+<script src="/js/slider-testimonial.js"></script>
+<script src="/js/logo-slider.js"></script>
 
 
 <?php include("footer.php"); ?>

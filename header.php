@@ -217,52 +217,52 @@ if (strpos($currentPath, '/blog/') === 0) {
 $pages = ['the-journey-of-nox-advaita.php', 'gynec-bed-by-karma.php', 'ev-scooter-development.php', 'universal-IR-blaster.php', 'gaming-headphones.php', 'pill-cap.php', 'centrifuge-machine.php', 'portable-caravan-fan.php', 'advanced-fire-detection-system.php', 'patient-warmer.php', 'cataract-foot-pedal.php', 'privacy-policy.php'];
 
 if (in_array(basename($_SERVER['PHP_SELF']), $pages)) {
-   echo '<link rel="preload" as="style" href="css/case-study-detail.css?v=' . ASSET_VERSION . '" onload="this.onload=null;this.rel=\'stylesheet\'">';
-   echo '<noscript><link rel="stylesheet" href="css/case-study-detail.css?v=' . ASSET_VERSION . '"></noscript>';
+   echo '<link rel="preload" as="style" href="/css/case-study-detail.css?v=' . ASSET_VERSION . '" onload="this.onload=null;this.rel=\'stylesheet\'">';
+   echo '<noscript><link rel="stylesheet" href="/css/case-study-detail.css?v=' . ASSET_VERSION . '"></noscript>';
 }
 ?>
 
 <?php
 // Portfolio page
 if (basename($_SERVER['PHP_SELF']) == 'portfolio.php') {
-   echo '<link rel="preload" as="style" href="css/case-study.css?v=' . ASSET_VERSION . '" onload="this.onload=null;this.rel=\'stylesheet\'">';
-   echo '<noscript><link rel="stylesheet" href="css/case-study.css?v=' . ASSET_VERSION . '"></noscript>';
+   echo '<link rel="preload" as="style" href="/css/case-study.css?v=' . ASSET_VERSION . '" onload="this.onload=null;this.rel=\'stylesheet\'">';
+   echo '<noscript><link rel="stylesheet" href="/css/case-study.css?v=' . ASSET_VERSION . '"></noscript>';
 }
 ?>
 
 <?php
 // Case studies list page
 if (basename($_SERVER['PHP_SELF']) == 'case-studies.php') {
-   echo '<link rel="preload" as="style" href="css/case-study.css?v=' . ASSET_VERSION . '" onload="this.onload=null;this.rel=\'stylesheet\'">';
-   echo '<noscript><link rel="stylesheet" href="css/case-study.css?v=' . ASSET_VERSION . '"></noscript>';
+   echo '<link rel="preload" as="style" href="/css/case-study.css?v=' . ASSET_VERSION . '" onload="this.onload=null;this.rel=\'stylesheet\'">';
+   echo '<noscript><link rel="stylesheet" href="/css/case-study.css?v=' . ASSET_VERSION . '"></noscript>';
 }
 ?>
 
 <?php
 // Privacy policy
 if (basename($_SERVER['PHP_SELF']) == 'privacy-policy.php') {
-   echo '<link rel="preload" as="style" href="css/case-study.css?v=' . ASSET_VERSION . '" onload="this.onload=null;this.rel=\'stylesheet\'">';
-   echo '<noscript><link rel="stylesheet" href="css/case-study.css?v=' . ASSET_VERSION . '"></noscript>';
+   echo '<link rel="preload" as="style" href="/css/case-study.css?v=' . ASSET_VERSION . '" onload="this.onload=null;this.rel=\'stylesheet\'">';
+   echo '<noscript><link rel="stylesheet" href="/css/case-study.css?v=' . ASSET_VERSION . '"></noscript>';
 }
 ?>
 
 <?php
 // Case-study detail template
 if (basename($_SERVER['PHP_SELF']) == 'case-study-detail.php') {
-   echo '<link rel="preload" as="style" href="css/case-study-detail.css?v=' . ASSET_VERSION . '" onload="this.onload=null;this.rel=\'stylesheet\'">';
-   echo '<noscript><link rel="stylesheet" href="css/case-study-detail.css?v=' . ASSET_VERSION . '"></noscript>';
+   echo '<link rel="preload" as="style" href="/css/case-study-detail.css?v=' . ASSET_VERSION . '" onload="this.onload=null;this.rel=\'stylesheet\'">';
+   echo '<noscript><link rel="stylesheet" href="/css/case-study-detail.css?v=' . ASSET_VERSION . '"></noscript>';
 }
 ?>
 
 <?php
 // Contact Us page (Bootstrap + page CSS)
 if (basename($_SERVER['PHP_SELF']) == 'contact-us.php') {
-   echo '<link rel="preload" as="style" href="css/bootstrap.min.css?v=' . ASSET_VERSION . '" onload="this.onload=null;this.rel=\'stylesheet\'">';
-   echo '<link rel="preload" as="style" href="css/master-contact.css?v=' . ASSET_VERSION . '" onload="this.onload=null;this.rel=\'stylesheet\'">';
-   echo '<noscript>
-           <link rel="stylesheet" href="css/bootstrap.min.css?v=' . ASSET_VERSION . '">
-           <link rel="stylesheet" href="css/master-contact.css?v=' . ASSET_VERSION . '">
-         </noscript>';
+    echo '<link rel="preload" as="style" href="/css/bootstrap.min.css?v=' . ASSET_VERSION . '" onload="this.onload=null;this.rel=\'stylesheet\'">';
+    echo '<link rel="preload" as="style" href="/css/master-contact.css?v=' . ASSET_VERSION . '" onload="this.onload=null;this.rel=\'stylesheet\'">';
+    echo '<noscript>
+                <link rel="stylesheet" href="/css/bootstrap.min.css?v=' . ASSET_VERSION . '">
+                <link rel="stylesheet" href="/css/master-contact.css?v=' . ASSET_VERSION . '">
+             </noscript>';
 }
 ?>
 
@@ -270,8 +270,8 @@ if (basename($_SERVER['PHP_SELF']) == 'contact-us.php') {
 // About page
 $requestUri = $_SERVER['REQUEST_URI'];
 if (strpos($requestUri, 'about-us') !== false) {
-   echo '<link rel="preload" as="style" href="css/about-us.css?v=' . ASSET_VERSION . '" onload="this.onload=null;this.rel=\'stylesheet\'">';
-   echo '<noscript><link rel="stylesheet" href="css/about-us.css?v=' . ASSET_VERSION . '"></noscript>';
+   echo '<link rel="preload" as="style" href="/css/about-us.css?v=' . ASSET_VERSION . '" onload="this.onload=null;this.rel=\'stylesheet\'">';
+   echo '<noscript><link rel="stylesheet" href="/css/about-us.css?v=' . ASSET_VERSION . '"></noscript>';
 }
 ?>
 
@@ -605,12 +605,12 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
          <!-- Logo Section -->
          <div class="logo-section">
             <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
-               <img src="assets/image/logo.svg?v=<?= ASSET_VERSION ?>" alt="Menu" class="menu-icon" loading="lazy"
+               <img src="/assets/image/logo.svg?v=<?= ASSET_VERSION ?>" alt="Menu" class="menu-icon" loading="lazy"
                   decoding="async">
             </button>
             <div class="logo-group">
                <div class="logo-icons">
-                  <a href="https://imacengineering.com/"> <img src="assets/image/logo.svg?v=<?= ASSET_VERSION ?>" alt=""
+                  <a href="https://imacengineering.com/"> <img src="/assets/image/logo.svg?v=<?= ASSET_VERSION ?>" alt=""
                         class="small-icon" loading="lazy" decoding="async"></a>
                </div>
             </div>
@@ -622,7 +622,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                <li class="nav-item"><a href="https://imacengineering.com/about-us" class="nav-link">About us</a></li>
                <li class="nav-item has-mega-menu dropdown">
                   <a href="#" class="nav-link">Services</a>
-                  <img src="./assets/image/dropdown-icon-1.svg?v=<?= ASSET_VERSION ?>" alt="" class="dropdown-icon"
+                  <img src="/assets/image/dropdown-icon-1.svg?v=<?= ASSET_VERSION ?>" alt="" class="dropdown-icon"
                      loading="lazy" decoding="async">
                   <div class="mega-menu">
                      <div class="mega-menu-left">
@@ -638,21 +638,21 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                         <ul class="menu-list">
                            <li>
                               <a href="https://imacengineering.com/mechanical-cad-drafting-outsourcing-services">
-                                 <img src="assets/icons/mega-menu/cad-outsourcing-services.svg?v=<?= ASSET_VERSION ?>"
+                                 <img src="/assets/icons/mega-menu/cad-outsourcing-services.svg?v=<?= ASSET_VERSION ?>"
                                     alt="" loading="lazy" decoding="async"> <span> CAD
                                     Outsourcing Services </span>
                               </a>
                            </li>
                            <li>
                               <a href="https://imacengineering.com/innovation-and-intellectual-property-services">
-                                 <img src="assets/icons/mega-menu/Innovation-&-IP-Strategy.svg?v=<?= ASSET_VERSION ?>"
+                                 <img src="/assets/icons/mega-menu/Innovation-&-IP-Strategy.svg?v=<?= ASSET_VERSION ?>"
                                     alt="" loading="lazy" decoding="async"> <span>
                                     Innovation & IP Strategy </span>
                               </a>
                            </li>
                            <li>
                               <a href="https://imacengineering.com/product-design-and-development-services">
-                                 <img src="assets/icons/mega-menu/product-design-development.svg?v=<?= ASSET_VERSION ?>"
+                                 <img src="/assets/icons/mega-menu/product-design-development.svg?v=<?= ASSET_VERSION ?>"
                                     alt="" loading="lazy" decoding="async"><span> Product
                                     Design and Development </span>
                               </a>
@@ -660,7 +660,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                            <li>
                               <a href="https://imacengineering.com/medical-device-design-and-development-services">
                                  <img
-                                    src="assets/icons/mega-menu/Medical-Product-Design-&-Development.svg?v=<?= ASSET_VERSION ?>"
+                                    src="/assets/icons/mega-menu/Medical-Product-Design-&-Development.svg?v=<?= ASSET_VERSION ?>"
                                     alt="" loading="lazy" decoding="async">
                                  <span> Medical Product Design </span>
                               </a>
@@ -668,7 +668,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                            <li>
                               <a href="https://imacengineering.com/3d-reverse-engineering-services">
                                  <img
-                                    src="assets/icons/mega-menu/Reverse-Engineering-Services.svg?v=<?= ASSET_VERSION ?>"
+                                    src="/assets/icons/mega-menu/Reverse-Engineering-Services.svg?v=<?= ASSET_VERSION ?>"
                                     alt="" loading="lazy" decoding="async"> <span>
                                     Reverse Engineering Services </span>
                               </a>
@@ -676,14 +676,14 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                            <li>
                               <a href="https://imacengineering.com/on-demand-manufacturing-services">
                                  <img
-                                    src="assets/icons/mega-menu/MVP-Prototyping-&-Manufacturing-as-Services.svg?v=<?= ASSET_VERSION ?>"
+                                    src="/assets/icons/mega-menu/MVP-Prototyping-&-Manufacturing-as-Services.svg?v=<?= ASSET_VERSION ?>"
                                     alt="" loading="lazy" decoding="async"> <span> On Demand Manufacturing </span>
                               </a>
                            </li>
                            <li>
                               <a href="https://imacengineering.com/sheet-metal-design-and-development-services">
                                  <img
-                                    src="assets/icons/mega-menu/Sheet-Metal-Design-Services.svg?v=<?= ASSET_VERSION ?>"
+                                    src="/assets/icons/mega-menu/Sheet-Metal-Design-Services.svg?v=<?= ASSET_VERSION ?>"
                                     alt="" loading="lazy" decoding="async"> <span> Sheet
                                     Metal Design </span>
                               </a>
@@ -691,14 +691,14 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                            <li>
                               <a href="https://imacengineering.com/rapid-tooling-design-and-manufacturing-services">
                                  <img
-                                    src="assets/icons/mega-menu/Tooling-Design-and-Manufacturing-Services.svg?v=<?= ASSET_VERSION ?>"
+                                    src="/assets/icons/mega-menu/Tooling-Design-and-Manufacturing-Services.svg?v=<?= ASSET_VERSION ?>"
                                     alt="" loading="lazy" decoding="async">
                                  <span> Tooling Design <br> and Manufacturing </span>
                               </a>
                            </li>
                            <li>
                               <a href="https://imacengineering.com/3d-printing-services">
-                                 <img src="assets/icons/mega-menu/Additive-Manufacturing.svg?v=<?= ASSET_VERSION ?>"
+                                 <img src="/assets/icons/mega-menu/Additive-Manufacturing.svg?v=<?= ASSET_VERSION ?>"
                                     alt="" loading="lazy" decoding="async"> <span> Additive
                                     Manufacturing/<br>3D Printing </span>
                               </a>
@@ -706,14 +706,14 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                            <li>
                               <a href="https://imacengineering.com/3d-miniature-model-design-services">
                                  <img
-                                    src="assets/icons/mega-menu/3D-Printed-Miniature-Exhibition-Model.svg?v=<?= ASSET_VERSION ?>"
+                                    src="/assets/icons/mega-menu/3D-Printed-Miniature-Exhibition-Model.svg?v=<?= ASSET_VERSION ?>"
                                     alt="" loading="lazy" decoding="async">
                                  <span> 3D Miniature Design </span>
                               </a>
                            </li>
                            <li>
                               <a href="https://imacengineering.com/contract-manufacturing-services">
-                                 <img src="assets/icons/mega-menu/contract-menufacturing.svg?v=<?= ASSET_VERSION ?>"
+                                 <img src="/assets/icons/mega-menu/contract-menufacturing.svg?v=<?= ASSET_VERSION ?>"
                                     alt="" loading="lazy" decoding="async"> <span> Contract
                                     Manufacturing </span>
                               </a>
@@ -721,14 +721,14 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
 
                            <li>
                               <a href="https://imacengineering.com/assembly-integration-services">
-                                 <img src="assets/icons/mega-menu/Integration-Services.svg?v=<?= ASSET_VERSION ?>"
+                                 <img src="/assets/icons/mega-menu/Integration-Services.svg?v=<?= ASSET_VERSION ?>"
                                     alt="" loading="lazy" decoding="async"> <span> Integration
                                     Services </span>
                               </a>
                            </li>
                            <li>
                               <a href="https://imacengineering.com/plastic-injection-molding-services">
-                                 <img src="assets/icons/mega-menu/plastic injection moulding.svg?v=<?= ASSET_VERSION ?>"
+                                 <img src="/assets/icons/mega-menu/plastic injection moulding.svg?v=<?= ASSET_VERSION ?>"
                                     alt="" loading="lazy" decoding="async"> <span> Plastic
                                     Injection Modeling </span>
                               </a>
@@ -736,7 +736,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                            <li>
                               <a href="https://imacengineering.com/kiosk-design-and-development-services">
                                  <img
-                                    src="assets/icons/mega-menu/Kiosk-design-&-development-service icon.svg?v=<?= ASSET_VERSION ?>"
+                                    src="/assets/icons/mega-menu/Kiosk-design-&-development-service icon.svg?v=<?= ASSET_VERSION ?>"
                                     alt="" loading="lazy" decoding="async">
                                  <span> Kiosk Design &<br> Development </span>
                               </a>
@@ -750,7 +750,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                </li>
                <li class="nav-item has-mega-menu dropdown">
                   <a href="#" class="nav-link">Resources</a>
-                  <img src="./assets/image/dropdown-icon-1.svg?v=<?= ASSET_VERSION ?>" alt="" class="dropdown-icon"
+                  <img src="/assets/image/dropdown-icon-1.svg?v=<?= ASSET_VERSION ?>" alt="" class="dropdown-icon"
                      loading="lazy" decoding="async">
                   <div class="mega-menu small-megamenu">
                      <div class="mega-menu-right small">

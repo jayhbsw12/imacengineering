@@ -1018,25 +1018,25 @@
       <div class="stats-container">
          <div class="stat-card">
             <div class="stat-content">
-               <span class="stat-number" data-target="30">0</span>
+               <span class="stat-number" data-target="30">30+</span>
                <span class="stat-label">Global Partners</span>
             </div>
          </div>
          <div class="stat-card">
             <div class="stat-content">
-               <span class="stat-number" data-target="100">0</span>
+               <span class="stat-number" data-target="100">100+</span>
                <span class="stat-label">Transformative Projects</span>
             </div>
          </div>
          <div class="stat-card">
             <div class="stat-content">
-               <span class="stat-number" data-target="10000">0</span>
+               <span class="stat-number" data-target="10000">10000+</span>
                <span class="stat-label">Hours Served</span>
             </div>
          </div>
          <div class="stat-card">
             <div class="stat-content">
-               <span class="stat-number" data-target="20">0</span>
+               <span class="stat-number" data-target="20">20+</span>
                <span class="stat-label">Global Team</span>
             </div>
          </div>

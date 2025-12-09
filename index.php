@@ -3586,7 +3586,7 @@
    })();
 </script>
 
-<script>
+<!-- <script>
 /* ----------------------
    TAB SWITCHING FIX
 ---------------------- */
@@ -3641,6 +3641,128 @@ document.getElementById('dmNextBtnCS').addEventListener('click', () => {
 document.getElementById('dmPrevBtnCS').addEventListener('click', () => {
     csOffset += 320;
     csTrack.style.transform = `translateX(${csOffset}px)`;
+});
+</script> -->
+
+<script>
+/* ----------------------
+   TAB SWITCHING FIX
+---------------------- */
+document.querySelectorAll('.dm-tab-nav-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const tab = btn.getAttribute('data-dm-tab');
+
+        // Remove active from buttons
+        document.querySelectorAll('.dm-tab-nav-btn')
+            .forEach(b => b.classList.remove('dm-active'));
+
+        btn.classList.add('dm-active');
+
+        // Remove active from panels
+        document.querySelectorAll('.dm-tab-panel')
+            .forEach(p => p.classList.remove('dm-active'));
+
+        // Add active to selected panel
+        document.getElementById(`dm-${tab}`).classList.add('dm-active');
+    });
+});
+
+
+/* ============================================================
+   BLOG SLIDER — TRUE INFINITE LOOP
+============================================================ */
+const blogTrack = document.getElementById('dmCarouselSliderBG');
+const blogCards = blogTrack.querySelectorAll('.dm-insight-card');
+const blogCardWidth = 320;
+let blogIndex = 1;
+
+// Clone first and last
+const blogFirstClone = blogCards[0].cloneNode(true);
+const blogLastClone = blogCards[blogCards.length - 1].cloneNode(true);
+
+blogTrack.appendChild(blogFirstClone);
+blogTrack.insertBefore(blogLastClone, blogCards[0]);
+
+// Start at first real card
+blogTrack.style.transform = `translateX(${-blogCardWidth}px)`;
+
+// NEXT
+document.getElementById('dmNextBtnBG').addEventListener('click', () => {
+    blogIndex++;
+    blogTrack.style.transition = '0.3s ease';
+    blogTrack.style.transform = `translateX(${-blogIndex * blogCardWidth}px)`;
+
+    setTimeout(() => {
+        if (blogIndex === blogCards.length + 1) {
+            blogTrack.style.transition = 'none';
+            blogIndex = 1;
+            blogTrack.style.transform = `translateX(${-blogIndex * blogCardWidth}px)`;
+        }
+    }, 310);
+});
+
+// PREV
+document.getElementById('dmPrevBtnBG').addEventListener('click', () => {
+    blogIndex--;
+    blogTrack.style.transition = '0.3s ease';
+    blogTrack.style.transform = `translateX(${-blogIndex * blogCardWidth}px)`;
+
+    setTimeout(() => {
+        if (blogIndex === 0) {
+            blogTrack.style.transition = 'none';
+            blogIndex = blogCards.length;
+            blogTrack.style.transform = `translateX(${-blogIndex * blogCardWidth}px)`;
+        }
+    }, 310);
+});
+
+
+/* ============================================================
+   CASE STUDY SLIDER — TRUE INFINITE LOOP
+============================================================ */
+const csTrack = document.getElementById('dmCarouselSliderCS');
+const csCards = csTrack.querySelectorAll('.dm-insight-card');
+const csCardWidth = 320;
+let csIndex = 1;
+
+// Clone first and last
+const csFirstClone = csCards[0].cloneNode(true);
+const csLastClone = csCards[csCards.length - 1].cloneNode(true);
+
+csTrack.appendChild(csFirstClone);
+csTrack.insertBefore(csLastClone, csCards[0]);
+
+// Start at first real card
+csTrack.style.transform = `translateX(${-csCardWidth}px)`;
+
+// NEXT
+document.getElementById('dmNextBtnCS').addEventListener('click', () => {
+    csIndex++;
+    csTrack.style.transition = '0.3s ease';
+    csTrack.style.transform = `translateX(${-csIndex * csCardWidth}px)`;
+
+    setTimeout(() => {
+        if (csIndex === csCards.length + 1) {
+            csTrack.style.transition = 'none';
+            csIndex = 1;
+            csTrack.style.transform = `translateX(${-csIndex * csCardWidth}px)`;
+        }
+    }, 310);
+});
+
+// PREV
+document.getElementById('dmPrevBtnCS').addEventListener('click', () => {
+    csIndex--;
+    csTrack.style.transition = '0.3s ease';
+    csTrack.style.transform = `translateX(${-csIndex * csCardWidth}px)`;
+
+    setTimeout(() => {
+        if (csIndex === 0) {
+            csTrack.style.transition = 'none';
+            csIndex = csCards.length;
+            csTrack.style.transform = `translateX(${-csIndex * csCardWidth}px)`;
+        }
+    }, 310);
 });
 </script>
 

@@ -3586,7 +3586,7 @@
    })();
 </script>
 
-<!-- <script>
+<script>
 /* ----------------------
    TAB SWITCHING FIX
 ---------------------- */
@@ -3642,105 +3642,7 @@ document.getElementById('dmPrevBtnCS').addEventListener('click', () => {
     csOffset += 320;
     csTrack.style.transform = `translateX(${csOffset}px)`;
 });
-</script> -->
-
-<script>
-/* ----------------------------------------------------
-   TAB SWITCHING (unchanged)
----------------------------------------------------- */
-document.querySelectorAll('.dm-tab-nav-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-        const tab = btn.getAttribute('data-dm-tab');
-
-        document.querySelectorAll('.dm-tab-nav-btn')
-            .forEach(b => b.classList.remove('dm-active'));
-        btn.classList.add('dm-active');
-
-        document.querySelectorAll('.dm-tab-panel')
-            .forEach(p => p.classList.remove('dm-active'));
-
-        document.getElementById(`dm-${tab}`).classList.add('dm-active');
-    });
-});
-
-
-/* ----------------------------------------------------
-   TRUE INFINITE CAROUSEL FUNCTION
----------------------------------------------------- */
-function initInfiniteSlider(trackId, nextBtnId, prevBtnId) {
-    const track = document.getElementById(trackId);
-    const cards = Array.from(track.querySelectorAll('.dm-insight-card'));
-
-    if (!track || cards.length === 0) return;
-
-    // 1️⃣ Real card width (fully dynamic)
-    const cardWidth = cards[0].offsetWidth + parseFloat(getComputedStyle(cards[0]).marginRight);
-
-    // 2️⃣ Clone ALL cards for seamless infinite scroll
-    cards.forEach(card => track.appendChild(card.cloneNode(true)));
-    cards.forEach(card => track.insertBefore(card.cloneNode(true), track.firstChild));
-
-    // 3️⃣ Start in the middle section (true infinite zone)
-    const totalCards = track.children.length;
-    let index = cards.length; // middle block
-    track.style.transform = `translateX(${-index * cardWidth}px)`;
-
-    /* -------------------------
-       Move to index (smooth)
-    ------------------------- */
-    function goToIndex() {
-        track.style.transition = "transform 0.35s ease";
-        track.style.transform = `translateX(${-index * cardWidth}px)`;
-    }
-
-    /* -------------------------
-       Snap instantly (no flicker)
-    ------------------------- */
-    function snapNoTransition() {
-        track.style.transition = "none";
-        track.style.transform = `translateX(${-index * cardWidth}px)`;
-    }
-
-    /* -------------------------
-       Next Button
-    ------------------------- */
-    document.getElementById(nextBtnId).addEventListener('click', () => {
-        index++;
-        goToIndex();
-
-        // If reached end clone area → jump back instantly
-        if (index >= totalCards - cards.length) {
-            setTimeout(() => {
-                index = cards.length;
-                snapNoTransition();
-            }, 360);
-        }
-    });
-
-    /* -------------------------
-       Prev Button
-    ------------------------- */
-    document.getElementById(prevBtnId).addEventListener('click', () => {
-        index--;
-        goToIndex();
-
-        // If reached start clone area → jump forward instantly
-        if (index < cards.length) {
-            setTimeout(() => {
-                index = totalCards - cards.length - 1;
-                snapNoTransition();
-            }, 360);
-        }
-    });
-}
-
-/* ----------------------------------------------------
-   INITIALISE BOTH SLIDERS
----------------------------------------------------- */
-initInfiniteSlider('dmCarouselSliderBG', 'dmNextBtnBG', 'dmPrevBtnBG');
-initInfiniteSlider('dmCarouselSliderCS', 'dmNextBtnCS', 'dmPrevBtnCS');
 </script>
-
 
 
 <!--<script src="js/portfolio-n.js"></script>-->

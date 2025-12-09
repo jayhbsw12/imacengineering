@@ -226,7 +226,7 @@
 <!--            <div class="divider divider-middle"></div>-->
 <!--            <div class="divider divider-section-2"></div>-->
 <!--            <div class="divider divider-right"></div>-->
-<!--            </div> -->-->
+<!--            </div> -->
 <!--         <article class="service-card-drafting main-service">-->
 <!--            <div class="service-icon service-icon-1"><img src="./assets/Miniature 3D Printed Prototype Design/See-Your-Ideas-Come-to-Life.svg" alt=""></div>-->
 <!--            <h3 class="service-title-drafting">See Your Ideas<br class="m-hidden"> Come to Life</h3>-->
@@ -280,44 +280,8 @@
 <!--      </div>-->
 <!--   </div>-->
 <!--</section>-->
-<!-- Benefits Section -->
-<section class="benefits-section">
-   <div class="benefits-background">
-      <div class="benefits-container">
-         <h2 class="benefits-title">Benefits of 3D Miniature Design & Development Services  </h2>
-         <div class="benefits-grid">
-            <div class="benefit-card benefit-card-1">
-               <div class="benefit-icon benefit-icon-1"></div>
-               <p class="benefit-text">Get 3D miniature models instead of relying on flat drawings, and visualize complex designs before committing to full-scale production. </p>
-            </div>
-            <div class="benefit-card benefit-card-2">
-               <div class="benefit-icon benefit-icon-2"></div>
-               <p class="benefit-text">Identify design errors early, preventing costly manufacturing mistakes and reducing overall project expenses. </p>
-            </div>
-         </div>
-         <div class="benefits-grid-2">
-            <div class="benefit-card benefit-card-3">
-               <div class="benefit-icon benefit-icon-3"></div>
-               <p class="benefit-text">Reduce the expenses of exhibiting full-scale machinery or large products by creating high-quality, small-sized miniatures. </p>
-            </div>
-            <div class="benefit-card benefit-card-4">
-               <div class="benefit-icon benefit-icon-4"></div>
-               <p class="benefit-text">Eliminate misunderstandings between designers, clients, and manufacturers with physical 3D miniature models.  </p>
-            </div>
-         </div>
-         <!-- <div class="benefits-grid-2">
-            <div class="benefit-card benefit-card-5">
-               <div class="benefit-icon benefit-icon-5"></div>
-               <p class="benefit-text">Skip lengthy design revision cycles by testing multiple iterations quickly, allowing your 3D miniature model maker to refine concepts efficiently and shorten time-to-market significantly.</p>
-            </div>
-            <div class="benefit-card benefit-card-4">
-               <div class="benefit-icon benefit-icon-4"></div>
-               <p class="benefit-text">Identify potential manufacturing challenges through detailed model testing, preventing expensive production delays and ensuring a smooth transition from prototype to final product.</p>
-            </div> 
-         </div> -->
-      </div>
-   </div>
-</section>
+
+
 <!-- why us section -->
 <section class="features-section">
    <div class="container">
@@ -385,6 +349,7 @@
       </div>
    </div>
 </section>
+<!-- our process -->
 <main class="main-container-section">
    <!-- Product Development Process Section -->
    <!-- <section class="product-development-section">
@@ -564,6 +529,44 @@
                 <p>Yes. They are made with strong materials and reinforced finishes for safe handling.</p>
             </div>
          </div>
+      </div>
+   </div>
+</section>
+<!-- Benefits Section -->
+<section class="benefits-section">
+   <div class="benefits-background">
+      <div class="benefits-container">
+         <h2 class="benefits-title">Benefits of 3D Miniature Design & Development Services  </h2>
+         <div class="benefits-grid">
+            <div class="benefit-card benefit-card-1">
+               <div class="benefit-icon benefit-icon-1"></div>
+               <p class="benefit-text">Get 3D miniature models instead of relying on flat drawings, and visualize complex designs before committing to full-scale production. </p>
+            </div>
+            <div class="benefit-card benefit-card-2">
+               <div class="benefit-icon benefit-icon-2"></div>
+               <p class="benefit-text">Identify design errors early, preventing costly manufacturing mistakes and reducing overall project expenses. </p>
+            </div>
+         </div>
+         <div class="benefits-grid-2">
+            <div class="benefit-card benefit-card-3">
+               <div class="benefit-icon benefit-icon-3"></div>
+               <p class="benefit-text">Reduce the expenses of exhibiting full-scale machinery or large products by creating high-quality, small-sized miniatures. </p>
+            </div>
+            <div class="benefit-card benefit-card-4">
+               <div class="benefit-icon benefit-icon-4"></div>
+               <p class="benefit-text">Eliminate misunderstandings between designers, clients, and manufacturers with physical 3D miniature models.  </p>
+            </div>
+         </div>
+         <!-- <div class="benefits-grid-2">
+            <div class="benefit-card benefit-card-5">
+               <div class="benefit-icon benefit-icon-5"></div>
+               <p class="benefit-text">Skip lengthy design revision cycles by testing multiple iterations quickly, allowing your 3D miniature model maker to refine concepts efficiently and shorten time-to-market significantly.</p>
+            </div>
+            <div class="benefit-card benefit-card-4">
+               <div class="benefit-icon benefit-icon-4"></div>
+               <p class="benefit-text">Identify potential manufacturing challenges through detailed model testing, preventing expensive production delays and ensuring a smooth transition from prototype to final product.</p>
+            </div> 
+         </div> -->
       </div>
    </div>
 </section>

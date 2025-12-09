@@ -3587,121 +3587,55 @@
 </script>
 
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-    // ----------------------
-    // TAB SWITCHING (same as before)
-    // ----------------------
-    document.querySelectorAll('.dm-tab-nav-btn').forEach(btn => {
-        btn.addEventListener('click', () => {
-            const tab = btn.getAttribute('data-dm-tab');
+// ----------------------
+// TAB SWITCHING FIX
+// ----------------------
+document.querySelectorAll('.dm-tab-nav-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const tab = btn.getAttribute('data-dm-tab');
 
-            // Remove active from buttons
-            document.querySelectorAll('.dm-tab-nav-btn').forEach(b => b.classList.remove('dm-active'));
-            btn.classList.add('dm-active');
+        // Remove active from buttons
+        document.querySelectorAll('.dm-tab-nav-btn').forEach(b => b.classList.remove('dm-active'));
+        btn.classList.add('dm-active');
 
-            // Remove active from panels
-            document.querySelectorAll('.dm-tab-panel').forEach(p => p.classList.remove('dm-active'));
+        // Remove active from panels
+        document.querySelectorAll('.dm-tab-panel').forEach(p => p.classList.remove('dm-active'));
 
-            // Add active only to selected panel
-            document.getElementById(`dm-${tab}`).classList.add('dm-active');
-        });
+        // Add active only to selected panel
+        document.getElementById(`dm-${tab}`).classList.add('dm-active');
     });
+});
 
-    // Helper: create simple infinite + draggable slider
-    function initSimpleCarousel(trackId, nextId, prevId) {
-        const track = document.getElementById(trackId);
-        const nextBtn = document.getElementById(nextId);
-        const prevBtn = document.getElementById(prevId);
-        if (!track || !nextBtn || !prevBtn) return;
+// ----------------------
+// BLOG SLIDER FIX
+// ----------------------
+const blogTrack = document.getElementById('dmCarouselSliderBG');
+let blogOffset = 0;
 
-        const cards = track.querySelectorAll('.dm-insight-card');
-        if (!cards.length) return;
+document.getElementById('dmNextBtnBG').addEventListener('click', () => {
+    blogOffset -= 320; // card width
+    blogTrack.style.transform = `translateX(${blogOffset}px)`;
+});
 
-        // Work out single card width (incl. right margin as gap)
-        const cardStyle = getComputedStyle(cards[0]);
-        const gap = parseFloat(cardStyle.marginRight || 0);
-        const cardWidth = cards[0].offsetWidth + gap;
+document.getElementById('dmPrevBtnBG').addEventListener('click', () => {
+    blogOffset += 320;
+    blogTrack.style.transform = `translateX(${blogOffset}px)`;
+});
 
-        let index = 0;
+// ----------------------
+// CASE STUDY SLIDER FIX
+// ----------------------
+const csTrack = document.getElementById('dmCarouselSliderCS');
+let csOffset = 0;
 
-        function updateSlider() {
-            track.style.transition = 'transform 0.3s ease';
-            track.style.transform = `translateX(${-index * cardWidth}px)`;
-        }
+document.getElementById('dmNextBtnCS').addEventListener('click', () => {
+    csOffset -= 320;
+    csTrack.style.transform = `translateX(${csOffset}px)`;
+});
 
-        // ----- Infinite loop via modulo -----
-        nextBtn.addEventListener('click', () => {
-            index = (index + 1) % cards.length;
-            updateSlider();
-        });
-
-        prevBtn.addEventListener('click', () => {
-            index = (index - 1 + cards.length) % cards.length;
-            updateSlider();
-        });
-
-        // ----- Drag / swipe support -----
-        let isDragging = false;
-        let startX = 0;
-        let startTranslate = 0;
-
-        const startDrag = (e) => {
-            isDragging = true;
-            startX = e.touches ? e.touches[0].clientX : e.clientX;
-            startTranslate = -index * cardWidth;
-            track.style.transition = 'none';
-        };
-
-        const onDrag = (e) => {
-            if (!isDragging) return;
-            const x = e.touches ? e.touches[0].clientX : e.clientX;
-            const dx = x - startX;
-            track.style.transform = `translateX(${startTranslate + dx}px)`;
-            if (!e.touches) e.preventDefault();
-        };
-
-        const endDrag = (e) => {
-            if (!isDragging) return;
-            isDragging = false;
-            const endX = e.changedTouches ? e.changedTouches[0].clientX : e.clientX;
-            const dx = endX - startX;
-
-            // Threshold to decide swipe vs snap back
-            if (Math.abs(dx) > 50) {
-                if (dx < 0) {
-                    // swipe left → next
-                    index = (index + 1) % cards.length;
-                } else {
-                    // swipe right → prev
-                    index = (index - 1 + cards.length) % cards.length;
-                }
-            }
-            updateSlider();
-        };
-
-        // Mouse events
-        track.addEventListener('mousedown', startDrag);
-        window.addEventListener('mousemove', onDrag);
-        window.addEventListener('mouseup', endDrag);
-
-        // Touch events
-        track.addEventListener('touchstart', startDrag, { passive: true });
-        window.addEventListener('touchmove', onDrag, { passive: false });
-        window.addEventListener('touchend', endDrag);
-
-        // Initial position
-        updateSlider();
-    }
-
-    // ----------------------
-    // BLOG SLIDER (infinite + draggable)
-    // ----------------------
-    initSimpleCarousel('dmCarouselSliderBG', 'dmNextBtnBG', 'dmPrevBtnBG');
-
-    // ----------------------
-    // CASE STUDY SLIDER (infinite + draggable)
-    // ----------------------
-    initSimpleCarousel('dmCarouselSliderCS', 'dmNextBtnCS', 'dmPrevBtnCS');
+document.getElementById('dmPrevBtnCS').addEventListener('click', () => {
+    csOffset += 320;
+    csTrack.style.transform = `translateX(${csOffset}px)`;
 });
 </script>
 

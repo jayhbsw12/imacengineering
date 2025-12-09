@@ -286,104 +286,7 @@
       </div>
    </div>
 </section>
-<main class="main-container-section">
-   <!-- Product Development Process Section -->
-   <section class="product-development-section">
-      <div class="development-container">
-         <h2 class="section-title-process">Our Medical Product Design & Development Process</h2>
-         <div class="accordion-container">
-            <div class="accordion-images">
-               <img src="assets/Process/Medical Design Development WEBP/Initial-Analysis-and-Planning.webp" alt="Initial Analysis and Planning" class="accordion-image active" data-tab="Initial Analysis">
-               <img src="assets/Process/Medical Design Development WEBP/Concept and Feasibility.webp" alt="Concept and Feasibility" class="accordion-image" data-tab="Concept and Feasibility">
-               <img src="assets/Process/Medical Design Development WEBP/Medical-product-device-Design-and-Development.webp" alt="Design and Development" class="accordion-image" data-tab="Design and Development">
-               <img src="assets/Process/Medical Design Development WEBP/Manufacturing-and-Validation.webp" alt="Manufacturing and Validation" class="accordion-image" data-tab="Manufacturing and Validation">
-               <img src="assets/Process/Medical Design Development WEBP/Post-Launch-Monitoring.webp" alt="Post-Launch Monitoring" class="accordion-image" data-tab="Post-Launch Monitoring">
-            </div>
-            <div class="accordion-content">
-               <div class="accordion-item active" data-tab="Initial Analysis">
-                  <div class="accordion-header">
-                     <span class="step-number">01.</span>
-                     <h3 class="step-title">Initial Analysis and Planning</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>The first phase involves assessing the market, competition, and regulatory requirements, 
-                        ensuring a clear understanding of legal and financial agendas.</p>
 
-                    <p>Design inputs are collected while considering risk assessment and potential challenges. 
-                        This stage builds a strong foundation for the project, focusing on compliance, strategic analysis, 
-                        and financial feasibility to support the next steps of development. Detailed planning at this stage 
-                        minimizes potential issues down the line.</p>
-
-                     <p>
-                        Also, we plan an IP strategy before we actually begin with the product development.
-                     </p>
-                  </div>
-               </div>
-               <div class="accordion-item" data-tab="Concept and Feasibility">
-                  <div class="accordion-header">
-                     <span class="step-number">02.</span>
-                     <h3 class="step-title">Concept and Feasibility</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>During this phase, the concept of the device is created, incorporating initial design input. 
-                        Prototypes are developed and evaluated to determine feasibility and performance in real-world scenarios. 
-                        Pre-clinical trials and evaluation refine the design further. </p>
-                        <p>This phase involves creating a tangible version of the idea and assessing its practicality. 
-                            Iterative prototyping enables efficient testing and validation of the concept.</p>
-                  </div>
-               </div>
-               <div class="accordion-item" data-tab="Design and Development">
-                  <div class="accordion-header">
-                     <span class="step-number">03.</span>
-                     <h3 class="step-title">Design and Development</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>This phase integrates key design input to create a comprehensive set of design specifications,
-                         leading to the development of the product.</p>
-                    <p>Through detailed design output, the product’s feasibility and performance are verified. 
-                        Design failure modes are considered, and risk management is actively incorporated. Design 
-                        validation tests and the Device History File (DHF) are documented thoroughly.</p>
-                  </div>
-               </div>
-               <div class="accordion-item" data-tab="Manufacturing and Validation">
-                  <div class="accordion-header">
-                     <span class="step-number">04.</span>
-                     <h3 class="step-title">Manufacturing and Validation</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>With design specifications and outputs finalized, the device enters manufacturing, 
-                        either in pilot runs or full-scale production. Design validation ensures that the 
-                        product performs as intended in the real world as well.</p>
-
-                    <p>A comprehensive process validation includes testing, quality assurance, and compliance checks.
-                         Clinical research projects may be conducted to ensure safety and efficacy in real-world applications. 
-                         This stage brings the device closer to market.</p>
-                  </div>
-               </div>
-               <div class="accordion-item" data-tab="Post-Launch Monitoring">
-                  <div class="accordion-header">
-                     <span class="step-number">05.</span>
-                     <h3 class="step-title">Post-Launch Monitoring</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>Once the product is launched, ongoing training, audits, and updates are essential to 
-                        ensure continued compliance and optimal performance.</p>
-                        <p>Post-market surveillance gathers data from actual users, helping refine future iterations.
-                             This phase ensures that potential issues are addressed promptly while monitoring long-term 
-                             device performance. Customer feedback plays a pivotal role, enabling proactive adjustments to the design, 
-                             manufacturing, and overall user experience to maintain the device’s effectiveness. </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-</main>
 <!-- FAQ Section -->
 <section class="faq-section">
    <div class="faq-container">
@@ -516,6 +419,106 @@
       </div>
    </div>
 </section>
+
+<!-- our process -->
+<main class="main-container-section">
+   <!-- Product Development Process Section -->
+   <section class="product-development-section">
+      <div class="development-container">
+         <h2 class="section-title-process">Our Medical Product Design & Development Process</h2>
+         <div class="accordion-container">
+            <div class="accordion-images">
+               <img src="assets/Process/Medical Design Development WEBP/Initial-Analysis-and-Planning.webp" alt="Initial Analysis and Planning" class="accordion-image active" data-tab="Initial Analysis">
+               <img src="assets/Process/Medical Design Development WEBP/Concept and Feasibility.webp" alt="Concept and Feasibility" class="accordion-image" data-tab="Concept and Feasibility">
+               <img src="assets/Process/Medical Design Development WEBP/Medical-product-device-Design-and-Development.webp" alt="Design and Development" class="accordion-image" data-tab="Design and Development">
+               <img src="assets/Process/Medical Design Development WEBP/Manufacturing-and-Validation.webp" alt="Manufacturing and Validation" class="accordion-image" data-tab="Manufacturing and Validation">
+               <img src="assets/Process/Medical Design Development WEBP/Post-Launch-Monitoring.webp" alt="Post-Launch Monitoring" class="accordion-image" data-tab="Post-Launch Monitoring">
+            </div>
+            <div class="accordion-content">
+               <div class="accordion-item active" data-tab="Initial Analysis">
+                  <div class="accordion-header">
+                     <span class="step-number">01.</span>
+                     <h3 class="step-title">Initial Analysis and Planning</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>The first phase involves assessing the market, competition, and regulatory requirements, 
+                        ensuring a clear understanding of legal and financial agendas.</p>
+
+                    <p>Design inputs are collected while considering risk assessment and potential challenges. 
+                        This stage builds a strong foundation for the project, focusing on compliance, strategic analysis, 
+                        and financial feasibility to support the next steps of development. Detailed planning at this stage 
+                        minimizes potential issues down the line.</p>
+
+                     <p>
+                        Also, we plan an IP strategy before we actually begin with the product development.
+                     </p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Concept and Feasibility">
+                  <div class="accordion-header">
+                     <span class="step-number">02.</span>
+                     <h3 class="step-title">Concept and Feasibility</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>During this phase, the concept of the device is created, incorporating initial design input. 
+                        Prototypes are developed and evaluated to determine feasibility and performance in real-world scenarios. 
+                        Pre-clinical trials and evaluation refine the design further. </p>
+                        <p>This phase involves creating a tangible version of the idea and assessing its practicality. 
+                            Iterative prototyping enables efficient testing and validation of the concept.</p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Design and Development">
+                  <div class="accordion-header">
+                     <span class="step-number">03.</span>
+                     <h3 class="step-title">Design and Development</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>This phase integrates key design input to create a comprehensive set of design specifications,
+                         leading to the development of the product.</p>
+                    <p>Through detailed design output, the product’s feasibility and performance are verified. 
+                        Design failure modes are considered, and risk management is actively incorporated. Design 
+                        validation tests and the Device History File (DHF) are documented thoroughly.</p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Manufacturing and Validation">
+                  <div class="accordion-header">
+                     <span class="step-number">04.</span>
+                     <h3 class="step-title">Manufacturing and Validation</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>With design specifications and outputs finalized, the device enters manufacturing, 
+                        either in pilot runs or full-scale production. Design validation ensures that the 
+                        product performs as intended in the real world as well.</p>
+
+                    <p>A comprehensive process validation includes testing, quality assurance, and compliance checks.
+                         Clinical research projects may be conducted to ensure safety and efficacy in real-world applications. 
+                         This stage brings the device closer to market.</p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Post-Launch Monitoring">
+                  <div class="accordion-header">
+                     <span class="step-number">05.</span>
+                     <h3 class="step-title">Post-Launch Monitoring</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>Once the product is launched, ongoing training, audits, and updates are essential to 
+                        ensure continued compliance and optimal performance.</p>
+                        <p>Post-market surveillance gathers data from actual users, helping refine future iterations.
+                             This phase ensures that potential issues are addressed promptly while monitoring long-term 
+                             device performance. Customer feedback plays a pivotal role, enabling proactive adjustments to the design, 
+                             manufacturing, and overall user experience to maintain the device’s effectiveness. </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+</main>
 <!-- contact section end -->
 <script>
    document.addEventListener('DOMContentLoaded', function() {

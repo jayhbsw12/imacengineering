@@ -3586,7 +3586,7 @@
    })();
 </script>
 
-<script>
+<!-- <script>
 /* ----------------------
    TAB SWITCHING FIX
 ---------------------- */
@@ -3642,7 +3642,101 @@ document.getElementById('dmPrevBtnCS').addEventListener('click', () => {
     csOffset += 320;
     csTrack.style.transform = `translateX(${csOffset}px)`;
 });
+</script> -->
+
+<script>
+/* ----------------------
+   TAB SWITCHING FIX
+---------------------- */
+document.querySelectorAll('.dm-tab-nav-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const tab = btn.getAttribute('data-dm-tab');
+
+        document.querySelectorAll('.dm-tab-nav-btn')
+            .forEach(b => b.classList.remove('dm-active'));
+
+        btn.classList.add('dm-active');
+
+        document.querySelectorAll('.dm-tab-panel')
+            .forEach(p => p.classList.remove('dm-active'));
+
+        document.getElementById(`dm-${tab}`).classList.add('dm-active');
+    });
+});
+
+
+/* ============================================================
+   BLOG SLIDER — Circular Jump (not infinite)
+============================================================ */
+const blogTrack = document.getElementById('dmCarouselSliderBG');
+const blogCards = blogTrack.querySelectorAll('.dm-insight-card');
+const blogCardWidth = 320;
+
+let blogIndex = 0;
+const blogLastIndex = blogCards.length - 1;
+
+function updateBlogSlider() {
+    blogTrack.style.transition = '0.35s ease';
+    blogTrack.style.transform = `translateX(${-blogIndex * blogCardWidth}px)`;
+}
+
+document.getElementById('dmNextBtnBG').addEventListener('click', () => {
+    blogIndex++;
+
+    if (blogIndex > blogLastIndex) {
+        blogIndex = 0; // jump to first smoothly
+    }
+
+    updateBlogSlider();
+});
+
+document.getElementById('dmPrevBtnBG').addEventListener('click', () => {
+    blogIndex--;
+
+    if (blogIndex < 0) {
+        blogIndex = blogLastIndex; // jump to last smoothly
+    }
+
+    updateBlogSlider();
+});
+
+
+/* ============================================================
+   CASE STUDY SLIDER — Circular Jump (not infinite)
+============================================================ */
+const csTrack = document.getElementById('dmCarouselSliderCS');
+const csCards = csTrack.querySelectorAll('.dm-insight-card');
+const csCardWidth = 320;
+
+let csIndex = 0;
+const csLastIndex = csCards.length - 1;
+
+function updateCS() {
+    csTrack.style.transition = '0.35s ease';
+    csTrack.style.transform = `translateX(${-csIndex * csCardWidth}px)`;
+}
+
+document.getElementById('dmNextBtnCS').addEventListener('click', () => {
+    csIndex++;
+
+    if (csIndex > csLastIndex) {
+        csIndex = 0; // jump to first
+    }
+
+    updateCS();
+});
+
+document.getElementById('dmPrevBtnCS').addEventListener('click', () => {
+    csIndex--;
+
+    if (csIndex < 0) {
+        csIndex = csLastIndex; // jump to last
+    }
+
+    updateCS();
+});
 </script>
+
 
 
 <!--<script src="js/portfolio-n.js"></script>-->

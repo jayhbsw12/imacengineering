@@ -58,19 +58,16 @@
 
 <!-- Default-defer shim: any created <script> without async/defer becomes defer by default -->
 <script>
-(function(){
-  const orig = Document.prototype.createElement;
-  Document.prototype.createElement = function(tag){
-    const el = orig.call(this, tag);
-    // Only auto-defer EXTERNAL script files
-    if (tag === 'SCRIPT' && el.src && !el.hasAttribute('async') && !el.hasAttribute('defer')) {
-        el.defer = true;
-    }
-    return el;
-  };
-})();
+   (function () {
+      const M = document.createElement; Document.prototype.createElement = function (tag) {
+         const el = M.call(this, tag);
+         if (tag === 'SCRIPT' && !el.hasAttribute('async') && !el.hasAttribute('defer')) {
+            el.setAttribute('defer', '');
+         }
+         return el;
+      };
+   })();
 </script>
-
 <!-- ======================================================================== -->
 
 <!-- Core, render-critical CSS (apply immediately to prevent FOUC) -->

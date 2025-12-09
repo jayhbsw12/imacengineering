@@ -57,7 +57,7 @@
 <!-- ----------------------------------------------------------------------- >
 
 <!-- Default-defer shim: any created <script> without async/defer becomes defer by default -->
-<!-- <script>
+<script>
 (function(){
   const orig = Document.prototype.createElement;
   Document.prototype.createElement = function(tag){
@@ -69,7 +69,7 @@
     return el;
   };
 })();
-</script> -->
+</script>
 
 <!-- ======================================================================== -->
 

@@ -141,7 +141,7 @@
 </section>
 <?php include("featured-on.php"); ?>
 <section class="about-service-hero-section">
-   <h2 class="main-title">Innovative Sheet Metal Designs<br class="m-hidden"> Enhancing Production Efficiency</h2>
+   <h2 class="main-title">Innovative Sheet Metal Designs Enhancing Production Efficiency</h2>
    <div class="about-container">
       <div class="left-section">
          <img src="assets/main-service-page/Sheetmetal-Services.webp" alt="Sheetmetal-Services" />

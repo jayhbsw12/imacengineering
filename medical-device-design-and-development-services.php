@@ -144,7 +144,7 @@
 </section>
 <?php include("featured-on.php"); ?>
 <section class="about-service-hero-section">
-   <h2 class="main-title">Medical Device Product Design <br />and Development Solutions</h2>
+   <h2 class="main-title">Medical Device Product Design and Development Solutions</h2>
    <div class="about-container">
       <div class="left-section">
          <img src="assets/main-service-page/Medical-Device-Development.webp" alt="Medical Device Development" />

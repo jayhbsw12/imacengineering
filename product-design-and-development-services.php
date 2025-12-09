@@ -143,7 +143,7 @@
 </section>
 <?php include("featured-on.php"); ?>
 <section class="about-service-hero-section">
-   <h2 class="main-title">High-Quality Product Design <br class="m-hidden"> and Development Services</h2>
+   <h2 class="main-title">High-Quality Product Design and Development Services</h2>
    <div class="about-container">
       <div class="left-section">
          <img loading="lazy" src="assets/image/main-services/Product-Design-and-Development.webp" alt="Product-Design-&-Development"/>

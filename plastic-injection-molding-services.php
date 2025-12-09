@@ -146,7 +146,7 @@
 </section>
 <?php include("featured-on.php"); ?>
 <section class="about-service-hero-section">
-   <h2 class="main-title">iDES Accurate Plastic<br class="m-hidden"> Mold Design Services</h2>
+   <h2 class="main-title">iDES Accurate Plastic Mold Design Services</h2>
    <div class="about-container">
       <div class="left-section">
          <img src="assets/image/drafting-service.png" alt="CAD Drafting" />

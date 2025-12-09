@@ -142,7 +142,7 @@
 </section>
 <?php include("featured-on.php"); ?>
 <section class="about-service-hero-section">
-   <h2 class="main-title">Rapid Tooling Design <br class="m-hidden"> And Manufacturing</h2>
+   <h2 class="main-title">Rapid Tooling Design And Manufacturing</h2>
    <div class="about-container">
       <div class="left-section">
          <img src="assets/main-service-page/Rapid-Tool.webp" alt="Rapid-Tool" />

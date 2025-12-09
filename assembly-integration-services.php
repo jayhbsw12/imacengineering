@@ -145,7 +145,7 @@
 </section>
 <?php include("featured-on.php"); ?>
 <section class="about-service-hero-section">
-   <h2 class="main-title">How iDES Precision Assembly <br class="m-hidden"> Services Work?</h2>
+   <h2 class="main-title">How iDES Precision Assembly Services Work?</h2>
    <div class="about-container">
       <div class="left-section">
          <img loading="lazy" src="assets/main-service-page/Integration-Services.webp" alt="Integration Service" />

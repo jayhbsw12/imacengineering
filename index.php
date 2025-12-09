@@ -3587,6 +3587,167 @@
 </script>
 
 <script>
+// Reusable Carousel Function
+function createCarousel(config) {
+    const track = document.getElementById(config.trackId);
+    const nextBtn = document.getElementById(config.nextBtnId);
+    const prevBtn = document.getElementById(config.prevBtnId);
+
+    let index = 0;
+    const speed = config.speed || 400;
+    const autoplaySpeed = config.autoplay || 3000;
+    let autoplayInterval;
+
+    const slides = [...track.children];
+    const slideWidth = slides[0].offsetWidth;
+    
+    // --- Clone first + last slides for infinite looping
+    const firstClone = slides[0].cloneNode(true);
+    const lastClone = slides[slides.length - 1].cloneNode(true);
+    track.appendChild(firstClone);
+    track.insertBefore(lastClone, slides[0]);
+
+    let totalSlides = track.children.length;
+    let offset = -slideWidth;
+    track.style.transform = `translateX(${offset}px)`;
+
+    // Fade-in effect function
+    function fadeInSlide() {
+        [...track.children].forEach(slide => slide.classList.remove("fade-in"));
+        track.children[index + 1].classList.add("fade-in");
+    }
+
+    // Move to index
+    function moveCarousel() {
+        offset = -(slideWidth * (index + 1));
+        track.style.transition = `${speed}ms ease`;
+        track.style.transform = `translateX(${offset}px)`;
+        fadeInSlide();
+    }
+
+    // Next
+    nextBtn.addEventListener("click", () => {
+        index++;
+        moveCarousel();
+        if (index >= totalSlides - 2) {
+            setTimeout(() => {
+                track.style.transition = "none";
+                index = 0;
+                offset = -slideWidth;
+                track.style.transform = `translateX(${offset}px)`;
+            }, speed);
+        }
+    });
+
+    // Previous
+    prevBtn.addEventListener("click", () => {
+        index--;
+        moveCarousel();
+        if (index < 0) {
+            setTimeout(() => {
+                track.style.transition = "none";
+                index = totalSlides - 3;
+                offset = -(slideWidth * (index + 1));
+                track.style.transform = `translateX(${offset}px)`;
+            }, speed);
+        }
+    });
+
+    // --- Autoplay ---
+    function startAutoplay() {
+        autoplayInterval = setInterval(() => {
+            nextBtn.click();
+        }, autoplaySpeed);
+    }
+
+    function stopAutoplay() {
+        clearInterval(autoplayInterval);
+    }
+
+    track.addEventListener("mouseenter", stopAutoplay);
+    track.addEventListener("mouseleave", startAutoplay);
+    startAutoplay();
+
+    // --- Touch / Drag Support (Mobile + Desktop) ---
+    let startX = 0;
+    let isDragging = false;
+    let currentTranslate = 0;
+
+    track.addEventListener("mousedown", startDrag);
+    track.addEventListener("touchstart", startDrag);
+
+    function startDrag(e) {
+        isDragging = true;
+        startX = e.touches ? e.touches[0].clientX : e.clientX;
+        track.style.transition = "none";
+        stopAutoplay();
+    }
+
+    track.addEventListener("mousemove", dragMove);
+    track.addEventListener("touchmove", dragMove);
+
+    function dragMove(e) {
+        if (!isDragging) return;
+        let x = e.touches ? e.touches[0].clientX : e.clientX;
+        let diff = x - startX;
+
+        // Smooth resistance
+        currentTranslate = offset + diff * 0.6;
+        track.style.transform = `translateX(${currentTranslate}px)`;
+    }
+
+    track.addEventListener("mouseup", endDrag);
+    track.addEventListener("mouseleave", endDrag);
+    track.addEventListener("touchend", endDrag);
+
+    function endDrag(e) {
+        if (!isDragging) return;
+        isDragging = false;
+
+        let endX = e.changedTouches ? e.changedTouches[0].clientX : e.clientX;
+        let diff = endX - startX;
+
+        if (diff < -50) nextBtn.click();       // swipe left
+        else if (diff > 50) prevBtn.click();   // swipe right
+        else moveCarousel();                   // snap back
+
+        startAutoplay();
+    }
+
+    // Lazy Loading
+    const lazyImages = track.querySelectorAll("img[data-src]");
+    const lazyObserver = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                img.src = img.dataset.src;
+                img.removeAttribute("data-src");
+                lazyObserver.unobserve(img);
+            }
+        });
+    });
+
+    lazyImages.forEach(img => lazyObserver.observe(img));
+}
+
+// ---- Initialise Carousels ----
+createCarousel({
+    trackId: "dmCarouselSliderBG",
+    nextBtnId: "dmNextBtnBG",
+    prevBtnId: "dmPrevBtnBG",
+    autoplay: 3500,
+    speed: 450
+});
+
+createCarousel({
+    trackId: "dmCarouselSliderCS",
+    nextBtnId: "dmNextBtnCS",
+    prevBtnId: "dmPrevBtnCS",
+    autoplay: 4000,
+    speed: 450
+});
+
+
 // ----------------------
 // TAB SWITCHING FIX
 // ----------------------
@@ -3594,50 +3755,16 @@ document.querySelectorAll('.dm-tab-nav-btn').forEach(btn => {
     btn.addEventListener('click', () => {
         const tab = btn.getAttribute('data-dm-tab');
 
-        // Remove active from buttons
         document.querySelectorAll('.dm-tab-nav-btn').forEach(b => b.classList.remove('dm-active'));
         btn.classList.add('dm-active');
 
-        // Remove active from panels
         document.querySelectorAll('.dm-tab-panel').forEach(p => p.classList.remove('dm-active'));
 
-        // Add active only to selected panel
         document.getElementById(`dm-${tab}`).classList.add('dm-active');
     });
 });
-
-// ----------------------
-// BLOG SLIDER FIX
-// ----------------------
-const blogTrack = document.getElementById('dmCarouselSliderBG');
-let blogOffset = 0;
-
-document.getElementById('dmNextBtnBG').addEventListener('click', () => {
-    blogOffset -= 320; // card width
-    blogTrack.style.transform = `translateX(${blogOffset}px)`;
-});
-
-document.getElementById('dmPrevBtnBG').addEventListener('click', () => {
-    blogOffset += 320;
-    blogTrack.style.transform = `translateX(${blogOffset}px)`;
-});
-
-// ----------------------
-// CASE STUDY SLIDER FIX
-// ----------------------
-const csTrack = document.getElementById('dmCarouselSliderCS');
-let csOffset = 0;
-
-document.getElementById('dmNextBtnCS').addEventListener('click', () => {
-    csOffset -= 320;
-    csTrack.style.transform = `translateX(${csOffset}px)`;
-});
-
-document.getElementById('dmPrevBtnCS').addEventListener('click', () => {
-    csOffset += 320;
-    csTrack.style.transform = `translateX(${csOffset}px)`;
-});
 </script>
+
 
 
 <!--<script src="js/portfolio-n.js"></script>-->

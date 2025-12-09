@@ -257,6 +257,56 @@
       </div>
    </div>
 </section>
+
+<!-- why us section -->
+<section class="features-section">
+   <div class="container">
+      <h2 class="benefits-title">Why Choose iMAC Design and Engineering ?</h2>
+      <div class="features-container">
+         <div class="feature-box">
+            <div class="feature-front">
+               <img src="./assets/Orange Icons/Reverse Engineering Services/Engineering Expertise.svg" alt="Engineering Expertise" />
+               <h3>Engineering <br class="m-hidden">Expertise</h3>
+            </div>
+            <div class="feature-back">
+               <p>Our skilled engineers bring decades of experience in 3D scanning, CAD modeling, and PCB reverse engineering, using advanced metrology tools for an excellent sub-micron accuracy.</p>
+            </div>
+         </div>
+         <div class="feature-box">
+            <div class="feature-front">
+               <img src="./assets/Orange Icons/Reverse Engineering Services/Project Ownership.svg" alt="Project Ownership" />
+               <h3>Project <br class="m-hidden">Ownership</h3>
+            </div>
+            <div class="feature-back">
+               <p>From disassembly and 3D scanning to CAD modeling and prototyping, the entire process is handled in-house for better control, quality, and communication throughout the process.
+</p>
+            </div>
+         </div>
+         <div class="feature-box">
+            <div class="feature-front">
+               <img src="./assets/Orange Icons/Reverse Engineering Services/Cost-Efficient Solutions.svg" alt="Cost-Efficient Solutions" />
+               <h3>Cost-Efficient <br class="m-hidden"> Solutions </h3>
+            </div>
+            <div class="feature-back">
+               <p>Our process minimizes unnecessary R&D trials by enhancing existing designs, helping clients save significantly on tooling, redesign efforts, and future manufacturing expenses.
+</p>
+            </div>
+         </div>
+         <div class="feature-box">
+            <div class="feature-front">
+               <img src="./assets/Orange Icons/Reverse Engineering Services/Legacy Component Restoration.svg" alt="Legacy Component Restoration" />
+               <h3>Legacy Component Restoration</h3>
+            </div>
+            <div class="feature-back">
+               <p>We recreate obsolete parts without original drawings - ideal for industries like aerospace, automotive, and heavy machinery that depend on legacy system compatibility and restoration.
+</p>
+            </div>
+         </div>
+
+      </div>
+   </div>
+</section>
+
 <!-- Benefits Section -->
 <section class="benefits-section">
    <div class="benefits-background">
@@ -307,54 +357,7 @@
       </div>
    </div>
 </section>
-<!-- why us section -->
-<section class="features-section">
-   <div class="container">
-      <h2 class="benefits-title">Why Choose iMAC Design and Engineering ?</h2>
-      <div class="features-container">
-         <div class="feature-box">
-            <div class="feature-front">
-               <img src="./assets/Orange Icons/Reverse Engineering Services/Engineering Expertise.svg" alt="Engineering Expertise" />
-               <h3>Engineering <br class="m-hidden">Expertise</h3>
-            </div>
-            <div class="feature-back">
-               <p>Our skilled engineers bring decades of experience in 3D scanning, CAD modeling, and PCB reverse engineering, using advanced metrology tools for an excellent sub-micron accuracy.</p>
-            </div>
-         </div>
-         <div class="feature-box">
-            <div class="feature-front">
-               <img src="./assets/Orange Icons/Reverse Engineering Services/Project Ownership.svg" alt="Project Ownership" />
-               <h3>Project <br class="m-hidden">Ownership</h3>
-            </div>
-            <div class="feature-back">
-               <p>From disassembly and 3D scanning to CAD modeling and prototyping, the entire process is handled in-house for better control, quality, and communication throughout the process.
-</p>
-            </div>
-         </div>
-         <div class="feature-box">
-            <div class="feature-front">
-               <img src="./assets/Orange Icons/Reverse Engineering Services/Cost-Efficient Solutions.svg" alt="Cost-Efficient Solutions" />
-               <h3>Cost-Efficient <br class="m-hidden"> Solutions </h3>
-            </div>
-            <div class="feature-back">
-               <p>Our process minimizes unnecessary R&D trials by enhancing existing designs, helping clients save significantly on tooling, redesign efforts, and future manufacturing expenses.
-</p>
-            </div>
-         </div>
-         <div class="feature-box">
-            <div class="feature-front">
-               <img src="./assets/Orange Icons/Reverse Engineering Services/Legacy Component Restoration.svg" alt="Legacy Component Restoration" />
-               <h3>Legacy Component Restoration</h3>
-            </div>
-            <div class="feature-back">
-               <p>We recreate obsolete parts without original drawings - ideal for industries like aerospace, automotive, and heavy machinery that depend on legacy system compatibility and restoration.
-</p>
-            </div>
-         </div>
 
-      </div>
-   </div>
-</section>
 <main class="main-container-section">
    <!-- Product Development Process Section -->
    <!-- <section class="product-development-section">

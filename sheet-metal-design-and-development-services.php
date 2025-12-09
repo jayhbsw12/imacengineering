@@ -274,6 +274,92 @@
       </div>
    </div>
 </section>
+
+<!-- FAQ Section -->
+<section class="faq-section">
+   <div class="faq-container">
+      <div class="faq-content">
+         <h2 class="faq-title">Frequently Asked<br>Questions Answered</h2>
+         <div class="faq-contact">
+            <!--<span class="faq-contact-text">Have any other questions?</span>-->
+            <!--<a href="https://imacengineering.com/contact-us" class="faq-contact-link">Contact Us</a>-->
+         </div>
+      </div>
+      <div class="faq-accordion">
+         <div class="faq-item active">
+            <div class="faq-question">
+               <span class="faq-question-text">What types of products can be developed using sheet metal design?</span>
+               <div class="faq-icon">
+                  <div class="faq-icon-closed"></div>
+               </div>
+            </div>
+            <div class="faq-answer">
+               <p>Sheet metal design is incredibly versatile and can be used to develop an extensive array of products, including but not limited to electronic enclosures, chassis for machinery, industrial cabinets, automotive components, medical device housings, aerospace parts, HVAC ductwork, commercial kitchen equipment, and consumer product casings.</p>
+            </div>
+         </div>
+         <div class="faq-item">
+            <div class="faq-question">
+               <span class="faq-question-text">What materials are typically used in sheet metal design?</span>
+               <div class="faq-icon">
+                  <div class="faq-icon-open"></div>
+               </div>
+            </div>
+            <div class="faq-answer">
+               <p>Steel, aluminum, brass, copper, tin, nickel, titanium, or precious metals are the materials used in sheet metal design. </p> 
+            </div>
+         </div>
+         <div class="faq-item">
+            <div class="faq-question">
+               <span class="faq-question-text"> Do you support design-for-manufacturing (DFM)?</span>
+               <div class="faq-icon">
+                  <div class="faq-icon-open"></div>
+               </div>
+            </div>
+            <div class="faq-answer">
+               <p>Yes, we strongly support and integrate Design for Manufacturability (DFM) principles throughout our sheet metal design process.</p>
+            </div>
+         </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+               <span class="faq-question-text">What is your typical design process for a sheet metal project?</span>
+               <div class="faq-icon">
+                  <div class="faq-icon-open"></div>
+               </div>
+            </div>
+            <div class="faq-answer">
+                <p>Our typical sheet metal design process begins with understanding client requirements and specifications, followed by conceptual design and material selection. We then proceed to detailed 3D modeling, including flattening and bend calculations, often incorporating DFM reviews. This is followed by prototyping (if required), design validation, and finally, delivery of manufacturing-ready files. </p>
+            </div>
+         </div>
+
+         <div class="faq-item">
+            <div class="faq-question">
+               <span class="faq-question-text">Do you sign NDAs and maintain confidentiality?</span>
+               <div class="faq-icon">
+                  <div class="faq-icon-open"></div>
+               </div>
+            </div>
+            <div class="faq-answer">
+                <p>Yes, we sign Non-Disclosure Agreements (NDAs) and maintain strict confidentiality for all client projects.</p>
+            </div>
+         </div>
+
+         <div class="faq-item">
+            <div class="faq-question">
+               <span class="faq-question-text">Can you design sheet metal enclosures that meet IP ratings?</span>
+               <div class="faq-icon">
+                  <div class="faq-icon-open"></div>
+               </div>
+            </div>
+            <div class="faq-answer">
+                <p>Yes, we specialize in designing sheet metal enclosures that meet specific IP ratings. </p>
+            </div>
+         </div>
+
+      </div>
+   </div>
+</section>
+
 <!-- why us section -->
 <section class="features-section">
    <div class="container">
@@ -428,90 +514,7 @@
       </div>
    </section>
 </main>
-<!-- FAQ Section -->
-<section class="faq-section">
-   <div class="faq-container">
-      <div class="faq-content">
-         <h2 class="faq-title">Frequently Asked<br>Questions Answered</h2>
-         <div class="faq-contact">
-            <!--<span class="faq-contact-text">Have any other questions?</span>-->
-            <!--<a href="https://imacengineering.com/contact-us" class="faq-contact-link">Contact Us</a>-->
-         </div>
-      </div>
-      <div class="faq-accordion">
-         <div class="faq-item active">
-            <div class="faq-question">
-               <span class="faq-question-text">What types of products can be developed using sheet metal design?</span>
-               <div class="faq-icon">
-                  <div class="faq-icon-closed"></div>
-               </div>
-            </div>
-            <div class="faq-answer">
-               <p>Sheet metal design is incredibly versatile and can be used to develop an extensive array of products, including but not limited to electronic enclosures, chassis for machinery, industrial cabinets, automotive components, medical device housings, aerospace parts, HVAC ductwork, commercial kitchen equipment, and consumer product casings.</p>
-            </div>
-         </div>
-         <div class="faq-item">
-            <div class="faq-question">
-               <span class="faq-question-text">What materials are typically used in sheet metal design?</span>
-               <div class="faq-icon">
-                  <div class="faq-icon-open"></div>
-               </div>
-            </div>
-            <div class="faq-answer">
-               <p>Steel, aluminum, brass, copper, tin, nickel, titanium, or precious metals are the materials used in sheet metal design. </p> 
-            </div>
-         </div>
-         <div class="faq-item">
-            <div class="faq-question">
-               <span class="faq-question-text"> Do you support design-for-manufacturing (DFM)?</span>
-               <div class="faq-icon">
-                  <div class="faq-icon-open"></div>
-               </div>
-            </div>
-            <div class="faq-answer">
-               <p>Yes, we strongly support and integrate Design for Manufacturability (DFM) principles throughout our sheet metal design process.</p>
-            </div>
-         </div>
 
-        <div class="faq-item">
-            <div class="faq-question">
-               <span class="faq-question-text">What is your typical design process for a sheet metal project?</span>
-               <div class="faq-icon">
-                  <div class="faq-icon-open"></div>
-               </div>
-            </div>
-            <div class="faq-answer">
-                <p>Our typical sheet metal design process begins with understanding client requirements and specifications, followed by conceptual design and material selection. We then proceed to detailed 3D modeling, including flattening and bend calculations, often incorporating DFM reviews. This is followed by prototyping (if required), design validation, and finally, delivery of manufacturing-ready files. </p>
-            </div>
-         </div>
-
-         <div class="faq-item">
-            <div class="faq-question">
-               <span class="faq-question-text">Do you sign NDAs and maintain confidentiality?</span>
-               <div class="faq-icon">
-                  <div class="faq-icon-open"></div>
-               </div>
-            </div>
-            <div class="faq-answer">
-                <p>Yes, we sign Non-Disclosure Agreements (NDAs) and maintain strict confidentiality for all client projects.</p>
-            </div>
-         </div>
-
-         <div class="faq-item">
-            <div class="faq-question">
-               <span class="faq-question-text">Can you design sheet metal enclosures that meet IP ratings?</span>
-               <div class="faq-icon">
-                  <div class="faq-icon-open"></div>
-               </div>
-            </div>
-            <div class="faq-answer">
-                <p>Yes, we specialize in designing sheet metal enclosures that meet specific IP ratings. </p>
-            </div>
-         </div>
-
-      </div>
-   </div>
-</section>
 <!-- contact section end -->
 <script>
    document.addEventListener('DOMContentLoaded', function() {

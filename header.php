@@ -569,7 +569,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                         <li><a href="https://imacengineering.com/plastic-injection-molding-services"><img
                                  src="assets/icons/mega-menu/plastic injection moulding.svg?v=<?= ASSET_VERSION ?>"
                                  alt="" loading="lazy" decoding="async"> <span>Plastic
-                                 Injection Modeling</span></a></li>
+                                 Injection Molding</span></a></li>
                         <li><a href="https://imacengineering.com/kiosk-design-and-development-services"><img
                                  src="assets/icons/mega-menu/Kiosk-design-&-development-service icon.svg?v=<?= ASSET_VERSION ?>"
                                  alt="Kiosk Design & Development" loading="lazy" decoding="async"> <span>Kiosk Design &
@@ -730,7 +730,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                               <a href="https://imacengineering.com/plastic-injection-molding-services">
                                  <img src="assets/icons/mega-menu/plastic injection moulding.svg?v=<?= ASSET_VERSION ?>"
                                     alt="" loading="lazy" decoding="async"> <span> Plastic
-                                    Injection Modeling </span>
+                                    Injection Molding </span>
                               </a>
                            </li>
                            <li>

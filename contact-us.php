@@ -157,7 +157,7 @@
                   <option value="Sheet Metal Design">Sheet Metal Design</option>
                   <option value="3D Printing">3D Printing</option>
                   <option value="Contract Manufacturing">Contract Manufacturing</option>
-                  <option value="Plastic Injection Modeling">Plastic Injection Modeling</option>
+                  <option value="Plastic Injection Molding">Plastic Injection Molding</option>
                   <option value="Innovation &amp; IP Strategy">Innovation &amp; IP Strategy</option>
                   <option value="Medical Product Design">Medical Product Design</option>
                   <option value="On Demand Manufacturing">On Demand Manufacturing</option>

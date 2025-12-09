@@ -230,7 +230,7 @@
 <!-- why us section -->
 <section class="features-section">
    <div class="container">
-      <h2 class="benefits-title">Outsource CAD Drafting <br class="m-hidden"> Services to iDES, Why?</h2>
+      <h2 class="benefits-title">Why Choose Us</h2>
       <div class="features-container">
          <div class="feature-box">
             <div class="feature-front">

@@ -3587,57 +3587,113 @@
 </script>
 
 <script>
-// ----------------------
-// TAB SWITCHING FIX
-// ----------------------
-document.querySelectorAll('.dm-tab-nav-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-        const tab = btn.getAttribute('data-dm-tab');
+document.addEventListener("DOMContentLoaded", () => {
 
-        // Remove active from buttons
-        document.querySelectorAll('.dm-tab-nav-btn').forEach(b => b.classList.remove('dm-active'));
-        btn.classList.add('dm-active');
+    // ----------------------
+    // TAB SWITCHING
+    // ----------------------
+    document.querySelectorAll(".dm-tab-nav-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+            const tab = btn.getAttribute("data-dm-tab");
 
-        // Remove active from panels
-        document.querySelectorAll('.dm-tab-panel').forEach(p => p.classList.remove('dm-active'));
+            document.querySelectorAll(".dm-tab-nav-btn").forEach(b => b.classList.remove("dm-active"));
+            btn.classList.add("dm-active");
 
-        // Add active only to selected panel
-        document.getElementById(`dm-${tab}`).classList.add('dm-active');
+            document.querySelectorAll(".dm-tab-panel").forEach(p => p.classList.remove("dm-active"));
+            document.getElementById(`dm-${tab}`).classList.add("dm-active");
+        });
     });
-});
 
-// ----------------------
-// BLOG SLIDER FIX
-// ----------------------
-const blogTrack = document.getElementById('dmCarouselSliderBG');
-let blogOffset = 0;
+    // ----------------------
+    // UNIVERSAL CAROUSEL
+    // (scroll-based → safest)
+    // ----------------------
+    function initCarousel(trackId, nextId, prevId) {
+        const track = document.getElementById(trackId);
+        const nextBtn = document.getElementById(nextId);
+        const prevBtn = document.getElementById(prevId);
 
-document.getElementById('dmNextBtnBG').addEventListener('click', () => {
-    blogOffset -= 320; // card width
-    blogTrack.style.transform = `translateX(${blogOffset}px)`;
-});
+        if (!track || !nextBtn || !prevBtn) return;
 
-document.getElementById('dmPrevBtnBG').addEventListener('click', () => {
-    blogOffset += 320;
-    blogTrack.style.transform = `translateX(${blogOffset}px)`;
-});
+        // CARD WIDTH
+        const card = track.querySelector(".dm-insight-card");
+        const cardWidth = card ? card.offsetWidth + 24 : 300; // fallback
 
-// ----------------------
-// CASE STUDY SLIDER FIX
-// ----------------------
-const csTrack = document.getElementById('dmCarouselSliderCS');
-let csOffset = 0;
+        // ------------------
+        // Arrow Navigation
+        // ------------------
+        nextBtn.addEventListener("click", () => {
+            track.scrollBy({ left: cardWidth, behavior: "smooth" });
 
-document.getElementById('dmNextBtnCS').addEventListener('click', () => {
-    csOffset -= 320;
-    csTrack.style.transform = `translateX(${csOffset}px)`;
-});
+            // infinite loop
+            setTimeout(() => {
+                if (track.scrollLeft + track.clientWidth >= track.scrollWidth - 5) {
+                    track.scrollTo({ left: 0 });
+                }
+            }, 350);
+        });
 
-document.getElementById('dmPrevBtnCS').addEventListener('click', () => {
-    csOffset += 320;
-    csTrack.style.transform = `translateX(${csOffset}px)`;
+        prevBtn.addEventListener("click", () => {
+            track.scrollBy({ left: -cardWidth, behavior: "smooth" });
+
+            // infinite loop
+            setTimeout(() => {
+                if (track.scrollLeft <= 0) {
+                    track.scrollTo({ left: track.scrollWidth });
+                }
+            }, 350);
+        });
+
+        // ------------------
+        // Drag Support
+        // ------------------
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+
+        track.addEventListener("mousedown", (e) => {
+            isDown = true;
+            startX = e.pageX - track.offsetLeft;
+            scrollLeft = track.scrollLeft;
+        });
+
+        track.addEventListener("mouseleave", () => isDown = false);
+        track.addEventListener("mouseup", () => isDown = false);
+
+        track.addEventListener("mousemove", (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - track.offsetLeft;
+            const walk = (x - startX) * 1.2;
+            track.scrollLeft = scrollLeft - walk;
+        });
+
+        // Touch
+        track.addEventListener("touchstart", (e) => {
+            isDown = true;
+            startX = e.touches[0].clientX;
+            scrollLeft = track.scrollLeft;
+        }, { passive: true });
+
+        track.addEventListener("touchmove", (e) => {
+            if (!isDown) return;
+            const x = e.touches[0].clientX;
+            const walk = (x - startX) * 1.2;
+            track.scrollLeft = scrollLeft - walk;
+        }, { passive: true });
+
+        track.addEventListener("touchend", () => isDown = false);
+    }
+
+    // ----------------------
+    // INIT BOTH SLIDERS
+    // ----------------------
+    initCarousel("dmCarouselSliderBG", "dmNextBtnBG", "dmPrevBtnBG");
+    initCarousel("dmCarouselSliderCS", "dmNextBtnCS", "dmPrevBtnCS");
+
 });
 </script>
+
 
 
 <!--<script src="js/portfolio-n.js"></script>-->

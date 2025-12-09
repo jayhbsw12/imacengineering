@@ -3586,5 +3586,59 @@
    })();
 </script>
 
+<script>
+// ----------------------
+// TAB SWITCHING FIX
+// ----------------------
+document.querySelectorAll('.dm-tab-nav-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        const tab = btn.getAttribute('data-dm-tab');
+
+        // Remove active from buttons
+        document.querySelectorAll('.dm-tab-nav-btn').forEach(b => b.classList.remove('dm-active'));
+        btn.classList.add('dm-active');
+
+        // Remove active from panels
+        document.querySelectorAll('.dm-tab-panel').forEach(p => p.classList.remove('dm-active'));
+
+        // Add active only to selected panel
+        document.getElementById(`dm-${tab}`).classList.add('dm-active');
+    });
+});
+
+// ----------------------
+// BLOG SLIDER FIX
+// ----------------------
+const blogTrack = document.getElementById('dmCarouselSliderBG');
+let blogOffset = 0;
+
+document.getElementById('dmNextBtnBG').addEventListener('click', () => {
+    blogOffset -= 320; // card width
+    blogTrack.style.transform = `translateX(${blogOffset}px)`;
+});
+
+document.getElementById('dmPrevBtnBG').addEventListener('click', () => {
+    blogOffset += 320;
+    blogTrack.style.transform = `translateX(${blogOffset}px)`;
+});
+
+// ----------------------
+// CASE STUDY SLIDER FIX
+// ----------------------
+const csTrack = document.getElementById('dmCarouselSliderCS');
+let csOffset = 0;
+
+document.getElementById('dmNextBtnCS').addEventListener('click', () => {
+    csOffset -= 320;
+    csTrack.style.transform = `translateX(${csOffset}px)`;
+});
+
+document.getElementById('dmPrevBtnCS').addEventListener('click', () => {
+    csOffset += 320;
+    csTrack.style.transform = `translateX(${csOffset}px)`;
+});
+</script>
+
+
 <!--<script src="js/portfolio-n.js"></script>-->
 <?php include("footer.php"); ?>

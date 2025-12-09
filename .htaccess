@@ -143,6 +143,11 @@ RewriteCond %{HTTPS} !=on
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
+# --- Force HTTPS + non-www ---
+RewriteCond %{HTTPS} !=on [OR]
+RewriteCond %{HTTP_HOST} ^www\.imacengineering\.com$ [NC]
+RewriteRule ^ https://imacengineering.com%{REQUEST_URI} [R=301,L]
+
 # --- 5.2 Canonicalise: remove trailing slash on non-root ---
 # Skip real files/dirs first
 RewriteCond %{REQUEST_FILENAME} !-d

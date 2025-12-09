@@ -142,7 +142,7 @@
 </section>
 <?php include("featured-on.php"); ?>
 <section class="about-service-hero-section">
-   <h2 class="main-title">Mechanical CAD Drafting <br class="m-hidden"> Outsourcing Support</h2>
+   <h2 class="main-title">Mechanical CAD Drafting Outsourcing Support</h2>
    <div class="about-container">
       <div class="left-section">
          <img src="assets/image/main-services/CAD-Outsourcing-Services.webp" alt="CAD Drafting" />

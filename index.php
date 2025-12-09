@@ -2974,6 +2974,9 @@
             });
 
             blogSlider.appendChild(clone);
+            if (i === blogs.slice(0, MAX_BLOGS).length - 1) {
+               initBlogSlider();
+            }
          });
       })
       .catch(err => console.error('Blog fetch error:', err));
@@ -3666,39 +3669,46 @@ document.querySelectorAll('.dm-tab-nav-btn').forEach(btn => {
 
 
 /* ============================================================
-   BLOG SLIDER — Circular Jump (not infinite)
+   BLOG SLIDER — Initialise AFTER Blog Fetch
 ============================================================ */
-const blogTrack = document.getElementById('dmCarouselSliderBG');
-const blogCards = blogTrack.querySelectorAll('.dm-insight-card');
-const blogCardWidth = 320;
 
-let blogIndex = 0;
-const blogLastIndex = blogCards.length - 1;
+function initBlogSlider() {
+    const blogTrack = document.getElementById('dmCarouselSliderBG');
+    const blogCards = blogTrack.querySelectorAll('.dm-insight-card');
 
-function updateBlogSlider() {
-    blogTrack.style.transition = '0.35s ease';
-    blogTrack.style.transform = `translateX(${-blogIndex * blogCardWidth}px)`;
+    if (blogCards.length === 0) return; // avoid errors if no cards
+
+    const blogCardWidth = 320;
+
+    let blogIndex = 0;
+    const blogLastIndex = blogCards.length - 1;
+
+    function updateBlogSlider() {
+        blogTrack.style.transition = '0.35s ease';
+        blogTrack.style.transform = `translateX(${-blogIndex * blogCardWidth}px)`;
+    }
+
+    document.getElementById('dmNextBtnBG').addEventListener('click', () => {
+        blogIndex++;
+
+        if (blogIndex > blogLastIndex) {
+            blogIndex = 0;
+        }
+
+        updateBlogSlider();
+    });
+
+    document.getElementById('dmPrevBtnBG').addEventListener('click', () => {
+        blogIndex--;
+
+        if (blogIndex < 0) {
+            blogIndex = blogLastIndex;
+        }
+
+        updateBlogSlider();
+    });
 }
 
-document.getElementById('dmNextBtnBG').addEventListener('click', () => {
-    blogIndex++;
-
-    if (blogIndex > blogLastIndex) {
-        blogIndex = 0; // jump to first smoothly
-    }
-
-    updateBlogSlider();
-});
-
-document.getElementById('dmPrevBtnBG').addEventListener('click', () => {
-    blogIndex--;
-
-    if (blogIndex < 0) {
-        blogIndex = blogLastIndex; // jump to last smoothly
-    }
-
-    updateBlogSlider();
-});
 
 
 /* ============================================================

@@ -247,6 +247,100 @@
       </div>
    </div>
 </section>
+
+<!-- FAQ Section -->
+<section class="faq-section">
+   <div class="faq-container">
+      <div class="faq-content">
+         <h2 class="faq-title">Frequently Asked<br>Questions Answered</h2>
+         <div class="faq-contact">
+            <!--<span class="faq-contact-text">Have any other questions?</span>-->
+            <!--<a href="https://imacengineering.com/contact-us" class="faq-contact-link">Contact Us</a>-->
+         </div>
+      </div>
+      <div class="faq-accordion">
+         <div class="faq-item active">
+            <div class="faq-question">
+               <span class="faq-question-text">What is on-demand manufacturing? </span>
+               <div class="faq-icon">
+                  <div class="faq-icon-closed"></div>
+               </div>
+            </div>
+            <div class="faq-answer">
+               <p>On-demand manufacturing is a production approach where goods are manufactured only when an order is received, 
+                rather than in anticipation of future sales. This approach utilizes technologies like 3D printing and CNC machining
+                 to produce items in exact quantities needed, from single prototypes to low-volume production runs.</p>
+            </div>
+         </div>
+         <div class="faq-item">
+            <div class="faq-question">
+               <span class="faq-question-text">How does on-demand manufacturing work?</span>
+               <div class="faq-icon">
+                  <div class="faq-icon-open"></div>
+               </div>
+            </div>
+            <div class="faq-answer">
+               <p>On-demand manufacturing typically begins with a digital design file (CAD model) provided by the customer. 
+                This file is then used by advanced manufacturing, such as 3D printers or CNC machines, to produce the physical
+                 part or product. The process is highly automated, allowing for quick setup and production once an order is placed,
+                  eliminating the need for large inventories.</p> 
+            </div>
+         </div>
+         <div class="faq-item">
+            <div class="faq-question">
+               <span class="faq-question-text">How does on-demand manufacturing differ from traditional manufacturing?</span>
+               <div class="faq-icon">
+                  <div class="faq-icon-open"></div>
+               </div>
+            </div>
+            <div class="faq-answer">
+               <p> The core difference lies in the production process: on-demand manufacturing produces after an order,
+                 while traditional manufacturing produces before an order (in anticipation of demand).</p>
+            </div>
+         </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+               <span class="faq-question-text">What are the advantages of on-demand manufacturing over traditional manufacturing?</span>
+               <div class="faq-icon">
+                  <div class="faq-icon-open"></div>
+               </div>
+            </div>
+            <div class="faq-answer">
+                <p> On-demand manufacturing offers several key advantages, such as reduced waste & inventory that
+                     eliminates overproduction and the need for large stockroom, lower upfront costs that minimize
+                      investment in tooling and large production runs, faster time-to-market that pushes prototyping 
+                      and production, especially for new products, increased flexibility & customization,n which allows
+                       for easy design iterations and personalized products and minimizes risk that reduces the financial 
+                       risk associated with unsold inventory.</p>
+            </div>
+         </div>
+
+         <div class="faq-item">
+            <div class="faq-question">
+               <span class="faq-question-text">What are the drawbacks of traditional manufacturing?</span>
+               <div class="faq-icon">
+                  <div class="faq-icon-open"></div>
+               </div>
+            </div>
+            <div class="faq-answer">
+                <p><b>Traditional manufacturing, while efficient for high-volume standardized products, presents several drawbacks:</b></p>
+                 <p class="test"><i class="fa fa-check bn-icon" aria-hidden="true">
+               </i> High upfront costs</p>
+                <p class="test"><i class="fa fa-check bn-icon" aria-hidden="true">
+               </i> Inventory risk & waste </p>
+               <p class="test"><i class="fa fa-check bn-icon" aria-hidden="true">
+               </i> Long lead times </p>
+               <p class="test"><i class="fa fa-check bn-icon" aria-hidden="true">
+               </i> Lack of flexibility </p>
+                <p class="test"><i class="fa fa-check bn-icon" aria-hidden="true">
+               </i> Environmental impact </p>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
 <!-- Benefits Section -->
 <section class="benefits-section">
    <div class="benefits-background">
@@ -465,98 +559,7 @@
       </div>
    </section>
 </main>
-<!-- FAQ Section -->
-<section class="faq-section">
-   <div class="faq-container">
-      <div class="faq-content">
-         <h2 class="faq-title">Frequently Asked<br>Questions Answered</h2>
-         <div class="faq-contact">
-            <!--<span class="faq-contact-text">Have any other questions?</span>-->
-            <!--<a href="https://imacengineering.com/contact-us" class="faq-contact-link">Contact Us</a>-->
-         </div>
-      </div>
-      <div class="faq-accordion">
-         <div class="faq-item active">
-            <div class="faq-question">
-               <span class="faq-question-text">What is on-demand manufacturing? </span>
-               <div class="faq-icon">
-                  <div class="faq-icon-closed"></div>
-               </div>
-            </div>
-            <div class="faq-answer">
-               <p>On-demand manufacturing is a production approach where goods are manufactured only when an order is received, 
-                rather than in anticipation of future sales. This approach utilizes technologies like 3D printing and CNC machining
-                 to produce items in exact quantities needed, from single prototypes to low-volume production runs.</p>
-            </div>
-         </div>
-         <div class="faq-item">
-            <div class="faq-question">
-               <span class="faq-question-text">How does on-demand manufacturing work?</span>
-               <div class="faq-icon">
-                  <div class="faq-icon-open"></div>
-               </div>
-            </div>
-            <div class="faq-answer">
-               <p>On-demand manufacturing typically begins with a digital design file (CAD model) provided by the customer. 
-                This file is then used by advanced manufacturing, such as 3D printers or CNC machines, to produce the physical
-                 part or product. The process is highly automated, allowing for quick setup and production once an order is placed,
-                  eliminating the need for large inventories.</p> 
-            </div>
-         </div>
-         <div class="faq-item">
-            <div class="faq-question">
-               <span class="faq-question-text">How does on-demand manufacturing differ from traditional manufacturing?</span>
-               <div class="faq-icon">
-                  <div class="faq-icon-open"></div>
-               </div>
-            </div>
-            <div class="faq-answer">
-               <p> The core difference lies in the production process: on-demand manufacturing produces after an order,
-                 while traditional manufacturing produces before an order (in anticipation of demand).</p>
-            </div>
-         </div>
 
-        <div class="faq-item">
-            <div class="faq-question">
-               <span class="faq-question-text">What are the advantages of on-demand manufacturing over traditional manufacturing?</span>
-               <div class="faq-icon">
-                  <div class="faq-icon-open"></div>
-               </div>
-            </div>
-            <div class="faq-answer">
-                <p> On-demand manufacturing offers several key advantages, such as reduced waste & inventory that
-                     eliminates overproduction and the need for large stockroom, lower upfront costs that minimize
-                      investment in tooling and large production runs, faster time-to-market that pushes prototyping 
-                      and production, especially for new products, increased flexibility & customization,n which allows
-                       for easy design iterations and personalized products and minimizes risk that reduces the financial 
-                       risk associated with unsold inventory.</p>
-            </div>
-         </div>
-
-         <div class="faq-item">
-            <div class="faq-question">
-               <span class="faq-question-text">What are the drawbacks of traditional manufacturing?</span>
-               <div class="faq-icon">
-                  <div class="faq-icon-open"></div>
-               </div>
-            </div>
-            <div class="faq-answer">
-                <p><b>Traditional manufacturing, while efficient for high-volume standardized products, presents several drawbacks:</b></p>
-                 <p class="test"><i class="fa fa-check bn-icon" aria-hidden="true">
-               </i> High upfront costs</p>
-                <p class="test"><i class="fa fa-check bn-icon" aria-hidden="true">
-               </i> Inventory risk & waste </p>
-               <p class="test"><i class="fa fa-check bn-icon" aria-hidden="true">
-               </i> Long lead times </p>
-               <p class="test"><i class="fa fa-check bn-icon" aria-hidden="true">
-               </i> Lack of flexibility </p>
-                <p class="test"><i class="fa fa-check bn-icon" aria-hidden="true">
-               </i> Environmental impact </p>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
 <!-- contact section end -->
 <script>
    document.addEventListener('DOMContentLoaded', function() {

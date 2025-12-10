@@ -449,7 +449,7 @@
 <!-- why us section -->
 <section class="features-section">
    <div class="container">
-      <h2 class="benefits-title">What Makes Our Product Design Services Different?</h2>
+      <h2 class="benefits-title">What Makes Our Product Design <br class="m-hidden">Services Different?</h2>
       <div class="features-container">
          <div class="feature-box">
             <div class="feature-front">

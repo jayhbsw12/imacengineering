@@ -72,6 +72,96 @@
   @media (prefers-reduced-motion: reduce) {
     html.pgfade-init body { opacity: 1; }
   }
+  /* Carousel container */
+   .services-carousel-container {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+   }
+
+   /* The carousel that holds the cards */
+   .services-carousel {
+      display: flex;
+      transition: transform 0.3s ease;
+   }
+
+   /* Service card styles */
+   .service-card-drafting {
+      width: 370px;
+      margin-right: 20px;
+      /* Space between the cards */
+      flex-shrink: 0;
+      /* Prevent cards from shrinking */
+      text-align: center;
+   }
+
+   /* Carousel controls */
+   .carousel-prev,
+   .carousel-next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #fff;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 18px;
+   }
+
+   .carousel-prev {
+      left: 10px;
+   }
+
+   .carousel-next {
+      right: 10px;
+   }
+
+   .dm-next-ctrl,
+   .dm-prev-ctrl {
+      right: 0 !important;
+      transform: translateY(0%) !important;
+   }
+
+   .dm-prev-ctrl {
+      left: 0 !important;
+   }
+
+   .dm-next-ctrl {
+      /* display: block !important; */
+   }
+
+   .service-description,
+   .service-title-drafting {
+      text-align: left;
+   }
+
+   .dm-carousel-ctrl {
+      position: static !important;
+   }
+
+   .buttons-swipe-holder {
+      display: flex;
+      justify-content: end;
+      padding: 10px;
+      gap: 20px
+   }
+
+   .dm-carousel-ctrl {
+      width: 3.5rem !important;
+      height: 3.5rem !important;
+   }
+
+   .service-title-drafting {
+      height: auto !important;
+   }
+
+   .service-card-drafting:last-child {
+      display: none;
+   }
+
+   .dm-carousel-ctrl {
+      display: block !important;
+   }
 </style>
 <script>
   // Reveal as soon as DOM is ready
@@ -160,7 +250,7 @@
    </div>
 </section>
 <!-- Services Section -->
-<section class="imac-services-section">
+<!-- <section class="imac-services-section">
    <div class="imac-services-container">
       <h2 class="imac-services-title">Our End-to-End Product Integration Services</h2>
       <div class="services-grid">
@@ -170,7 +260,7 @@
             <div class="divider divider-middle"></div>
             <div class="divider divider-section-2"></div>
             <div class="divider divider-right"></div>
-            </div> -->
+            </div>
          <article class="service-card-drafting main-service">
             <div class="service-icon service-icon-1"><img src="./assets/Integration Services/Electro-Mechanical-Assembly.svg" alt=""></div>
             <h3 class="service-title-drafting">Electro-Mechanical Assembly</h3>
@@ -218,7 +308,87 @@
 
       </div>
    </div>
+</section> -->
+
+<section class="imac-services-section">
+   <div class="imac-services-container">
+      <h2 class="imac-services-title">Our End-to-End Product Integration Services</h2>
+      <div class="services-carousel-container">
+         <div class="services-carousel">
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-1">
+                  <img src="./assets/Integration Services/Electro-Mechanical-Assembly.svg" alt="Electro-Mechanical Assembly">
+               </div>
+               <h3 class="service-title-drafting">Electro-Mechanical Assembly</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">We combine electrical components and mechanical parts into unified systems. Motors meet gears, switches align with actuators - all tested for perfect interaction. iDES ensures your hybrid systems operate smoothly, be it industrial automation, medical devices, or advanced robotics applications.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-2">
+                  <img src="./assets/Integration Services/Precision-Assembly.svg" alt="Precision Assembly">
+               </div>
+               <h3 class="service-title-drafting">Precision Assembly</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">We deliver micron-level accuracy. iDES handles delicate components, exacting tolerances, and critical alignments for industries like aerospace and medical tech. Our controlled processes and skilled technicians guarantee parts fit perfectly every time, eliminating performance issues.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-3">
+                  <img src="./assets/Integration Services/Box-Build-Assembly.svg" alt="Box Build Assembly">
+               </div>
+               <h3 class="service-title-drafting">Box Build Assembly</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">With box build assembly, you can expect complete enclosure assemblies - done right. We install components, wiring, and plumbing into racks, cabinets, or cases with proper spacing and ventilation. Our team at iDES tests each unit before shipment, ensuring your control systems or electronic enclosures arrive ready for immediate use.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-4">
+                  <img src="./assets/Integration Services/Sub-Assembly.svg" alt="Sub-Assembly">
+               </div>
+               <h3 class="service-title-drafting">Sub-Assembly</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">We build the building blocks. iDES assembles modules like gear clusters, control panels, or sensor arrays that later integrate into larger systems. This staged approach catches issues early and simplifies final production, saving you time and reducing costly errors.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-2">
+                  <img src="./assets/Integration Services/Electrical&Electronic-Assembly.svg" alt="Electrical & Electronic Assembly">
+               </div>
+               <h3 class="service-title-drafting">Electrical & Electronic Assembly</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">From circuit boards to complete devices, we handle sensitive components with care. Our team of experts solders, tests, and validates each unit, ensuring your electronics function reliably. No matter whether there are prototypes or production runs, we deliver what you have expected with the exact specifications.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-3">
+                  <img src="./assets/Integration Services/Mechanical-Assembly.svg" alt="Mechanical Assembly">
+               </div>
+               <h3 class="service-title-drafting">Mechanical Assembly</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Bolts, bearings, and components - assembled with purpose. iMDES puts together physical parts for machinery, tools, and equipment. We follow strict specifications and alignment procedures so your mechanical products operate smoothly and safely.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-4">
+                  <img src="./assets/Integration Services/Custom-Assembly.svg" alt="Custom Assembly">
+               </div>
+               <h3 class="service-title-drafting">Custom Assembly</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Your design, our execution. iDES adapts to unique requirements, whether special materials, unusual configurations, or low-volume prototypes. We problem-solve alongside you to turn concepts into functional, manufacturable products.</p>
+            </div>
+         </div>
+         <!-- Carousel Controls -->
+         <div class="buttons-swipe-holder">
+            <button class="carousel-prev dm-carousel-ctrl dm-prev-ctrl">
+               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m15 18-6-6 6-6" />
+               </svg>
+            </button>
+            <button class="carousel-next dm-carousel-ctrl dm-next-ctrl">
+               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m9 18 6-6-6-6" />
+               </svg>
+            </button>
+         </div>
+      </div>
+   </div>
 </section>
+
 <!-- Benefits Section -->
 <section class="benefits-section">
    <div class="benefits-background">
@@ -449,6 +619,61 @@
    </div>
 </section>
 <!-- contact section end -->
+
+   <script>
+      document.addEventListener('DOMContentLoaded', function () {
+         const prevButton = document.querySelector('.carousel-prev');
+         const nextButton = document.querySelector('.carousel-next');
+         const carousel = document.querySelector('.services-carousel');
+         const serviceCards = document.querySelectorAll('.service-card-drafting');
+         const cardWidth = serviceCards[0].offsetWidth + 20; // Width of the card + margin
+
+         let currentIndex = 1; // Start from the first "real" card (skip the clone)
+
+         // Clone the first and last card to create the infinite loop effect
+         const firstCard = serviceCards[0].cloneNode(true);
+         const lastCard = serviceCards[serviceCards.length - 1].cloneNode(true);
+         carousel.appendChild(firstCard);  // Append clone of the first card to the end
+         carousel.insertBefore(lastCard, carousel.firstChild);  // Prepend clone of the last card to the start
+
+         // Adjust the width of the carousel to include the cloned cards
+         const totalWidth = cardWidth * serviceCards.length + 40;  // Adjust for the cloned cards
+
+         // Move the carousel to the left
+         nextButton.addEventListener('click', function () {
+            if (currentIndex < serviceCards.length) {
+               currentIndex++;
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+            } else {
+               // After reaching the last card, reset to the first real card
+               currentIndex = 1;
+               carousel.style.transition = 'none';  // Disable transition for a smooth snap
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+               setTimeout(() => {
+                  carousel.style.transition = 'transform 0.3s ease'; // Re-enable the transition
+               }, 20); // Small delay to ensure the transition is re-enabled
+            }
+         });
+
+         // Move the carousel to the right
+         prevButton.addEventListener('click', function () {
+            if (currentIndex > 1) {
+               currentIndex--;
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+            } else {
+               // After reaching the first card, reset to the last real card
+               currentIndex = serviceCards.length;
+               carousel.style.transition = 'none';  // Disable transition for a smooth snap
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+               setTimeout(() => {
+                  carousel.style.transition = 'transform 0.3s ease'; // Re-enable the transition
+               }, 20); // Small delay to ensure the transition is re-enabled
+            }
+         });
+      });
+
+   </script>
+
 <script>
    document.addEventListener('DOMContentLoaded', function() {
    const slider = document.querySelector('.services-slider');

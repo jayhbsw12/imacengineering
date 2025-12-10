@@ -162,47 +162,7 @@
       </div>
    </div>
 </section>
-<!-- Services Section -->
-<section class="imac-services-section">
-   <div class="imac-services-container">
-      <h2 class="imac-services-title">Customized Plastic Injection Molding Services</h2>
-      <div class="services-grid">
-         <!-- <div class="service-dividers">
-            <div class="divider divider-left"></div>
-            <div class="divider divider-section-1"></div>
-            <div class="divider divider-middle"></div>
-            <div class="divider divider-section-2"></div>
-            <div class="divider divider-right"></div>
-            </div> -->
-         <article class="service-card-drafting main-service">
-            <div class="service-icon service-icon-1"><img src="./assets/Plastic Injection Molding Services/Rapid Tooling.svg" alt="Rapid Tooling"></div>
-            <h3 class="service-title-drafting">Rapid Tooling</h3>
-            <div class="service-divider"></div>
-            <p class="service-description">Our team uses rapid tooling to bridge the gap between prototype and production.
-                 With deep engineering know-how and speed-driven execution, we deliver high-quality molds fast.
-                  This approach enables you to test and validate early, which directly reduces costs, minimizes risks, 
-                  and accelerates market entry.</p>
-         </article>
-         <article class="service-card-drafting">
-            <div class="service-icon service-icon-2"><img src="./assets/Plastic Injection Molding Services/Over-Molding.svg" alt="Over-Molding"></div>
-            <h3 class="service-title-drafting">Over-Molding</h3>
-            <div class="service-divider"></div>
-            <p class="service-description">We specialize in over-molding by combining advanced techniques with a solid understanding 
-                of material behavior. Our engineers layer different materials smoothly, improving grip, comfort, and product life.
-                 From design to finish, we ensure every part meets both function and aesthetic in one clean process.</p>
-         </article>
-         <article class="service-card-drafting">
-            <div class="service-icon service-icon-3"><img src="./assets/Plastic Injection Molding Services/Insert Molding.svg" alt="Insert Molding"></div>
-            <h3 class="service-title-drafting">Insert Molding</h3>
-            <div class="service-divider"></div>
-            <p class="service-description">With years of hands-on experience, our team molds plastic around inserts 
-                like metals or electronics with high precision. Insert molding improves part strength and reduces assembly steps.
-                 We focus on tight tolerances, durability, and performance, making it ideal for complex, high-function industrial applications.</p>
-         </article>
-        
-      </div>
-   </div>
-</section>
+
 <!-- Benefits Section -->
 <section class="benefits-section">
    <div class="benefits-background">
@@ -245,6 +205,49 @@
       </div>
    </div>
 </section>
+
+<!-- Services Section -->
+<section class="imac-services-section">
+   <div class="imac-services-container">
+      <h2 class="imac-services-title">Customized Plastic Injection Molding Services</h2>
+      <div class="services-grid">
+         <!-- <div class="service-dividers">
+            <div class="divider divider-left"></div>
+            <div class="divider divider-section-1"></div>
+            <div class="divider divider-middle"></div>
+            <div class="divider divider-section-2"></div>
+            <div class="divider divider-right"></div>
+            </div> -->
+         <article class="service-card-drafting main-service">
+            <div class="service-icon service-icon-1"><img src="./assets/Plastic Injection Molding Services/Rapid Tooling.svg" alt="Rapid Tooling"></div>
+            <h3 class="service-title-drafting">Rapid Tooling</h3>
+            <div class="service-divider"></div>
+            <p class="service-description">Our team uses rapid tooling to bridge the gap between prototype and production.
+                 With deep engineering know-how and speed-driven execution, we deliver high-quality molds fast.
+                  This approach enables you to test and validate early, which directly reduces costs, minimizes risks, 
+                  and accelerates market entry.</p>
+         </article>
+         <article class="service-card-drafting">
+            <div class="service-icon service-icon-2"><img src="./assets/Plastic Injection Molding Services/Over-Molding.svg" alt="Over-Molding"></div>
+            <h3 class="service-title-drafting">Over-Molding</h3>
+            <div class="service-divider"></div>
+            <p class="service-description">We specialize in over-molding by combining advanced techniques with a solid understanding 
+                of material behavior. Our engineers layer different materials smoothly, improving grip, comfort, and product life.
+                 From design to finish, we ensure every part meets both function and aesthetic in one clean process.</p>
+         </article>
+         <article class="service-card-drafting">
+            <div class="service-icon service-icon-3"><img src="./assets/Plastic Injection Molding Services/Insert Molding.svg" alt="Insert Molding"></div>
+            <h3 class="service-title-drafting">Insert Molding</h3>
+            <div class="service-divider"></div>
+            <p class="service-description">With years of hands-on experience, our team molds plastic around inserts 
+                like metals or electronics with high precision. Insert molding improves part strength and reduces assembly steps.
+                 We focus on tight tolerances, durability, and performance, making it ideal for complex, high-function industrial applications.</p>
+         </article>
+        
+      </div>
+   </div>
+</section>
+
 <!-- why us section -->
 <section class="features-section">
    <div class="container">

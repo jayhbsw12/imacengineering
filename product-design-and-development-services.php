@@ -73,6 +73,115 @@
     html.pgfade-init body { opacity: 1; }
   }
 </style>
+<style>
+   @media (prefers-reduced-motion: no-preference) {
+      html.pgfade-init body {
+         opacity: 0;
+      }
+
+      html.pgfaderdy body {
+         opacity: 1;
+         transition: opacity 220ms ease-out;
+      }
+   }
+
+   @media (prefers-reduced-motion: reduce) {
+      html.pgfade-init body {
+         opacity: 1;
+      }
+   }
+
+
+   /* Carousel container */
+   .services-carousel-container {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+   }
+
+   /* The carousel that holds the cards */
+   .services-carousel {
+      display: flex;
+      transition: transform 0.3s ease;
+   }
+
+   /* Service card styles */
+   .service-card-drafting {
+      width: 370px;
+      margin-right: 20px;
+      /* Space between the cards */
+      flex-shrink: 0;
+      /* Prevent cards from shrinking */
+      text-align: center;
+   }
+
+   /* Carousel controls */
+   .carousel-prev,
+   .carousel-next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #fff;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 18px;
+   }
+
+   .carousel-prev {
+      left: 10px;
+   }
+
+   .carousel-next {
+      right: 10px;
+   }
+
+   .dm-next-ctrl,
+   .dm-prev-ctrl {
+      right: 0 !important;
+      transform: translateY(0%) !important;
+   }
+
+   .dm-prev-ctrl {
+      left: 0 !important;
+   }
+
+   .dm-next-ctrl {
+      /* display: block !important; */
+   }
+
+   .service-description,
+   .service-title-drafting {
+      text-align: left;
+   }
+
+   .dm-carousel-ctrl {
+      position: static !important;
+   }
+
+   .buttons-swipe-holder {
+      display: flex;
+      justify-content: end;
+      padding: 10px;
+      gap: 20px
+   }
+
+   .dm-carousel-ctrl {
+      width: 3.5rem !important;
+      height: 3.5rem !important;
+   }
+
+   .service-title-drafting {
+      height: auto !important;
+   }
+
+   .service-card-drafting:last-child{
+      display: none;
+   }
+   .dm-carousel-ctrl {
+    display: block !important;
+}
+</style>
 <script>
   // Reveal as soon as DOM is ready
   document.addEventListener('DOMContentLoaded', function () {
@@ -160,7 +269,7 @@
    </div>
 </section>
 <!-- Services Section -->
-<section class="imac-services-section">
+<!-- <section class="imac-services-section">
    <div class="imac-services-container">
       <h2 class="imac-services-title">Our Product Design Engineering Services</h2>
       <div class="services-grid">
@@ -170,7 +279,7 @@
             <div class="divider divider-middle"></div>
             <div class="divider divider-section-2"></div>
             <div class="divider divider-right"></div>
-            </div> -->
+            </div>
          <article class="service-card-drafting main-service">
             <div class="service-icon service-icon-1"><img src="./assets/Product-Design-and-Development/Industrial-Design.svg" alt=""></div>
             <h3 class="service-title-drafting">Industrial Design</h3>
@@ -220,7 +329,80 @@
          </article>
       </div>
    </div>
+</section> -->
+
+<section class="imac-services-section">
+   <div class="imac-services-container">
+      <h2 class="imac-services-title">Our Product Design Engineering Services</h2>
+      <div class="services-carousel-container">
+         <div class="services-carousel">
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-1">
+                  <img src="./assets/Product-Design-and-Development/Industrial-Design.svg" alt="Industrial Design">
+               </div>
+               <h3 class="service-title-drafting">Industrial Design</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">During our ID phase, our designers research multiple design directions through sketching, ideation sessions, and rapid prototyping. We generate diverse concepts that address functional requirements while pushing creative boundaries. Each concept is evaluated against user needs, technical constraints, manufacturing requirements, and brand alignment.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-2">
+                  <img src="./assets/Product-Design-and-Development/Product-Engineering-&-Prototyping.svg" alt="Product Engineering & Prototyping">
+               </div>
+               <h3 class="service-title-drafting">Product Engineering & Prototyping</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Our team of engineers at iDES builds fully functional prototypes that validate every detail, such as mechanical, electrical, and user-focused. We ensure your product not only looks good but also performs reliably before moving into full-scale production.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-3">
+                  <img src="./assets/Product-Design-and-Development/Embedded-System-Development.svg" alt="Embedded System Development">
+               </div>
+               <h3 class="service-title-drafting">Embedded System Development</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Our IoT solutions enable businesses to make data-driven decisions and unlock the full potential of their connected devices and sensors. Our embedded systems integrate hardware and software to power smart features, connectivity, and data flow, converting standalone devices into smart innovations.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-4">
+                  <img src="./assets/Product-Design-and-Development/Software-Development-and-Testing.svg" alt="Software Development and Testing">
+               </div>
+               <h3 class="service-title-drafting">Software Development and Testing</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Our software development team builds robust, scalable firmware, mobile apps, cloud dashboards, and custom interfaces integrated with your hardware. Using agile methods, continuous testing, and strict QA, we improve functionality, user experience, and long-term reliability for your product ecosystem.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-5">
+                  <img src="./assets/Product-Design-and-Development/Product-Validation-Framework.svg" alt="Product Validation Framework">
+               </div>
+               <h3 class="service-title-drafting">Product Validation Framework</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Before launching a product to market, we follow the validation process that includes steps of functional testing, environmental and stress testing, compliance verification, and user trials that ensure performance level and safety, and regulatory standards, reducing risks, revisions, and guaranteeing real-world reliability.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-6">
+                  <img src="./assets/Product-Design-and-Development/Tooling-&-Manufacturing.svg" alt="Tooling & Manufacturing">
+               </div>
+               <h3 class="service-title-drafting">Tooling & Manufacturing</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Our tooling design service creates custom molds/jigs for production, while manufacturing will help us convert raw materials into final parts/products. We optimize both processes to deliver durable, cost-effective components following strict quality control parameters.</p>
+            </div>
+         </div>
+         <!-- Carousel Controls -->
+         <div class="buttons-swipe-holder">
+            <button class="carousel-prev dm-carousel-ctrl dm-prev-ctrl">
+               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m15 18-6-6 6-6" />
+               </svg>
+            </button>
+            <button class="carousel-next dm-carousel-ctrl dm-next-ctrl">
+               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m9 18 6-6-6-6" />
+               </svg>
+            </button>
+         </div>
+      </div>
+   </div>
 </section>
+
+
 <!-- Benefits Section -->
 <section class="benefits-section">
    <div class="benefits-background">
@@ -530,6 +712,61 @@
    </div>
 </section>
 <!-- contact section end -->
+
+   <script>
+      document.addEventListener('DOMContentLoaded', function () {
+         const prevButton = document.querySelector('.carousel-prev');
+         const nextButton = document.querySelector('.carousel-next');
+         const carousel = document.querySelector('.services-carousel');
+         const serviceCards = document.querySelectorAll('.service-card-drafting');
+         const cardWidth = serviceCards[0].offsetWidth + 20; // Width of the card + margin
+
+         let currentIndex = 1; // Start from the first "real" card (skip the clone)
+
+         // Clone the first and last card to create the infinite loop effect
+         const firstCard = serviceCards[0].cloneNode(true);
+         const lastCard = serviceCards[serviceCards.length - 1].cloneNode(true);
+         carousel.appendChild(firstCard);  // Append clone of the first card to the end
+         carousel.insertBefore(lastCard, carousel.firstChild);  // Prepend clone of the last card to the start
+
+         // Adjust the width of the carousel to include the cloned cards
+         const totalWidth = cardWidth * serviceCards.length + 40;  // Adjust for the cloned cards
+
+         // Move the carousel to the left
+         nextButton.addEventListener('click', function () {
+            if (currentIndex < serviceCards.length) {
+               currentIndex++;
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+            } else {
+               // After reaching the last card, reset to the first real card
+               currentIndex = 1;
+               carousel.style.transition = 'none';  // Disable transition for a smooth snap
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+               setTimeout(() => {
+                  carousel.style.transition = 'transform 0.3s ease'; // Re-enable the transition
+               }, 20); // Small delay to ensure the transition is re-enabled
+            }
+         });
+
+         // Move the carousel to the right
+         prevButton.addEventListener('click', function () {
+            if (currentIndex > 1) {
+               currentIndex--;
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+            } else {
+               // After reaching the first card, reset to the last real card
+               currentIndex = serviceCards.length;
+               carousel.style.transition = 'none';  // Disable transition for a smooth snap
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+               setTimeout(() => {
+                  carousel.style.transition = 'transform 0.3s ease'; // Re-enable the transition
+               }, 20); // Small delay to ensure the transition is re-enabled
+            }
+         });
+      });
+
+   </script>
+
 <script>
    document.addEventListener('DOMContentLoaded', function() {
    const slider = document.querySelector('.services-slider');

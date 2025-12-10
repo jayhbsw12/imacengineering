@@ -141,7 +141,7 @@
    }
 
    .dm-next-ctrl {
-      display: block !important;
+      /* display: block !important; */
    }
 
    .service-description,

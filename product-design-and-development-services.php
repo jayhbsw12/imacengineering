@@ -449,7 +449,7 @@
 <!-- why us section -->
 <section class="features-section">
    <div class="container">
-      <h2 class="benefits-title">Why Choose Our Product <br class="m-hidden"> Design Engineering Services? </h2>
+      <h2 class="benefits-title">What Makes Our Product Design Services Different?</h2>
       <div class="features-container">
          <div class="feature-box">
             <div class="feature-front">
@@ -499,7 +499,7 @@
    <!-- Product Development Process Section -->
    <section class="product-development-section">
       <div class="development-container">
-         <h2 class="section-title-process"> Product Design & Development Process</h2>
+         <h2 class="section-title-process">How We Design and Develop Your Product?</h2>
          <div class="accordion-container">
             <div class="accordion-images">
                <img src="assets/Process/Product Design and Development WEBP/User-&-Market-Research.webp" alt="User & Market Research" class="accordion-image active" data-tab="Market Research">

@@ -100,11 +100,11 @@
       </div>
       <header class="banner-header">
          <h1 class="banner-title">Outsource Mechanical CAD Drafting Services</h1>
-         <p class="banner-description">iMAC Design and Engineering Services specializes in mechanical drawings, machine designs, assembly and part drawings, and conceptual layouts, etc. With a focus on global standards and client requirements, we deliver precision-excellent CAD outsourcing solutions. Providing expertise in CAD solutions to clients across aerospace, automotive, manufacturing, and beyond.  
+         <p class="banner-description">Get mechanical drawings built to your exact requirements, machine designs, conceptual layouts, assembly, and part drawings that follow global standards. Our CAD outsourcing gives your engineers and fabricators the precision-engineered components they need to move projects forward.
 </p>
       </header>
       <div class="cta-button-banner">
-         <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Get your Quote Now</span>
+         <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Get in touch with us</span>
          <img src="https://static.codia.ai/custom_image/2025-07-05/131851/arrow-icon.svg" alt="Arrow" class="cta-arrow-banner">
       </div>
    </div>
@@ -193,7 +193,7 @@
 <section class="benefits-section">
    <div class="benefits-background">
       <div class="benefits-container">
-         <h2 class="benefits-title">Benefits of Outsourcing CAD Drafting<br class="m-hidden"></h2>
+         <h2 class="benefits-title">Why Outsource CAD Drafting?<br class="m-hidden"></h2>
          <div class="benefits-grid">
             <div class="benefit-card benefit-card-1">
                <div class="benefit-icon benefit-icon-1"></div>
@@ -207,21 +207,21 @@
          <div class="benefits-grid-2">
             <div class="benefit-card benefit-card-3">
                <div class="benefit-icon benefit-icon-3"></div>
-               <p class="benefit-text">Outsourcing mechanical CAD drafting services speeds up project timelines with a dedicated team, ensuring a structured workflow and rapid execution for timely project delivery.</p>
+               <p class="benefit-text">Outsourcing mechanical CAD drafting services speeds up project timelines having a structured workflow and rapid execution.</p>
             </div>
             <div class="benefit-card benefit-card-4">
                <div class="benefit-icon benefit-icon-4"></div>
-               <p class="benefit-text">By outsourcing mechanical CAD drafting services, you can free up internal resources to focus on strategic business objectives. </p>
+               <p class="benefit-text">Outsourcing mechanical CAD drafting can free up internal resources to focus on strategic business objectives.</p>
             </div>
          </div>
          <div class="benefits-grid-2">
             <div class="benefit-card benefit-card-4">
                <div class="benefit-icon benefit-icon-4"></div>
-               <p class="benefit-text">Outsource CAD drafting services to scale resources flexibly, minimizing risk based on project needs. </p>
+               <p class="benefit-text">Outsource CAD drafting to scale resources flexibly, minimizing risk based on project needs.</p>
             </div>
             <div class="benefit-card benefit-card-5">
                <div class="benefit-icon benefit-icon-5"></div>
-               <p class="benefit-text">Stay competitive by using expert outsourcing to quickly adopt advanced design methods like generative design and DFM, keeping you ahead in fast-changing markets.</p>
+               <p class="benefit-text">With outsourcing, adopt advanced design methods like generative design and DFM, keeping you ahead in fast-changing markets.</p>
             </div>
          </div>
       </div>
@@ -230,7 +230,7 @@
 <!-- why us section -->
 <section class="features-section">
    <div class="container">
-      <h2 class="benefits-title">Why Choose Us?</h2>
+      <h2 class="benefits-title">Why Should You Work With Us? </h2>
       <div class="features-container">
          <div class="feature-box">
             <div class="feature-front">
@@ -276,7 +276,7 @@
    <!-- Product Development Process Section -->
    <section class="product-development-section">
       <div class="development-container">
-         <h2 class="section-title-process">iDES Mechanical CAD Drafting Process </h2>
+         <h2 class="section-title-process">Mechanical CAD Drafting Workflow</h2>
          <div class="accordion-container">
             <div class="accordion-images">
                <img src="assets/Process/Outsource Mechanical CAD WebP/Consultation-&-Understanding.webp" alt="Consultation & Understanding" class="accordion-image active" data-tab="Consultation">

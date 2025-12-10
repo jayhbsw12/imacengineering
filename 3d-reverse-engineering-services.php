@@ -83,6 +83,96 @@
       padding-top: 80px;
       padding-bottom: 80px;
    }
+
+   /* Carousel container */
+   .services-carousel-container {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+   }
+
+   /* The carousel that holds the cards */
+   .services-carousel {
+      display: flex;
+      transition: transform 0.3s ease;
+   }
+
+   /* Service card styles */
+   .service-card-drafting {
+      width: 370px;
+      margin-right: 20px;
+      /* Space between the cards */
+      flex-shrink: 0;
+      /* Prevent cards from shrinking */
+      text-align: center;
+   }
+
+   /* Carousel controls */
+   .carousel-prev,
+   .carousel-next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #fff;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 18px;
+   }
+
+   .carousel-prev {
+      left: 10px;
+   }
+
+   .carousel-next {
+      right: 10px;
+   }
+
+   .dm-next-ctrl,
+   .dm-prev-ctrl {
+      right: 0 !important;
+      transform: translateY(0%) !important;
+   }
+
+   .dm-prev-ctrl {
+      left: 0 !important;
+   }
+
+   .dm-next-ctrl {
+      /* display: block !important; */
+   }
+
+   .service-description,
+   .service-title-drafting {
+      text-align: left;
+   }
+
+   .dm-carousel-ctrl {
+      position: static !important;
+   }
+
+   .buttons-swipe-holder {
+      display: flex;
+      justify-content: end;
+      padding: 10px;
+      gap: 20px
+   }
+
+   .dm-carousel-ctrl {
+      width: 3.5rem !important;
+      height: 3.5rem !important;
+   }
+
+   .service-title-drafting {
+      height: auto !important;
+   }
+
+   .service-card-drafting:last-child{
+      display: none;
+   }
+   .dm-carousel-ctrl {
+    display: block !important;
+}
 </style>
 <script>
   // Reveal as soon as DOM is ready
@@ -205,17 +295,17 @@
 
 
 <!-- Services Section -->
-<section class="imac-services-section">
+<!-- <section class="imac-services-section">
    <div class="imac-services-container">
       <h2 class="imac-services-title">Our 3D Reverse Engineering Services</h2>
       <div class="services-grid">
-         <!-- <div class="service-dividers">
+         <div class="service-dividers">
             <div class="divider divider-left"></div>
             <div class="divider divider-section-1"></div>
             <div class="divider divider-middle"></div>
             <div class="divider divider-section-2"></div>
             <div class="divider divider-right"></div>
-            </div> -->
+            </div>
          <article class="service-card-drafting main-service">
             <div class="service-icon service-icon-1"><img src="./assets/Reverse Engineering Services/3D Scanning & CAD Modeling.svg" alt=""></div>
             <h3 class="service-title-drafting">3D Scanning & CAD Modeling</h3>
@@ -256,7 +346,81 @@
          </article>
       </div>
    </div>
+</section> -->
+
+
+<section class="imac-services-section">
+   <div class="imac-services-container">
+      <h2 class="imac-services-title">Our 3D Reverse Engineering Services</h2>
+      <div class="services-carousel-container">
+         <div class="services-carousel">
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-1">
+                  <img src="./assets/Reverse Engineering Services/3D Scanning & CAD Modeling.svg" alt="3D Scanning & CAD Modeling">
+               </div>
+               <h3 class="service-title-drafting">3D Scanning & CAD Modeling</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">We utilize our advanced 3D scanning technologies to capture precise dimensional data of physical components, converting them into accurate CAD models. This service will let us improve brilliantly - component replication, quality verification, and digital archiving when original design documentation is unavailable or outdated.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-2">
+                  <img src="./assets/Reverse Engineering Services/Part Redesign & Improvement.svg" alt="Part Redesign & Improvement">
+               </div>
+               <h3 class="service-title-drafting">Part Redesign & Improvement</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Our team of engineers will create a model of improvement with a framework for developing, testing, and implementing change, considering existing components' failure points(if they are found). Then, the process of redesigning begins to improve functionality, durability, and manufacturability while maintaining core design intent.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-3">
+                  <img src="./assets/Reverse Engineering Services/Surface Analysis & Optimization.svg" alt="Surface Analysis & Optimization">
+               </div>
+               <h3 class="service-title-drafting">Surface Analysis & Optimization</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">We conduct a detailed surface metrology and computational analysis, and then we evaluate and refine component surfaces to improve technical properties, reduce friction, or improve thermal characteristics. This process ensures the best and reliable performance in demanding operational environments.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-4">
+                  <img src="./assets/Reverse Engineering Services/Tooling CAD Updates.svg" alt="Tooling CAD Updates">
+               </div>
+               <h3 class="service-title-drafting">Tooling CAD Updates</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">We modernize(improve) aging tooling systems by reverse engineering existing molds, dies, and fixtures. Our updated CAD models incorporate the latest manufacturing requirements, extending tool life while ensuring compatibility with modern production equipment and processes.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-3">
+                  <img src="./assets/Reverse Engineering Services/Defect-Free Redesign.svg" alt="Defect-Free Redesign">
+               </div>
+               <h3 class="service-title-drafting">Defect-Free Redesign</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">We systematically identify and eliminate manufacturing defects by conducting a detailed analysis and precision redesign. Our approach resolves production issues while maintaining all functional requirements, resulting in components that satisfy strict quality standards.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-4">
+                  <img src="./assets/Reverse Engineering Services/Process Modernization.svg" alt="Process Modernization">
+               </div>
+               <h3 class="service-title-drafting">Process Modernization</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">We transform legacy(old) manufacturing operations by integrating reverse-engineered component data with advanced production technologies. This service bridges the gap between traditional methods and all the latest industry capabilities, delivering measurable improvements in efficiency and quality.</p>
+            </div>
+         </div>
+         <!-- Carousel Controls -->
+         <div class="buttons-swipe-holder">
+            <button class="carousel-prev dm-carousel-ctrl dm-prev-ctrl">
+               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m15 18-6-6 6-6" />
+               </svg>
+            </button>
+            <button class="carousel-next dm-carousel-ctrl dm-next-ctrl">
+               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m9 18 6-6-6-6" />
+               </svg>
+            </button>
+         </div>
+      </div>
+   </div>
 </section>
+
+
 
 <!-- why us section -->
 <section class="features-section">
@@ -464,6 +628,7 @@
       </div>
    </section> -->
 </main>
+
 <!-- FAQ Section -->
 <section class="faq-section">
    <div class="faq-container">
@@ -524,6 +689,61 @@
       </div>
    </div>
 </section>
+
+   <script>
+      document.addEventListener('DOMContentLoaded', function () {
+         const prevButton = document.querySelector('.carousel-prev');
+         const nextButton = document.querySelector('.carousel-next');
+         const carousel = document.querySelector('.services-carousel');
+         const serviceCards = document.querySelectorAll('.service-card-drafting');
+         const cardWidth = serviceCards[0].offsetWidth + 20; // Width of the card + margin
+
+         let currentIndex = 1; // Start from the first "real" card (skip the clone)
+
+         // Clone the first and last card to create the infinite loop effect
+         const firstCard = serviceCards[0].cloneNode(true);
+         const lastCard = serviceCards[serviceCards.length - 1].cloneNode(true);
+         carousel.appendChild(firstCard);  // Append clone of the first card to the end
+         carousel.insertBefore(lastCard, carousel.firstChild);  // Prepend clone of the last card to the start
+
+         // Adjust the width of the carousel to include the cloned cards
+         const totalWidth = cardWidth * serviceCards.length + 40;  // Adjust for the cloned cards
+
+         // Move the carousel to the left
+         nextButton.addEventListener('click', function () {
+            if (currentIndex < serviceCards.length) {
+               currentIndex++;
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+            } else {
+               // After reaching the last card, reset to the first real card
+               currentIndex = 1;
+               carousel.style.transition = 'none';  // Disable transition for a smooth snap
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+               setTimeout(() => {
+                  carousel.style.transition = 'transform 0.3s ease'; // Re-enable the transition
+               }, 20); // Small delay to ensure the transition is re-enabled
+            }
+         });
+
+         // Move the carousel to the right
+         prevButton.addEventListener('click', function () {
+            if (currentIndex > 1) {
+               currentIndex--;
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+            } else {
+               // After reaching the first card, reset to the last real card
+               currentIndex = serviceCards.length;
+               carousel.style.transition = 'none';  // Disable transition for a smooth snap
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+               setTimeout(() => {
+                  carousel.style.transition = 'transform 0.3s ease'; // Re-enable the transition
+               }, 20); // Small delay to ensure the transition is re-enabled
+            }
+         });
+      });
+
+   </script>
+
 <!-- contact section end -->
 <script>
    document.addEventListener('DOMContentLoaded', function() {

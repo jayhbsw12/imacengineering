@@ -208,13 +208,11 @@
       <header class="banner-header">
          <h1 class="banner-title">Product Design and Development Company</h1>
          <p class="banner-description">
-           Startup founders and established business owners trust us to bring their product ideas to life. 
-           Whether you are launching something new or improving what you already have, we have the expertise to make it happen. 
-           We handle the complexity of design and development, so you can focus on what matters most – growing your business.
+           Get your product designed, engineered, and ready to manufacture. Whether it's your first product launch or improving an existing one. We handle the complexity of design and development, so you can focus on what matters most – growing your business.
          </p>
       </header>
       <div class="cta-button-banner">
-         <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Get your Quote Now</span>
+         <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Let's design your product </span>
          <img src="https://static.codia.ai/custom_image/2025-07-05/131851/arrow-icon.svg" alt="Arrow" class="cta-arrow-banner">
       </div>
    </div>
@@ -251,8 +249,79 @@
 
 </section>
 
+<section class="imac-services-section">
+   <div class="imac-services-container">
+      <h2 class="imac-services-title">Our Product Design Engineering Services</h2>
+      <div class="services-carousel-container">
+         <div class="services-carousel">
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-1">
+                  <img src="./assets/Product-Design-and-Development/Industrial-Design.svg" alt="Industrial Design">
+               </div>
+               <h3 class="service-title-drafting">Industrial Design</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">During our ID phase, our designers research multiple design directions through sketching, ideation sessions, and rapid prototyping. We generate diverse concepts that address functional requirements while pushing creative boundaries. Each concept is evaluated against user needs, technical constraints, manufacturing requirements, and brand alignment.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-2">
+                  <img src="./assets/Product-Design-and-Development/Product-Engineering-&-Prototyping.svg" alt="Product Engineering & Prototyping">
+               </div>
+               <h3 class="service-title-drafting">Product Engineering & Prototyping</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Our team of engineers at iDES builds fully functional prototypes that validate every detail, such as mechanical, electrical, and user-focused. We ensure your product not only looks good but also performs reliably before moving into full-scale production.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-3">
+                  <img src="./assets/Product-Design-and-Development/Embedded-System-Development.svg" alt="Embedded System Development">
+               </div>
+               <h3 class="service-title-drafting">Embedded System Development</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Our IoT solutions enable businesses to make data-driven decisions and unlock the full potential of their connected devices and sensors. Our embedded systems integrate hardware and software to power smart features, connectivity, and data flow, converting standalone devices into smart innovations.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-4">
+                  <img src="./assets/Product-Design-and-Development/Software-Development-and-Testing.svg" alt="Software Development and Testing">
+               </div>
+               <h3 class="service-title-drafting">Software Development and Testing</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Our software development team builds robust, scalable firmware, mobile apps, cloud dashboards, and custom interfaces integrated with your hardware. Using agile methods, continuous testing, and strict QA, we improve functionality, user experience, and long-term reliability for your product ecosystem.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-5">
+                  <img src="./assets/Product-Design-and-Development/Product-Validation-Framework.svg" alt="Product Validation Framework">
+               </div>
+               <h3 class="service-title-drafting">Product Validation Framework</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Before launching a product to market, we follow the validation process that includes steps of functional testing, environmental and stress testing, compliance verification, and user trials that ensure performance level and safety, and regulatory standards, reducing risks, revisions, and guaranteeing real-world reliability.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-6">
+                  <img src="./assets/Product-Design-and-Development/Tooling-&-Manufacturing.svg" alt="Tooling & Manufacturing">
+               </div>
+               <h3 class="service-title-drafting">Tooling & Manufacturing</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Our tooling design service creates custom molds/jigs for production, while manufacturing will help us convert raw materials into final parts/products. We optimize both processes to deliver durable, cost-effective components following strict quality control parameters.</p>
+            </div>
+         </div>
+         <!-- Carousel Controls -->
+         <div class="buttons-swipe-holder">
+            <button class="carousel-prev dm-carousel-ctrl dm-prev-ctrl">
+               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m15 18-6-6 6-6" />
+               </svg>
+            </button>
+            <button class="carousel-next dm-carousel-ctrl dm-next-ctrl">
+               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m9 18 6-6-6-6" />
+               </svg>
+            </button>
+         </div>
+      </div>
+   </div>
+</section>
+
 <section class="about-service-hero-section">
-   <h2 class="main-title">High-Quality Product Design and Development Services</h2>
+   <h2 class="main-title">Your Product Design Studio Partner</h2>
    <div class="about-container">
       <div class="left-section">
          <img loading="lazy" src="assets/image/main-services/Product-Design-and-Development.webp" alt="Product-Design-&-Development"/>
@@ -331,76 +400,7 @@
    </div>
 </section> -->
 
-<section class="imac-services-section">
-   <div class="imac-services-container">
-      <h2 class="imac-services-title">Our Product Design Engineering Services</h2>
-      <div class="services-carousel-container">
-         <div class="services-carousel">
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-1">
-                  <img src="./assets/Product-Design-and-Development/Industrial-Design.svg" alt="Industrial Design">
-               </div>
-               <h3 class="service-title-drafting">Industrial Design</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">During our ID phase, our designers research multiple design directions through sketching, ideation sessions, and rapid prototyping. We generate diverse concepts that address functional requirements while pushing creative boundaries. Each concept is evaluated against user needs, technical constraints, manufacturing requirements, and brand alignment.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-2">
-                  <img src="./assets/Product-Design-and-Development/Product-Engineering-&-Prototyping.svg" alt="Product Engineering & Prototyping">
-               </div>
-               <h3 class="service-title-drafting">Product Engineering & Prototyping</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">Our team of engineers at iDES builds fully functional prototypes that validate every detail, such as mechanical, electrical, and user-focused. We ensure your product not only looks good but also performs reliably before moving into full-scale production.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-3">
-                  <img src="./assets/Product-Design-and-Development/Embedded-System-Development.svg" alt="Embedded System Development">
-               </div>
-               <h3 class="service-title-drafting">Embedded System Development</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">Our IoT solutions enable businesses to make data-driven decisions and unlock the full potential of their connected devices and sensors. Our embedded systems integrate hardware and software to power smart features, connectivity, and data flow, converting standalone devices into smart innovations.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-4">
-                  <img src="./assets/Product-Design-and-Development/Software-Development-and-Testing.svg" alt="Software Development and Testing">
-               </div>
-               <h3 class="service-title-drafting">Software Development and Testing</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">Our software development team builds robust, scalable firmware, mobile apps, cloud dashboards, and custom interfaces integrated with your hardware. Using agile methods, continuous testing, and strict QA, we improve functionality, user experience, and long-term reliability for your product ecosystem.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-5">
-                  <img src="./assets/Product-Design-and-Development/Product-Validation-Framework.svg" alt="Product Validation Framework">
-               </div>
-               <h3 class="service-title-drafting">Product Validation Framework</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">Before launching a product to market, we follow the validation process that includes steps of functional testing, environmental and stress testing, compliance verification, and user trials that ensure performance level and safety, and regulatory standards, reducing risks, revisions, and guaranteeing real-world reliability.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-6">
-                  <img src="./assets/Product-Design-and-Development/Tooling-&-Manufacturing.svg" alt="Tooling & Manufacturing">
-               </div>
-               <h3 class="service-title-drafting">Tooling & Manufacturing</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">Our tooling design service creates custom molds/jigs for production, while manufacturing will help us convert raw materials into final parts/products. We optimize both processes to deliver durable, cost-effective components following strict quality control parameters.</p>
-            </div>
-         </div>
-         <!-- Carousel Controls -->
-         <div class="buttons-swipe-holder">
-            <button class="carousel-prev dm-carousel-ctrl dm-prev-ctrl">
-               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="m15 18-6-6 6-6" />
-               </svg>
-            </button>
-            <button class="carousel-next dm-carousel-ctrl dm-next-ctrl">
-               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="m9 18 6-6-6-6" />
-               </svg>
-            </button>
-         </div>
-      </div>
-   </div>
-</section>
+
 
 
 <!-- Benefits Section -->

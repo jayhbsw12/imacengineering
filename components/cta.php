@@ -16,6 +16,7 @@
         text-align: left;
         font-size: 38px;
         line-height: 50px;
+        height: auto;
     }
 
     .cta-section-description {
@@ -67,6 +68,41 @@
         /* background: #ff4612; */
 
     }
+
+    @media(max-width:1080px) {
+        .cta-section-service-holder {
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .cta-section-left-holder,
+        .cta-section-right-holder {
+            width: 100%;
+        }
+
+        .cta-section-right-holder {
+            align-items: flex-start;
+
+        }
+    }
+
+    @media(max-width:600px) {
+        .benefits-title {
+            font-size: 24px !important;
+            line-height: 30px !important
+        }
+
+        .cta-section-description {
+            font-size: 16px;
+        }
+        .cta-section-service{
+            padding: 20px;
+        }
+        .cta-button{
+            font-size: 20px;
+            padding: 20px;
+        }
+    }
 </style>
 <section class="cta-section-service">
     <div class="cta-section-service-holder">
@@ -82,9 +118,9 @@
         </div>
         <div class="cta-section-right-holder">
             <a href="./contact-us">
-            <button class="cta-button" style="transform: translateY(0px); box-shadow: none;">
-                <span>Contact Us</span>
-            </button>
+                <button class="cta-button" style="transform: translateY(0px); box-shadow: none;">
+                    <span>Contact Us</span>
+                </button>
             </a>
         </div>
     </div>

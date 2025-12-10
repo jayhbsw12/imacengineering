@@ -393,41 +393,35 @@
 <section class="benefits-section">
    <div class="benefits-background">
       <div class="benefits-container">
-         <h2 class="benefits-title">Benefits of 3D Prototype Printing Services<br class="m-hidden"></h2>
+         <h2 class="benefits-title">Why Do You Need Reverse Engineering?<br class="m-hidden"></h2>
          <div class="benefits-grid">
             <div class="benefit-card benefit-card-1">
                <div class="benefit-icon benefit-icon-1"></div>
-               <p class="benefit-text">We speed up your product journey. With our rapid prototyping, we cut development time, 
-                allowing quicker testing, feedback, and faster entry into the competitive market.</p>
+               <p class="benefit-text">Restore legacy parts accurately, even without technical drawings.</p>
             </div>
             <div class="benefit-card benefit-card-2">
                <div class="benefit-icon benefit-icon-2"></div>
-               <p class="benefit-text">We help you save on development costs. Our 3D printing services eliminate expensive tooling, 
-                offering affordable, accurate prototypes without compromising quality or stretching your project budget.</p>
+               <p class="benefit-text">Analyze and improve your designs for functionality, durability, and efficiency.</p>
             </div>
          </div>
          <div class="benefits-grid-2">
             <div class="benefit-card benefit-card-3">
                <div class="benefit-icon benefit-icon-3"></div>
-               <p class="benefit-text">3D printing services enable customizable manufacturing, catering to different  needs and preferences. 
-                  Whether it's personalized medical products or any automotive component, manufacturers can trust us to deliver unique solutions. </p>
+               <p class="benefit-text">Convert the hand-crafted molds or aging parts into digital models. </p>
             </div>
             <div class="benefit-card benefit-card-4">
                <div class="benefit-icon benefit-icon-4"></div>
-               <p class="benefit-text">We provide working prototypes you can test. Our models reflect real-world performance,
-                 helping you validate design, fit, and function before moving into large-scale production quickly & confidently.</p>
+               <p class="benefit-text">Get precise part documentation for government and quality compliance.</p>
             </div>
          </div>
          <div class="benefits-grid-2">
             <div class="benefit-card benefit-card-5">
                <div class="benefit-icon benefit-icon-5"></div>
-               <p class="benefit-text">We build smartly and sustainably. Our additive process uses only what is needed, minimizing 
-                material waste while producing durable, high-quality parts for practical, responsible prototyping. </p>
+               <p class="benefit-text">Receive nominal CAD models to inspect manufactured parts, detect deviations, and improve overall production accuracy.</p>
             </div>
             <div class="benefit-card benefit-card-4">
                <div class="benefit-icon benefit-icon-4"></div>
-               <p class="benefit-text">We improve collaboration & clarity. Our 3D prototypes provide tangible models for 
-                  stakeholders, improving communication, design reviews, and decision-making across teams.</p>
+               <p class="benefit-text">Get perfectly fitting molds from any object to minimize prototyping and tooling costs.</p>
             </div>
          </div>
       </div>

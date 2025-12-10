@@ -72,6 +72,96 @@
   @media (prefers-reduced-motion: reduce) {
     html.pgfade-init body { opacity: 1; }
   }
+  /* Carousel container */
+   .services-carousel-container {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+   }
+
+   /* The carousel that holds the cards */
+   .services-carousel {
+      display: flex;
+      transition: transform 0.3s ease;
+   }
+
+   /* Service card styles */
+   .service-card-drafting {
+      width: 370px;
+      margin-right: 20px;
+      /* Space between the cards */
+      flex-shrink: 0;
+      /* Prevent cards from shrinking */
+      text-align: center;
+   }
+
+   /* Carousel controls */
+   .carousel-prev,
+   .carousel-next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #fff;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 18px;
+   }
+
+   .carousel-prev {
+      left: 10px;
+   }
+
+   .carousel-next {
+      right: 10px;
+   }
+
+   .dm-next-ctrl,
+   .dm-prev-ctrl {
+      right: 0 !important;
+      transform: translateY(0%) !important;
+   }
+
+   .dm-prev-ctrl {
+      left: 0 !important;
+   }
+
+   .dm-next-ctrl {
+      /* display: block !important; */
+   }
+
+   .service-description,
+   .service-title-drafting {
+      text-align: left;
+   }
+
+   .dm-carousel-ctrl {
+      position: static !important;
+   }
+
+   .buttons-swipe-holder {
+      display: flex;
+      justify-content: end;
+      padding: 10px;
+      gap: 20px
+   }
+
+   .dm-carousel-ctrl {
+      width: 3.5rem !important;
+      height: 3.5rem !important;
+   }
+
+   .service-title-drafting {
+      height: auto !important;
+   }
+
+   .service-card-drafting:last-child {
+      display: none;
+   }
+
+   .dm-carousel-ctrl {
+      display: block !important;
+   }
 </style>
 <script>
   // Reveal as soon as DOM is ready
@@ -329,17 +419,17 @@
   </section>
   
  <!--Services Section -->
-<section class="imac-services-section">
+<!-- <section class="imac-services-section">
    <div class="imac-services-container">
       <h2 class="imac-services-title">Our Kiosk Design and Manufacturing Services <br class="m-hidden"></h2>
       <div class="services-grid">
-          <!--<div class="service-dividers">-->
+          <div class="service-dividers">
           <!--  <div class="divider divider-left"></div>-->
           <!--  <div class="divider divider-section-1"></div>-->
           <!--  <div class="divider divider-middle"></div>-->
           <!--  <div class="divider divider-section-2"></div>-->
-          <!--  <div class="divider divider-right"></div>-->
-          <!--  </div> -->
+          <!--  <div class="divider divider-right"></div>
+         </div>
          <article class="service-card-drafting main-service">
             <div class="service-icon service-icon-1"><img src="./assets/Miniature 3D Printed Prototype Design/See-Your-Ideas-Come-to-Life.svg" alt=""></div>
             <h3 class="service-title-drafting">Structural Analytics & <br class="m-hidden"> Design Documentation</h3>
@@ -397,7 +487,104 @@
          </article>
       </div>
    </div>
+</section> -->
+
+<section class="imac-services-section">
+   <div class="imac-services-container">
+      <h2 class="imac-services-title">Our Kiosk Design and Manufacturing Services</h2>
+      <div class="services-carousel-container">
+         <div class="services-carousel">
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-1">
+                  <img src="./assets/Miniature 3D Printed Prototype Design/See-Your-Ideas-Come-to-Life.svg" alt="See Your Ideas Come to Life">
+               </div>
+               <h3 class="service-title-drafting">Structural Analytics & <br class="m-hidden"> Design Documentation</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Every kiosk structure undergoes comprehensive load analysis, vibration testing, and stress modeling before the prototype. Our detailed design documentation ensures your kiosk can handle years of continuous use while maintaining structural integrity in high-traffic environments.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-2">
+                  <img src="./assets/Miniature 3D Printed Prototype Design/Cost-Effective-Design-Validation.svg" alt="Cost-Effective Design Validation">
+               </div>
+               <h3 class="service-title-drafting">Value Engineering</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Smart design means maximizing performance while minimizing costs. We identify opportunities to optimize materials, streamline manufacturing processes, and eliminate unnecessary complexity without compromising on quality. This approach consistently saves costs and enhances durability.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-3">
+                  <img src="./assets/CAD Outsourcing Services/Reverse-Engineering&Scanning.svg" alt="Reverse Engineering">
+               </div>
+               <h3 class="service-title-drafting">Reverse Engineering</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Got an existing kiosk that needs improvement? We reverse-engineer legacy systems to understand their limitations and then redesign them with modern capabilities & techniques. From updating obsolete components or improving user interfaces, our kiosk design and development services company adds life to outdated self-service solutions.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-4">
+                  <img src="./assets/Miniature 3D Printed Prototype Design/Enhanced-Client-Communication.svg" alt="Enhanced Client Communication">
+               </div>
+               <h3 class="service-title-drafting">Sustenance System Engineering</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Your kiosks need to operate 24/7 without failure. Our sustenance engineering focuses on preventive maintenance protocols, component lifecycle planning, and fail-safe backup systems. The result? Minimal downtime and maximum return on investment.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-1">
+                  <img src="./assets/Miniature 3D Printed Prototype Design/Accelerated-Product-Development.svg" alt="Accelerated Product Development">
+               </div>
+               <h3 class="service-title-drafting">Test Systems</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Every kiosk undergoes rigorous testing before deployment. We simulate real-world conditions from extreme temperatures to continuous user interactions, ensuring your investment performs reliably when it matters most.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-2">
+                  <img src="./assets/Miniature 3D Printed Prototype Design/Risk-Mitigation-Before-Production.svg" alt="Risk Mitigation Before Production">
+               </div>
+               <h3 class="service-title-drafting">System Design & Development</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">This is where technical expertise combines with experience. We architect complete kiosk ecosystems - hardware integration, software optimization, connectivity protocols, and security frameworks. Each system is custom-engineered for your operational requirements.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-3">
+                  <img src="./assets/Miniature 3D Printed Prototype Design/Test-What-Works.svg" alt="Test What Works">
+               </div>
+               <h3 class="service-title-drafting">Certification Support</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Compliance is not optional. We navigate ADA accessibility standards, PCI payment security requirements, UL safety certifications, and industry-specific regulations. We partner with trusted compliance agencies to simplify certifications, so you meet standards easily, while we focus on building kiosks that last.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-3">
+                  <img src="./assets/Miniature 3D Printed Prototype Design/Test-What-Works.svg" alt="Test What Works">
+               </div>
+               <h3 class="service-title-drafting">Digital Mockup & Prototyping</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">See your vision before you invest. Our digital mockups and rapid prototyping let you experience the user interface, test functionality, and refine design elements before committing to full production. This iterative approach prevents costly mistakes and accelerates time-to-market.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-3">
+                  <img src="./assets/Miniature 3D Printed Prototype Design/Test-What-Works.svg" alt="Test What Works">
+               </div>
+               <h3 class="service-title-drafting">Manufacturing</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">From prototype to production, we manage the entire manufacturing process. Our quality control protocols, supply chain partnerships, and production scaling capabilities ensure your kiosks are built to exact specifications, delivered on time, and ready for immediate deployment.</p>
+            </div>
+         </div>
+         <!-- Carousel Controls -->
+         <div class="buttons-swipe-holder">
+            <button class="carousel-prev dm-carousel-ctrl dm-prev-ctrl">
+               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m15 18-6-6 6-6" />
+               </svg>
+            </button>
+            <button class="carousel-next dm-carousel-ctrl dm-next-ctrl">
+               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m9 18 6-6-6-6" />
+               </svg>
+            </button>
+         </div>
+      </div>
+   </div>
 </section>
+
+
 <!-- Benefits Section -->
 <section class="benefits-section">
    <div class="benefits-background">
@@ -717,6 +904,61 @@
    </div>
 </section>
 <!-- contact section end -->
+
+   <script>
+      document.addEventListener('DOMContentLoaded', function () {
+         const prevButton = document.querySelector('.carousel-prev');
+         const nextButton = document.querySelector('.carousel-next');
+         const carousel = document.querySelector('.services-carousel');
+         const serviceCards = document.querySelectorAll('.service-card-drafting');
+         const cardWidth = serviceCards[0].offsetWidth + 20; // Width of the card + margin
+
+         let currentIndex = 1; // Start from the first "real" card (skip the clone)
+
+         // Clone the first and last card to create the infinite loop effect
+         const firstCard = serviceCards[0].cloneNode(true);
+         const lastCard = serviceCards[serviceCards.length - 1].cloneNode(true);
+         carousel.appendChild(firstCard);  // Append clone of the first card to the end
+         carousel.insertBefore(lastCard, carousel.firstChild);  // Prepend clone of the last card to the start
+
+         // Adjust the width of the carousel to include the cloned cards
+         const totalWidth = cardWidth * serviceCards.length + 40;  // Adjust for the cloned cards
+
+         // Move the carousel to the left
+         nextButton.addEventListener('click', function () {
+            if (currentIndex < serviceCards.length) {
+               currentIndex++;
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+            } else {
+               // After reaching the last card, reset to the first real card
+               currentIndex = 1;
+               carousel.style.transition = 'none';  // Disable transition for a smooth snap
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+               setTimeout(() => {
+                  carousel.style.transition = 'transform 0.3s ease'; // Re-enable the transition
+               }, 20); // Small delay to ensure the transition is re-enabled
+            }
+         });
+
+         // Move the carousel to the right
+         prevButton.addEventListener('click', function () {
+            if (currentIndex > 1) {
+               currentIndex--;
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+            } else {
+               // After reaching the first card, reset to the last real card
+               currentIndex = serviceCards.length;
+               carousel.style.transition = 'none';  // Disable transition for a smooth snap
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+               setTimeout(() => {
+                  carousel.style.transition = 'transform 0.3s ease'; // Re-enable the transition
+               }, 20); // Small delay to ensure the transition is re-enabled
+            }
+         });
+      });
+
+   </script>
+
 <script>
    document.addEventListener('DOMContentLoaded', function() {
    const slider = document.querySelector('.services-slider');

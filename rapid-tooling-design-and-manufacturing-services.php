@@ -72,6 +72,96 @@
   @media (prefers-reduced-motion: reduce) {
     html.pgfade-init body { opacity: 1; }
   }
+  /* Carousel container */
+   .services-carousel-container {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+   }
+
+   /* The carousel that holds the cards */
+   .services-carousel {
+      display: flex;
+      transition: transform 0.3s ease;
+   }
+
+   /* Service card styles */
+   .service-card-drafting {
+      width: 370px;
+      margin-right: 20px;
+      /* Space between the cards */
+      flex-shrink: 0;
+      /* Prevent cards from shrinking */
+      text-align: center;
+   }
+
+   /* Carousel controls */
+   .carousel-prev,
+   .carousel-next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #fff;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 18px;
+   }
+
+   .carousel-prev {
+      left: 10px;
+   }
+
+   .carousel-next {
+      right: 10px;
+   }
+
+   .dm-next-ctrl,
+   .dm-prev-ctrl {
+      right: 0 !important;
+      transform: translateY(0%) !important;
+   }
+
+   .dm-prev-ctrl {
+      left: 0 !important;
+   }
+
+   .dm-next-ctrl {
+      /* display: block !important; */
+   }
+
+   .service-description,
+   .service-title-drafting {
+      text-align: left;
+   }
+
+   .dm-carousel-ctrl {
+      position: static !important;
+   }
+
+   .buttons-swipe-holder {
+      display: flex;
+      justify-content: end;
+      padding: 10px;
+      gap: 20px
+   }
+
+   .dm-carousel-ctrl {
+      width: 3.5rem !important;
+      height: 3.5rem !important;
+   }
+
+   .service-title-drafting {
+      height: auto !important;
+   }
+
+   .service-card-drafting:last-child {
+      display: none;
+   }
+
+   .dm-carousel-ctrl {
+      display: block !important;
+   }
 </style>
 <script>
   // Reveal as soon as DOM is ready
@@ -155,17 +245,17 @@
    </div>
 </section>
 <!-- Services Section -->
-<section class="imac-services-section">
+<!-- <section class="imac-services-section">
    <div class="imac-services-container">
       <h2 class="imac-services-title">Our Rapid Tooling Design And Manufacturing Services</h2>
       <div class="services-grid">
-         <!-- <div class="service-dividers">
+         <div class="service-dividers">
             <div class="divider divider-left"></div>
             <div class="divider divider-section-1"></div>
             <div class="divider divider-middle"></div>
             <div class="divider divider-section-2"></div>
             <div class="divider divider-right"></div>
-            </div> -->
+            </div>
          <article class="service-card-drafting main-service">
             <div class="service-icon service-icon-1"><img src="./assets/Tooling And Manufacturing Services/Fusion-Deposition.svg" alt="Fusion-Deposition"></div>
             <h3 class="service-title-drafting">Fusion Deposition <br class="m-hidden"> Modeling (FDM)</h3>
@@ -211,7 +301,88 @@
          </article>
       </div>
    </div>
+</section> -->
+
+<section class="imac-services-section">
+   <div class="imac-services-container">
+      <h2 class="imac-services-title">Our Rapid Tooling Design And Manufacturing Services</h2>
+      <div class="services-carousel-container">
+         <div class="services-carousel">
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-1">
+                  <img src="./assets/Tooling And Manufacturing Services/Fusion-Deposition.svg" alt="Fusion-Deposition">
+               </div>
+               <h3 class="service-title-drafting">Fusion Deposition <br class="m-hidden"> Modeling (FDM)</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">This technique is perfect for durable plastic prototypes and functional parts. FDM builds layer by layer using thermoplastic materials, creating strong, cost-effective tools ideal for testing and low-volume production runs with excellent dimensional accuracy.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-2">
+                  <img src="./assets/Tooling And Manufacturing Services/Stereolithography(SLA).svg" alt="Stereolithography">
+               </div>
+               <h3 class="service-title-drafting">Stereolithography (SLA)</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">This method by us is designed to deliver ultra-precise parts with smooth surface finishes. Using liquid resin cured by UV light, SLA creates details and complex geometries perfect for high-resolution prototypes and detailed tooling applications.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-3">
+                  <img src="./assets/Tooling And Manufacturing Services/Selective-Laser.svg" alt="Selective Laser Sintering">
+               </div>
+               <h3 class="service-title-drafting">Selective Laser <br class="m-hidden">Sintering (SLS)</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">SLS builds strong, complex parts without supports by laser-fusing powder materials. This works perfectly for functional prototypes and end-use parts; it offers design freedom, durability, and heat resistance. This technique is ideal for rapid tooling solutions.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-4">
+                  <img src="./assets/Tooling And Manufacturing Services/Digital-Light.svg" alt="Digital Light Processing">
+               </div>
+               <h3 class="service-title-drafting">Digital Light <br class="m-hidden"> Processing (DLP-LPSC)</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">This technique is fast, accurate printing for detailed components. DLP cures entire layers at the same time. It uses digital light projection, delivering quick turnaround times for parts with brilliant surface quality and fine features.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-1">
+                  <img src="./assets/Tooling And Manufacturing Services/Vacuum-Casting.svg" alt="Vacuum-Casting">
+               </div>
+               <h3 class="service-title-drafting">Vacuum Casting (VC)</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">This service is designed to produce multiple copies from master patterns. VC creates high-quality polyurethane parts in silicone molds, perfect for low-volume production runs, functional testing, and bridge manufacturing before full-scale production.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-2">
+                  <img src="./assets/Tooling And Manufacturing Services/3D-Printing.svg" alt="3D Printing">
+               </div>
+               <h3 class="service-title-drafting">3D Printing</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Speed up innovation with our multi-material, multi-technology rapid prototyping solutions. From concept models to functional prototypes, our complete 3D printing services cut development costs and accelerate design iterations, bringing your ideas to market faster.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-3">
+                  <img src="./assets/Tooling And Manufacturing Services/CNC-Machining.svg" alt="CNC Machining">
+               </div>
+               <h3 class="service-title-drafting">CNC Machining</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">You can expect precision manufacturing for metals and plastics with this technique. Our advanced CNC capabilities deliver tight tolerances and superior surface finishes, creating production-ready tools and components that meet exact specifications and quality standards.</p>
+            </div>
+         </div>
+         <!-- Carousel Controls -->
+         <div class="buttons-swipe-holder">
+            <button class="carousel-prev dm-carousel-ctrl dm-prev-ctrl">
+               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m15 18-6-6 6-6" />
+               </svg>
+            </button>
+            <button class="carousel-next dm-carousel-ctrl dm-next-ctrl">
+               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m9 18 6-6-6-6" />
+               </svg>
+            </button>
+         </div>
+      </div>
+   </div>
 </section>
+
+
 <!-- Benefits Section -->
 <section class="benefits-section">
    <div class="benefits-background">
@@ -471,6 +642,61 @@
    </div>
 </section>
 <!-- contact section end -->
+
+   <script>
+      document.addEventListener('DOMContentLoaded', function () {
+         const prevButton = document.querySelector('.carousel-prev');
+         const nextButton = document.querySelector('.carousel-next');
+         const carousel = document.querySelector('.services-carousel');
+         const serviceCards = document.querySelectorAll('.service-card-drafting');
+         const cardWidth = serviceCards[0].offsetWidth + 20; // Width of the card + margin
+
+         let currentIndex = 1; // Start from the first "real" card (skip the clone)
+
+         // Clone the first and last card to create the infinite loop effect
+         const firstCard = serviceCards[0].cloneNode(true);
+         const lastCard = serviceCards[serviceCards.length - 1].cloneNode(true);
+         carousel.appendChild(firstCard);  // Append clone of the first card to the end
+         carousel.insertBefore(lastCard, carousel.firstChild);  // Prepend clone of the last card to the start
+
+         // Adjust the width of the carousel to include the cloned cards
+         const totalWidth = cardWidth * serviceCards.length + 40;  // Adjust for the cloned cards
+
+         // Move the carousel to the left
+         nextButton.addEventListener('click', function () {
+            if (currentIndex < serviceCards.length) {
+               currentIndex++;
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+            } else {
+               // After reaching the last card, reset to the first real card
+               currentIndex = 1;
+               carousel.style.transition = 'none';  // Disable transition for a smooth snap
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+               setTimeout(() => {
+                  carousel.style.transition = 'transform 0.3s ease'; // Re-enable the transition
+               }, 20); // Small delay to ensure the transition is re-enabled
+            }
+         });
+
+         // Move the carousel to the right
+         prevButton.addEventListener('click', function () {
+            if (currentIndex > 1) {
+               currentIndex--;
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+            } else {
+               // After reaching the first card, reset to the last real card
+               currentIndex = serviceCards.length;
+               carousel.style.transition = 'none';  // Disable transition for a smooth snap
+               carousel.style.transform = `translateX(-${currentIndex * cardWidth}px)`;
+               setTimeout(() => {
+                  carousel.style.transition = 'transform 0.3s ease'; // Re-enable the transition
+               }, 20); // Small delay to ensure the transition is re-enabled
+            }
+         });
+      });
+
+   </script>
+
 <script>
    document.addEventListener('DOMContentLoaded', function() {
    const slider = document.querySelector('.services-slider');

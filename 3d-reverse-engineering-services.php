@@ -243,7 +243,7 @@
    <!-- Product Development Process Section -->
    <section class="product-development-section">
       <div class="development-container">
-         <h2 class="section-title-process">The Process of 3D Prototype Printing </h2>
+         <h2 class="section-title-process">The Process of 3D Reverse Engineering </h2>
          <div class="accordion-container">
             <div class="accordion-images">
                <img src="assets/Process/Additive Manufacturing WEBP/PROJECT-INITIATION.webp" alt="Project Initiation" class="accordion-image active" data-tab="Project Initiation">

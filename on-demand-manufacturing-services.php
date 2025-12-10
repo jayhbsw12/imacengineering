@@ -839,6 +839,8 @@
 
    <!-- contact section end -->
 
+   <?php include("./components/cta.php"); ?>
+
    <script>
       document.addEventListener('DOMContentLoaded', function () {
          const prevButton = document.querySelector('.carousel-prev');

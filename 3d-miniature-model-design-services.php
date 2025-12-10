@@ -571,6 +571,7 @@
    </div>
 </section>
 <!-- contact section end -->
+<?php include("./components/cta.php"); ?>
 <script>
    document.addEventListener('DOMContentLoaded', function() {
    const slider = document.querySelector('.services-slider');

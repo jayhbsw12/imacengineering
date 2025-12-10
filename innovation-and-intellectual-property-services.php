@@ -130,34 +130,47 @@
       right: 10px;
    }
 
-   .dm-next-ctrl, .dm-prev-ctrl {
+   .dm-next-ctrl,
+   .dm-prev-ctrl {
       right: 0 !important;
       transform: translateY(0%) !important;
    }
-   .dm-prev-ctrl{
+
+   .dm-prev-ctrl {
       left: 0 !important;
    }
-   .dm-next-ctrl{
+
+   .dm-next-ctrl {
       display: block !important;
    }
-   .service-description,.service-title-drafting{
+
+   .service-description,
+   .service-title-drafting {
       text-align: left;
    }
-   .dm-carousel-ctrl{
+
+   .dm-carousel-ctrl {
       position: static !important;
    }
-   .buttons-swipe-holder{
-    display: flex;
-    justify-content: end;
-    padding: 10px;
-    gap: 20px
+
+   .buttons-swipe-holder {
+      display: flex;
+      justify-content: end;
+      padding: 10px;
+      gap: 20px
    }
-   .dm-carousel-ctrl{
+
+   .dm-carousel-ctrl {
       width: 3.5rem !important;
       height: 3.5rem !important;
    }
-   .service-title-drafting{
+
+   .service-title-drafting {
       height: auto !important;
+   }
+
+   .service-card-drafting:last-child{
+      display: none;
    }
 </style>
 <script>
@@ -327,100 +340,130 @@
 </section> -->
 
 
-<section class="imac-services-section">
-   <div class="imac-services-container">
-      <h2 class="imac-services-title">Our Innovation & IP Strategy Services</h2>
-      <div class="services-carousel-container">
-         <div class="services-carousel">
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-1">
-                  <img src="./assets/Innovation & IP Services/Invention & Novel Solutions.svg" alt="Invention & Novel Solutions">
+   <section class="imac-services-section">
+      <div class="imac-services-container">
+         <h2 class="imac-services-title">Our Innovation & IP Strategy Services</h2>
+         <div class="services-carousel-container">
+            <div class="services-carousel">
+               <div class="service-card-drafting">
+                  <div class="service-icon service-icon-1">
+                     <img src="./assets/Innovation & IP Services/Invention & Novel Solutions.svg"
+                        alt="Invention & Novel Solutions">
+                  </div>
+                  <h3 class="service-title-drafting">Invention & Novel Solutions</h3>
+                  <div class="service-divider"></div>
+                  <p class="service-description">We develop original, patentable technical solutions for your products.
+                     Our systematic approach identifies novel, non-obvious features in your products, creating
+                     defensible IP assets that give you exclusive rights and market advantage while meeting all patent
+                     office requirements.</p>
                </div>
-               <h3 class="service-title-drafting">Invention & Novel Solutions</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">We develop original, patentable technical solutions for your products. Our systematic approach identifies novel, non-obvious features in your products, creating defensible IP assets that give you exclusive rights and market advantage while meeting all patent office requirements.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-2">
-                  <img src="./assets/Innovation & IP Services/IP Fencing.svg" alt="IP Fencing">
+               <div class="service-card-drafting">
+                  <div class="service-icon service-icon-2">
+                     <img src="./assets/Innovation & IP Services/IP Fencing.svg" alt="IP Fencing">
+                  </div>
+                  <h3 class="service-title-drafting">IP Fencing</h3>
+                  <div class="service-divider"></div>
+                  <p class="service-description">Our team of experts will provide your design/brand layered protection
+                     strategies by creating complementary patents around your core technology. This builds a defensive
+                     perimeter that interferes with competitors and maintains your freedom to operate in the market with
+                     reduced infringement risks.</p>
                </div>
-               <h3 class="service-title-drafting">IP Fencing</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">Our team of experts will provide your design/brand layered protection strategies by creating complementary patents around your core technology. This builds a defensive perimeter that interferes with competitors and maintains your freedom to operate in the market with reduced infringement risks.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-3">
-                  <img src="./assets/Innovation & IP Services/IP Strategy.svg" alt="IP Strategy">
+               <div class="service-card-drafting">
+                  <div class="service-icon service-icon-3">
+                     <img src="./assets/Innovation & IP Services/IP Strategy.svg" alt="IP Strategy">
+                  </div>
+                  <h3 class="service-title-drafting">IP Strategy</h3>
+                  <div class="service-divider"></div>
+                  <p class="service-description">We create customized intellectual property plans according to your
+                     business goals. Our strategy identifies key technologies for protection, optimal filing timelines
+                     across jurisdictions, and portfolio structures that maximize commercial value. We balance
+                     protection scope with cost efficiency to create a high-value IP portfolio for your organization.
+                  </p>
                </div>
-               <h3 class="service-title-drafting">IP Strategy</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">We create customized intellectual property plans according to your business goals. Our strategy identifies key technologies for protection, optimal filing timelines across jurisdictions, and portfolio structures that maximize commercial value. We balance protection scope with cost efficiency to create a high-value IP portfolio for your organization.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-4">
-                  <img src="./assets/Innovation & IP Services/IP Workarounds.svg" alt="IP Workarounds">
+               <div class="service-card-drafting">
+                  <div class="service-icon service-icon-4">
+                     <img src="./assets/Innovation & IP Services/IP Workarounds.svg" alt="IP Workarounds">
+                  </div>
+                  <h3 class="service-title-drafting">IP Workarounds</h3>
+                  <div class="service-divider"></div>
+                  <p class="service-description">Our engineers develop alternative technical solutions when existing
+                     patents block your path. We analyze patent claims to design functional equivalents that avoid
+                     infringement while maintaining product performance. This enables continued product development
+                     without licensing burdens or legal risks from competing patents in your technology space.</p>
                </div>
-               <h3 class="service-title-drafting">IP Workarounds</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">Our engineers develop alternative technical solutions when existing patents block your path. We analyze patent claims to design functional equivalents that avoid infringement while maintaining product performance. This enables continued product development without licensing burdens or legal risks from competing patents in your technology space.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-1">
-                  <img src="./assets/Innovation & IP Services/Patent Searches.svg" alt="Patent Searches">
+               <div class="service-card-drafting">
+                  <div class="service-icon service-icon-1">
+                     <img src="./assets/Innovation & IP Services/Patent Searches.svg" alt="Patent Searches">
+                  </div>
+                  <h3 class="service-title-drafting">Patent Searches</h3>
+                  <div class="service-divider"></div>
+                  <p class="service-description">Our experts conduct thorough prior art investigations using global
+                     patent databases. We analyze existing patents and publications to assess your invention's novelty,
+                     helping shape development to meet patentability standards. Our reports identify potential obstacles
+                     and opportunities early in the innovation process.</p>
                </div>
-               <h3 class="service-title-drafting">Patent Searches</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">Our experts conduct thorough prior art investigations using global patent databases. We analyze existing patents and publications to assess your invention's novelty, helping shape development to meet patentability standards. Our reports identify potential obstacles and opportunities early in the innovation process.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-2">
-                  <img src="./assets/Innovation & IP Services/Patent Reviews.svg" alt="Patent Reviews">
+               <div class="service-card-drafting">
+                  <div class="service-icon service-icon-2">
+                     <img src="./assets/Innovation & IP Services/Patent Reviews.svg" alt="Patent Reviews">
+                  </div>
+                  <h3 class="service-title-drafting">Patent Reviews</h3>
+                  <div class="service-divider"></div>
+                  <p class="service-description">We provide detailed technical analysis of patent documents to evaluate
+                     their strength and scope. Our reviews assess claim coverage, potential infringement risks, and
+                     validity challenges. These insights support your business decisions regarding product development,
+                     licensing opportunities, and freedom-to-operate assessments.</p>
                </div>
-               <h3 class="service-title-drafting">Patent Reviews</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">We provide detailed technical analysis of patent documents to evaluate their strength and scope. Our reviews assess claim coverage, potential infringement risks, and validity challenges. These insights support your business decisions regarding product development, licensing opportunities, and freedom-to-operate assessments.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-3">
-                  <img src="./assets/Innovation & IP Services/Invention Disclosures.svg" alt="Invention Disclosures">
+               <div class="service-card-drafting">
+                  <div class="service-icon service-icon-3">
+                     <img src="./assets/Innovation & IP Services/Invention Disclosures.svg" alt="Invention Disclosures">
+                  </div>
+                  <h3 class="service-title-drafting">Invention Disclosures</h3>
+                  <div class="service-divider"></div>
+                  <p class="service-description">We prepare comprehensive technical documentation of your innovations
+                     for patent applications. Our disclosures precisely describe novel features using proper engineering
+                     terminology, highlighting patentable aspects. This thorough documentation forms the foundation for
+                     strong patent claims that adequately protect your intellectual property.</p>
                </div>
-               <h3 class="service-title-drafting">Invention Disclosures</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">We prepare comprehensive technical documentation of your innovations for patent applications. Our disclosures precisely describe novel features using proper engineering terminology, highlighting patentable aspects. This thorough documentation forms the foundation for strong patent claims that adequately protect your intellectual property.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-4">
-                  <img src="./assets/Innovation & IP Services/Trademarks (Logo Word Mark).svg" alt="Trademarks">
+               <div class="service-card-drafting">
+                  <div class="service-icon service-icon-4">
+                     <img src="./assets/Innovation & IP Services/Trademarks (Logo Word Mark).svg" alt="Trademarks">
+                  </div>
+                  <h3 class="service-title-drafting">Trademarks (Logo/Word Mark)</h3>
+                  <div class="service-divider"></div>
+                  <p class="service-description">We handle complete trademark services, including availability searches,
+                     application preparation, and registration processes. Our approach ensures your brand identifiers
+                     receive maximum legal protection while avoiding conflicts with existing marks. We guide you through
+                     selection, clearance, and registration to establish strong trademark rights.</p>
                </div>
-               <h3 class="service-title-drafting">Trademarks (Logo/Word Mark)</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">We handle complete trademark services, including availability searches, application preparation, and registration processes. Our approach ensures your brand identifiers receive maximum legal protection while avoiding conflicts with existing marks. We guide you through selection, clearance, and registration to establish strong trademark rights.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-1">
-                  <img src="./assets/Innovation & IP Services/Design Patent Research & Filing.svg" alt="Design Patent Research & Filing">
+               <div class="service-card-drafting">
+                  <div class="service-icon service-icon-1">
+                     <img src="./assets/Innovation & IP Services/Design Patent Research & Filing.svg"
+                        alt="Design Patent Research & Filing">
+                  </div>
+                  <h3 class="service-title-drafting">Design Patent Research & Filing</h3>
+                  <div class="service-divider"></div>
+                  <p class="service-description">We protect your product's unique visual appearance through design
+                     patents. Our process includes prior design searches, application preparation, and prosecution
+                     support. We emphasize distinctive ornamental features that contribute to brand identity and market
+                     differentiation, securing exclusive rights to your product's aesthetic elements.</p>
                </div>
-               <h3 class="service-title-drafting">Design Patent Research & Filing</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">We protect your product's unique visual appearance through design patents. Our process includes prior design searches, application preparation, and prosecution support. We emphasize distinctive ornamental features that contribute to brand identity and market differentiation, securing exclusive rights to your product's aesthetic elements.</p>
             </div>
-         </div>
-         <!-- Carousel Controls -->
-         <div class="buttons-swipe-holder">
-            <button class="carousel-prev dm-carousel-ctrl dm-prev-ctrl">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-               <path d="m15 18-6-6 6-6" />
-            </svg>
-         </button>
-         <button class="carousel-next dm-carousel-ctrl dm-next-ctrl">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-               <path d="m9 18 6-6-6-6" />
-            </svg>
-         </button>
+            <!-- Carousel Controls -->
+            <div class="buttons-swipe-holder">
+               <button class="carousel-prev dm-carousel-ctrl dm-prev-ctrl">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                     <path d="m15 18-6-6 6-6" />
+                  </svg>
+               </button>
+               <button class="carousel-next dm-carousel-ctrl dm-next-ctrl">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                     <path d="m9 18 6-6-6-6" />
+                  </svg>
+               </button>
+            </div>
          </div>
       </div>
-   </div>
-</section>
+   </section>
 
 
 

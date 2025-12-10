@@ -199,7 +199,7 @@
       </div>
       <header class="banner-header">
          <h1 class="banner-title">3D Reverse Engineering Services</h1>
-         <p class="banner-description">Missing design documentation for your part? With reverse engineering, we can help you capture the exact dimensions and details of an existing part or prototype, creating a perfect digital twin. This allows you to analyze, modify, repair, or reproduce anything, even without original files, saving you developmental costs and time.</p>
+         <p class="banner-description">Get your product designed, engineered, and ready to manufacture. Whether it's your first product launch or improving an existing one. We handle the complexity of design and development, so you can focus on what matters most – growing your business.</p>
       </header>
       <div class="cta-button-banner">
          <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Schedule a consultation call </span>

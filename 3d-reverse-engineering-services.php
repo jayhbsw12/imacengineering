@@ -199,14 +199,10 @@
       </div>
       <header class="banner-header">
          <h1 class="banner-title">3D Reverse Engineering Services</h1>
-         <p class="banner-description">
-           3D reverse engineering is the process of disassembling and examining (a product or device) to understand how it works. 
-         </p>
-         <p class="banner-description">
-           With reverse engineering, we help you capture the exact dimensions and geometry of an existing part or prototype, creating a perfect digital twin. This allows you to analyze, modify, repair, or reproduce anything, even without original blueprints, saving you developmental costs and time.          </p>
+         <p class="banner-description">Missing design documentation for your part? With reverse engineering, we can help you capture the exact dimensions and details of an existing part or prototype, creating a perfect digital twin. This allows you to analyze, modify, repair, or reproduce anything, even without original files, saving you developmental costs and time.</p>
       </header>
       <div class="cta-button-banner">
-         <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Get Your Quote Now</span>
+         <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Schedule a consultation call </span>
          <img src="https://static.codia.ai/custom_image/2025-07-05/131851/arrow-icon.svg" alt="Arrow" class="cta-arrow-banner">
       </div>
    </div>

@@ -239,6 +239,106 @@
 
 </section>
 
+<main class="main-container-section">
+   <!-- Product Development Process Section -->
+   <section class="product-development-section">
+      <div class="development-container">
+         <h2 class="section-title-process">The Process of 3D Prototype Printing </h2>
+         <div class="accordion-container">
+            <div class="accordion-images">
+               <img src="assets/Process/Additive Manufacturing WEBP/PROJECT-INITIATION.webp" alt="Project Initiation" class="accordion-image active" data-tab="Project Initiation">
+               <img src="assets/Process/Additive Manufacturing WEBP/DESIGN-FINALIZATION.webp" alt="Design Finalization" class="accordion-image" data-tab="Design Finalization">
+               <img src="assets/Process/Additive Manufacturing WEBP/Pre-Execution-Planning.webp" alt="Pre-Execution Planning" class="accordion-image" data-tab="Pre-Execution Planning">
+               <img src="assets/Process/Additive Manufacturing WEBP/Model Fabrication.webp" alt="Model Fabrication" class="accordion-image" data-tab="Model Fabrication">
+               <img src="assets/Process/Additive Manufacturing WEBP/Finishing-&-Quality-Control.webp" alt="Finishing & Quality Control" class="accordion-image" data-tab="Finishing & Quality Control">
+               <img src="assets/Process/Additive Manufacturing WEBP/Quality-control-checks.webp" alt="Quality control checks" class="accordion-image" data-tab="Quality control checks">
+               <img src="assets/Process/Additive Manufacturing WEBP/Final-Delivery-&-Project-Closure.webp" alt="Final Delivery & Project Closure" class="accordion-image" data-tab="Final Delivery & Project Closure">
+            </div>
+            <div class="accordion-content">
+               <div class="accordion-item active" data-tab="Project Initiation">
+                  <div class="accordion-header">
+                     <span class="step-number">01.</span>
+                     <h3 class="step-title">Project Initiation</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>The first step of the process begins with reviews and approval of the quotation, then we proceed by issuing the
+                         Purchase Order (PO) to the client, and after that client releases advance payment to initiate the project.</p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Design Finalization">
+                  <div class="accordion-header">
+                     <span class="step-number">02.</span>
+                     <h3 class="step-title">Design Finalization</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>At step two of our process, we review and modify the 3D model, only if it's needed. After modifications, 
+                        we share the final 3D model with the client for approval.</p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Pre-Execution Planning">
+                  <div class="accordion-header">
+                     <span class="step-number">03.</span>
+                     <h3 class="step-title">Pre-Execution Planning</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>Then we proceed with the confirmation of painting details, colors, finishes, or any sticker/branding requirements. 
+                        After that, we begin the preparation of the Bill of Materials (BOM) execution sheet, incorporating all design and 
+                        finish specifications; without BOM sheet approval, execution or procurement is not possible. </p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Model Fabrication">
+                  <div class="accordion-header">
+                     <span class="step-number">04.</span>
+                     <h3 class="step-title">Model Fabrication</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>At the fourth stage, there is the execution of the miniature model-making process 
+                        using approved 3D files and BOM.</p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Finishing & Quality Control">
+                  <div class="accordion-header">
+                     <span class="step-number">05.</span>
+                     <h3 class="step-title">Finishing & Quality Control </h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>After execution, we begin with the assembly and post-processing (sanding, painting, decals, etc).</p>
+                  </div>
+               </div>
+
+                <div class="accordion-item" data-tab="Quality control checks">
+                  <div class="accordion-header">
+                     <span class="step-number">06.</span>
+                     <h3 class="step-title">Quality Control Checks</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>The next stage is to send the model for pre-dispatch review to the client for approval. We provide both of the methods for reviews ( online and offline)</p>
+                  </div>
+               </div>
+
+               <div class="accordion-item" data-tab="Final Delivery & Project Closure">
+                  <div class="accordion-header">
+                     <span class="step-number">07.</span>
+                     <h3 class="step-title">Final Delivery & Project Closure</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>The last stage comes with the final dispatch of the completed model. We then collect the feedback and make changes if any. Then comes the closure of the PO upon final approval and delivery, and the remaining payment gets cleared at this stage.</p>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+</main>
+
 <!-- <section class="about-service-hero-section">
    <h2 class="main-title">Your Expert Partner<br />in Reverse Engineering Services</h2>
    <div class="about-container">

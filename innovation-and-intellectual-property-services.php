@@ -172,6 +172,9 @@
    .service-card-drafting:last-child{
       display: none;
    }
+   .dm-carousel-ctrl {
+    display: block !important;
+}
 </style>
 <script>
    // Reveal as soon as DOM is ready

@@ -154,7 +154,7 @@
 <?php include("client-logo-slider.php"); ?>
 
 </section>
-<?php include("featured-on.php"); ?>
+
 
 <!-- <section class="about-service-hero-section">
    <h2 class="main-title">High-Tolerance <br class="m-hidden"> 3D Printing Miniatures</h2>

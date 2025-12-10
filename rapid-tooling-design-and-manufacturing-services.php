@@ -249,7 +249,7 @@
       <?php include("client-logo-slider.php"); ?>
 
    </section>
-   <?php include("featured-on.php"); ?>
+
    <section class="about-service-hero-section">
       <h2 class="main-title">Rapid Tooling Design And Manufacturing</h2>
       <div class="about-container">

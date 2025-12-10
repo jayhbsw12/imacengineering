@@ -229,7 +229,7 @@
 <?php include("client-logo-slider.php"); ?>
 
 </section>
-<?php include("featured-on.php"); ?>
+
 <section class="about-service-hero-section">
    <h2 class="main-title">Engineering Interactive Customer Experiences</h2>
    <div class="about-container">

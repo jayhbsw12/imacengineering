@@ -251,7 +251,7 @@
       <?php include("client-logo-slider.php"); ?>
 
    </section>
-   <?php include("featured-on.php"); ?>
+
    <section class="about-service-hero-section">
       <h2 class="main-title">How We Deliver Micron-Level Precision <br class="m-hidden"> in High-Volume Contract
          Manufacturing? </h2>

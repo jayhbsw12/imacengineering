@@ -162,6 +162,12 @@
    .dm-carousel-ctrl {
       display: block !important;
    }
+   .bn-icon{
+      margin-left: 0 !important;
+   }
+   li.kiosk-list-item {
+    font-size: 22px;
+}
 </style>
 <script>
   // Reveal as soon as DOM is ready
@@ -230,6 +236,23 @@
 
 </section>
 
+<section class="about-service-hero-section">
+   <h2 class="main-title">3D Miniature Design Services</h2>
+   <div class="about-container">
+      <div class="right-section">
+         <p>3D miniature design creates precise, small versions of your product, machine, or device. </p>
+         <p>Perfect for manufacturers, engineers, R&D teams, and product developers who need tangible, high-detail miniatures for demonstrating complex machinery, showcasing product designs, training teams, or presenting new innovations to clients and investors.</p>
+         <ul>
+            <li class="kiosk-list-item"><i class="fa fa-check bn-icon" aria-hidden="true"></i>Custom scales</li>
+            <li class="kiosk-list-item"><i class="fa fa-check bn-icon" aria-hidden="true"></i>Industrial materials</li>
+            <li class="kiosk-list-item"><i class="fa fa-check bn-icon" aria-hidden="true"></i>NDA-protected delivery</li>
+         </ul>
+      </div>
+      <div class="left-section">
+         <img src="assets/image/main-services/CAD-Outsourcing-Services.webp" alt="CAD Drafting" />
+      </div>
+   </div>
+</section>
 
 <section class="imac-services-section">
    <div class="imac-services-container">

@@ -99,6 +99,10 @@
    .benefits-background {
       padding: 0px 120px 32px 100px !important;
    }
+
+   .features-section{
+      padding: 0px 40px 85px 40px !important;
+   }
 </style>
 <script>
    // Reveal as soon as DOM is ready
@@ -368,85 +372,11 @@
       </div>
    </section>
 
-   <!-- why us section -->
-   <section class="features-section">
-      <div class="container">
-         <h2 class="benefits-title">Why Choose Our 3D Miniature <br class="m-hidden"> Design Services? </h2>
-         <div class="features-container">
-            <div class="feature-box">
-               <div class="feature-front">
-                  <img src="./assets/Orange Icons/Miniature 3D  Design/Successful Track Record.svg"
-                     alt="Successful Track Record" />
-                  <h3>Successful Track Record</h3>
-               </div>
-               <div class="feature-back">
-                  <p>We have successfully delivered 14+ miniature models in just 2 years, building a reputation for
-                     quality expertise and meeting tight deadlines consistently every time.</p>
-               </div>
-            </div>
-            <div class="feature-box">
-               <div class="feature-front">
-                  <img src="./assets/Orange Icons/Miniature 3D  Design/Team of Experts.svg" alt="Team of Experts" />
-                  <h3>Team of Experts</h3>
-               </div>
-               <div class="feature-back">
-                  <p>Our skilled, dedicated team combines years of design experience with advanced 3D printing
-                     technology, ensuring every miniature prototype is designed and developed with professional
-                     standards.</p>
-               </div>
-            </div>
-            <div class="feature-box">
-               <div class="feature-front">
-                  <img src="./assets/Orange Icons/Miniature 3D  Design/Fast Turnaround.svg" alt="Fast Turnaround" />
-                  <h3> Fast Turnaround</h3>
-               </div>
-               <div class="feature-back">
-                  <p>Skip the months-long wait times. We deliver high-quality miniature prototypes in weeks,
-                     keeping your project timeline on track without compromising quality.</p>
-               </div>
-            </div>
-            <div class="feature-box">
-               <div class="feature-front">
-                  <img src="./assets/Orange Icons/Miniature 3D  Design/Cost-Effective Solutions.svg"
-                     alt="Cost-Effective Solutions" />
-                  <h3>Cost-Effective Solutions</h3>
-               </div>
-               <div class="feature-back">
-                  <p>Save your huge amount of money spent on design mistakes by identifying problems early.
-                     Our affordable miniature prototyping prevents expensive manufacturing errors and reduces
-                     overall project costs significantly.</p>
-               </div>
-            </div>
-            <div class="feature-box">
-               <div class="feature-front">
-                  <img src="./assets/Orange Icons/Miniature 3D  Design/Cost-Effective Solutions.svg"
-                     alt="Cost-Effective Solutions" />
-                  <h3>Miniature Development Using FDM Technology</h3>
-               </div>
-               <div class="feature-back">
-                  <p>Our key USP is developing high-quality miniatures using FDM technology, creating detailed scale
-                     models of products, machines, or concepts for exhibitions cost-effectively.</p>
-               </div>
-            </div>
-            <div class="feature-box">
-               <div class="feature-front">
-                  <img src="./assets/Orange Icons/Product Design and Development/End-to-End Support.svg"
-                     alt="End-to-End Service" />
-                  <h3>End-to-End Service</h3>
-               </div>
-               <div class="feature-back">
-                  <p>From initial concept drawings to final production-ready models, we handle every step of the
-                     miniature design process, eliminating the hassle of coordinating multiple vendors.</p>
-               </div>
-            </div>
 
-         </div>
-      </div>
-   </section>
    <!-- our process -->
    <main class="main-container-section">
       <!-- Product Development Process Section -->
-      <!-- <section class="product-development-section">
+      <section class="product-development-section">
       <div class="development-container">
          <h2 class="section-title-process">The Process Of Creating <br class="m-hidden">a 3D Miniature Model</h2>
          <div class="accordion-container">
@@ -541,8 +471,85 @@
             </div>
          </div>
       </div>
-   </section> -->
+   </section>
    </main>
+
+      <!-- why us section -->
+   <section class="features-section">
+      <div class="container">
+         <h2 class="benefits-title">Why Choose Our 3D Miniature <br class="m-hidden"> Design Services? </h2>
+         <div class="features-container">
+            <div class="feature-box">
+               <div class="feature-front">
+                  <img src="./assets/Orange Icons/Miniature 3D  Design/Successful Track Record.svg"
+                     alt="Successful Track Record" />
+                  <h3>Successful Track Record</h3>
+               </div>
+               <div class="feature-back">
+                  <p>We have successfully delivered 14+ miniature models in just 2 years, building a reputation for
+                     quality expertise and meeting tight deadlines consistently every time.</p>
+               </div>
+            </div>
+            <div class="feature-box">
+               <div class="feature-front">
+                  <img src="./assets/Orange Icons/Miniature 3D  Design/Team of Experts.svg" alt="Team of Experts" />
+                  <h3>Team of Experts</h3>
+               </div>
+               <div class="feature-back">
+                  <p>Our skilled, dedicated team combines years of design experience with advanced 3D printing
+                     technology, ensuring every miniature prototype is designed and developed with professional
+                     standards.</p>
+               </div>
+            </div>
+            <div class="feature-box">
+               <div class="feature-front">
+                  <img src="./assets/Orange Icons/Miniature 3D  Design/Fast Turnaround.svg" alt="Fast Turnaround" />
+                  <h3> Fast Turnaround</h3>
+               </div>
+               <div class="feature-back">
+                  <p>Skip the months-long wait times. We deliver high-quality miniature prototypes in weeks,
+                     keeping your project timeline on track without compromising quality.</p>
+               </div>
+            </div>
+            <div class="feature-box">
+               <div class="feature-front">
+                  <img src="./assets/Orange Icons/Miniature 3D  Design/Cost-Effective Solutions.svg"
+                     alt="Cost-Effective Solutions" />
+                  <h3>Cost-Effective Solutions</h3>
+               </div>
+               <div class="feature-back">
+                  <p>Save your huge amount of money spent on design mistakes by identifying problems early.
+                     Our affordable miniature prototyping prevents expensive manufacturing errors and reduces
+                     overall project costs significantly.</p>
+               </div>
+            </div>
+            <div class="feature-box">
+               <div class="feature-front">
+                  <img src="./assets/Orange Icons/Miniature 3D  Design/Cost-Effective Solutions.svg"
+                     alt="Cost-Effective Solutions" />
+                  <h3>Miniature Development Using FDM Technology</h3>
+               </div>
+               <div class="feature-back">
+                  <p>Our key USP is developing high-quality miniatures using FDM technology, creating detailed scale
+                     models of products, machines, or concepts for exhibitions cost-effectively.</p>
+               </div>
+            </div>
+            <div class="feature-box">
+               <div class="feature-front">
+                  <img src="./assets/Orange Icons/Product Design and Development/End-to-End Support.svg"
+                     alt="End-to-End Service" />
+                  <h3>End-to-End Service</h3>
+               </div>
+               <div class="feature-back">
+                  <p>From initial concept drawings to final production-ready models, we handle every step of the
+                     miniature design process, eliminating the hassle of coordinating multiple vendors.</p>
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </section>
+
    <!-- FAQ Section -->
    <section class="faq-section">
       <div class="faq-container">

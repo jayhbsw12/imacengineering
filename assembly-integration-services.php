@@ -197,7 +197,7 @@
          </p>
       </header>
       <div class="cta-button-banner">
-         <span class="cta-text-banner">Get a quote</span>
+         <span class="cta-text-banner">Let’s Work Together</span>
          <img src="https://static.codia.ai/custom_image/2025-07-05/131851/arrow-icon.svg" alt="Arrow" class="cta-arrow-banner">
       </div>
    </div>
@@ -249,6 +249,79 @@
       </div>
    </div>
 </section>
+
+<!-- process section -->
+<main class="main-container-section">
+   <!-- Product Development Process Section -->
+   <section class="product-development-section">
+      <div class="development-container">
+         <h2 class="section-title-process">The Process Behind Our Assembly Services</h2>
+         <div class="accordion-container">
+            <div class="accordion-images">
+               <img src="assets/Process/Integration Services WEBP/Component-Inspection-&-Preparation.webp" alt="Component Inspection & Preparation" class="accordion-image active" data-tab="Component Inspection">
+               <img src="assets/Process/Integration Services WEBP/Precision-Sub-Assembly.webp" alt="Precision Sub-Assembly" class="accordion-image" data-tab="Precision Sub-Assembly">
+               <img src="assets/Process/Integration Services WEBP/Quality-Verification.webp" alt="Quality Verification" class="accordion-image" data-tab="Quality Verification">
+               <img src="assets/Process/Integration Services WEBP/Final-Integration.webp" alt="Final Integration" class="accordion-image" data-tab="Final Integration">
+               <img src="assets/Process/Integration Services WEBP/Performance-Testing.webp" alt="Performance Testing" class="accordion-image" data-tab="Performance Testing">
+            </div>
+            <div class="accordion-content">
+               <div class="accordion-item active" data-tab="Component Inspection">
+                  <div class="accordion-header">
+                     <span class="step-number">01.</span>
+                     <h3 class="step-title">Component Inspection & Preparation</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>Every part undergoes strict dimensional checks, material verification, and surface assessment. Components are barcode-tracked for traceability, while non-conforming items are quarantined immediately.</p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Precision Sub-Assembly">
+                  <div class="accordion-header">
+                     <span class="step-number">02.</span>
+                     <h3 class="step-title">Precision Sub-Assembly</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>Our specialized technicians assemble modules using calibrated tools and jigs. Each sub-unit receives functional testing before progression. This staged approach catches 92% of potential issues early. </p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Quality Verification">
+                  <div class="accordion-header">
+                     <span class="step-number">03.</span>
+                     <h3 class="step-title">Quality Verification </h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>Sub-assemblies enter our metrology lab for 3D scanning, torque validation, and electrical testing. Automated optical inspection compares components against digital twins.</p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Final Integration">
+                  <div class="accordion-header">
+                     <span class="step-number">04.</span>
+                     <h3 class="step-title">Final Integration </h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>Master technicians assemble tested sub-units into complete automatic systems for heavy components. Each connection undergoes real-time sensor monitoring (vibration, thermal, pressure) to ensure perfect mating and alignment.</p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Performance Testing">
+                  <div class="accordion-header">
+                     <span class="step-number">05.</span>
+                     <h3 class="step-title">Performance Testing </h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>Finished products endure 72-hour stress cycles (thermal, load, endurance) simulating 5 years of operation. We generate certified test reports with 200+ data points before approving shipment. </p>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+</main>
+
 <!-- Services Section -->
 <!-- <section class="imac-services-section">
    <div class="imac-services-container">
@@ -389,47 +462,6 @@
    </div>
 </section>
 
-<!-- Benefits Section -->
-<section class="benefits-section">
-   <div class="benefits-background">
-      <div class="benefits-container">
-         <h2 class="benefits-title">Benefits of Integration (Assembly) Services<br class="m-hidden"></h2>
-         <div class="benefits-grid">
-            <div class="benefit-card benefit-card-1">
-               <div class="benefit-icon benefit-icon-1"></div>
-               <p class="benefit-text">Centralized management of component integration minimizes logistical issues, optimizes workflow efficiency, and accelerates time-to-market for finished products.</p>
-            </div>
-            <div class="benefit-card benefit-card-2">
-               <div class="benefit-icon benefit-icon-2"></div>
-               <p class="benefit-text">Standardized assembly protocols with rigorous quality control ensure dimensional accuracy, functional reliability, and consistent performance across production batches.
-</p>
-            </div>
-         </div>
-         <div class="benefits-grid-2">
-            <div class="benefit-card benefit-card-3">
-               <div class="benefit-icon benefit-icon-3"></div>
-               <p class="benefit-text">Consolidated procurement and reduced handling stages lower material waste, decrease labor overhead, and improve overall manufacturing cost-efficiency.
-</p>
-            </div>
-            <div class="benefit-card benefit-card-4">
-               <div class="benefit-icon benefit-icon-4"></div>
-               <p class="benefit-text"> Modular service architecture accommodates variable production volumes from prototype development to full-scale commercialization with smooth capacity adjustment.</p>
-            </div>
-         </div>
-         <div class="benefits-grid-2">
-            <div class="benefit-card benefit-card-5">
-               <div class="benefit-icon benefit-icon-5"></div>
-               <p class="benefit-text">Integrated quality management systems maintain traceability and documentation to meet industry-specific certification requirements and safety standards.
-</p>
-            </div>
-            <div class="benefit-card benefit-card-4">
-               <div class="benefit-icon benefit-icon-4"></div>
-               <p class="benefit-text">Our cross-functional integration expertise will offer you an optimal compatibility between mechanical, electrical, and software subsystems, preventing interface failures and maximizing system uptime.</p>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
 <!-- why us section -->
 <section class="features-section">
    <div class="container">
@@ -475,76 +507,49 @@
       </div>
    </div>
 </section>
-<main class="main-container-section">
-   <!-- Product Development Process Section -->
-   <section class="product-development-section">
-      <div class="development-container">
-         <h2 class="section-title-process">The Process Behind Our Assembly Services</h2>
-         <div class="accordion-container">
-            <div class="accordion-images">
-               <img src="assets/Process/Integration Services WEBP/Component-Inspection-&-Preparation.webp" alt="Component Inspection & Preparation" class="accordion-image active" data-tab="Component Inspection">
-               <img src="assets/Process/Integration Services WEBP/Precision-Sub-Assembly.webp" alt="Precision Sub-Assembly" class="accordion-image" data-tab="Precision Sub-Assembly">
-               <img src="assets/Process/Integration Services WEBP/Quality-Verification.webp" alt="Quality Verification" class="accordion-image" data-tab="Quality Verification">
-               <img src="assets/Process/Integration Services WEBP/Final-Integration.webp" alt="Final Integration" class="accordion-image" data-tab="Final Integration">
-               <img src="assets/Process/Integration Services WEBP/Performance-Testing.webp" alt="Performance Testing" class="accordion-image" data-tab="Performance Testing">
-            </div>
-            <div class="accordion-content">
-               <div class="accordion-item active" data-tab="Component Inspection">
-                  <div class="accordion-header">
-                     <span class="step-number">01.</span>
-                     <h3 class="step-title">Component Inspection & Preparation</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>Every part undergoes strict dimensional checks, material verification, and surface assessment. Components are barcode-tracked for traceability, while non-conforming items are quarantined immediately.</p>
-                  </div>
-               </div>
-               <div class="accordion-item" data-tab="Precision Sub-Assembly">
-                  <div class="accordion-header">
-                     <span class="step-number">02.</span>
-                     <h3 class="step-title">Precision Sub-Assembly</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>Our specialized technicians assemble modules using calibrated tools and jigs. Each sub-unit receives functional testing before progression. This staged approach catches 92% of potential issues early. </p>
-                  </div>
-               </div>
-               <div class="accordion-item" data-tab="Quality Verification">
-                  <div class="accordion-header">
-                     <span class="step-number">03.</span>
-                     <h3 class="step-title">Quality Verification </h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>Sub-assemblies enter our metrology lab for 3D scanning, torque validation, and electrical testing. Automated optical inspection compares components against digital twins.</p>
-                  </div>
-               </div>
-               <div class="accordion-item" data-tab="Final Integration">
-                  <div class="accordion-header">
-                     <span class="step-number">04.</span>
-                     <h3 class="step-title">Final Integration </h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>Master technicians assemble tested sub-units into complete automatic systems for heavy components. Each connection undergoes real-time sensor monitoring (vibration, thermal, pressure) to ensure perfect mating and alignment.</p>
-                  </div>
-               </div>
-               <div class="accordion-item" data-tab="Performance Testing">
-                  <div class="accordion-header">
-                     <span class="step-number">05.</span>
-                     <h3 class="step-title">Performance Testing </h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>Finished products endure 72-hour stress cycles (thermal, load, endurance) simulating 5 years of operation. We generate certified test reports with 200+ data points before approving shipment. </p>
-                  </div>
-               </div>
 
+<!-- Benefits Section -->
+<section class="benefits-section">
+   <div class="benefits-background">
+      <div class="benefits-container">
+         <h2 class="benefits-title">Advantages of Integration (Assembly) Services<br class="m-hidden"></h2>
+         <div class="benefits-grid">
+            <div class="benefit-card benefit-card-1">
+               <div class="benefit-icon benefit-icon-1"></div>
+               <p class="benefit-text">Centralized management of component integration minimizes logistical issues, optimizes workflow efficiency, and accelerates time-to-market for finished products.</p>
+            </div>
+            <div class="benefit-card benefit-card-2">
+               <div class="benefit-icon benefit-icon-2"></div>
+               <p class="benefit-text">Standardized assembly protocols with rigorous quality control ensure dimensional accuracy, functional reliability, and consistent performance across production batches.
+</p>
+            </div>
+         </div>
+         <div class="benefits-grid-2">
+            <div class="benefit-card benefit-card-3">
+               <div class="benefit-icon benefit-icon-3"></div>
+               <p class="benefit-text">Consolidated procurement and reduced handling stages lower material waste, decrease labor overhead, and improve overall manufacturing cost-efficiency.
+</p>
+            </div>
+            <div class="benefit-card benefit-card-4">
+               <div class="benefit-icon benefit-icon-4"></div>
+               <p class="benefit-text"> Modular service architecture accommodates variable production volumes from prototype development to full-scale commercialization with smooth capacity adjustment.</p>
+            </div>
+         </div>
+         <div class="benefits-grid-2">
+            <div class="benefit-card benefit-card-5">
+               <div class="benefit-icon benefit-icon-5"></div>
+               <p class="benefit-text">Integrated quality management systems maintain traceability and documentation to meet industry-specific certification requirements and safety standards.
+</p>
+            </div>
+            <div class="benefit-card benefit-card-4">
+               <div class="benefit-icon benefit-icon-4"></div>
+               <p class="benefit-text">Our cross-functional integration expertise will offer you an optimal compatibility between mechanical, electrical, and software subsystems, preventing interface failures and maximizing system uptime.</p>
             </div>
          </div>
       </div>
-   </section>
-</main>
+   </div>
+</section>
+
 <!-- FAQ Section -->
 <section class="faq-section">
    <div class="faq-container">

@@ -193,7 +193,7 @@
          </p>
       </header>
       <div class="cta-button-banner openModalBtn" data-redirect="thank-you">
-         <span class="cta-text-banner">Get Your Quote Now</span>
+         <span class="cta-text-banner">Let’s Collaborate</span>
          <img src="https://static.codia.ai/custom_image/2025-07-05/131851/arrow-icon.svg" alt="Arrow" class="cta-arrow-banner">
       </div>
    </div>
@@ -228,6 +228,102 @@
 
 <?php include("client-logo-slider.php"); ?>
 
+</section>
+
+
+<section class="imac-services-section">
+   <div class="imac-services-container">
+      <h2 class="imac-services-title">Our Kiosk Design and Manufacturing Services</h2>
+      <div class="services-carousel-container">
+         <div class="services-carousel">
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-1">
+                  <img src="./assets/Miniature 3D Printed Prototype Design/See-Your-Ideas-Come-to-Life.svg" alt="See Your Ideas Come to Life">
+               </div>
+               <h3 class="service-title-drafting">Structural Analytics & <br class="m-hidden"> Design Documentation</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Every kiosk structure undergoes comprehensive load analysis, vibration testing, and stress modeling before the prototype. Our detailed design documentation ensures your kiosk can handle years of continuous use while maintaining structural integrity in high-traffic environments.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-2">
+                  <img src="./assets/Miniature 3D Printed Prototype Design/Cost-Effective-Design-Validation.svg" alt="Cost-Effective Design Validation">
+               </div>
+               <h3 class="service-title-drafting">Value Engineering</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Smart design means maximizing performance while minimizing costs. We identify opportunities to optimize materials, streamline manufacturing processes, and eliminate unnecessary complexity without compromising on quality. This approach consistently saves costs and enhances durability.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-3">
+                  <img src="./assets/CAD Outsourcing Services/Reverse-Engineering&Scanning.svg" alt="Reverse Engineering">
+               </div>
+               <h3 class="service-title-drafting">Reverse Engineering</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Got an existing kiosk that needs improvement? We reverse-engineer legacy systems to understand their limitations and then redesign them with modern capabilities & techniques. From updating obsolete components or improving user interfaces, our kiosk design and development services company adds life to outdated self-service solutions.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-4">
+                  <img src="./assets/Miniature 3D Printed Prototype Design/Enhanced-Client-Communication.svg" alt="Enhanced Client Communication">
+               </div>
+               <h3 class="service-title-drafting">Sustenance System Engineering</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Your kiosks need to operate 24/7 without failure. Our sustenance engineering focuses on preventive maintenance protocols, component lifecycle planning, and fail-safe backup systems. The result? Minimal downtime and maximum return on investment.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-1">
+                  <img src="./assets/Miniature 3D Printed Prototype Design/Accelerated-Product-Development.svg" alt="Accelerated Product Development">
+               </div>
+               <h3 class="service-title-drafting">Test Systems</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Every kiosk undergoes rigorous testing before deployment. We simulate real-world conditions from extreme temperatures to continuous user interactions, ensuring your investment performs reliably when it matters most.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-2">
+                  <img src="./assets/Miniature 3D Printed Prototype Design/Risk-Mitigation-Before-Production.svg" alt="Risk Mitigation Before Production">
+               </div>
+               <h3 class="service-title-drafting">System Design & Development</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">This is where technical expertise combines with experience. We architect complete kiosk ecosystems - hardware integration, software optimization, connectivity protocols, and security frameworks. Each system is custom-engineered for your operational requirements.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-3">
+                  <img src="./assets/Miniature 3D Printed Prototype Design/Test-What-Works.svg" alt="Test What Works">
+               </div>
+               <h3 class="service-title-drafting">Certification Support</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Compliance is not optional. We navigate ADA accessibility standards, PCI payment security requirements, UL safety certifications, and industry-specific regulations. We partner with trusted compliance agencies to simplify certifications, so you meet standards easily, while we focus on building kiosks that last.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-3">
+                  <img src="./assets/Miniature 3D Printed Prototype Design/Test-What-Works.svg" alt="Test What Works">
+               </div>
+               <h3 class="service-title-drafting">Digital Mockup & Prototyping</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">See your vision before you invest. Our digital mockups and rapid prototyping let you experience the user interface, test functionality, and refine design elements before committing to full production. This iterative approach prevents costly mistakes and accelerates time-to-market.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-3">
+                  <img src="./assets/Miniature 3D Printed Prototype Design/Test-What-Works.svg" alt="Test What Works">
+               </div>
+               <h3 class="service-title-drafting">Manufacturing</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">From prototype to production, we manage the entire manufacturing process. Our quality control protocols, supply chain partnerships, and production scaling capabilities ensure your kiosks are built to exact specifications, delivered on time, and ready for immediate deployment.</p>
+            </div>
+         </div>
+         <!-- Carousel Controls -->
+         <div class="buttons-swipe-holder">
+            <button class="carousel-prev dm-carousel-ctrl dm-prev-ctrl">
+               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m15 18-6-6 6-6" />
+               </svg>
+            </button>
+            <button class="carousel-next dm-carousel-ctrl dm-next-ctrl">
+               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m9 18 6-6-6-6" />
+               </svg>
+            </button>
+         </div>
+      </div>
+   </div>
 </section>
 
 <section class="about-service-hero-section">
@@ -303,7 +399,78 @@
    </div>
 </section>
 
- 
+<!-- process Section -->
+<main class="main-container-section">
+   <!-- Product Development Process Section -->
+   <section class="product-development-section">
+      <div class="development-container">
+         <h2 class="section-title-process">Our Proven Kiosk Design & Development Process</h2>
+         <div class="accordion-container">
+            <div class="accordion-images">
+               <img src="assets/Process/kiosk/DISCOVERY & STRETAGY.webp" alt="Project Initiation" class="accordion-image active" data-tab="Project Initiation">
+               <img src="assets/Process/kiosk/DESIGN AND ENGINEERING.webp" alt="Design Finalization" class="accordion-image" data-tab="Design Finalization">
+               <img src="assets/Process/kiosk/PROTOTYPING AND TESTING.webp" alt="Pre-Execution Planning" class="accordion-image" data-tab="Pre-Execution Planning">
+               <img src="assets/Process/kiosk/MFG AND QUALITY.webp" alt="Model Fabrication" class="accordion-image" data-tab="Model Fabrication">
+               <img src="assets/Process/kiosk/DEPLOYMENT & SUPPORT.webp" alt="Finishing & Quality Control" class="accordion-image" data-tab="Finishing & Quality Control">
+              
+            </div>
+            <div class="accordion-content">
+               <div class="accordion-item active" data-tab="Project Initiation">
+                  <div class="accordion-header">
+                     <span class="step-number">01.</span>
+                     <h3 class="step-title">Discovery & Strategy</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>We analyze your requirements, environment, and user behavior patterns to architect the perfect kiosk solution.</p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Design Finalization">
+                  <div class="accordion-header">
+                     <span class="step-number">02.</span>
+                     <h3 class="step-title">Design & Engineering</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>Our team creates custom interfaces, structural designs, and technical specifications optimized for your application.</p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Pre-Execution Planning">
+                  <div class="accordion-header">
+                     <span class="step-number">03.</span>
+                     <h3 class="step-title">Prototyping & Testing</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>We build functional prototypes, conduct user testing, and validate performance before full production commitment. </p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Model Fabrication">
+                  <div class="accordion-header">
+                     <span class="step-number">04.</span>
+                     <h3 class="step-title">Manufacturing & Quality</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>Precision manufacturing with rigorous quality control ensures every kiosk meets exact specifications and durability standards.</p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Finishing & Quality Control">
+                  <div class="accordion-header">
+                     <span class="step-number">05.</span>
+                     <h3 class="step-title">Deployment & Support</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>Complete installation, staff training, and ongoing maintenance support guarantee seamless operation from day one.</p>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </div>
+   </section>
+</main> 
 
 <section class="services-section-kiosk">
     <div class="container-kiosk">
@@ -489,101 +656,6 @@
    </div>
 </section> -->
 
-<section class="imac-services-section">
-   <div class="imac-services-container">
-      <h2 class="imac-services-title">Our Kiosk Design and Manufacturing Services</h2>
-      <div class="services-carousel-container">
-         <div class="services-carousel">
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-1">
-                  <img src="./assets/Miniature 3D Printed Prototype Design/See-Your-Ideas-Come-to-Life.svg" alt="See Your Ideas Come to Life">
-               </div>
-               <h3 class="service-title-drafting">Structural Analytics & <br class="m-hidden"> Design Documentation</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">Every kiosk structure undergoes comprehensive load analysis, vibration testing, and stress modeling before the prototype. Our detailed design documentation ensures your kiosk can handle years of continuous use while maintaining structural integrity in high-traffic environments.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-2">
-                  <img src="./assets/Miniature 3D Printed Prototype Design/Cost-Effective-Design-Validation.svg" alt="Cost-Effective Design Validation">
-               </div>
-               <h3 class="service-title-drafting">Value Engineering</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">Smart design means maximizing performance while minimizing costs. We identify opportunities to optimize materials, streamline manufacturing processes, and eliminate unnecessary complexity without compromising on quality. This approach consistently saves costs and enhances durability.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-3">
-                  <img src="./assets/CAD Outsourcing Services/Reverse-Engineering&Scanning.svg" alt="Reverse Engineering">
-               </div>
-               <h3 class="service-title-drafting">Reverse Engineering</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">Got an existing kiosk that needs improvement? We reverse-engineer legacy systems to understand their limitations and then redesign them with modern capabilities & techniques. From updating obsolete components or improving user interfaces, our kiosk design and development services company adds life to outdated self-service solutions.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-4">
-                  <img src="./assets/Miniature 3D Printed Prototype Design/Enhanced-Client-Communication.svg" alt="Enhanced Client Communication">
-               </div>
-               <h3 class="service-title-drafting">Sustenance System Engineering</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">Your kiosks need to operate 24/7 without failure. Our sustenance engineering focuses on preventive maintenance protocols, component lifecycle planning, and fail-safe backup systems. The result? Minimal downtime and maximum return on investment.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-1">
-                  <img src="./assets/Miniature 3D Printed Prototype Design/Accelerated-Product-Development.svg" alt="Accelerated Product Development">
-               </div>
-               <h3 class="service-title-drafting">Test Systems</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">Every kiosk undergoes rigorous testing before deployment. We simulate real-world conditions from extreme temperatures to continuous user interactions, ensuring your investment performs reliably when it matters most.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-2">
-                  <img src="./assets/Miniature 3D Printed Prototype Design/Risk-Mitigation-Before-Production.svg" alt="Risk Mitigation Before Production">
-               </div>
-               <h3 class="service-title-drafting">System Design & Development</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">This is where technical expertise combines with experience. We architect complete kiosk ecosystems - hardware integration, software optimization, connectivity protocols, and security frameworks. Each system is custom-engineered for your operational requirements.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-3">
-                  <img src="./assets/Miniature 3D Printed Prototype Design/Test-What-Works.svg" alt="Test What Works">
-               </div>
-               <h3 class="service-title-drafting">Certification Support</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">Compliance is not optional. We navigate ADA accessibility standards, PCI payment security requirements, UL safety certifications, and industry-specific regulations. We partner with trusted compliance agencies to simplify certifications, so you meet standards easily, while we focus on building kiosks that last.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-3">
-                  <img src="./assets/Miniature 3D Printed Prototype Design/Test-What-Works.svg" alt="Test What Works">
-               </div>
-               <h3 class="service-title-drafting">Digital Mockup & Prototyping</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">See your vision before you invest. Our digital mockups and rapid prototyping let you experience the user interface, test functionality, and refine design elements before committing to full production. This iterative approach prevents costly mistakes and accelerates time-to-market.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-3">
-                  <img src="./assets/Miniature 3D Printed Prototype Design/Test-What-Works.svg" alt="Test What Works">
-               </div>
-               <h3 class="service-title-drafting">Manufacturing</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">From prototype to production, we manage the entire manufacturing process. Our quality control protocols, supply chain partnerships, and production scaling capabilities ensure your kiosks are built to exact specifications, delivered on time, and ready for immediate deployment.</p>
-            </div>
-         </div>
-         <!-- Carousel Controls -->
-         <div class="buttons-swipe-holder">
-            <button class="carousel-prev dm-carousel-ctrl dm-prev-ctrl">
-               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="m15 18-6-6 6-6" />
-               </svg>
-            </button>
-            <button class="carousel-next dm-carousel-ctrl dm-next-ctrl">
-               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="m9 18 6-6-6-6" />
-               </svg>
-            </button>
-         </div>
-      </div>
-   </div>
-</section>
-
 
 <!-- Benefits Section -->
 <section class="benefits-section">
@@ -695,77 +767,8 @@
       </div>
    </div>
 </section>
-<main class="main-container-section">
-   <!-- Product Development Process Section -->
-   <section class="product-development-section">
-      <div class="development-container">
-         <h2 class="section-title-process">Our Proven Kiosk Design & Development Process</h2>
-         <div class="accordion-container">
-            <div class="accordion-images">
-               <img src="assets/Process/kiosk/DISCOVERY & STRETAGY.webp" alt="Project Initiation" class="accordion-image active" data-tab="Project Initiation">
-               <img src="assets/Process/kiosk/DESIGN AND ENGINEERING.webp" alt="Design Finalization" class="accordion-image" data-tab="Design Finalization">
-               <img src="assets/Process/kiosk/PROTOTYPING AND TESTING.webp" alt="Pre-Execution Planning" class="accordion-image" data-tab="Pre-Execution Planning">
-               <img src="assets/Process/kiosk/MFG AND QUALITY.webp" alt="Model Fabrication" class="accordion-image" data-tab="Model Fabrication">
-               <img src="assets/Process/kiosk/DEPLOYMENT & SUPPORT.webp" alt="Finishing & Quality Control" class="accordion-image" data-tab="Finishing & Quality Control">
-              
-            </div>
-            <div class="accordion-content">
-               <div class="accordion-item active" data-tab="Project Initiation">
-                  <div class="accordion-header">
-                     <span class="step-number">01.</span>
-                     <h3 class="step-title">Discovery & Strategy</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>We analyze your requirements, environment, and user behavior patterns to architect the perfect kiosk solution.</p>
-                  </div>
-               </div>
-               <div class="accordion-item" data-tab="Design Finalization">
-                  <div class="accordion-header">
-                     <span class="step-number">02.</span>
-                     <h3 class="step-title">Design & Engineering</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>Our team creates custom interfaces, structural designs, and technical specifications optimized for your application.</p>
-                  </div>
-               </div>
-               <div class="accordion-item" data-tab="Pre-Execution Planning">
-                  <div class="accordion-header">
-                     <span class="step-number">03.</span>
-                     <h3 class="step-title">Prototyping & Testing</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>We build functional prototypes, conduct user testing, and validate performance before full production commitment. </p>
-                  </div>
-               </div>
-               <div class="accordion-item" data-tab="Model Fabrication">
-                  <div class="accordion-header">
-                     <span class="step-number">04.</span>
-                     <h3 class="step-title">Manufacturing & Quality</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>Precision manufacturing with rigorous quality control ensures every kiosk meets exact specifications and durability standards.</p>
-                  </div>
-               </div>
-               <div class="accordion-item" data-tab="Finishing & Quality Control">
-                  <div class="accordion-header">
-                     <span class="step-number">05.</span>
-                     <h3 class="step-title">Deployment & Support</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>Complete installation, staff training, and ongoing maintenance support guarantee seamless operation from day one.</p>
-                  </div>
-               </div>
 
-            </div>
-         </div>
-      </div>
-   </section>
-</main>
+
 <!-- FAQ Section -->
 <section class="faq-section">
    <div class="faq-container">
@@ -906,7 +909,7 @@
 <!-- contact section end -->
 
 <?php include("./components/cta.php"); ?>
-
+ 
    <script>
       document.addEventListener('DOMContentLoaded', function () {
          const prevButton = document.querySelector('.carousel-prev');

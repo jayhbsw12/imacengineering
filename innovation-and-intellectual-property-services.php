@@ -169,12 +169,17 @@
       height: auto !important;
    }
 
-   .service-card-drafting:last-child{
+   .service-card-drafting:last-child {
       display: none;
    }
+   .main-container-section {
+      padding: 50px 0 100px 0px !important;
+   }
+
    .dm-carousel-ctrl {
-    display: block !important;
-}
+      display: block !important;
+
+   }
 </style>
 <script>
    // Reveal as soon as DOM is ready
@@ -208,7 +213,7 @@
                vision should be unique and secure, just like you imagined it! </p>
          </header>
          <div class="cta-button-banner">
-            <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Get your Quote Now</span>
+            <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Let's Protect Your IP</span>
             <img src="https://static.codia.ai/custom_image/2025-07-05/131851/arrow-icon.svg" alt="Arrow"
                class="cta-arrow-banner">
          </div>
@@ -250,7 +255,7 @@
    </section>
 
    <section class="about-service-hero-section">
-      <h2 class="main-title">Safeguard Your Innovations with iDES<br /></h2>
+      <h2 class="main-title">Safeguard Your Innovations with Us <br /></h2>
       <div class="about-container">
          <div class="left-section">
             <img src="assets/image/main-services/Innovation-and-IP-Stretagy.webp" alt="Innovation-and-IP-Stretagy" />
@@ -272,6 +277,91 @@
          </div>
       </div>
    </section>
+
+
+   <!-- process section -->
+   <main class="main-container-section">
+      <!-- Product Development Process Section -->
+      <section class="product-development-section">
+         <div class="development-container">
+            <h2 class="section-title-process">How Does Our Intellectual Property Process Work?</h2>
+            <div class="accordion-container">
+               <div class="accordion-images">
+                  <img src="assets/Process/innovation & IP Strategy/Comprehensive IP Assessment.webp"
+                     alt="Comprehensive IP Assessment" class="accordion-image active" data-tab="Comprehensive">
+                  <img src="assets/Process/innovation & IP Strategy/Multi-Layered Application Strategy.webp"
+                     alt="Multi-Layered Application Strategy" class="accordion-image" data-tab="Multi-Layered">
+                  <img src="assets/Process/innovation & IP Strategy/Filing and Prosecution Management.webp" alt="Filing"
+                     class="accordion-image" data-tab="Filing">
+                  <img src="assets/Process/innovation & IP Strategy/Integrated Portfolio Protection.webp"
+                     alt="Integrated Portfolio Protection" class="accordion-image" data-tab="Integrated">
+               </div>
+               <div class="accordion-content">
+                  <div class="accordion-item active" data-tab="Comprehensive">
+                     <div class="accordion-header">
+                        <span class="step-number">01.</span>
+                        <h3 class="step-title">Comprehensive IP Assessment</h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>Our team of experts analyzes your innovation across patents, design patents, and trademarks
+                           to identify all protection opportunities. Our assessment covers functional features,
+                           aesthetic elements, and brand identifiers.</p>
+                     </div>
+                  </div>
+                  <div class="accordion-item" data-tab="Multi-Layered">
+                     <div class="accordion-header">
+                        <span class="step-number">02.</span>
+                        <h3 class="step-title">Multi-Layered Application Strategy</h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>We develop patent applications for functional innovations, design patents for aesthetic
+                           features, and trademark applications for your brand elements, ensuring complete protection
+                           coverage.</p>
+                     </div>
+                  </div>
+                  <div class="accordion-item" data-tab="Filing">
+                     <div class="accordion-header">
+                        <span class="step-number">03.</span>
+                        <h3 class="step-title">Filing and Prosecution Management</h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>Our team handles all filings across patent offices, design registries, and trademark offices
+                           while managing prosecution responses, office actions, and regulatory requirements for each IP
+                           type.</p>
+                     </div>
+                  </div>
+                  <div class="accordion-item" data-tab="Integrated">
+                     <div class="accordion-header">
+                        <span class="step-number">04.</span>
+                        <h3 class="step-title">Integrated Portfolio Protection</h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>We maintain your complete IP portfolio through renewal management, infringement monitoring,
+                           and strategic enforcement actions across patents, design rights, and trademark protections
+                           for maximum business value.</p>
+                     </div>
+                  </div>
+                  <!-- <div class="accordion-item" data-tab="prototyping">
+                  <div class="accordion-header">
+                     <span class="step-number">05.</span>
+                     <h3 class="step-title">Approval</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>After incorporating feedback, we deliver final CAD files and documentation, ensuring accuracy for production.</p>
+                  </div>
+               </div> -->
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+
+
    <!-- Services Section -->
    <!-- <section class="imac-services-section">
    <div class="imac-services-container">
@@ -341,8 +431,6 @@
       </div>
    </div>
 </section> -->
-
-
    <section class="imac-services-section">
       <div class="imac-services-container">
          <h2 class="imac-services-title">Our Innovation & IP Strategy Services</h2>
@@ -469,57 +557,6 @@
    </section>
 
 
-
-
-
-   <!-- Benefits Section -->
-   <section class="benefits-section">
-      <div class="benefits-background">
-         <div class="benefits-container">
-            <h2 class="benefits-title"> Benefits of Our Intellectual Property Services <br class="m-hidden"></h2>
-            <div class="benefits-grid">
-               <div class="benefit-card benefit-card-1">
-                  <div class="benefit-icon benefit-icon-1"></div>
-                  <p class="benefit-text">With our services, we will help you build strong defensive barriers around
-                     your innovations that prevent competitors from copying your unique solutions and secure your
-                     competitive market position effectively across industries.</p>
-               </div>
-               <div class="benefit-card benefit-card-2">
-                  <div class="benefit-icon benefit-icon-2"></div>
-                  <p class="benefit-text">You can easily convert your ideas into valuable business assets with our IP
-                     strategies that generate licensing income, increase overall business valuation, and develop
-                     multiple profitable revenue streams from a single innovation. </p>
-               </div>
-            </div>
-            <div class="benefits-grid-2">
-               <div class="benefit-card benefit-card-3">
-                  <div class="benefit-icon benefit-icon-3"></div>
-                  <p class="benefit-text">Establish clear ownership rights that protect against costly infringement
-                     lawsuits and provide a strong legal foundation for defending your intellectual property nationwide
-                     through comprehensive legal coverage.</p>
-               </div>
-               <div class="benefit-card benefit-card-4">
-                  <div class="benefit-icon benefit-icon-4"></div>
-                  <p class="benefit-text">Gain exclusive rights to your innovations that differentiate your products,
-                     establish market leadership, and build barriers for competitor entry strategies while maintaining
-                     industry dominance.</p>
-               </div>
-            </div>
-            <div class="benefits-grid-2">
-               <div class="benefit-card benefit-card-5">
-                  <div class="benefit-icon benefit-icon-5"></div>
-                  <p class="benefit-text">Demonstrate a protected intellectual property portfolio that attracts serious
-                     investors, increases funding opportunities, and validates your business model for financial backing
-                     from venture capital firms.</p>
-               </div>
-               <!-- <div class="benefit-card benefit-card-4">
-               <div class="benefit-icon benefit-icon-4"></div>
-               <p class="benefit-text">By outsourcing mechanical CAD drafting services you can free up internal resources to focus on strategic business objectives.</p>
-               </div> -->
-            </div>
-         </div>
-      </div>
-   </section>
    <!-- why us section -->
    <section class="features-section">
       <div class="container">
@@ -595,86 +632,58 @@
          </div>
       </div>
    </section>
-   <main class="main-container-section">
-      <!-- Product Development Process Section -->
-      <section class="product-development-section">
-         <div class="development-container">
-            <h2 class="section-title-process">How Does Our Intellectual Property Process Work?</h2>
-            <div class="accordion-container">
-               <div class="accordion-images">
-                  <img src="assets/Process/innovation & IP Strategy/Comprehensive IP Assessment.webp"
-                     alt="Comprehensive IP Assessment" class="accordion-image active" data-tab="Comprehensive">
-                  <img src="assets/Process/innovation & IP Strategy/Multi-Layered Application Strategy.webp"
-                     alt="Multi-Layered Application Strategy" class="accordion-image" data-tab="Multi-Layered">
-                  <img src="assets/Process/innovation & IP Strategy/Filing and Prosecution Management.webp" alt="Filing"
-                     class="accordion-image" data-tab="Filing">
-                  <img src="assets/Process/innovation & IP Strategy/Integrated Portfolio Protection.webp"
-                     alt="Integrated Portfolio Protection" class="accordion-image" data-tab="Integrated">
+
+   <!-- Benefits Section -->
+   <section class="benefits-section">
+      <div class="benefits-background">
+         <div class="benefits-container">
+            <h2 class="benefits-title"> Benefits of Our Intellectual Property Services <br class="m-hidden"></h2>
+            <div class="benefits-grid">
+               <div class="benefit-card benefit-card-1">
+                  <div class="benefit-icon benefit-icon-1"></div>
+                  <p class="benefit-text">With our services, we will help you build strong defensive barriers around
+                     your innovations that prevent competitors from copying your unique solutions and secure your
+                     competitive market position effectively across industries.</p>
                </div>
-               <div class="accordion-content">
-                  <div class="accordion-item active" data-tab="Comprehensive">
-                     <div class="accordion-header">
-                        <span class="step-number">01.</span>
-                        <h3 class="step-title">Comprehensive IP Assessment</h3>
-                        <div class="arrow-icon"></div>
-                     </div>
-                     <div class="accordion-body">
-                        <p>Our team of experts analyzes your innovation across patents, design patents, and trademarks
-                           to identify all protection opportunities. Our assessment covers functional features,
-                           aesthetic elements, and brand identifiers.</p>
-                     </div>
-                  </div>
-                  <div class="accordion-item" data-tab="Multi-Layered">
-                     <div class="accordion-header">
-                        <span class="step-number">02.</span>
-                        <h3 class="step-title">Multi-Layered Application Strategy</h3>
-                        <div class="arrow-icon"></div>
-                     </div>
-                     <div class="accordion-body">
-                        <p>We develop patent applications for functional innovations, design patents for aesthetic
-                           features, and trademark applications for your brand elements, ensuring complete protection
-                           coverage.</p>
-                     </div>
-                  </div>
-                  <div class="accordion-item" data-tab="Filing">
-                     <div class="accordion-header">
-                        <span class="step-number">03.</span>
-                        <h3 class="step-title">Filing and Prosecution Management</h3>
-                        <div class="arrow-icon"></div>
-                     </div>
-                     <div class="accordion-body">
-                        <p>Our team handles all filings across patent offices, design registries, and trademark offices
-                           while managing prosecution responses, office actions, and regulatory requirements for each IP
-                           type.</p>
-                     </div>
-                  </div>
-                  <div class="accordion-item" data-tab="Integrated">
-                     <div class="accordion-header">
-                        <span class="step-number">04.</span>
-                        <h3 class="step-title">Integrated Portfolio Protection</h3>
-                        <div class="arrow-icon"></div>
-                     </div>
-                     <div class="accordion-body">
-                        <p>We maintain your complete IP portfolio through renewal management, infringement monitoring,
-                           and strategic enforcement actions across patents, design rights, and trademark protections
-                           for maximum business value.</p>
-                     </div>
-                  </div>
-                  <!-- <div class="accordion-item" data-tab="prototyping">
-                  <div class="accordion-header">
-                     <span class="step-number">05.</span>
-                     <h3 class="step-title">Approval</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>After incorporating feedback, we deliver final CAD files and documentation, ensuring accuracy for production.</p>
-                  </div>
-               </div> -->
+               <div class="benefit-card benefit-card-2">
+                  <div class="benefit-icon benefit-icon-2"></div>
+                  <p class="benefit-text">You can easily convert your ideas into valuable business assets with our IP
+                     strategies that generate licensing income, increase overall business valuation, and develop
+                     multiple profitable revenue streams from a single innovation. </p>
                </div>
             </div>
+            <div class="benefits-grid-2">
+               <div class="benefit-card benefit-card-3">
+                  <div class="benefit-icon benefit-icon-3"></div>
+                  <p class="benefit-text">Establish clear ownership rights that protect against costly infringement
+                     lawsuits and provide a strong legal foundation for defending your intellectual property nationwide
+                     through comprehensive legal coverage.</p>
+               </div>
+               <div class="benefit-card benefit-card-4">
+                  <div class="benefit-icon benefit-icon-4"></div>
+                  <p class="benefit-text">Gain exclusive rights to your innovations that differentiate your products,
+                     establish market leadership, and build barriers for competitor entry strategies while maintaining
+                     industry dominance.</p>
+               </div>
+            </div>
+            <div class="benefits-grid-2">
+               <div class="benefit-card benefit-card-5">
+                  <div class="benefit-icon benefit-icon-5"></div>
+                  <p class="benefit-text">Demonstrate a protected intellectual property portfolio that attracts serious
+                     investors, increases funding opportunities, and validates your business model for financial backing
+                     from venture capital firms.</p>
+               </div>
+               <!-- <div class="benefit-card benefit-card-4">
+               <div class="benefit-icon benefit-icon-4"></div>
+               <p class="benefit-text">By outsourcing mechanical CAD drafting services you can free up internal resources to focus on strategic business objectives.</p>
+               </div> -->
+            </div>
          </div>
-      </section>
-   </main>
+      </div>
+   </section>
+
+
+
    <!-- FAQ Section -->
    <section class="faq-section">
       <div class="faq-container">

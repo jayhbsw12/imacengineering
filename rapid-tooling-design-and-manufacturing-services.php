@@ -209,7 +209,7 @@
             </p>
          </header>
          <div class="cta-button-banner">
-            <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Get your Quote Now</span>
+            <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Let’s Connect</span>
             <img src="https://static.codia.ai/custom_image/2025-07-05/131851/arrow-icon.svg" alt="Arrow"
                class="cta-arrow-banner">
          </div>
@@ -428,118 +428,6 @@
       </div>
    </section>
 
-
-   <!-- Benefits Section -->
-   <section class="benefits-section">
-      <div class="benefits-background">
-         <div class="benefits-container">
-            <h2 class="benefits-title">Benefits of Rapid Tooling Design & Engineering Services<br class="m-hidden"></h2>
-            <div class="benefits-grid">
-               <div class="benefit-card benefit-card-1">
-                  <div class="benefit-icon benefit-icon-1"></div>
-                  <p class="benefit-text">Our tooling design services make sure to use tight tolerances (ISO 2768) and
-                     optimized geometries using CAD/CAM & FEA, reducing defects and improving part consistency for
-                     superior manufacturing performance.</p>
-               </div>
-               <div class="benefit-card benefit-card-2">
-                  <div class="benefit-icon benefit-icon-2"></div>
-                  <p class="benefit-text">Utilizing rapid prototyping (ASTM F42) and CNC machining, we accelerate mold
-                     development, cutting down the lead times by 70% getting your product to market quicker.</p>
-               </div>
-            </div>
-            <div class="benefits-grid-2">
-               <div class="benefit-card benefit-card-3">
-                  <div class="benefit-icon benefit-icon-3"></div>
-                  <p class="benefit-text">Advanced DFM (Design for Manufacturing) principles minimize material waste and
-                     machining time, cutting tooling costs by 20-40% without compromising durability or performance.</p>
-               </div>
-               <div class="benefit-card benefit-card-4">
-                  <div class="benefit-icon benefit-icon-4"></div>
-                  <p class="benefit-text">We use hardened tool steels (H13, P20,) and conformal cooling (SAE AMS 4999)
-                     to extend mold life, sustaining 300,000+ cycles with minimal wear.</p>
-               </div>
-            </div>
-            <div class="benefits-grid-2">
-               <div class="benefit-card benefit-card-5">
-                  <div class="benefit-icon benefit-icon-5"></div>
-                  <p class="benefit-text">From prototyping (ISO 9001) to mass production, our tooling adapts smoothly,
-                     supporting low-to-high volume needs while maintaining dimensional accuracy (ASME Y14.5).</p>
-               </div>
-               <div class="benefit-card benefit-card-4">
-                  <div class="benefit-icon benefit-icon-4"></div>
-                  <p class="benefit-text">Our quality assurance system combines real-time monitoring sensors, predictive
-                     maintenance algorithms, and automated inspection protocols to detect potential issues before they
-                     impact production.</p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- why us section -->
-   <section class="features-section">
-      <div class="container">
-         <h2 class="benefits-title">The Reasons Why You Should Choose <br class="m-hidden"> Our Tooling Manufacturing
-            Services </h2>
-         <div class="features-container">
-            <div class="feature-box">
-               <div class="feature-front">
-                  <img src="./assets/Orange Icons/Rapid Tooling And Manufacturing/Fast Delivery Times.svg"
-                     alt="Fast Delivery Times" />
-                  <h3>Fast Delivery Times</h3>
-               </div>
-               <div class="feature-back">
-                  <p>We deliver rapid tools in under 2 weeks, eliminating production delays and keeping your
-                     manufacturing schedules on track with our quick, efficient tooling design & engineering services.
-                  </p>
-               </div>
-            </div>
-            <div class="feature-box">
-               <div class="feature-front">
-                  <img src="./assets/Orange Icons/Rapid Tooling And Manufacturing/Latest Technology Adaptability.svg"
-                     alt="Latest Technology Adaptability" />
-                  <h3>Latest Technology Adaptability</h3>
-               </div>
-               <div class="feature-back">
-                  <p>From FDM to CNC machining, we offer complete tooling solutions at one place and by one single
-                     expert team, saving you time and the costs of coordinating multiple vendors.</p>
-               </div>
-            </div>
-            <div class="feature-box">
-               <div class="feature-front">
-                  <img src="./assets/Orange Icons/Rapid Tooling And Manufacturing/Heavy Industry Expertise.svg"
-                     alt="Heavy Industry Expertise" />
-                  <h3>Heavy Industry Expertise</h3>
-               </div>
-               <div class="feature-back">
-                  <p>With 10,000+ hours serving demanding engineering sectors, we understand complex requirements and
-                     deliver tools that fight strict industrial applications and environments.</p>
-               </div>
-            </div>
-            <div class="feature-box">
-               <div class="feature-front">
-                  <img src="./assets/Orange Icons/Rapid Tooling And Manufacturing/Cost-Effective Solutions.svg"
-                     alt="Cost-Effective Solutions" />
-                  <h3>Cost-Effective Solutions</h3>
-               </div>
-               <div class="feature-back">
-                  <p>Our low-cost rapid tooling development reduces your investment by up to 60% compared to traditional
-                     methods while maintaining exceptional quality standards.</p>
-               </div>
-            </div>
-
-            <!-- <div class="feature-box">
-            <div class="feature-front">
-               <img src="assets/icons/CAD-service/Quality-Commitment.svg" alt="Integrated Engineering" />
-               <h3>Proven Track Record</h3>
-            </div>
-            <div class="feature-back">
-               <p>With five successful rapid tools delivered( many more to come) a with zero quality issues, backed by 
-                dedicated engineering support and comprehensive post-delivery assistance for complete peace.</p>
-            </div>
-         </div> -->
-         </div>
-      </div>
-   </section>
    <!-- our process -->
    <main class="main-container-section">
       <!-- Product Development Process Section -->
@@ -651,6 +539,121 @@
          </div>
       </section>
    </main>
+
+      <!-- why us section -->
+   <section class="features-section">
+      <div class="container">
+         <h2 class="benefits-title">The Reasons Why You Should Choose <br class="m-hidden"> Our Tooling Manufacturing
+            Services </h2>
+         <div class="features-container">
+            <div class="feature-box">
+               <div class="feature-front">
+                  <img src="./assets/Orange Icons/Rapid Tooling And Manufacturing/Fast Delivery Times.svg"
+                     alt="Fast Delivery Times" />
+                  <h3>Fast Delivery Times</h3>
+               </div>
+               <div class="feature-back">
+                  <p>We deliver rapid tools in under 2 weeks, eliminating production delays and keeping your
+                     manufacturing schedules on track with our quick, efficient tooling design & engineering services.
+                  </p>
+               </div>
+            </div>
+            <div class="feature-box">
+               <div class="feature-front">
+                  <img src="./assets/Orange Icons/Rapid Tooling And Manufacturing/Latest Technology Adaptability.svg"
+                     alt="Latest Technology Adaptability" />
+                  <h3>Latest Technology Adaptability</h3>
+               </div>
+               <div class="feature-back">
+                  <p>From FDM to CNC machining, we offer complete tooling solutions at one place and by one single
+                     expert team, saving you time and the costs of coordinating multiple vendors.</p>
+               </div>
+            </div>
+            <div class="feature-box">
+               <div class="feature-front">
+                  <img src="./assets/Orange Icons/Rapid Tooling And Manufacturing/Heavy Industry Expertise.svg"
+                     alt="Heavy Industry Expertise" />
+                  <h3>Heavy Industry Expertise</h3>
+               </div>
+               <div class="feature-back">
+                  <p>With 10,000+ hours serving demanding engineering sectors, we understand complex requirements and
+                     deliver tools that fight strict industrial applications and environments.</p>
+               </div>
+            </div>
+            <div class="feature-box">
+               <div class="feature-front">
+                  <img src="./assets/Orange Icons/Rapid Tooling And Manufacturing/Cost-Effective Solutions.svg"
+                     alt="Cost-Effective Solutions" />
+                  <h3>Cost-Effective Solutions</h3>
+               </div>
+               <div class="feature-back">
+                  <p>Our low-cost rapid tooling development reduces your investment by up to 60% compared to traditional
+                     methods while maintaining exceptional quality standards.</p>
+               </div>
+            </div>
+
+            <!-- <div class="feature-box">
+            <div class="feature-front">
+               <img src="assets/icons/CAD-service/Quality-Commitment.svg" alt="Integrated Engineering" />
+               <h3>Proven Track Record</h3>
+            </div>
+            <div class="feature-back">
+               <p>With five successful rapid tools delivered( many more to come) a with zero quality issues, backed by 
+                dedicated engineering support and comprehensive post-delivery assistance for complete peace.</p>
+            </div>
+         </div> -->
+         </div>
+      </div>
+   </section>
+
+   <!-- Benefits Section -->
+   <section class="benefits-section">
+      <div class="benefits-background">
+         <div class="benefits-container">
+            <h2 class="benefits-title">Key Advantages of Rapid Tooling Design & Engineering Services</h2>
+            <div class="benefits-grid">
+               <div class="benefit-card benefit-card-1">
+                  <div class="benefit-icon benefit-icon-1"></div>
+                  <p class="benefit-text">Our tooling design services make sure to use tight tolerances (ISO 2768) and
+                     optimized geometries using CAD/CAM & FEA, reducing defects and improving part consistency for
+                     superior manufacturing performance.</p>
+               </div>
+               <div class="benefit-card benefit-card-2">
+                  <div class="benefit-icon benefit-icon-2"></div>
+                  <p class="benefit-text">Utilizing rapid prototyping (ASTM F42) and CNC machining, we accelerate mold
+                     development, cutting down the lead times by 70% getting your product to market quicker.</p>
+               </div>
+            </div>
+            <div class="benefits-grid-2">
+               <div class="benefit-card benefit-card-3">
+                  <div class="benefit-icon benefit-icon-3"></div>
+                  <p class="benefit-text">Advanced DFM (Design for Manufacturing) principles minimize material waste and
+                     machining time, cutting tooling costs by 20-40% without compromising durability or performance.</p>
+               </div>
+               <div class="benefit-card benefit-card-4">
+                  <div class="benefit-icon benefit-icon-4"></div>
+                  <p class="benefit-text">We use hardened tool steels (H13, P20,) and conformal cooling (SAE AMS 4999)
+                     to extend mold life, sustaining 300,000+ cycles with minimal wear.</p>
+               </div>
+            </div>
+            <div class="benefits-grid-2">
+               <div class="benefit-card benefit-card-5">
+                  <div class="benefit-icon benefit-icon-5"></div>
+                  <p class="benefit-text">From prototyping (ISO 9001) to mass production, our tooling adapts smoothly,
+                     supporting low-to-high volume needs while maintaining dimensional accuracy (ASME Y14.5).</p>
+               </div>
+               <div class="benefit-card benefit-card-4">
+                  <div class="benefit-icon benefit-icon-4"></div>
+                  <p class="benefit-text">Our quality assurance system combines real-time monitoring sensors, predictive
+                     maintenance algorithms, and automated inspection protocols to detect potential issues before they
+                     impact production.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
    <!-- FAQ Section -->
    <section class="faq-section">
       <div class="faq-container">

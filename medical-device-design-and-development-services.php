@@ -72,6 +72,15 @@
   @media (prefers-reduced-motion: reduce) {
     html.pgfade-init body { opacity: 1; }
   }
+  .main-container-section{
+   padding: 100px 0 0px 0px !important;
+  }
+  .faq-section{
+   padding: 80px 300px !important;
+  }
+  .features-section{
+   padding: 0px 40px !important;
+  }
 </style>
 <script>
   // Reveal as soon as DOM is ready
@@ -106,7 +115,7 @@
          </p>
       </header>
       <div class="cta-button-banner">
-         <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Get your Quote Now</span>
+         <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Request Quote Today</span>
          <img src="https://static.codia.ai/custom_image/2025-07-05/131851/arrow-icon.svg" alt="Arrow" class="cta-arrow-banner">
       </div>
    </div>
@@ -143,6 +152,106 @@
 
 </section>
 
+<!-- our process -->
+<main class="main-container-section">
+   <!-- Product Development Process Section -->
+   <section class="product-development-section">
+      <div class="development-container">
+         <h2 class="section-title-process">Our Medical Product Design & Development Process</h2>
+         <div class="accordion-container">
+            <div class="accordion-images">
+               <img src="assets/Process/Medical Design Development WEBP/Initial-Analysis-and-Planning.webp" alt="Initial Analysis and Planning" class="accordion-image active" data-tab="Initial Analysis">
+               <img src="assets/Process/Medical Design Development WEBP/Concept and Feasibility.webp" alt="Concept and Feasibility" class="accordion-image" data-tab="Concept and Feasibility">
+               <img src="assets/Process/Medical Design Development WEBP/Medical-product-device-Design-and-Development.webp" alt="Design and Development" class="accordion-image" data-tab="Design and Development">
+               <img src="assets/Process/Medical Design Development WEBP/Manufacturing-and-Validation.webp" alt="Manufacturing and Validation" class="accordion-image" data-tab="Manufacturing and Validation">
+               <img src="assets/Process/Medical Design Development WEBP/Post-Launch-Monitoring.webp" alt="Post-Launch Monitoring" class="accordion-image" data-tab="Post-Launch Monitoring">
+            </div>
+            <div class="accordion-content">
+               <div class="accordion-item active" data-tab="Initial Analysis">
+                  <div class="accordion-header">
+                     <span class="step-number">01.</span>
+                     <h3 class="step-title">Initial Analysis and Planning</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>The first phase involves assessing the market, competition, and regulatory requirements, 
+                        ensuring a clear understanding of legal and financial agendas.</p>
+
+                    <p>Design inputs are collected while considering risk assessment and potential challenges. 
+                        This stage builds a strong foundation for the project, focusing on compliance, strategic analysis, 
+                        and financial feasibility to support the next steps of development. Detailed planning at this stage 
+                        minimizes potential issues down the line.</p>
+
+                     <p>
+                        Also, we plan an IP strategy before we actually begin with the product development.
+                     </p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Concept and Feasibility">
+                  <div class="accordion-header">
+                     <span class="step-number">02.</span>
+                     <h3 class="step-title">Concept and Feasibility</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>During this phase, the concept of the device is created, incorporating initial design input. 
+                        Prototypes are developed and evaluated to determine feasibility and performance in real-world scenarios. 
+                        Pre-clinical trials and evaluation refine the design further. </p>
+                        <p>This phase involves creating a tangible version of the idea and assessing its practicality. 
+                            Iterative prototyping enables efficient testing and validation of the concept.</p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Design and Development">
+                  <div class="accordion-header">
+                     <span class="step-number">03.</span>
+                     <h3 class="step-title">Design and Development</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>This phase integrates key design input to create a comprehensive set of design specifications,
+                         leading to the development of the product.</p>
+                    <p>Through detailed design output, the product’s feasibility and performance are verified. 
+                        Design failure modes are considered, and risk management is actively incorporated. Design 
+                        validation tests and the Device History File (DHF) are documented thoroughly.</p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Manufacturing and Validation">
+                  <div class="accordion-header">
+                     <span class="step-number">04.</span>
+                     <h3 class="step-title">Manufacturing and Validation</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>With design specifications and outputs finalized, the device enters manufacturing, 
+                        either in pilot runs or full-scale production. Design validation ensures that the 
+                        product performs as intended in the real world as well.</p>
+
+                    <p>A comprehensive process validation includes testing, quality assurance, and compliance checks.
+                         Clinical research projects may be conducted to ensure safety and efficacy in real-world applications. 
+                         This stage brings the device closer to market.</p>
+                  </div>
+               </div>
+               <div class="accordion-item" data-tab="Post-Launch Monitoring">
+                  <div class="accordion-header">
+                     <span class="step-number">05.</span>
+                     <h3 class="step-title">Post-Launch Monitoring</h3>
+                     <div class="arrow-icon"></div>
+                  </div>
+                  <div class="accordion-body">
+                     <p>Once the product is launched, ongoing training, audits, and updates are essential to 
+                        ensure continued compliance and optimal performance.</p>
+                        <p>Post-market surveillance gathers data from actual users, helping refine future iterations.
+                             This phase ensures that potential issues are addressed promptly while monitoring long-term 
+                             device performance. Customer feedback plays a pivotal role, enabling proactive adjustments to the design, 
+                             manufacturing, and overall user experience to maintain the device’s effectiveness. </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+</main>
+
 <section class="about-service-hero-section">
    <h2 class="main-title">Medical Device Product Design and Development Solutions</h2>
    <div class="about-container">
@@ -159,82 +268,8 @@
       </div>
    </div>
 </section>
-<!-- Services Section -->
-<!-- <section class="imac-services-section">
-   <div class="imac-services-container">
-      <h2 class="imac-services-title">Mechanical CAD Drafting Services</h2>
-      <div class="services-grid">
-         <article class="service-card-drafting main-service">
-            <div class="service-icon service-icon-1"><img src="./assets/Medical Product Design/2D-3D-Component-Drafting.svg" alt=""></div>
-            <h3 class="service-title-drafting">2D/3D Component Drafting</h3>
-            <div class="service-divider"></div>
-            <p class="service-description">We offer comprehensive 2D/3D component drafting services, enabling engineers and designers to create detailed and accurate representations of parts and assemblies. Our precise drafting techniques facilitate efficient manufacturing and ensure perfect design, reducing errors and accelerating project timelines.</p>
-         </article>
-         <article class="service-card-drafting">
-            <div class="service-icon service-icon-2"><img src="./assets/Medical Product Design/Legacy-CAD-Conversion.svg" alt=""></div>
-            <h3 class="service-title-drafting">Legacy CAD Conversion</h3>
-            <div class="service-divider"></div>
-            <p class="service-description">Our legacy CAD conversion services transform 2D files into accurate 3D models, optimizing your design workflow. Engineers and manufacturers benefit from our high-precision conversion, ensuring that old designs integrate smoothly into production systems without compromising on quality or functionality.</p>
-         </article>
-         <article class="service-card-drafting">
-            <div class="service-icon service-icon-3"><img src="./assets/Medical Product Design/Manufacturing-Drawings&Tolerances.svg" alt=""></div>
-            <h3 class="service-title-drafting">Manufacturing Drawings & Tolerances</h3>
-            <div class="service-divider"></div>
-            <p class="service-description">We deliver accurate manufacturing drawings with precise tolerances that meet the specific production requirements. Our drawings deliver exact detail & information to ensure parts are produced within specifications, enhancing quality control and minimizing production errors. </p>
-         </article>
-         <article class="service-card-drafting">
-            <div class="service-icon service-icon-4"><img src="./assets/Medical Product Design/Reverse-Engineering&Scanning.svg" alt=""></div>
-            <h3 class="service-title-drafting">Reverse Engineering & Scanning</h3>
-            <div class="service-divider"></div>
-            <p class="service-description">Through our advanced reverse engineering and 3D scanning services, we help engineers and product designers capture and recreate complex geometries. Whether for component restoration or design refinement, we provide models, enabling accurate reproduction and optimization of existing parts or assemblies.</p>
-         </article>
-      </div>
-   </div>
-</section> -->
-<!-- Benefits Section -->
-<section class="benefits-section">
-   <div class="benefits-background">
-      <div class="benefits-container">
-         <h2 class="benefits-title">Benefits of Medical Product <br class="m-hidden"> Design & Development</h2>
-         <div class="benefits-grid">
-            <div class="benefit-card benefit-card-1">
-               <div class="benefit-icon benefit-icon-1"></div>
-               <p class="benefit-text">We ensure your product complies with industry standards like CDSCO, FDA, ISO 13485, and CE,
-                   minimizing risks and ensuring safety and effectiveness.</p>
-            </div>
-            <div class="benefit-card benefit-card-2">
-               <div class="benefit-icon benefit-icon-2"></div>
-               <p class="benefit-text">Our expert team ensures a smooth product development process, accelerating your medical device's 
-                  time-to-market and enabling you to deliver innovative healthcare solutions efficiently and effectively.</p>
-            </div>
-         </div>
-         <div class="benefits-grid-2">
-            <div class="benefit-card benefit-card-3">
-               <div class="benefit-icon benefit-icon-3"></div>
-               <p class="benefit-text">We focus on human-centered design, ensuring our devices are intuitive and easy to use, 
-                  ultimately improving patient outcomes and promoting greater adoption in the healthcare industry.</p>
-            </div>
-            <div class="benefit-card benefit-card-4">
-               <div class="benefit-icon benefit-icon-4"></div>
-               <p class="benefit-text">By optimizing the design for manufacturing, we reduce material waste and improve production efficiency, 
-                  lowering your overall product costs without sacrificing quality and consistency.  </p>
-            </div>
-         </div>
-         <div class="benefits-grid-2">
-            <div class="benefit-card benefit-card-5">
-               <div class="benefit-icon benefit-icon-5"></div>
-               <p class="benefit-text">Through our prototyping and testing services, we help identify design flaws early,
-                   ensuring your device is functional, usable, and meets regulatory and biocompatibility standards before mass production.</p>
-            </div>
-            <div class="benefit-card benefit-card-4">
-               <div class="benefit-icon benefit-icon-4"></div>
-               <p class="benefit-text">Our expertise in advanced electronic design allows us to create medical devices with precision, 
-                  functionality, and connectivity, providing smarter solutions for healthcare professionals.</p>
-               </div>
-         </div>
-      </div>
-   </div>
-</section>
+
+
 <!-- why us section -->
 <section class="features-section">
    <div class="container">
@@ -286,6 +321,89 @@
       </div>
    </div>
 </section>
+
+<!-- Benefits Section -->
+<section class="benefits-section">
+   <div class="benefits-background">
+      <div class="benefits-container">
+         <h2 class="benefits-title">Benefits of Medical Product <br class="m-hidden"> Design & Development</h2>
+         <div class="benefits-grid">
+            <div class="benefit-card benefit-card-1">
+               <div class="benefit-icon benefit-icon-1"></div>
+               <p class="benefit-text">We ensure your product complies with industry standards like CDSCO, FDA, ISO 13485, and CE,
+                   minimizing risks and ensuring safety and effectiveness.</p>
+            </div>
+            <div class="benefit-card benefit-card-2">
+               <div class="benefit-icon benefit-icon-2"></div>
+               <p class="benefit-text">Our expert team ensures a smooth product development process, accelerating your medical device's 
+                  time-to-market and enabling you to deliver innovative healthcare solutions efficiently and effectively.</p>
+            </div>
+         </div>
+         <div class="benefits-grid-2">
+            <div class="benefit-card benefit-card-3">
+               <div class="benefit-icon benefit-icon-3"></div>
+               <p class="benefit-text">We focus on human-centered design, ensuring our devices are intuitive and easy to use, 
+                  ultimately improving patient outcomes and promoting greater adoption in the healthcare industry.</p>
+            </div>
+            <div class="benefit-card benefit-card-4">
+               <div class="benefit-icon benefit-icon-4"></div>
+               <p class="benefit-text">By optimizing the design for manufacturing, we reduce material waste and improve production efficiency, 
+                  lowering your overall product costs without sacrificing quality and consistency.  </p>
+            </div>
+         </div>
+         <div class="benefits-grid-2">
+            <div class="benefit-card benefit-card-5">
+               <div class="benefit-icon benefit-icon-5"></div>
+               <p class="benefit-text">Through our prototyping and testing services, we help identify design flaws early,
+                   ensuring your device is functional, usable, and meets regulatory and biocompatibility standards before mass production.</p>
+            </div>
+            <div class="benefit-card benefit-card-4">
+               <div class="benefit-icon benefit-icon-4"></div>
+               <p class="benefit-text">Our expertise in advanced electronic design allows us to create medical devices with precision, 
+                  functionality, and connectivity, providing smarter solutions for healthcare professionals.</p>
+               </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+<!-- Services Section -->
+<!-- <section class="imac-services-section">
+   <div class="imac-services-container">
+      <h2 class="imac-services-title">Mechanical CAD Drafting Services</h2>
+      <div class="services-grid">
+         <article class="service-card-drafting main-service">
+            <div class="service-icon service-icon-1"><img src="./assets/Medical Product Design/2D-3D-Component-Drafting.svg" alt=""></div>
+            <h3 class="service-title-drafting">2D/3D Component Drafting</h3>
+            <div class="service-divider"></div>
+            <p class="service-description">We offer comprehensive 2D/3D component drafting services, enabling engineers and designers to create detailed and accurate representations of parts and assemblies. Our precise drafting techniques facilitate efficient manufacturing and ensure perfect design, reducing errors and accelerating project timelines.</p>
+         </article>
+         <article class="service-card-drafting">
+            <div class="service-icon service-icon-2"><img src="./assets/Medical Product Design/Legacy-CAD-Conversion.svg" alt=""></div>
+            <h3 class="service-title-drafting">Legacy CAD Conversion</h3>
+            <div class="service-divider"></div>
+            <p class="service-description">Our legacy CAD conversion services transform 2D files into accurate 3D models, optimizing your design workflow. Engineers and manufacturers benefit from our high-precision conversion, ensuring that old designs integrate smoothly into production systems without compromising on quality or functionality.</p>
+         </article>
+         <article class="service-card-drafting">
+            <div class="service-icon service-icon-3"><img src="./assets/Medical Product Design/Manufacturing-Drawings&Tolerances.svg" alt=""></div>
+            <h3 class="service-title-drafting">Manufacturing Drawings & Tolerances</h3>
+            <div class="service-divider"></div>
+            <p class="service-description">We deliver accurate manufacturing drawings with precise tolerances that meet the specific production requirements. Our drawings deliver exact detail & information to ensure parts are produced within specifications, enhancing quality control and minimizing production errors. </p>
+         </article>
+         <article class="service-card-drafting">
+            <div class="service-icon service-icon-4"><img src="./assets/Medical Product Design/Reverse-Engineering&Scanning.svg" alt=""></div>
+            <h3 class="service-title-drafting">Reverse Engineering & Scanning</h3>
+            <div class="service-divider"></div>
+            <p class="service-description">Through our advanced reverse engineering and 3D scanning services, we help engineers and product designers capture and recreate complex geometries. Whether for component restoration or design refinement, we provide models, enabling accurate reproduction and optimization of existing parts or assemblies.</p>
+         </article>
+      </div>
+   </div>
+</section> -->
+
+
+
+
+
 
 <!-- FAQ Section -->
 <section class="faq-section">
@@ -420,105 +538,7 @@
    </div>
 </section>
 
-<!-- our process -->
-<main class="main-container-section">
-   <!-- Product Development Process Section -->
-   <section class="product-development-section">
-      <div class="development-container">
-         <h2 class="section-title-process">Our Medical Product Design & Development Process</h2>
-         <div class="accordion-container">
-            <div class="accordion-images">
-               <img src="assets/Process/Medical Design Development WEBP/Initial-Analysis-and-Planning.webp" alt="Initial Analysis and Planning" class="accordion-image active" data-tab="Initial Analysis">
-               <img src="assets/Process/Medical Design Development WEBP/Concept and Feasibility.webp" alt="Concept and Feasibility" class="accordion-image" data-tab="Concept and Feasibility">
-               <img src="assets/Process/Medical Design Development WEBP/Medical-product-device-Design-and-Development.webp" alt="Design and Development" class="accordion-image" data-tab="Design and Development">
-               <img src="assets/Process/Medical Design Development WEBP/Manufacturing-and-Validation.webp" alt="Manufacturing and Validation" class="accordion-image" data-tab="Manufacturing and Validation">
-               <img src="assets/Process/Medical Design Development WEBP/Post-Launch-Monitoring.webp" alt="Post-Launch Monitoring" class="accordion-image" data-tab="Post-Launch Monitoring">
-            </div>
-            <div class="accordion-content">
-               <div class="accordion-item active" data-tab="Initial Analysis">
-                  <div class="accordion-header">
-                     <span class="step-number">01.</span>
-                     <h3 class="step-title">Initial Analysis and Planning</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>The first phase involves assessing the market, competition, and regulatory requirements, 
-                        ensuring a clear understanding of legal and financial agendas.</p>
 
-                    <p>Design inputs are collected while considering risk assessment and potential challenges. 
-                        This stage builds a strong foundation for the project, focusing on compliance, strategic analysis, 
-                        and financial feasibility to support the next steps of development. Detailed planning at this stage 
-                        minimizes potential issues down the line.</p>
-
-                     <p>
-                        Also, we plan an IP strategy before we actually begin with the product development.
-                     </p>
-                  </div>
-               </div>
-               <div class="accordion-item" data-tab="Concept and Feasibility">
-                  <div class="accordion-header">
-                     <span class="step-number">02.</span>
-                     <h3 class="step-title">Concept and Feasibility</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>During this phase, the concept of the device is created, incorporating initial design input. 
-                        Prototypes are developed and evaluated to determine feasibility and performance in real-world scenarios. 
-                        Pre-clinical trials and evaluation refine the design further. </p>
-                        <p>This phase involves creating a tangible version of the idea and assessing its practicality. 
-                            Iterative prototyping enables efficient testing and validation of the concept.</p>
-                  </div>
-               </div>
-               <div class="accordion-item" data-tab="Design and Development">
-                  <div class="accordion-header">
-                     <span class="step-number">03.</span>
-                     <h3 class="step-title">Design and Development</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>This phase integrates key design input to create a comprehensive set of design specifications,
-                         leading to the development of the product.</p>
-                    <p>Through detailed design output, the product’s feasibility and performance are verified. 
-                        Design failure modes are considered, and risk management is actively incorporated. Design 
-                        validation tests and the Device History File (DHF) are documented thoroughly.</p>
-                  </div>
-               </div>
-               <div class="accordion-item" data-tab="Manufacturing and Validation">
-                  <div class="accordion-header">
-                     <span class="step-number">04.</span>
-                     <h3 class="step-title">Manufacturing and Validation</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>With design specifications and outputs finalized, the device enters manufacturing, 
-                        either in pilot runs or full-scale production. Design validation ensures that the 
-                        product performs as intended in the real world as well.</p>
-
-                    <p>A comprehensive process validation includes testing, quality assurance, and compliance checks.
-                         Clinical research projects may be conducted to ensure safety and efficacy in real-world applications. 
-                         This stage brings the device closer to market.</p>
-                  </div>
-               </div>
-               <div class="accordion-item" data-tab="Post-Launch Monitoring">
-                  <div class="accordion-header">
-                     <span class="step-number">05.</span>
-                     <h3 class="step-title">Post-Launch Monitoring</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>Once the product is launched, ongoing training, audits, and updates are essential to 
-                        ensure continued compliance and optimal performance.</p>
-                        <p>Post-market surveillance gathers data from actual users, helping refine future iterations.
-                             This phase ensures that potential issues are addressed promptly while monitoring long-term 
-                             device performance. Customer feedback plays a pivotal role, enabling proactive adjustments to the design, 
-                             manufacturing, and overall user experience to maintain the device’s effectiveness. </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-</main>
 <!-- contact section end -->
 
 <?php include("./components/cta.php"); ?>

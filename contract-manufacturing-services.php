@@ -174,6 +174,14 @@
    .dm-carousel-ctrl {
       display: block !important;
    }
+
+   .benefits-background {
+      padding: 100px 0px 100px 0px !important;
+   }
+
+   .features-section{
+      padding: 0px 40px 85px 40px !important;
+   }
 </style>
 <script>
    // Reveal as soon as DOM is ready
@@ -199,19 +207,19 @@
             <img src="https://static.codia.ai/custom_image/2025-07-05/131851/divider-line.svg" alt="Divider Line">
          </div>
          <header class="banner-header">
-            <h1 class="banner-title">Global Contract Manufacturing Services Company</h1>
+            <h1 class="banner-title">Global Contract Manufacturing & Sourcing Services </h1>
             <!-- <p class="banner-description">
         "Your Vision, Our Manufacturing Expertise"
          </p> -->
             <p class="banner-description">
-               At iDES we offer flexible contract manufacturing and sourcing solutions designed to meet your unique
-               needs. We specialize in scalable manufacturing processes, from low-volume specialized production to
-               high-volume runs. Our global sourcing network secures quality suppliers, materials, and components.
-               Partner with us to scale operations without capital investments, utilizing our on-time delivery aspect.
+               We offer flexible contract manufacturing and sourcing solutions designed to meet your needs. We
+               specialize in scalable manufacturing processes, from low-volume specialized production to high-volume
+               runs. Our global sourcing network secures quality suppliers, materials, and components. Partner with us
+               to scale operations without capital investments, utilizing our on-time delivery aspect.
             </p>
          </header>
          <div class="cta-button-banner">
-            <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Get your Quote Now! </span>
+            <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Let’s talk!</span>
             <img src="https://static.codia.ai/custom_image/2025-07-05/131851/arrow-icon.svg" alt="Arrow"
                class="cta-arrow-banner">
          </div>
@@ -253,8 +261,7 @@
    </section>
 
    <section class="about-service-hero-section">
-      <h2 class="main-title">How We Deliver Micron-Level Precision <br class="m-hidden"> in High-Volume Contract
-         Manufacturing? </h2>
+      <h2 class="main-title">Micron-Level Precision in <br class="m-hidden">High-Volume Contract Manufacturing</h2>
       <div class="about-container">
          <div class="left-section">
             <img loading="lazy" src="assets/image/main-services/Contract-Manufacturing.webp"
@@ -282,6 +289,75 @@
          </div>
       </div>
    </section>
+
+   <!-- Benefits Section -->
+   <section class="benefits-section">
+      <div class="benefits-background">
+         <div class="benefits-container">
+            <h2 class="benefits-title">Why Contract Manufacturing Services From Us?</h2>
+            <div class="benefits-grid">
+               <div class="benefit-card benefit-card-1">
+                  <div class="benefit-icon benefit-icon-1"></div>
+                  <p class="benefit-text">iDES utilizes economies of scale, optimized supply chains, and manufacturing
+                     expertise to reduce production costs while maintaining quality standards, delivering significant
+                     savings compared to in-house manufacturing operations.</p>
+               </div>
+               <div class="benefit-card benefit-card-2">
+                  <div class="benefit-icon benefit-icon-2"></div>
+                  <p class="benefit-text">Our multidisciplinary engineering team provides specialized knowledge
+                     in design optimization, material selection, and manufacturing processes, ensuring superior
+                     product quality and performance through proven industry best practices.
+                  </p>
+               </div>
+            </div>
+            <div class="benefits-grid-2">
+               <div class="benefit-card benefit-card-3">
+                  <div class="benefit-icon benefit-icon-3"></div>
+                  <p class="benefit-text">iDES network adapts to varying production volumes from prototypes to
+                     high-volume runs, providing flexible capacity management without capital investment in equipment or
+                     facility expansion requirements.
+                  </p>
+               </div>
+               <div class="benefit-card benefit-card-4">
+                  <div class="benefit-icon benefit-icon-4"></div>
+                  <p class="benefit-text"> The strict quality control systems, certified processes, and strong testing
+                     protocols ensure consistent product quality, regulatory compliance, and customer satisfaction
+                     across all manufacturing operations and supply chain partnerships.
+                  </p>
+               </div>
+            </div>
+            <div class="benefits-grid-2">
+               <div class="benefit-card benefit-card-5">
+                  <div class="benefit-icon benefit-icon-5"></div>
+                  <p class="benefit-text">Fully optimized development processes, established vendor relationships, and
+                     parallel
+                     engineering capabilities significantly reduce product development cycles, enabling faster market
+                     entry and
+                     competitive advantage for client products.</p>
+               </div>
+               <div class="benefit-card benefit-card-4">
+                  <div class="benefit-icon benefit-icon-4"></div>
+                  <p class="benefit-text">Your resources saved from managing manufacturing can be redirected to major
+                     business areas like research, development, or marketing, focusing on expertise that adds to your
+                     success.</p>
+               </div>
+            </div>
+
+            <!-- <div class="benefits-grid-2">
+            <div class="benefit-card benefit-card-5">
+               <div class="benefit-icon benefit-icon-5"></div>
+               <p class="benefit-text">It gets easy to get the insights into competitor designs by studying layout, function, and features through our expert reverse engineering services.</p>
+            </div> -->
+            <!-- <div class="benefit-card benefit-card-4">
+               <div class="benefit-icon benefit-icon-4"></div>
+               <p class="benefit-text">It becomes easy to capture the exact shapes through scanning to design accurate, cost-effective molds for manufacturing or prototyping purposes using our reverse engineering services. </p>
+            </div> -->
+         </div>
+
+      </div>
+      </div>
+   </section>
+
    <!-- Services Section -->
    <!-- <section class="imac-services-section">
    <div class="imac-services-container">
@@ -521,140 +597,7 @@
    </section>
 
 
-   <!-- Benefits Section -->
-   <section class="benefits-section">
-      <div class="benefits-background">
-         <div class="benefits-container">
-            <h2 class="benefits-title">Benefits of iDES Contract Manufacturing Services?</h2>
-            <div class="benefits-grid">
-               <div class="benefit-card benefit-card-1">
-                  <div class="benefit-icon benefit-icon-1"></div>
-                  <p class="benefit-text">iDES utilizes economies of scale, optimized supply chains, and manufacturing
-                     expertise to reduce production costs while maintaining quality standards, delivering significant
-                     savings compared to in-house manufacturing operations.</p>
-               </div>
-               <div class="benefit-card benefit-card-2">
-                  <div class="benefit-icon benefit-icon-2"></div>
-                  <p class="benefit-text">Our multidisciplinary engineering team provides specialized knowledge
-                     in design optimization, material selection, and manufacturing processes, ensuring superior
-                     product quality and performance through proven industry best practices.
-                  </p>
-               </div>
-            </div>
-            <div class="benefits-grid-2">
-               <div class="benefit-card benefit-card-3">
-                  <div class="benefit-icon benefit-icon-3"></div>
-                  <p class="benefit-text">iDES network adapts to varying production volumes from prototypes to
-                     high-volume runs, providing flexible capacity management without capital investment in equipment or
-                     facility expansion requirements.
-                  </p>
-               </div>
-               <div class="benefit-card benefit-card-4">
-                  <div class="benefit-icon benefit-icon-4"></div>
-                  <p class="benefit-text"> The strict quality control systems, certified processes, and strong testing
-                     protocols ensure consistent product quality, regulatory compliance, and customer satisfaction
-                     across all manufacturing operations and supply chain partnerships.
-                  </p>
-               </div>
-            </div>
-            <div class="benefits-grid-2">
-               <div class="benefit-card benefit-card-5">
-                  <div class="benefit-icon benefit-icon-5"></div>
-                  <p class="benefit-text">Fully optimized development processes, established vendor relationships, and
-                     parallel
-                     engineering capabilities significantly reduce product development cycles, enabling faster market
-                     entry and
-                     competitive advantage for client products.</p>
-               </div>
-               <div class="benefit-card benefit-card-4">
-                  <div class="benefit-icon benefit-icon-4"></div>
-                  <p class="benefit-text">Your resources saved from managing manufacturing can be redirected to major
-                     business areas like research, development, or marketing, focusing on expertise that adds to your
-                     success.</p>
-               </div>
-            </div>
-
-            <!-- <div class="benefits-grid-2">
-            <div class="benefit-card benefit-card-5">
-               <div class="benefit-icon benefit-icon-5"></div>
-               <p class="benefit-text">It gets easy to get the insights into competitor designs by studying layout, function, and features through our expert reverse engineering services.</p>
-            </div> -->
-            <!-- <div class="benefit-card benefit-card-4">
-               <div class="benefit-icon benefit-icon-4"></div>
-               <p class="benefit-text">It becomes easy to capture the exact shapes through scanning to design accurate, cost-effective molds for manufacturing or prototyping purposes using our reverse engineering services. </p>
-            </div> -->
-         </div>
-
-      </div>
-      </div>
-   </section>
-   <!-- why us section -->
-
-
-
-   <!-- why us section -->
-   <section class="features-section">
-      <div class="container">
-         <h2 class="benefits-title">Why Partner with iDES for<br class="m-hidden">Your Contract Manufacturing Needs?
-         </h2>
-         <div class="features-container">
-            <div class="feature-box">
-               <div class="feature-front">
-                  <img src="./assets/Orange Icons/Contract Manufacturing/Complete-Manufacturing-Solutions.svg"
-                     alt="Complete Manufacturing Solutions" />
-                  <h3>Complete Manufacturing Solutions</h3>
-               </div>
-               <div class="feature-back">
-                  <p>Since 2020, iDES has delivered comprehensive manufacturing solutions from sheet metal fabrication
-                     to injection molding, casting, and precision machining, ensuring superior quality across all
-                     production processes.</p>
-               </div>
-            </div>
-            <div class="feature-box">
-               <div class="feature-front">
-                  <img src="./assets/Orange Icons/Contract Manufacturing/Turnkey-Project-Management.svg"
-                     alt="Turnkey Project Management" />
-                  <h3>Turnkey Project Management</h3>
-               </div>
-               <div class="feature-back">
-                  <p>We handle complete project responsibility, including mechanical, electrical, packaging,
-                     and related components, delivering packaged products while you focus on sales and market growth
-                     strategies.</p>
-               </div>
-            </div>
-            <div class="feature-box">
-               <div class="feature-front">
-                  <img src="./assets/Orange Icons/Contract Manufacturing/Proven-Delivery-Performance.svg"
-                     alt="Proven Delivery Performance" />
-                  <h3> Proven Delivery Performance</h3>
-               </div>
-               <div class="feature-back">
-                  <p>Our established track record since 2020 demonstrates consistent on-time delivery and
-                     reliable supply chain management, ensuring your production schedules remain intact and customer
-                     commitments fulfilled.</p>
-               </div>
-            </div>
-            <div class="feature-box">
-               <div class="feature-front">
-                  <img src="./assets/Orange Icons/Contract Manufacturing/Cost-Effective-Global-Sourcing.svg"
-                     alt="Cost-Effective Global Sourcing" />
-                  <h3>Cost-Effective Global Sourcing</h3>
-               </div>
-               <div class="feature-back">
-                  <p>Strategic partnerships and comprehensive BOM sourcing capabilities deliver significant
-                     cost savings while maintaining international quality standards, maximizing your profit margins,
-                     and competitive market positioning.</p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-
-
-
-
-
-
+   <!-- Process Section -->
    <main class="main-container-section">
       <!-- Product Development Process Section -->
       <section class="product-development-section">
@@ -733,7 +676,67 @@
             </div>
          </div>
       </section>
-   </main>
+</main>
+
+   <!-- why us section -->
+   <section class="features-section">
+      <div class="container">
+         <h2 class="benefits-title">Contract Manufacturing For Your Needs</h2>
+         <div class="features-container">
+            <div class="feature-box">
+               <div class="feature-front">
+                  <img src="./assets/Orange Icons/Contract Manufacturing/Complete-Manufacturing-Solutions.svg"
+                     alt="Complete Manufacturing Solutions" />
+                  <h3>Complete Manufacturing Solutions</h3>
+               </div>
+               <div class="feature-back">
+                  <p>Since 2020, iDES has delivered comprehensive manufacturing solutions from sheet metal fabrication
+                     to injection molding, casting, and precision machining, ensuring superior quality across all
+                     production processes.</p>
+               </div>
+            </div>
+            <div class="feature-box">
+               <div class="feature-front">
+                  <img src="./assets/Orange Icons/Contract Manufacturing/Turnkey-Project-Management.svg"
+                     alt="Turnkey Project Management" />
+                  <h3>Turnkey Project Management</h3>
+               </div>
+               <div class="feature-back">
+                  <p>We handle complete project responsibility, including mechanical, electrical, packaging,
+                     and related components, delivering packaged products while you focus on sales and market growth
+                     strategies.</p>
+               </div>
+            </div>
+            <div class="feature-box">
+               <div class="feature-front">
+                  <img src="./assets/Orange Icons/Contract Manufacturing/Proven-Delivery-Performance.svg"
+                     alt="Proven Delivery Performance" />
+                  <h3> Proven Delivery Performance</h3>
+               </div>
+               <div class="feature-back">
+                  <p>Our established track record since 2020 demonstrates consistent on-time delivery and
+                     reliable supply chain management, ensuring your production schedules remain intact and customer
+                     commitments fulfilled.</p>
+               </div>
+            </div>
+            <div class="feature-box">
+               <div class="feature-front">
+                  <img src="./assets/Orange Icons/Contract Manufacturing/Cost-Effective-Global-Sourcing.svg"
+                     alt="Cost-Effective Global Sourcing" />
+                  <h3>Cost-Effective Global Sourcing</h3>
+               </div>
+               <div class="feature-back">
+                  <p>Strategic partnerships and comprehensive BOM sourcing capabilities deliver significant
+                     cost savings while maintaining international quality standards, maximizing your profit margins,
+                     and competitive market positioning.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+
    <!-- FAQ Section -->
    <section class="faq-section">
       <div class="faq-container">
@@ -753,10 +756,7 @@
                   </div>
                </div>
                <div class="faq-answer">
-                  <p>Contract manufacturing is the outsourcing of production processes to a third-party manufacturer. A
-                     company (the client) contracts with another company (the contract manufacturer) to produce
-                     components or entire products on their behalf, based on the client's designs, specifications, and
-                     quality standards. </p>
+                  <p>Contract manufacturing is the outsourcing of production processes to a third-party manufacturer. A company (the client) contracts with another company (the contract manufacturer) to produce components or entire products on their behalf, based on the client's designs, specifications, and quality standards. </p>
                </div>
             </div>
             <div class="faq-item">
@@ -767,96 +767,46 @@
                   </div>
                </div>
                <div class="faq-answer">
-                  <p>The key benefits of contract manufacturing include reduced production costs, access to specialized
-                     expertise and equipment, increased production capacity, faster time to market, and the ability to
-                     focus internal resources on core competencies like design, marketing, and sales.</p>
+                  <p>The key benefits of contract manufacturing include reduced production costs, access to specialized expertise and equipment, increased production capacity, faster time to market, and the ability to focus internal resources on core competencies like design, marketing, and sales.</p>
                </div>
             </div>
             <div class="faq-item">
                <div class="faq-question">
-                  <span class="faq-question-text">How do you handle intellectual property and confidentiality in
-                     contract manufacturing?</span>
+                  <span class="faq-question-text">How do you handle intellectual property and confidentiality in contract manufacturing?</span>
                   <div class="faq-icon">
                      <div class="faq-icon-open"></div>
                   </div>
                </div>
                <div class="faq-answer">
-                  <p>We handle intellectual property (IP) and confidentiality in contract manufacturing through legally
-                     binding Non-Disclosure Agreements (NDAs) and comprehensive manufacturing agreements. These
-                     agreements outline the ownership of intellectual property, define confidentiality obligations, and
-                     detail security measures to protect your designs, processes, and sensitive information throughout
-                     the entire production lifecycle. We implement strict internal protocols to ensure compliance.</p>
+                  <p>We handle intellectual property (IP) and confidentiality in contract manufacturing through legally binding Non-Disclosure Agreements (NDAs) and comprehensive manufacturing agreements. These agreements outline the ownership of intellectual property, define confidentiality obligations, and detail security measures to protect your designs, processes, and sensitive information throughout the entire production lifecycle. We implement strict internal protocols to ensure compliance.</p>
                </div>
             </div>
 
             <div class="faq-item">
                <div class="faq-question">
-                  <span class="faq-question-text">Do you offer post-manufacturing support, such as packaging and
-                     assembly?</span>
+                  <span class="faq-question-text">Do you offer post-manufacturing support, such as packaging and assembly?</span>
                   <div class="faq-icon">
                      <div class="faq-icon-open"></div>
                   </div>
                </div>
                <div class="faq-answer">
-                  <p>Yes, we offer comprehensive post-manufacturing support, including packaging and assembly services.
-                     Beyond manufacturing the components or products, we can provide final assembly, custom packaging,
-                     kitting, labeling, and direct shipping services. This provides a complete end-to-end solution,
-                     streamlining your supply chain and preparing your products for market efficiently.</p>
+                  <p>Yes, we offer comprehensive post-manufacturing support, including packaging and assembly services. </p>
                </div>
             </div>
 
             <div class="faq-item">
                <div class="faq-question">
-                  <span class="faq-question-text">What are your payment terms for contract manufacturing
-                     agreements?</span>
+                  <span class="faq-question-text">What are your payment terms for contract manufacturing agreements?</span>
                   <div class="faq-icon">
                      <div class="faq-icon-open"></div>
                   </div>
                </div>
                <div class="faq-answer">
-                  <p>Here are our payment terms for a contract manufacturing agreement : <br>
+                  <p><b>Design & Development:</b> 50% advance, then 50% on delivery.</p>
+                  <p><b>Prototype:</b> 50% advance, 50% before dispatch.</p>
+                  <p><b>Mold Making:</b> 50% advance, then 30%/20% on sample approvals.</p>
+                  <p><b>Production:</b> 50% advance, 50% before dispatch.</p>
 
-                     <b>- Product Design and Development</b> <br>
-
-                     <b>Payment Schedule 1 : </b> <br>
-
-                     50% Advance: Due against the Purchase Order (PO) or Work Order to commence work. <br>
-
-                     50% Upon Delivery: Due within two weeks of delivery. <br>
-
-                     <b>Payment Schedule 2 : </b> <br>
-
-                     50% Advance: Due against the PO or Work Order to commence work. <br>
-
-                     30% & 20%: Subsequent payments would be structured against clearly defined milestones. <br>
-
-                     - Prototype Development <br>
-
-                     <b>Payment Schedule 1 : </b> <br>
-
-                     50% Advance: Due against the PO or Work Order to commence work. <br>
-
-                     50% Before Dispatch: Due before the dispatch of the prototype from the factory. <br>
-
-
-                     <b>- Contract Manufacturing</b> <br>
-
-                     <b>1. Mold Development(Payment Schedule 1)</b> <br>
-
-
-                     50% Advance: Due against the PO or Work Order to commence work. <br>
-
-                     30% Upon T0 Sample Delivery: Due against the delivery of the T0 (initial trial) sample. <br>
-
-                     20% Upon T1 Sample Delivery: Due against the delivery of the T1 (second trial) sample. <br>
-
-
-                     <b>2. Production(Payment Schedule 2)</b> <br>
-
-
-                     50% Advance: Due against the PO or Work Order to commence work. <br>
-
-                     50% Before Dispatch: Due before the dispatch of the production order from the factory. <br>
                   </p> <br>
                </div>
             </div>
@@ -865,7 +815,7 @@
    </section>
    <!-- contact section end -->
 
-<?php include("./components/cta.php"); ?>
+   <?php include("./components/cta.php"); ?>
 
 
    <script>

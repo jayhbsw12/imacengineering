@@ -72,6 +72,11 @@
   @media (prefers-reduced-motion: reduce) {
     html.pgfade-init body { opacity: 1; }
   }
+
+.benefits-background{
+   padding: 0px 120px 32px 100px !important;
+}
+
   /* Carousel container */
    .services-carousel-container {
       position: relative;
@@ -193,7 +198,7 @@
          </p>
       </header>
       <div class="cta-button-banner">
-         <span class="cta-text-banner">Get a quote</span>
+         <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Get a quote today</span>
          <img src="https://static.codia.ai/custom_image/2025-07-05/131851/arrow-icon.svg" alt="Arrow" class="cta-arrow-banner">
       </div>
    </div>
@@ -228,6 +233,191 @@
 
 <?php include("client-logo-slider.php"); ?>
 
+</section>
+
+<!-- Services Section -->
+<section class="imac-services-section">
+   <div class="imac-services-container">
+      <h2 class="imac-services-title">Our Sheet Metal Design and Development Services</h2>
+      <div class="services-carousel-container">
+         <div class="services-carousel">
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-1">
+                  <img src="./assets/Sheet Metal Design Development/Laser Cutting.svg" alt="Laser Cutting">
+               </div>
+               <h3 class="service-title-drafting">Laser Cutting</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">We offer high-precision laser cutting for complex designs and tight tolerances. Our CNC laser machines handle various metals, delivering clean, burr-free edges perfect for prototypes and production. Fast, accurate, and ideal for complex geometries.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-2">
+                  <img src="./assets/Sheet Metal Design Development/Plasma Cutting.svg" alt="Plasma Cutting">
+               </div>
+               <h3 class="service-title-drafting">Plasma Cutting</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Our industrial plasma cutting delivers powerful metal cutting for thick materials. This works perfectly for large-scale projects or one-off fabrications; it maintains quality on steel, aluminum, and more. You can easily expect clean cuts and quick turnaround, without any compromise on strength or precision.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-2">
+                  <img src="./assets/Sheet Metal Design Development/Plasma Cutting.svg" alt="Kiosk Design and Development">
+               </div>
+               <h3 class="service-title-drafting">Kiosk Design and Development</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Our kiosk designing services are intuitive and secure. With expertise in kiosk-mode lockdown, multi-platform compatibility, payment system integration, and cloud-based management, we provide reliable solutions featuring remote monitoring, tamper-proofing, and compliance with PCI-DSS/GDPR standards to protect your business.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-3">
+                  <img src="./assets/Sheet Metal Design Development/Metal Bending.svg" alt="Metal Bending">
+               </div>
+               <h3 class="service-title-drafting">Metal Bending</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Precision bending can change the flat metal into functional parts with consistent angles and smooth finishes. Our press brakes handle everything from delicate folds to heavy-duty bends in steel, stainless steel, and aluminum. Accurate, repeatable, and designed according to your specifications(every time).</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-4">
+                  <img src="./assets/Sheet Metal Design Development/Waterjet Cutting.svg" alt="Waterjet Cutting">
+               </div>
+               <h3 class="service-title-drafting">Waterjet Cutting</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">High-pressure waterjet cutting performs through thick metals without heat distortion, preserving material integrity. This is ideal for heat-sensitive or tough materials, delivering smooth edges and complex shapes. No hardening, you can expect just clean cuts for any project, big or small.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-1">
+                  <img src="./assets/Sheet Metal Design Development/Metal Assembly.svg" alt="Metal Assembly">
+               </div>
+               <h3 class="service-title-drafting">Metal Assembly</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">From welding to riveting, our assembly services easily convert fabricated parts into finished products. We ensure sturdy, smooth joins that meet structural and aesthetic demands. Simplify your production with our reliable techniques, reducing your workload while maintaining top-tier quality and durability.</p>
+            </div>
+            <div class="service-card-drafting">
+               <div class="service-icon service-icon-2">
+                  <img src="./assets/Sheet Metal Design Development/Metal Enclosures.svg" alt="Metal Enclosures">
+               </div>
+               <h3 class="service-title-drafting">Metal Enclosures</h3>
+               <div class="service-divider"></div>
+               <p class="service-description">Custom metal enclosures protect your electronics, machinery, or components with a perfect fit. Durable, cost-effective. Our enclosures are designed and developed keeping in mind the industrial standards while working on their functionality. From design to delivery, we design and develop solutions that last.</p>
+            </div>
+         </div>
+         <!-- Carousel Controls -->
+         <div class="buttons-swipe-holder">
+            <button class="carousel-prev dm-carousel-ctrl dm-prev-ctrl">
+               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m15 18-6-6 6-6" />
+               </svg>
+            </button>
+            <button class="carousel-next dm-carousel-ctrl dm-next-ctrl">
+               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="m9 18 6-6-6-6" />
+               </svg>
+            </button>
+         </div>
+      </div>
+   </div>
+</section>
+
+<!-- why us section -->
+<section class="features-section">
+   <div class="container">
+      <h2 class="benefits-title">Why Choose Us for <br class="m-hidden">Sheet Metal Fabrication Services? </h2>
+      <div class="features-container">
+         <div class="feature-box">
+            <div class="feature-front">
+               <img src="./assets/Orange Icons/Sheet Metal Design/100+ Projects Delivered.svg" alt="100+ Projects Delivered" />
+               <h3>100+ Projects Delivered</h3>
+            </div>
+            <div class="feature-back">
+               <p>We have successfully delivered over 100 quality enclosures and kiosks across multiple(heavy) 
+                industries with consistent results that exceed client expectations every time.</p>
+            </div>
+         </div>
+         <div class="feature-box">
+            <div class="feature-front">
+               <img src="./assets/Orange Icons/Sheet Metal Design/Material Expertise.svg" alt="Material Expertise" />
+               <h3>Material Expertise</h3>
+            </div>
+            <div class="feature-back">
+               <p>Our experienced team handles mild steel, stainless steel, and aluminum from 0.8mm to 25mm thickness
+                 with precision and technical expertise for projects.</p>
+            </div>
+         </div>
+         <div class="feature-box">
+            <div class="feature-front">
+               <img src="./assets/Orange Icons/Sheet Metal Design/Design Innovation.svg" alt="Design Innovation" />
+               <h3> Design Innovation</h3>
+            </div>
+            <div class="feature-back">
+               <p>We combine technical expertise with creative design solutions for kiosks, PCB enclosures, 
+                and custom fabrication as according to your specific application requirements perfectly.</p>
+            </div>
+         </div>
+         <div class="feature-box">
+            <div class="feature-front">
+               <img src="./assets/Orange Icons/Sheet Metal Design/Cost Effective.svg" alt="Cost Effective" />
+               <h3>Cost Effective</h3>
+            </div>
+            <div class="feature-back">
+               <p>Our sheet metal fabrication offers lower costs compared to casting, forging, 
+                or machining for your projects while maintaining superior quality and performance.</p>
+            </div>
+         </div>
+
+        <!-- <div class="feature-box">
+            <div class="feature-front">
+               <img src="assets/icons/CAD-service/Quality-Commitment.svg" alt="Integrated Engineering" />
+               <h3>Quality Assurance</h3>
+            </div>
+            <div class="feature-back">
+               <p>We maintain strict tolerances and design parameters, ensuring parts meet your exact specifications 
+                every time with consistent quality and reliable manufacturing processes.</p>
+            </div>
+         </div> -->
+
+      </div>
+   </div>
+</section>
+
+<!-- Benefits Section -->
+<section class="benefits-section">
+   <div class="benefits-background">
+      <div class="benefits-container">
+         <h2 class="benefits-title">Our Sheet Metal Fabrication Services Benefits</h2>
+         <div class="benefits-grid">
+            <div class="benefit-card benefit-card-1">
+               <div class="benefit-icon benefit-icon-1"></div>
+               <p class="benefit-text">Our team of experts delivers strong and durable parts that perform exceptionally well in heavy-duty
+                 applications without breaking down over time in demanding environments.</p>
+            </div>
+            <div class="benefit-card benefit-card-2">
+               <div class="benefit-icon benefit-icon-2"></div>
+               <p class="benefit-text">Our proven process shapes complex geometries while maintaining structural
+                 integrity throughout the entire forming process, ensuring all the parts and process matches 
+                 your exact design specifications.</p>
+            </div>
+         </div>
+         <div class="benefits-grid-2">
+            <div class="benefit-card benefit-card-3">
+               <div class="benefit-icon benefit-icon-3"></div>
+               <p class="benefit-text">We offer cost-effective solutions compared to casting, forging, or machining for both prototypes and production processes, saving you money on your projects.</p>
+            </div>
+            <div class="benefit-card benefit-card-4">
+               <div class="benefit-icon benefit-icon-4"></div>
+               <p class="benefit-text"> You can choose from our wide material range that includes mild steel, aluminum, stainless steel, 
+                brass, copper, and titanium options, giving you flexibility for any application requirements.</p>
+            </div>
+         </div>
+         <div class="benefits-grid-2">
+            <div class="benefit-card benefit-card-5">
+               <div class="benefit-icon benefit-icon-5"></div>
+               <p class="benefit-text">We maintain consistent wall thickness across the entire parts, eliminating weak points and 
+                ensuring uniform strength throughout your fabricated components for reliability.</p>
+            </div>
+            <div class="benefit-card benefit-card-4">
+               <div class="benefit-icon benefit-icon-4"></div>
+               <p class="benefit-text">Our quick turnaround approach will help you get your 3D design files to finished parts on time using automated cutting and forming technology, delivering quality results on schedule.</p>
+            </div>
+         </div>
+      </div>
+   </div>
 </section>
 
 <section class="about-service-hero-section">
@@ -322,276 +512,7 @@
    </div>
 </section> -->
 
-<section class="imac-services-section">
-   <div class="imac-services-container">
-      <h2 class="imac-services-title">Our Sheet Metal Design and Development Services</h2>
-      <div class="services-carousel-container">
-         <div class="services-carousel">
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-1">
-                  <img src="./assets/Sheet Metal Design Development/Laser Cutting.svg" alt="Laser Cutting">
-               </div>
-               <h3 class="service-title-drafting">Laser Cutting</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">We offer high-precision laser cutting for complex designs and tight tolerances. Our CNC laser machines handle various metals, delivering clean, burr-free edges perfect for prototypes and production. Fast, accurate, and ideal for complex geometries.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-2">
-                  <img src="./assets/Sheet Metal Design Development/Plasma Cutting.svg" alt="Plasma Cutting">
-               </div>
-               <h3 class="service-title-drafting">Plasma Cutting</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">Our industrial plasma cutting delivers powerful metal cutting for thick materials. This works perfectly for large-scale projects or one-off fabrications; it maintains quality on steel, aluminum, and more. You can easily expect clean cuts and quick turnaround, without any compromise on strength or precision.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-2">
-                  <img src="./assets/Sheet Metal Design Development/Plasma Cutting.svg" alt="Kiosk Design and Development">
-               </div>
-               <h3 class="service-title-drafting">Kiosk Design and Development</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">Our kiosk designing services are intuitive and secure. With expertise in kiosk-mode lockdown, multi-platform compatibility, payment system integration, and cloud-based management, we provide reliable solutions featuring remote monitoring, tamper-proofing, and compliance with PCI-DSS/GDPR standards to protect your business.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-3">
-                  <img src="./assets/Sheet Metal Design Development/Metal Bending.svg" alt="Metal Bending">
-               </div>
-               <h3 class="service-title-drafting">Metal Bending</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">Precision bending can change the flat metal into functional parts with consistent angles and smooth finishes. Our press brakes handle everything from delicate folds to heavy-duty bends in steel, stainless steel, and aluminum. Accurate, repeatable, and designed according to your specifications(every time).</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-4">
-                  <img src="./assets/Sheet Metal Design Development/Waterjet Cutting.svg" alt="Waterjet Cutting">
-               </div>
-               <h3 class="service-title-drafting">Waterjet Cutting</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">High-pressure waterjet cutting performs through thick metals without heat distortion, preserving material integrity. This is ideal for heat-sensitive or tough materials, delivering smooth edges and complex shapes. No hardening, you can expect just clean cuts for any project, big or small.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-1">
-                  <img src="./assets/Sheet Metal Design Development/Metal Assembly.svg" alt="Metal Assembly">
-               </div>
-               <h3 class="service-title-drafting">Metal Assembly</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">From welding to riveting, our assembly services easily convert fabricated parts into finished products. We ensure sturdy, smooth joins that meet structural and aesthetic demands. Simplify your production with our reliable techniques, reducing your workload while maintaining top-tier quality and durability.</p>
-            </div>
-            <div class="service-card-drafting">
-               <div class="service-icon service-icon-2">
-                  <img src="./assets/Sheet Metal Design Development/Metal Enclosures.svg" alt="Metal Enclosures">
-               </div>
-               <h3 class="service-title-drafting">Metal Enclosures</h3>
-               <div class="service-divider"></div>
-               <p class="service-description">Custom metal enclosures protect your electronics, machinery, or components with a perfect fit. Durable, cost-effective. Our enclosures are designed and developed keeping in mind the industrial standards while working on their functionality. From design to delivery, we design and develop solutions that last.</p>
-            </div>
-         </div>
-         <!-- Carousel Controls -->
-         <div class="buttons-swipe-holder">
-            <button class="carousel-prev dm-carousel-ctrl dm-prev-ctrl">
-               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="m15 18-6-6 6-6" />
-               </svg>
-            </button>
-            <button class="carousel-next dm-carousel-ctrl dm-next-ctrl">
-               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="m9 18 6-6-6-6" />
-               </svg>
-            </button>
-         </div>
-      </div>
-   </div>
-</section>
-
-
-<!-- Benefits Section -->
-<section class="benefits-section">
-   <div class="benefits-background">
-      <div class="benefits-container">
-         <h2 class="benefits-title">Benefits of Our Sheet Metal Fabrication Services<br class="m-hidden"></h2>
-         <div class="benefits-grid">
-            <div class="benefit-card benefit-card-1">
-               <div class="benefit-icon benefit-icon-1"></div>
-               <p class="benefit-text">Our team of experts delivers strong and durable parts that perform exceptionally well in heavy-duty
-                 applications without breaking down over time in demanding environments.</p>
-            </div>
-            <div class="benefit-card benefit-card-2">
-               <div class="benefit-icon benefit-icon-2"></div>
-               <p class="benefit-text">Our proven process shapes complex geometries while maintaining structural
-                 integrity throughout the entire forming process, ensuring all the parts and process matches 
-                 your exact design specifications.</p>
-            </div>
-         </div>
-         <div class="benefits-grid-2">
-            <div class="benefit-card benefit-card-3">
-               <div class="benefit-icon benefit-icon-3"></div>
-               <p class="benefit-text">We offer cost-effective solutions compared to casting, forging, or machining for both prototypes and production processes, saving you money on your projects.</p>
-            </div>
-            <div class="benefit-card benefit-card-4">
-               <div class="benefit-icon benefit-icon-4"></div>
-               <p class="benefit-text"> You can choose from our wide material range that includes mild steel, aluminum, stainless steel, 
-                brass, copper, and titanium options, giving you flexibility for any application requirements.</p>
-            </div>
-         </div>
-         <div class="benefits-grid-2">
-            <div class="benefit-card benefit-card-5">
-               <div class="benefit-icon benefit-icon-5"></div>
-               <p class="benefit-text">We maintain consistent wall thickness across the entire parts, eliminating weak points and 
-                ensuring uniform strength throughout your fabricated components for reliability.</p>
-            </div>
-            <div class="benefit-card benefit-card-4">
-               <div class="benefit-icon benefit-icon-4"></div>
-               <p class="benefit-text">Our quick turnaround approach will help you get your 3D design files to finished parts on time using automated cutting and forming technology, delivering quality results on schedule.</p>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-
-<!-- FAQ Section -->
-<section class="faq-section">
-   <div class="faq-container">
-      <div class="faq-content">
-         <h2 class="faq-title">Frequently Asked<br>Questions Answered</h2>
-         <div class="faq-contact">
-            <!--<span class="faq-contact-text">Have any other questions?</span>-->
-            <!--<a href="https://imacengineering.com/contact-us" class="faq-contact-link">Contact Us</a>-->
-         </div>
-      </div>
-      <div class="faq-accordion">
-         <div class="faq-item active">
-            <div class="faq-question">
-               <span class="faq-question-text">What types of products can be developed using sheet metal design?</span>
-               <div class="faq-icon">
-                  <div class="faq-icon-closed"></div>
-               </div>
-            </div>
-            <div class="faq-answer">
-               <p>Sheet metal design is incredibly versatile and can be used to develop an extensive array of products, including but not limited to electronic enclosures, chassis for machinery, industrial cabinets, automotive components, medical device housings, aerospace parts, HVAC ductwork, commercial kitchen equipment, and consumer product casings.</p>
-            </div>
-         </div>
-         <div class="faq-item">
-            <div class="faq-question">
-               <span class="faq-question-text">What materials are typically used in sheet metal design?</span>
-               <div class="faq-icon">
-                  <div class="faq-icon-open"></div>
-               </div>
-            </div>
-            <div class="faq-answer">
-               <p>Steel, aluminum, brass, copper, tin, nickel, titanium, or precious metals are the materials used in sheet metal design. </p> 
-            </div>
-         </div>
-         <div class="faq-item">
-            <div class="faq-question">
-               <span class="faq-question-text"> Do you support design-for-manufacturing (DFM)?</span>
-               <div class="faq-icon">
-                  <div class="faq-icon-open"></div>
-               </div>
-            </div>
-            <div class="faq-answer">
-               <p>Yes, we strongly support and integrate Design for Manufacturability (DFM) principles throughout our sheet metal design process.</p>
-            </div>
-         </div>
-
-        <div class="faq-item">
-            <div class="faq-question">
-               <span class="faq-question-text">What is your typical design process for a sheet metal project?</span>
-               <div class="faq-icon">
-                  <div class="faq-icon-open"></div>
-               </div>
-            </div>
-            <div class="faq-answer">
-                <p>Our typical sheet metal design process begins with understanding client requirements and specifications, followed by conceptual design and material selection. We then proceed to detailed 3D modeling, including flattening and bend calculations, often incorporating DFM reviews. This is followed by prototyping (if required), design validation, and finally, delivery of manufacturing-ready files. </p>
-            </div>
-         </div>
-
-         <div class="faq-item">
-            <div class="faq-question">
-               <span class="faq-question-text">Do you sign NDAs and maintain confidentiality?</span>
-               <div class="faq-icon">
-                  <div class="faq-icon-open"></div>
-               </div>
-            </div>
-            <div class="faq-answer">
-                <p>Yes, we sign Non-Disclosure Agreements (NDAs) and maintain strict confidentiality for all client projects.</p>
-            </div>
-         </div>
-
-         <div class="faq-item">
-            <div class="faq-question">
-               <span class="faq-question-text">Can you design sheet metal enclosures that meet IP ratings?</span>
-               <div class="faq-icon">
-                  <div class="faq-icon-open"></div>
-               </div>
-            </div>
-            <div class="faq-answer">
-                <p>Yes, we specialize in designing sheet metal enclosures that meet specific IP ratings. </p>
-            </div>
-         </div>
-
-      </div>
-   </div>
-</section>
-
-<!-- why us section -->
-<section class="features-section">
-   <div class="container">
-      <h2 class="benefits-title">Why Choose iDES for<br class="m-hidden">Sheet Metal Fabrication Services? </h2>
-      <div class="features-container">
-         <div class="feature-box">
-            <div class="feature-front">
-               <img src="./assets/Orange Icons/Sheet Metal Design/100+ Projects Delivered.svg" alt="100+ Projects Delivered" />
-               <h3>100+ Projects Delivered</h3>
-            </div>
-            <div class="feature-back">
-               <p>We have successfully delivered over 100 quality enclosures and kiosks across multiple(heavy) 
-                industries with consistent results that exceed client expectations every time.</p>
-            </div>
-         </div>
-         <div class="feature-box">
-            <div class="feature-front">
-               <img src="./assets/Orange Icons/Sheet Metal Design/Material Expertise.svg" alt="Material Expertise" />
-               <h3>Material Expertise</h3>
-            </div>
-            <div class="feature-back">
-               <p>Our experienced team handles mild steel, stainless steel, and aluminum from 0.8mm to 25mm thickness
-                 with precision and technical expertise for projects.</p>
-            </div>
-         </div>
-         <div class="feature-box">
-            <div class="feature-front">
-               <img src="./assets/Orange Icons/Sheet Metal Design/Design Innovation.svg" alt="Design Innovation" />
-               <h3> Design Innovation</h3>
-            </div>
-            <div class="feature-back">
-               <p>We combine technical expertise with creative design solutions for kiosks, PCB enclosures, 
-                and custom fabrication as according to your specific application requirements perfectly.</p>
-            </div>
-         </div>
-         <div class="feature-box">
-            <div class="feature-front">
-               <img src="./assets/Orange Icons/Sheet Metal Design/Cost Effective.svg" alt="Cost Effective" />
-               <h3>Cost Effective</h3>
-            </div>
-            <div class="feature-back">
-               <p>Our sheet metal fabrication offers lower costs compared to casting, forging, 
-                or machining for your projects while maintaining superior quality and performance.</p>
-            </div>
-         </div>
-
-        <!-- <div class="feature-box">
-            <div class="feature-front">
-               <img src="assets/icons/CAD-service/Quality-Commitment.svg" alt="Integrated Engineering" />
-               <h3>Quality Assurance</h3>
-            </div>
-            <div class="feature-back">
-               <p>We maintain strict tolerances and design parameters, ensuring parts meet your exact specifications 
-                every time with consistent quality and reliable manufacturing processes.</p>
-            </div>
-         </div> -->
-
-      </div>
-   </div>
-</section>
-
+<!-- process Section -->
 <main class="main-container-section">
    <!-- Product Development Process Section -->
    <section class="product-development-section">
@@ -686,6 +607,94 @@
       </div>
    </section>
 </main>
+
+<!-- FAQ Section -->
+<section class="faq-section">
+   <div class="faq-container">
+      <div class="faq-content">
+         <h2 class="faq-title">Frequently Asked<br>Questions Answered</h2>
+         <div class="faq-contact">
+            <!--<span class="faq-contact-text">Have any other questions?</span>-->
+            <!--<a href="https://imacengineering.com/contact-us" class="faq-contact-link">Contact Us</a>-->
+         </div>
+      </div>
+      <div class="faq-accordion">
+         <div class="faq-item active">
+            <div class="faq-question">
+               <span class="faq-question-text">What types of products can be developed using sheet metal design?</span>
+               <div class="faq-icon">
+                  <div class="faq-icon-closed"></div>
+               </div>
+            </div>
+            <div class="faq-answer">
+               <p>Sheet metal design is incredibly versatile and can be used to develop an extensive array of products, including but not limited to electronic enclosures, chassis for machinery, industrial cabinets, automotive components, medical device housings, aerospace parts, HVAC ductwork, commercial kitchen equipment, and consumer product casings.</p>
+            </div>
+         </div>
+         <div class="faq-item">
+            <div class="faq-question">
+               <span class="faq-question-text">What materials are typically used in sheet metal design?</span>
+               <div class="faq-icon">
+                  <div class="faq-icon-open"></div>
+               </div>
+            </div>
+            <div class="faq-answer">
+               <p>Steel, aluminum, brass, copper, tin, nickel, titanium, or precious metals are the materials used in sheet metal design. </p> 
+            </div>
+         </div>
+         <div class="faq-item">
+            <div class="faq-question">
+               <span class="faq-question-text"> Do you support design-for-manufacturing (DFM)?</span>
+               <div class="faq-icon">
+                  <div class="faq-icon-open"></div>
+               </div>
+            </div>
+            <div class="faq-answer">
+               <p>Yes, we strongly support and integrate Design for Manufacturability (DFM) principles throughout our sheet metal design process.</p>
+            </div>
+         </div>
+
+        <div class="faq-item">
+            <div class="faq-question">
+               <span class="faq-question-text">What is your typical design process for a sheet metal project?</span>
+               <div class="faq-icon">
+                  <div class="faq-icon-open"></div>
+               </div>
+            </div>
+            <div class="faq-answer">
+                <p>Our typical sheet metal design process begins with understanding client requirements and specifications, followed by conceptual design and material selection. We then proceed to detailed 3D modeling, including flattening and bend calculations, often incorporating DFM reviews. This is followed by prototyping (if required), design validation, and finally, delivery of manufacturing-ready files. </p>
+            </div>
+         </div>
+
+         <div class="faq-item">
+            <div class="faq-question">
+               <span class="faq-question-text">Do you sign NDAs and maintain confidentiality?</span>
+               <div class="faq-icon">
+                  <div class="faq-icon-open"></div>
+               </div>
+            </div>
+            <div class="faq-answer">
+                <p>Yes, we sign Non-Disclosure Agreements (NDAs) and maintain strict confidentiality for all client projects.</p>
+            </div>
+         </div>
+
+         <div class="faq-item">
+            <div class="faq-question">
+               <span class="faq-question-text">Can you design sheet metal enclosures that meet IP ratings?</span>
+               <div class="faq-icon">
+                  <div class="faq-icon-open"></div>
+               </div>
+            </div>
+            <div class="faq-answer">
+                <p>Yes, we specialize in designing sheet metal enclosures that meet specific IP ratings. </p>
+            </div>
+         </div>
+
+      </div>
+   </div>
+</section>
+
+
+
 
 <!-- contact section end -->
 

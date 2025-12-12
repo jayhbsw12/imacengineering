@@ -72,6 +72,9 @@
   @media (prefers-reduced-motion: reduce) {
     html.pgfade-init body { opacity: 1; }
   }
+  .features-section{
+   padding: 0px 40px 85px 40px !important;
+  }
 </style>
 <script>
   // Reveal as soon as DOM is ready
@@ -108,7 +111,7 @@
          </p>
       </header>
       <div class="cta-button-banner">
-         <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Get a Quote</span>
+         <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Let’s Discuss</span>
          <img src="https://static.codia.ai/custom_image/2025-07-05/131851/arrow-icon.svg" alt="Arrow" class="cta-arrow-banner">
       </div>
    </div>
@@ -146,7 +149,7 @@
 </section>
 
 <section class="about-service-hero-section">
-   <h2 class="main-title">iDES Accurate Plastic Mold Design Services</h2>
+   <h2 class="main-title">High-Accuracy Plastic Mold Design Services </h2>
    <div class="about-container">
       <div class="left-section">
          <img src="assets/image/drafting-service.png" alt="CAD Drafting" />
@@ -159,6 +162,48 @@
             All services are ISO-accredited and pass through strict QC checks to ensure every component, from tiny medical 
             inserts to large automotive and aerospace parts, meets exact specifications and needs.</p>
          <p>With rapid prototyping, advanced materials (aluminum and steel), and versatile mold types (single-cavity, multi-cavity, family molds). Over 100 companies across 30+ industries trust us with our expertise and plastic molding services. </p>
+      </div>
+   </div>
+</section>
+
+<!-- Services Section -->
+<section class="imac-services-section">
+   <div class="imac-services-container">
+      <h2 class="imac-services-title">Customized Plastic Injection Molding Services</h2>
+      <div class="services-grid">
+         <!-- <div class="service-dividers">
+            <div class="divider divider-left"></div>
+            <div class="divider divider-section-1"></div>
+            <div class="divider divider-middle"></div>
+            <div class="divider divider-section-2"></div>
+            <div class="divider divider-right"></div>
+            </div> -->
+         <article class="service-card-drafting main-service">
+            <div class="service-icon service-icon-1"><img src="./assets/Plastic Injection Molding Services/Rapid Tooling.svg" alt="Rapid Tooling"></div>
+            <h3 class="service-title-drafting">Rapid Tooling</h3>
+            <div class="service-divider"></div>
+            <p class="service-description">Our team uses rapid tooling to bridge the gap between prototype and production.
+                 With deep engineering know-how and speed-driven execution, we deliver high-quality molds fast.
+                  This approach enables you to test and validate early, which directly reduces costs, minimizes risks, 
+                  and accelerates market entry.</p>
+         </article>
+         <article class="service-card-drafting">
+            <div class="service-icon service-icon-2"><img src="./assets/Plastic Injection Molding Services/Over-Molding.svg" alt="Over-Molding"></div>
+            <h3 class="service-title-drafting">Over-Molding</h3>
+            <div class="service-divider"></div>
+            <p class="service-description">We specialize in over-molding by combining advanced techniques with a solid understanding 
+                of material behavior. Our engineers layer different materials smoothly, improving grip, comfort, and product life.
+                 From design to finish, we ensure every part meets both function and aesthetic in one clean process.</p>
+         </article>
+         <article class="service-card-drafting">
+            <div class="service-icon service-icon-3"><img src="./assets/Plastic Injection Molding Services/Insert Molding.svg" alt="Insert Molding"></div>
+            <h3 class="service-title-drafting">Insert Molding</h3>
+            <div class="service-divider"></div>
+            <p class="service-description">With years of hands-on experience, our team molds plastic around inserts 
+                like metals or electronics with high precision. Insert molding improves part strength and reduces assembly steps.
+                 We focus on tight tolerances, durability, and performance, making it ideal for complex, high-function industrial applications.</p>
+         </article>
+        
       </div>
    </div>
 </section>
@@ -206,108 +251,8 @@
    </div>
 </section>
 
-<!-- Services Section -->
-<section class="imac-services-section">
-   <div class="imac-services-container">
-      <h2 class="imac-services-title">Customized Plastic Injection Molding Services</h2>
-      <div class="services-grid">
-         <!-- <div class="service-dividers">
-            <div class="divider divider-left"></div>
-            <div class="divider divider-section-1"></div>
-            <div class="divider divider-middle"></div>
-            <div class="divider divider-section-2"></div>
-            <div class="divider divider-right"></div>
-            </div> -->
-         <article class="service-card-drafting main-service">
-            <div class="service-icon service-icon-1"><img src="./assets/Plastic Injection Molding Services/Rapid Tooling.svg" alt="Rapid Tooling"></div>
-            <h3 class="service-title-drafting">Rapid Tooling</h3>
-            <div class="service-divider"></div>
-            <p class="service-description">Our team uses rapid tooling to bridge the gap between prototype and production.
-                 With deep engineering know-how and speed-driven execution, we deliver high-quality molds fast.
-                  This approach enables you to test and validate early, which directly reduces costs, minimizes risks, 
-                  and accelerates market entry.</p>
-         </article>
-         <article class="service-card-drafting">
-            <div class="service-icon service-icon-2"><img src="./assets/Plastic Injection Molding Services/Over-Molding.svg" alt="Over-Molding"></div>
-            <h3 class="service-title-drafting">Over-Molding</h3>
-            <div class="service-divider"></div>
-            <p class="service-description">We specialize in over-molding by combining advanced techniques with a solid understanding 
-                of material behavior. Our engineers layer different materials smoothly, improving grip, comfort, and product life.
-                 From design to finish, we ensure every part meets both function and aesthetic in one clean process.</p>
-         </article>
-         <article class="service-card-drafting">
-            <div class="service-icon service-icon-3"><img src="./assets/Plastic Injection Molding Services/Insert Molding.svg" alt="Insert Molding"></div>
-            <h3 class="service-title-drafting">Insert Molding</h3>
-            <div class="service-divider"></div>
-            <p class="service-description">With years of hands-on experience, our team molds plastic around inserts 
-                like metals or electronics with high precision. Insert molding improves part strength and reduces assembly steps.
-                 We focus on tight tolerances, durability, and performance, making it ideal for complex, high-function industrial applications.</p>
-         </article>
-        
-      </div>
-   </div>
-</section>
 
-<!-- why us section -->
-<section class="features-section">
-   <div class="container">
-      <h2 class="benefits-title">Why iDES is the Best Choice <br class="m-hidden"> for Plastic Injection Molding Services? </h2>
-      <div class="features-container">
-         <div class="feature-box">
-            <div class="feature-front">
-               <img src="./assets/Orange Icons/Plastic Injection Modling Services/Proactive Design Solutions.svg" alt="Proactive Design Solutions" />
-               <h3>Proactive Design Solutions</h3>
-            </div>
-            <div class="feature-back">
-               <p>Our professional molders catch gate design problems and molded-in stress issues early,
-                 preventing expensive failures and ensuring parts fight with their intended environments.</p>
-            </div>
-         </div>
-         <div class="feature-box">
-            <div class="feature-front">
-               <img src="./assets/Orange Icons/Plastic Injection Modling Services/Advanced Quality Planning.svg" alt="Advanced Quality Planning" />
-               <h3>Advanced Quality Planning</h3>
-            </div>
-            <div class="feature-back">
-               <p>We use AQP methods with quality records and error-proofing guidelines to achieve zero 
-                defects at reasonable costs while meeting delivery schedules.</p>
-            </div>
-         </div>
-         <div class="feature-box">
-            <div class="feature-front">
-               <img src="./assets/Orange Icons/Plastic Injection Modling Services/Complete Manufacturing Range.svg" alt="Complete Manufacturing Range" />
-               <h3> Complete Manufacturing Range </h3>
-            </div>
-            <div class="feature-back">
-               <p>From smallest medical inserts to large automotive components,
-                 we handle single-cavity, multi-cavity, and family molds using aluminum and steel tooling.</p>
-            </div>
-         </div>
-         <!-- <div class="feature-box">
-            <div class="feature-front">
-               <img src="./assets/Orange Icons/Plastic Injection Modling Services/" alt="Integrated Engineering" />
-               <h3>ISO Accredited Excellence</h3>
-            </div>
-            <div class="feature-back">
-               <p>Our rigorous QC checks and ISO accreditation ensure consistent quality from 
-                rapid prototyping through full-scale production with comprehensive dimension approval.</p>
-            </div>
-         </div> -->
-
-        <div class="feature-box">
-            <div class="feature-front">
-               <img src="./assets/Orange Icons/Sheet Metal Design/Design Innovation.svg" alt="Design Innovation" />
-               <h3>Design Innovation Expertise</h3>
-            </div>   
-            <div class="feature-back">
-               <p>We improve manufacturing efficiency and cost-effectiveness through innovative design solutions,
-                 two-color molding, and aesthetic component development for optimal results.</p>
-            </div>
-         </div>
-
-      </div>
-   </div>
-</section>
+<!-- process section -->
 <main class="main-container-section">
    <!-- Product Development Process Section -->
    <section class="product-development-section">
@@ -401,6 +346,70 @@
       </div>
    </section>
 </main>
+
+
+<!-- why us section -->
+<section class="features-section">
+   <div class="container">
+      <h2 class="benefits-title">  What Makes Us the Leading Choice<br class="m-hidden"> for Injection Molding Services?</h2>
+      <div class="features-container">
+         <div class="feature-box">
+            <div class="feature-front">
+               <img src="./assets/Orange Icons/Plastic Injection Modling Services/Proactive Design Solutions.svg" alt="Proactive Design Solutions" />
+               <h3>Proactive Design Solutions</h3>
+            </div>
+            <div class="feature-back">
+               <p>Our professional molders catch gate design problems and molded-in stress issues early,
+                 preventing expensive failures and ensuring parts fight with their intended environments.</p>
+            </div>
+         </div>
+         <div class="feature-box">
+            <div class="feature-front">
+               <img src="./assets/Orange Icons/Plastic Injection Modling Services/Advanced Quality Planning.svg" alt="Advanced Quality Planning" />
+               <h3>Advanced Quality Planning</h3>
+            </div>
+            <div class="feature-back">
+               <p>We use AQP methods with quality records and error-proofing guidelines to achieve zero 
+                defects at reasonable costs while meeting delivery schedules.</p>
+            </div>
+         </div>
+         <div class="feature-box">
+            <div class="feature-front">
+               <img src="./assets/Orange Icons/Plastic Injection Modling Services/Complete Manufacturing Range.svg" alt="Complete Manufacturing Range" />
+               <h3> Complete Manufacturing Range </h3>
+            </div>
+            <div class="feature-back">
+               <p>From smallest medical inserts to large automotive components,
+                 we handle single-cavity, multi-cavity, and family molds using aluminum and steel tooling.</p>
+            </div>
+         </div>
+         <!-- <div class="feature-box">
+            <div class="feature-front">
+               <img src="./assets/Orange Icons/Plastic Injection Modling Services/" alt="Integrated Engineering" />
+               <h3>ISO Accredited Excellence</h3>
+            </div>
+            <div class="feature-back">
+               <p>Our rigorous QC checks and ISO accreditation ensure consistent quality from 
+                rapid prototyping through full-scale production with comprehensive dimension approval.</p>
+            </div>
+         </div> -->
+
+        <div class="feature-box">
+            <div class="feature-front">
+               <img src="./assets/Orange Icons/Sheet Metal Design/Design Innovation.svg" alt="Design Innovation" />
+               <h3>Design Innovation Expertise</h3>
+            </div>   
+            <div class="feature-back">
+               <p>We improve manufacturing efficiency and cost-effectiveness through innovative design solutions,
+                 two-color molding, and aesthetic component development for optimal results.</p>
+            </div>
+         </div>
+
+      </div>
+   </div>
+</section>
+
+
 <!-- FAQ Section -->
 <section class="faq-section">
    <div class="faq-container">

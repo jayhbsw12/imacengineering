@@ -85,7 +85,7 @@
    }
 
    .imac-services-section {
-      margin-bottom: 100px;
+      /* margin-bottom: 100px; */
    }
 
    /* Carousel container */
@@ -214,7 +214,7 @@
             </p>
          </header>
          <div class="cta-button-banner">
-            <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Get your Quote Now</span>
+            <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Submit Request Today</span>
             <img src="https://static.codia.ai/custom_image/2025-07-05/131851/arrow-icon.svg" alt="Arrow"
                class="cta-arrow-banner">
          </div>
@@ -255,116 +255,7 @@
 
    </section>
 
-   <section class="about-service-hero-section">
-      <h2 class="main-title">On-Demand Prototyping And Manufacturing</h2>
-      <div class="about-container">
-         <div class="left-section">
-            <img src="assets/main-service-page/MVP-prototyping.webp" alt="On Demand Manufacturing Service" />
-         </div>
-         <div class="right-section">
-            <p>At iMAC Design and Engineering, we help you speed up product development with quick and convenient
-               on-demand manufacturing.
-               From low-cost pilot tooling to high-quality enclosures and precision parts, our services cover sheet
-               metal fabrication,
-               CNC machining, 3D printing, UV printing, vacuum casting, stamping, forging, and more.</p>
-            <p>We have successfully delivered 100+ quality kiosk enclosures and developed 50+ wooden casting patterns.
-               Every part is designed and developed with care, supported by ISO 9001, ISO 13485, and AS9100 certified
-               partners. You can expect rapid turnaround and top-notch post-processing from our team, all according to
-               your requirements.</p>
-            <p>From a single prototype or a short-run batch, our attention to detail, material options,
-               and expert handling ensure you get the right part, at the right time, "every time".</p>
-         </div>
-      </div>
-   </section>
    <!-- Services Section -->
-   <!-- <section class="imac-services-section">
-   <div class="imac-services-container">
-      <h2 class="imac-services-title">Our On-Demand Manufacturing Services</h2>
-      <div class="services-grid">
-         <!-- <div class="service-dividers">
-            <div class="divider divider-left"></div>
-            <div class="divider divider-section-1"></div>
-            <div class="divider divider-middle"></div>
-            <div class="divider divider-section-2"></div>
-            <div class="divider divider-right"></div>
-            </div>
-         <article class="service-card-drafting main-service">
-            <div class="service-icon service-icon-1"><img src="./assets/MVP Prototyping/Metal-Fabrication.svg" alt="Metal Fabrication"></div>
-            <h3 class="service-title-drafting">Metal Fabrication</h3>
-            <div class="service-divider"></div>
-            <p class="service-description">At iMAC Design and Engineering, we deliver precision sheet metal fabrication services for
-                various & especially complex industries. Using our technology and expertise, we manufacture components from metal sheets
-                 with high accuracy, ensuring durability and superior quality for your product needs.</p>
-         </article>
-         <article class="service-card-drafting">
-            <div class="service-icon service-icon-2"><img src="./assets/MVP Prototyping/CNC-Machining.svg" alt="CNC-Machining"></div>
-            <h3 class="service-title-drafting">CNC Machining</h3>
-            <div class="service-divider"></div>
-            <p class="service-description">Our VMC/CNC machining services offer precision in engineering for complex parts. With the latest machinery and software, we ensure excellent &  consistent results for both metal and plastic components, meeting your specifications and performance requirements perfectly.</p>
-         </article>
-         <article class="service-card-drafting">
-            <div class="service-icon service-icon-3"><img src="./assets/MVP Prototyping/Injection-olding.svg" alt="Injection Molding"></div>
-            <h3 class="service-title-drafting">Injection Molding</h3>
-            <div class="service-divider"></div>
-            <p class="service-description">With our injection molding expertise, we provide efficient and cost-effective solutions for
-                mass-producing high-quality plastic parts. We use the latest molds and technology to ensure each product meets strict
-                 standards and is ready for the production line.</p>
-         </article>
-         <article class="service-card-drafting">
-            <div class="service-icon service-icon-4"><img src="./assets/MVP Prototyping/Metal-Casting.svg" alt="Metal Casting"></div>
-            <h3 class="service-title-drafting">Metal Casting</h3>
-            <div class="service-divider"></div>
-            <p class="service-description">We specialize in metal and plastic casting services, delivering high-quality components.
-                Using materials such as aluminum, steel, bronze, and various high-performance plastics, our casting solutions ensure 
-                superior strength, durability, and dimensional accuracy with a strong focus on consistency and performance.</p>
-         </article>
-
-         <article class="service-card-drafting main-service">
-            <div class="service-icon service-icon-1"><img src="./assets/MVP Prototyping/Metal-Forging.svg" alt="Metal Forging"></div>
-            <h3 class="service-title-drafting">Metal Forging</h3>
-            <div class="service-divider"></div>
-            <p class="service-description">iMAC Design and Engineering offers reliable forging services, shaping metal into durable parts 
-               that meet the highest industry standards. Using our expert and advanced techniques and materials, we create products with 
-               superior strength, ideal for heavy-duty applications.</p>
-         </article>
-         <article class="service-card-drafting">
-            <div class="service-icon service-icon-2"><img src="./assets/MVP Prototyping/Metal-Stamping.svg" alt="Metal Stamping"></div>
-            <h3 class="service-title-drafting">Metal Stamping</h3>
-            <div class="service-divider"></div>
-            <p class="service-description">Our metal stamping services deliver accurate and excellent quality components using modern presses
-                and dies. We create parts for various industries, ensuring they meet exact design specifications, performance standards, and 
-                tight tolerances, all while maintaining cost-effective manufacturing processes and efficient production timelines.</p>
-         </article>
-         <article class="service-card-drafting">
-            <div class="service-icon service-icon-3"><img src="./assets/MVP Prototyping/Rapid-Tooling.svg" alt="Rapid Tooling"></div>
-            <h3 class="service-title-drafting">Rapid Tooling</h3>
-            <div class="service-divider"></div>
-            <p class="service-description">We provide affordable rapid tooling solutions for quick prototype production, allowing you to test
-                and refine designs before full-scale manufacturing. This service accelerates development cycles, reduces costs, and helps
-                 streamline product launches, providing efficient results and faster entry into the market.</p>
-         </article>
-         <article class="service-card-drafting">
-            <div class="service-icon service-icon-4"><img src="./assets/MVP Prototyping/3D-Printing.svg" alt="3D Printing"></div>
-            <h3 class="service-title-drafting">3D Printing</h3>
-            <div class="service-divider"></div>
-            <p class="service-description">Our team of experts with 3D printing services allows for rapid prototyping and 
-                small-batch production. Using advanced materials like plastics and metals, we can create highly complex parts quickly, 
-                ensuring accuracy, flexibility, and reduced production costs for your designs.</p>
-         </article>
-        
-         <article class="service-card-drafting">
-            <div class="service-icon service-icon-4"><img src="./assets/MVP Prototyping/Parts-Sourcing&Job-Work-Support.svg" alt="Parts Sourcing"></div>
-            <h3 class="service-title-drafting">Parts Sourcing & Job Work Support</h3>
-            <div class="service-divider"></div>
-            <p class="service-description">We offer comprehensive sourcing services for all product parts, 
-                ensuring you get the exact components required for your project. From mechanical and electrical 
-                BOM items to packaging and acrylic work, we provide a complete solution, ensuring quality and efficiency in every step.</p>
-         </article>
-
-      </div>
-   </div>
-</section> -->
-
    <section class="imac-services-section">
       <div class="imac-services-container">
          <h2 class="imac-services-title">Our On-Demand Manufacturing Services</h2>
@@ -485,6 +376,317 @@
          </div>
       </div>
    </section>
+
+   <section class="about-service-hero-section">
+      <h2 class="main-title">On-Demand Prototyping And Manufacturing</h2>
+      <div class="about-container">
+         <div class="left-section">
+            <img src="assets/main-service-page/MVP-prototyping.webp" alt="On Demand Manufacturing Service" />
+         </div>
+         <div class="right-section">
+            <p>At iMAC Design and Engineering, we help you speed up product development with quick and convenient
+               on-demand manufacturing.
+               From low-cost pilot tooling to high-quality enclosures and precision parts, our services cover sheet
+               metal fabrication,
+               CNC machining, 3D printing, UV printing, vacuum casting, stamping, forging, and more.</p>
+            <p>We have successfully delivered 100+ quality kiosk enclosures and developed 50+ wooden casting patterns.
+               Every part is designed and developed with care, supported by ISO 9001, ISO 13485, and AS9100 certified
+               partners. You can expect rapid turnaround and top-notch post-processing from our team, all according to
+               your requirements.</p>
+            <p>From a single prototype or a short-run batch, our attention to detail, material options,
+               and expert handling ensure you get the right part, at the right time, "every time".</p>
+         </div>
+      </div>
+   </section>
+
+
+   <!-- why us section -->
+   <section class="features-section">
+      <div class="container">
+         <h2 class="benefits-title">Why Choose Our On-Demand <br class="m-hidden"> Prototyping And Manufacturing? </h2>
+         <div class="features-container">
+            <div class="feature-box">
+               <div class="feature-front">
+                  <img src="./assets/Orange Icons/MVP Prototyping/Rapid Prototyping.svg" alt="Rapid Prototyping" />
+                  <h3>Rapid Prototyping</h3>
+               </div>
+               <div class="feature-back">
+                  <p>We have developed 15+ rapid tools and are on the verge of developing more, allowing fast
+                     prototyping and efficient
+                     testing, reducing development time.</p>
+               </div>
+            </div>
+            <div class="feature-box">
+               <div class="feature-front">
+                  <img src="./assets/Orange Icons/MVP Prototyping/Reliable Manufacturing.svg"
+                     alt="Reliable Manufacturing" />
+                  <h3>Reliable Manufacturing</h3>
+               </div>
+               <div class="feature-back">
+                  <p>With 100+ quality enclosure kiosks delivered, we always make sure that our manufacturing processes
+                     are
+                     trusted and result-oriented, having high standards of various industry applications.</p>
+               </div>
+            </div>
+
+            <div class="feature-box">
+               <div class="feature-front">
+                  <img src="./assets/Orange Icons/MVP Prototyping/Custom Pattern Making.svg"
+                     alt="Custom Pattern Making" />
+                  <h3>Custom Pattern Making</h3>
+               </div>
+               <div class="feature-back">
+                  <p>We have successfully produced 50+ wooden patterns. We provide customized, durable casting solutions
+                     that
+                     come with precise and reliable parts for your projects.</p>
+               </div>
+            </div>
+
+            <div class="feature-box">
+               <div class="feature-front">
+                  <img src="./assets/Orange Icons/MVP Prototyping/Flexible Sourcing.svg" alt="Flexible Sourcing" />
+                  <h3>Flexible Sourcing</h3>
+               </div>
+               <div class="feature-back">
+                  <p>We source all necessary parts, including mechanical, electrical, and packaging. Acrylic job work
+                     provides customised
+                     keys that ensure high-quality, cost-efficient manufacturing for your products.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <!-- process -->
+   <main class="main-container-section">
+      <!-- Product Development Process Section -->
+      <section class="product-development-section">
+         <div class="development-container">
+            <h2 class="section-title-process">The Process Of On-Demand <br class="m-hidden">and Prototyping And
+               Manufacturing</h2>
+            <div class="accordion-container">
+               <div class="accordion-images">
+                  <img src="assets/Process/On Demand Manufacturing/Design Finalization.webp" alt="Design Finalization"
+                     class="accordion-image active" data-tab="design">
+                  <img src="assets/Process/On Demand Manufacturing/Process Selection tooling.webp"
+                     alt="Tooling Selection" class="accordion-image" data-tab="Tooling">
+                  <img src="assets/Process/On Demand Manufacturing/Material Selection.webp" alt="Material Selection"
+                     class="accordion-image" data-tab="Material">
+                  <img src="assets/Process/On Demand Manufacturing/Prototype Production.webp" alt="Prototype Production"
+                     class="accordion-image" data-tab="Prototype">
+                  <img src="assets/Process/On Demand Manufacturing/Testing and Evaluation.webp"
+                     alt="Testing and Evaluation" class="accordion-image" data-tab="Testing">
+                  <img src="assets/Process/On Demand Manufacturing/Adjustments and Refinements.webp"
+                     alt="Adjustments and Refinements" class="accordion-image" data-tab="adjustments">
+                  <img src="assets/Process/On Demand Manufacturing/Small-Scale Production.webp"
+                     alt="Small-Scale Production" class="accordion-image" data-tab="small-scale">
+                  <img src="assets/Process/On Demand Manufacturing/Final Quality Check.webp" alt="Final Quality Check"
+                     class="accordion-image" data-tab="quality">
+                  <img src="assets/Process/On Demand Manufacturing/Full-Scale Production.webp"
+                     alt="Full-Scale Production" class="accordion-image" data-tab="full-scale">
+               </div>
+               <div class="accordion-content">
+                  <div class="accordion-item active" data-tab="design">
+                     <div class="accordion-header">
+                        <span class="step-number">01.</span>
+                        <h3 class="step-title">Design Finalization</h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>The first step is to finalize the product design using 3D CAD, while ensuring it’s
+                           optimized for production. Development of 2D Drawigns which consists DXF, DWG and other
+                           files ready for manufacturing.</p>
+                     </div>
+                  </div>
+                  <div class="accordion-item" data-tab="Tooling">
+                     <div class="accordion-header">
+                        <span class="step-number">02.</span>
+                        <h3 class="step-title">Tooling Selection</h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>The next step is to select the appropriate tooling method (CNC, 3D printing,
+                           or injection molding) for rapid production.</p>
+                     </div>
+                  </div>
+                  <div class="accordion-item" data-tab="Material">
+                     <div class="accordion-header">
+                        <span class="step-number">03.</span>
+                        <h3 class="step-title">Material Selection</h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>The third step is to select the materials according to the product functionality, durability,
+                           and cost-efficiency.</p>
+                     </div>
+                  </div>
+                  <div class="accordion-item" data-tab="Prototype">
+                     <div class="accordion-header">
+                        <span class="step-number">04.</span>
+                        <h3 class="step-title">Prototype Production</h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>The fourth step is manufacturing of the prototype using chosen materials and tools,
+                           keeping in mind quick turnaround for testing.</p>
+                     </div>
+                  </div>
+                  <div class="accordion-item" data-tab="Testing">
+                     <div class="accordion-header">
+                        <span class="step-number">05.</span>
+                        <h3 class="step-title">Testing and Evaluation</h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>The fifth step is testing the prototypes for functionality and performance, having design
+                           specifications
+                           and requirements intact. </p>
+                     </div>
+                  </div>
+
+                  <div class="accordion-item" data-tab="adjustments">
+                     <div class="accordion-header">
+                        <span class="step-number">06.</span>
+                        <h3 class="step-title">Adjustments and Refinements</h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>The next step is to make modifications in designs or tooling based on testing feedback.</p>
+                     </div>
+                  </div>
+
+                  <div class="accordion-item" data-tab="small-scale">
+                     <div class="accordion-header">
+                        <span class="step-number">07.</span>
+                        <h3 class="step-title">Small-Scale Production</h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>Then comes the step of manufacturing small batches to validate the final design before
+                           full-scale production.</p>
+                     </div>
+                  </div>
+
+                  <div class="accordion-item" data-tab="quality">
+                     <div class="accordion-header">
+                        <span class="step-number">08.</span>
+                        <h3 class="step-title">Final Quality Check</h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>The second last step is to do a final inspection to ensure all components complete quality
+                           and performance standards.</p>
+                     </div>
+                  </div>
+
+                  <div class="accordion-item" data-tab="full-scale">
+                     <div class="accordion-header">
+                        <span class="step-number">09.</span>
+                        <h3 class="step-title">Full-Scale Production</h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>The last step is to validate & prepare for larger-scale manufacturing to meet the demands of
+                           the market on time.</p>
+                     </div>
+                  </div>
+
+
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <!-- <section class="imac-services-section">
+   <div class="imac-services-container">
+      <h2 class="imac-services-title">Our On-Demand Manufacturing Services</h2>
+      <div class="services-grid">
+         <!-- <div class="service-dividers">
+            <div class="divider divider-left"></div>
+            <div class="divider divider-section-1"></div>
+            <div class="divider divider-middle"></div>
+            <div class="divider divider-section-2"></div>
+            <div class="divider divider-right"></div>
+            </div>
+         <article class="service-card-drafting main-service">
+            <div class="service-icon service-icon-1"><img src="./assets/MVP Prototyping/Metal-Fabrication.svg" alt="Metal Fabrication"></div>
+            <h3 class="service-title-drafting">Metal Fabrication</h3>
+            <div class="service-divider"></div>
+            <p class="service-description">At iMAC Design and Engineering, we deliver precision sheet metal fabrication services for
+                various & especially complex industries. Using our technology and expertise, we manufacture components from metal sheets
+                 with high accuracy, ensuring durability and superior quality for your product needs.</p>
+         </article>
+         <article class="service-card-drafting">
+            <div class="service-icon service-icon-2"><img src="./assets/MVP Prototyping/CNC-Machining.svg" alt="CNC-Machining"></div>
+            <h3 class="service-title-drafting">CNC Machining</h3>
+            <div class="service-divider"></div>
+            <p class="service-description">Our VMC/CNC machining services offer precision in engineering for complex parts. With the latest machinery and software, we ensure excellent &  consistent results for both metal and plastic components, meeting your specifications and performance requirements perfectly.</p>
+         </article>
+         <article class="service-card-drafting">
+            <div class="service-icon service-icon-3"><img src="./assets/MVP Prototyping/Injection-olding.svg" alt="Injection Molding"></div>
+            <h3 class="service-title-drafting">Injection Molding</h3>
+            <div class="service-divider"></div>
+            <p class="service-description">With our injection molding expertise, we provide efficient and cost-effective solutions for
+                mass-producing high-quality plastic parts. We use the latest molds and technology to ensure each product meets strict
+                 standards and is ready for the production line.</p>
+         </article>
+         <article class="service-card-drafting">
+            <div class="service-icon service-icon-4"><img src="./assets/MVP Prototyping/Metal-Casting.svg" alt="Metal Casting"></div>
+            <h3 class="service-title-drafting">Metal Casting</h3>
+            <div class="service-divider"></div>
+            <p class="service-description">We specialize in metal and plastic casting services, delivering high-quality components.
+                Using materials such as aluminum, steel, bronze, and various high-performance plastics, our casting solutions ensure 
+                superior strength, durability, and dimensional accuracy with a strong focus on consistency and performance.</p>
+         </article>
+
+         <article class="service-card-drafting main-service">
+            <div class="service-icon service-icon-1"><img src="./assets/MVP Prototyping/Metal-Forging.svg" alt="Metal Forging"></div>
+            <h3 class="service-title-drafting">Metal Forging</h3>
+            <div class="service-divider"></div>
+            <p class="service-description">iMAC Design and Engineering offers reliable forging services, shaping metal into durable parts 
+               that meet the highest industry standards. Using our expert and advanced techniques and materials, we create products with 
+               superior strength, ideal for heavy-duty applications.</p>
+         </article>
+         <article class="service-card-drafting">
+            <div class="service-icon service-icon-2"><img src="./assets/MVP Prototyping/Metal-Stamping.svg" alt="Metal Stamping"></div>
+            <h3 class="service-title-drafting">Metal Stamping</h3>
+            <div class="service-divider"></div>
+            <p class="service-description">Our metal stamping services deliver accurate and excellent quality components using modern presses
+                and dies. We create parts for various industries, ensuring they meet exact design specifications, performance standards, and 
+                tight tolerances, all while maintaining cost-effective manufacturing processes and efficient production timelines.</p>
+         </article>
+         <article class="service-card-drafting">
+            <div class="service-icon service-icon-3"><img src="./assets/MVP Prototyping/Rapid-Tooling.svg" alt="Rapid Tooling"></div>
+            <h3 class="service-title-drafting">Rapid Tooling</h3>
+            <div class="service-divider"></div>
+            <p class="service-description">We provide affordable rapid tooling solutions for quick prototype production, allowing you to test
+                and refine designs before full-scale manufacturing. This service accelerates development cycles, reduces costs, and helps
+                 streamline product launches, providing efficient results and faster entry into the market.</p>
+         </article>
+         <article class="service-card-drafting">
+            <div class="service-icon service-icon-4"><img src="./assets/MVP Prototyping/3D-Printing.svg" alt="3D Printing"></div>
+            <h3 class="service-title-drafting">3D Printing</h3>
+            <div class="service-divider"></div>
+            <p class="service-description">Our team of experts with 3D printing services allows for rapid prototyping and 
+                small-batch production. Using advanced materials like plastics and metals, we can create highly complex parts quickly, 
+                ensuring accuracy, flexibility, and reduced production costs for your designs.</p>
+         </article>
+        
+         <article class="service-card-drafting">
+            <div class="service-icon service-icon-4"><img src="./assets/MVP Prototyping/Parts-Sourcing&Job-Work-Support.svg" alt="Parts Sourcing"></div>
+            <h3 class="service-title-drafting">Parts Sourcing & Job Work Support</h3>
+            <div class="service-divider"></div>
+            <p class="service-description">We offer comprehensive sourcing services for all product parts, 
+                ensuring you get the exact components required for your project. From mechanical and electrical 
+                BOM items to packaging and acrylic work, we provide a complete solution, ensuring quality and efficiency in every step.</p>
+         </article>
+
+      </div>
+   </div>
+</section> -->
+
 
 
    <!-- FAQ Section -->
@@ -641,201 +843,11 @@
          </div>
       </div>
    </section>
-   <!-- why us section -->
-   <section class="features-section">
-      <div class="container">
-         <h2 class="benefits-title">Why Choose Our On-Demand <br class="m-hidden"> Prototyping And Manufacturing? </h2>
-         <div class="features-container">
-            <div class="feature-box">
-               <div class="feature-front">
-                  <img src="./assets/Orange Icons/MVP Prototyping/Rapid Prototyping.svg" alt="Rapid Prototyping" />
-                  <h3>Rapid Prototyping</h3>
-               </div>
-               <div class="feature-back">
-                  <p>We have developed 15+ rapid tools and are on the verge of developing more, allowing fast
-                     prototyping and efficient
-                     testing, reducing development time.</p>
-               </div>
-            </div>
-            <div class="feature-box">
-               <div class="feature-front">
-                  <img src="./assets/Orange Icons/MVP Prototyping/Reliable Manufacturing.svg"
-                     alt="Reliable Manufacturing" />
-                  <h3>Reliable Manufacturing</h3>
-               </div>
-               <div class="feature-back">
-                  <p>With 100+ quality enclosure kiosks delivered, we always make sure that our manufacturing processes
-                     are
-                     trusted and result-oriented, having high standards of various industry applications.</p>
-               </div>
-            </div>
-
-            <div class="feature-box">
-               <div class="feature-front">
-                  <img src="./assets/Orange Icons/MVP Prototyping/Custom Pattern Making.svg"
-                     alt="Custom Pattern Making" />
-                  <h3>Custom Pattern Making</h3>
-               </div>
-               <div class="feature-back">
-                  <p>We have successfully produced 50+ wooden patterns. We provide customized, durable casting solutions
-                     that
-                     come with precise and reliable parts for your projects.</p>
-               </div>
-            </div>
-
-            <div class="feature-box">
-               <div class="feature-front">
-                  <img src="./assets/Orange Icons/MVP Prototyping/Flexible Sourcing.svg" alt="Flexible Sourcing" />
-                  <h3>Flexible Sourcing</h3>
-               </div>
-               <div class="feature-back">
-                  <p>We source all necessary parts, including mechanical, electrical, and packaging. Acrylic job work
-                     provides customised
-                     keys that ensure high-quality, cost-efficient manufacturing for your products.</p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <main class="main-container-section">
-      <!-- Product Development Process Section -->
-      <section class="product-development-section">
-         <div class="development-container">
-            <h2 class="section-title-process">The Process Of On-Demand <br class="m-hidden">and Prototyping And
-               Manufacturing</h2>
-            <div class="accordion-container">
-               <div class="accordion-images">
-                  <img src="assets/Process/On Demand Manufacturing/Design Finalization.webp" alt="Design Finalization"
-                     class="accordion-image active" data-tab="design">
-                  <img src="assets/Process/On Demand Manufacturing/Process Selection tooling.webp"
-                     alt="Tooling Selection" class="accordion-image" data-tab="Tooling">
-                  <img src="assets/Process/On Demand Manufacturing/Material Selection.webp" alt="Material Selection"
-                     class="accordion-image" data-tab="Material">
-                  <img src="assets/Process/On Demand Manufacturing/Prototype Production.webp" alt="Prototype Production"
-                     class="accordion-image" data-tab="Prototype">
-                  <img src="assets/Process/On Demand Manufacturing/Testing and Evaluation.webp"
-                     alt="Testing and Evaluation" class="accordion-image" data-tab="Testing">
-                  <img src="assets/Process/On Demand Manufacturing/Adjustments and Refinements.webp"
-                     alt="Adjustments and Refinements" class="accordion-image" data-tab="adjustments">
-                  <img src="assets/Process/On Demand Manufacturing/Small-Scale Production.webp"
-                     alt="Small-Scale Production" class="accordion-image" data-tab="small-scale">
-                  <img src="assets/Process/On Demand Manufacturing/Final Quality Check.webp" alt="Final Quality Check"
-                     class="accordion-image" data-tab="quality">
-                  <img src="assets/Process/On Demand Manufacturing/Full-Scale Production.webp"
-                     alt="Full-Scale Production" class="accordion-image" data-tab="full-scale">
-               </div>
-               <div class="accordion-content">
-                  <div class="accordion-item active" data-tab="design">
-                     <div class="accordion-header">
-                        <span class="step-number">01.</span>
-                        <h3 class="step-title">Design Finalization</h3>
-                        <div class="arrow-icon"></div>
-                     </div>
-                     <div class="accordion-body">
-                        <p>The first step is to finalize the product design using 3D CAD, while ensuring it’s
-                           optimized for production. Development of 2D Drawigns which consists DXF, DWG and other
-                           files ready for manufacturing.</p>
-                     </div>
-                  </div>
-                  <div class="accordion-item" data-tab="Tooling">
-                     <div class="accordion-header">
-                        <span class="step-number">02.</span>
-                        <h3 class="step-title">Tooling Selection</h3>
-                        <div class="arrow-icon"></div>
-                     </div>
-                     <div class="accordion-body">
-                        <p>The next step is to select the appropriate tooling method (CNC, 3D printing,
-                           or injection molding) for rapid production.</p>
-                     </div>
-                  </div>
-                  <div class="accordion-item" data-tab="Material">
-                     <div class="accordion-header">
-                        <span class="step-number">03.</span>
-                        <h3 class="step-title">Material Selection</h3>
-                        <div class="arrow-icon"></div>
-                     </div>
-                     <div class="accordion-body">
-                        <p>The third step is to select the materials according to the product functionality, durability,
-                           and cost-efficiency.</p>
-                     </div>
-                  </div>
-                  <div class="accordion-item" data-tab="Prototype">
-                     <div class="accordion-header">
-                        <span class="step-number">04.</span>
-                        <h3 class="step-title">Prototype Production</h3>
-                        <div class="arrow-icon"></div>
-                     </div>
-                     <div class="accordion-body">
-                        <p>The fourth step is manufacturing of the prototype using chosen materials and tools,
-                           keeping in mind quick turnaround for testing.</p>
-                     </div>
-                  </div>
-                  <div class="accordion-item" data-tab="Testing">
-                     <div class="accordion-header">
-                        <span class="step-number">05.</span>
-                        <h3 class="step-title">Testing and Evaluation</h3>
-                        <div class="arrow-icon"></div>
-                     </div>
-                     <div class="accordion-body">
-                        <p>The fifth step is testing the prototypes for functionality and performance, having design
-                           specifications
-                           and requirements intact. </p>
-                     </div>
-                  </div>
-
-                  <div class="accordion-item" data-tab="adjustments">
-                     <div class="accordion-header">
-                        <span class="step-number">06.</span>
-                        <h3 class="step-title">Adjustments and Refinements</h3>
-                        <div class="arrow-icon"></div>
-                     </div>
-                     <div class="accordion-body">
-                        <p>The next step is to make modifications in designs or tooling based on testing feedback.</p>
-                     </div>
-                  </div>
-
-                  <div class="accordion-item" data-tab="small-scale">
-                     <div class="accordion-header">
-                        <span class="step-number">07.</span>
-                        <h3 class="step-title">Small-Scale Production</h3>
-                        <div class="arrow-icon"></div>
-                     </div>
-                     <div class="accordion-body">
-                        <p>Then comes the step of manufacturing small batches to validate the final design before
-                           full-scale production.</p>
-                     </div>
-                  </div>
-
-                  <div class="accordion-item" data-tab="quality">
-                     <div class="accordion-header">
-                        <span class="step-number">08.</span>
-                        <h3 class="step-title">Final Quality Check</h3>
-                        <div class="arrow-icon"></div>
-                     </div>
-                     <div class="accordion-body">
-                        <p>The second last step is to do a final inspection to ensure all components complete quality
-                           and performance standards.</p>
-                     </div>
-                  </div>
-
-                  <div class="accordion-item" data-tab="full-scale">
-                     <div class="accordion-header">
-                        <span class="step-number">09.</span>
-                        <h3 class="step-title">Full-Scale Production</h3>
-                        <div class="arrow-icon"></div>
-                     </div>
-                     <div class="accordion-body">
-                        <p>The last step is to validate & prepare for larger-scale manufacturing to meet the demands of
-                           the market on time.</p>
-                     </div>
-                  </div>
 
 
-               </div>
-            </div>
-         </div>
-      </section>
-   </main>
+
+
+
 
    <!-- contact section end -->
 

@@ -105,7 +105,7 @@
          </p>
       </header>
       <div class="cta-button-banner">
-         <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Get your Quote Now</span>
+         <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Talk to our experts</span>
          <img src="https://static.codia.ai/custom_image/2025-07-05/131851/arrow-icon.svg" alt="Arrow" class="cta-arrow-banner">
       </div>
    </div>
@@ -142,22 +142,6 @@
 
 </section>
 
-<section class="about-service-hero-section">
-   <h2 class="main-title">Customizable Additive Manufacturing Services</h2>
-   <div class="about-container">
-      <div class="left-section">
-         <img src="assets/main-service-page/Additive-Manufacturing-Services.webp" alt="Additive Manufacturing Services" />
-      </div>
-      <div class="right-section">
-         <p>If you need parts made fast, without investing in expensive tooling, and are tired of waiting for long times, 
-            additive manufacturing (AM) is the solution you need. Think of it as building something layer by layer, without molds, 
-            wasted material, just the exact part you need, when you need it.</p>
-         <p>We work with engineers, product designers, startups, and established companies who need parts made differently. Got a CAD file? We take it and build your part layer by layer using 3D printing technology.  Need just one prototype? We will do it for you. Want custom parts designed? We are here to help.</p>
-         <p>From rapid prototyping to small batch production, we handle every step of your additive manufacturing journey.
-             Design optimization, material selection, printing, and finishing - we make the entire process simple for you.</p>
-      </div>
-   </div>
-</section>
 <!-- Services Section -->
 <section class="imac-services-section">
    <div class="imac-services-container">
@@ -206,54 +190,12 @@
       </div>
    </div>
 </section>
-<!-- Benefits Section -->
-<section class="benefits-section">
-   <div class="benefits-background">
-      <div class="benefits-container">
-         <h2 class="benefits-title">Benefits of 3D Prototype Printing Services<br class="m-hidden"></h2>
-         <div class="benefits-grid">
-            <div class="benefit-card benefit-card-1">
-               <div class="benefit-icon benefit-icon-1"></div>
-               <p class="benefit-text">We speed up your product journey. With our rapid prototyping, we cut development time, 
-                allowing quicker testing, feedback, and faster entry into the competitive market.</p>
-            </div>
-            <div class="benefit-card benefit-card-2">
-               <div class="benefit-icon benefit-icon-2"></div>
-               <p class="benefit-text">We help you save on development costs. Our 3D printing services eliminate expensive tooling, 
-                offering affordable, accurate prototypes without compromising quality or stretching your project budget.</p>
-            </div>
-         </div>
-         <div class="benefits-grid-2">
-            <div class="benefit-card benefit-card-3">
-               <div class="benefit-icon benefit-icon-3"></div>
-               <p class="benefit-text">3D printing services enable customizable manufacturing, catering to different  needs and preferences. 
-                  Whether it's personalized medical products or any automotive component, manufacturers can trust us to deliver unique solutions. </p>
-            </div>
-            <div class="benefit-card benefit-card-4">
-               <div class="benefit-icon benefit-icon-4"></div>
-               <p class="benefit-text">We provide working prototypes you can test. Our models reflect real-world performance,
-                 helping you validate design, fit, and function before moving into large-scale production quickly & confidently.</p>
-            </div>
-         </div>
-         <div class="benefits-grid-2">
-            <div class="benefit-card benefit-card-5">
-               <div class="benefit-icon benefit-icon-5"></div>
-               <p class="benefit-text">We build smartly and sustainably. Our additive process uses only what is needed, minimizing 
-                material waste while producing durable, high-quality parts for practical, responsible prototyping. </p>
-            </div>
-            <div class="benefit-card benefit-card-4">
-               <div class="benefit-icon benefit-icon-4"></div>
-               <p class="benefit-text">We improve collaboration & clarity. Our 3D prototypes provide tangible models for 
-                  stakeholders, improving communication, design reviews, and decision-making across teams.</p>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
+
+
 <!-- why us section -->
 <section class="features-section">
    <div class="container">
-      <h2 class="benefits-title">Why You Can Trust  <br class="m-hidden"> Our 3D Printing Services? </h2>
+      <h2 class="benefits-title">What Makes Our<br class="m-hidden"> 3D Printing Services Reliable? </h2>
       <div class="features-container">
          <!-- <div class="feature-box">
             <div class="feature-front">
@@ -309,11 +251,74 @@
       </div>
    </div>
 </section>
+
+<!-- Benefits Section -->
+<section class="benefits-section">
+   <div class="benefits-background">
+      <div class="benefits-container">
+         <h2 class="benefits-title">Advantages of 3D Prototype Printing Services <br class="m-hidden"></h2>
+         <div class="benefits-grid">
+            <div class="benefit-card benefit-card-1">
+               <div class="benefit-icon benefit-icon-1"></div>
+               <p class="benefit-text">We speed up your product journey. With our rapid prototyping, we cut development time, 
+                allowing quicker testing, feedback, and faster entry into the competitive market.</p>
+            </div>
+            <div class="benefit-card benefit-card-2">
+               <div class="benefit-icon benefit-icon-2"></div>
+               <p class="benefit-text">We help you save on development costs. Our 3D printing services eliminate expensive tooling, 
+                offering affordable, accurate prototypes without compromising quality or stretching your project budget.</p>
+            </div>
+         </div>
+         <div class="benefits-grid-2">
+            <div class="benefit-card benefit-card-3">
+               <div class="benefit-icon benefit-icon-3"></div>
+               <p class="benefit-text">3D printing services enable customizable manufacturing, catering to different  needs and preferences. 
+                  Whether it's personalized medical products or any automotive component, manufacturers can trust us to deliver unique solutions. </p>
+            </div>
+            <div class="benefit-card benefit-card-4">
+               <div class="benefit-icon benefit-icon-4"></div>
+               <p class="benefit-text">We provide working prototypes you can test. Our models reflect real-world performance,
+                 helping you validate design, fit, and function before moving into large-scale production quickly & confidently.</p>
+            </div>
+         </div>
+         <div class="benefits-grid-2">
+            <div class="benefit-card benefit-card-5">
+               <div class="benefit-icon benefit-icon-5"></div>
+               <p class="benefit-text">We build smartly and sustainably. Our additive process uses only what is needed, minimizing 
+                material waste while producing durable, high-quality parts for practical, responsible prototyping. </p>
+            </div>
+            <div class="benefit-card benefit-card-4">
+               <div class="benefit-icon benefit-icon-4"></div>
+               <p class="benefit-text">We improve collaboration & clarity. Our 3D prototypes provide tangible models for 
+                  stakeholders, improving communication, design reviews, and decision-making across teams.</p>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+<section class="about-service-hero-section">
+   <h2 class="main-title">Customizable Additive Manufacturing Services</h2>
+   <div class="about-container">
+      <div class="left-section">
+         <img src="assets/main-service-page/Additive-Manufacturing-Services.webp" alt="Additive Manufacturing Services" />
+      </div>
+      <div class="right-section">
+         <p>If you need parts made fast, without investing in expensive tooling, and are tired of waiting for long times, 
+            additive manufacturing (AM) is the solution you need. Think of it as building something layer by layer, without molds, 
+            wasted material, just the exact part you need, when you need it.</p>
+         <p>We work with engineers, product designers, startups, and established companies who need parts made differently. Got a CAD file? We take it and build your part layer by layer using 3D printing technology.  Need just one prototype? We will do it for you. Want custom parts designed? We are here to help.</p>
+         <p>From rapid prototyping to small batch production, we handle every step of your additive manufacturing journey.
+             Design optimization, material selection, printing, and finishing - we make the entire process simple for you.</p>
+      </div>
+   </div>
+</section>
+
 <main class="main-container-section">
    <!-- Product Development Process Section -->
    <section class="product-development-section">
       <div class="development-container">
-         <h2 class="section-title-process">The Process of 3D Prototype Printing </h2>
+         <h2 class="section-title-process">How 3D Prototype Printing Works? </h2>
          <div class="accordion-container">
             <div class="accordion-images">
                <img src="assets/Process/Additive Manufacturing WEBP/PROJECT-INITIATION.webp" alt="Project Initiation" class="accordion-image active" data-tab="Project Initiation">

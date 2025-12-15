@@ -82,12 +82,25 @@
    padding: 0px 40px !important;
   }
 </style>
+
+<style>
+   .imac-services-title{
+      color:#24282b;
+      font-size:40px !important;
+      font-weight:600 !important;
+      line-height:55px;
+      margin-bottom:40px;
+      }
+</style>
+
 <script>
   // Reveal as soon as DOM is ready
   document.addEventListener('DOMContentLoaded', function () {
     document.documentElement.classList.add('pgfaderdy');
   });
 </script>
+
+
 
 <?php include("header.php"); ?>
 <main class="service-main-container">
@@ -251,6 +264,39 @@
       </div>
    </section>
 </main>
+
+<!--certificate section-->
+<div class="home-certi-setion">
+   <section class="certificate-section-container">
+      <div class="certificate-section-title">
+         <h2 class="imac-services-title">Compliance & Certification Support</h2>
+      </div>
+      <div class="certificate-section">
+         <div class="certificate-card">
+            <img src="assets/image/iso-9001-2015.webp" alt="ISO 9001:2015" loading="lazy" decoding="async" width=""
+               height="">
+            <!--<a href="assets/IMAC_11_ISO-9001-Certificate.pdf" download class="download-icon">-->
+            <!--    <img src="/assets/download-orange-icon.svg" alt="Download PDF">-->
+            <!--</a>-->
+            <!--<h3>Certificate 1</h3>-->
+         </div>
+         <div class="certificate-card">
+            <img src="assets/image/iso-13485-2016.webp" alt="Certificate 2" class="certificate-image" loading="lazy">
+            <!--<a href="assets/IMAC DESIGN AND ENGINEERING SERVICES 13485 FINAL.pdf" download class="download-icon">-->
+            <!--    <img src="/assets/download-orange-icon.svg" alt="Download PDF">-->
+            <!--</a>-->
+            <!--<h3>Certificate 2</h3>-->
+         </div>
+         <div class="certificate-card">
+            <img src="assets/image/iso-27001-2013.webp" alt="Certificate 3" class="certificate-image" loading="lazy">
+            <!--<a href="assets/IMAC_10_ISO-27001-Certificate.pdf" download class="download-icon">-->
+            <!--    <img src="/assets/download-orange-icon.svg" alt="Download PDF">-->
+            <!--</a>-->
+            <!--<h3>Certificate 3</h3>-->
+         </div>
+      </div>
+   </section>
+</div>
 
 <section class="about-service-hero-section">
    <h2 class="main-title">Medical Device Product Design and Development Solutions</h2>

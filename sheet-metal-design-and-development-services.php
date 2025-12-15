@@ -168,6 +168,61 @@
       display: block !important;
    }
 </style>
+
+<style>
+    .sections-new-imac .imac-services-title{
+      margin-bottom: 0px;
+      text-align: left;
+   }
+.sections-new-imac {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 80px 80px;
+    background: #ffffff;
+}
+.sections-new-imac h2{
+   margin-bottom: 0px;
+}
+.section-new-ul {
+    display: flex;
+    gap: 20px;
+    max-width: 760px;
+    flex-wrap: wrap;
+    height: auto;
+    align-items: stretch;
+    justify-content: center;
+}
+.section-new-ul li {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background: #ff4612;
+    border-radius: 12px;
+    color: white;
+    width: auto;
+}
+.new-section-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%
+}
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    max-width: 1400px;
+}
+</style>
+
 <script>
   // Reveal as soon as DOM is ready
   document.addEventListener('DOMContentLoaded', function () {
@@ -608,6 +663,27 @@
    </section>
 </main>
 
+<!-- deliverables -->
+<section class="sections-new-imac">
+   <div class="section-container">
+   <div class="new-section-holder">
+      <h2 class="imac-services-title">Sheet Metal Service Deliverables</h2>
+      <p>Our injection moulding capabilities support a wide range of engineering and commodity plastics, allowing us to match material performance with application requirements. We work with ABS, Polycarbonate, PP, HDPE, PA (Nylon), PBT, PMMA, and PPS to deliver components that meet specific needs for strength, flexibility, heat resistance, chemical stability, and surface finish—ensuring reliable performance across diverse industrial applications.</p>
+   </div>
+
+   <div class="new-section-holder">
+      <ul class="section-new-ul">
+         <li><i class="fa-solid fa-circle-check"></i>PADR Document(File)</li>
+         <li><i class="fa-solid fa-circle-check"></i>DXF File</li>
+         <li><i class="fa-solid fa-circle-check"></i>DWG File</li>
+         <li><i class="fa-solid fa-circle-check"></i>PDF File</li>
+         <li><i class="fa-solid fa-circle-check"></i>STEP File</li>
+         <li><i class="fa-solid fa-circle-check"></i>Bill Of Materials</li>
+      </ul>
+   </div>
+   </div>
+</section>
+
 <!-- FAQ Section -->
 <section class="faq-section">
    <div class="faq-container">
@@ -692,8 +768,6 @@
       </div>
    </div>
 </section>
-
-
 
 
 <!-- contact section end -->

@@ -77,7 +77,7 @@
   }
 </style>
 <style>
-      .sections-new-imac .imac-services-title{
+    .sections-new-imac .imac-services-title{
       margin-bottom: 0px;
       text-align: left;
    }

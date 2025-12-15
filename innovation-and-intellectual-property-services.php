@@ -181,6 +181,67 @@
 
    }
 </style>
+
+<style>
+       .sections-new-imac .imac-services-title{
+      margin-bottom: 0px;
+      text-align: left;
+   }
+   .sections-new-imac {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 80px 80px;
+    background: #ffffff;
+}
+.sections-new-imac h2{
+   margin-bottom: 0px;
+}
+.new-section-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 1440px;
+}
+.service-protected-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 40px;
+}
+.service-protected-card {
+    background: #f3f3f3;
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    border: 1px solid lightgrey;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.title-protected {
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 10px;
+    background: #ff4612;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+}
+.printing-title {
+    font-size: 22px;
+    font-weight: 600;
+}
+</style>
+
 <script>
    // Reveal as soon as DOM is ready
    document.addEventListener('DOMContentLoaded', function () {
@@ -556,6 +617,36 @@
       </div>
    </section>
 
+   <section class="sections-new-imac">
+      <div class="new-section-holder">
+         <h2 class="imac-services-title">How We Protect Client Innovations</h2>
+         <div class="service-protected-wrapper">
+            <div class="service-protected-card">
+               <div class="title-protected">01.</div>
+               <h3 class="printing-title">
+               NDA Execution
+               </h3>
+               <p>We follow a clear confidentiality process—starting with NDA execution, followed by secure information exchange, and ending with complete protection of your innovation throughout development and manufacturing.</p>
+            </div>
+
+            <div class="service-protected-card">
+               <div class="title-protected">02.</div>
+               <h3 class="printing-title">
+               Confidential Information Exchange
+               </h3>
+               <p>Protecting your ideas is fundamental to our partnership. Through NDA-backed engagement and controlled handling of confidential information, we ensure your innovation remains secure from first discussion to final delivery.</p>
+            </div>
+
+            <div class="service-protected-card">
+               <div class="title-protected">03.</div>
+               <h3 class="printing-title">
+               Protected Innovation Guarnteed 
+               </h3>
+               <p>Our innovation protection framework combines legally binding NDAs with disciplined information access and secure workflows, ensuring all client intellectual property is safeguarded at every project stage.</p>
+            </div>
+         </div>
+      </div>
+   </section>
 
    <!-- why us section -->
    <section class="features-section">

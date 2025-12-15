@@ -104,6 +104,18 @@
       padding: 0px 40px 85px 40px !important;
    }
 </style>
+<style>
+.right-section-ul {
+    font-size: 22px;
+    color: #ff4612;
+}
+.right-section-ul li {
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+    align-items: center;
+}
+</style>
 <script>
    // Reveal as soon as DOM is ready
    document.addEventListener('DOMContentLoaded', function () {
@@ -181,6 +193,25 @@
    </section>
 
 
+      <section class="about-service-hero-section">
+      <h2 class="main-title">3D Miniature Design Services</h2>
+      <div class="about-container">
+         <div class="left-section">
+            <img loading="lazy" src="/assets/Process/contract%20mfg/Quality%20Management.webp"
+               alt="Contract Manufacturing" />
+         </div>
+         <div class="right-section">
+            <p>3D miniature design creates precise, small versions of your product, machine, or device. </p>
+            <p> Perfect for manufacturers, engineers, R&D teams, and product developers who need tangible, high-detail miniatures for demonstrating complex machinery, showcasing product designs, training teams, or presenting new innovations to clients and investors.</p>
+
+            <ul class="right-section-ul">
+               <li> <i class="fa-solid fa-circle-check" style=""></i>Custom scales</li>
+               <li> <i class="fa-solid fa-circle-check" style=""></i>Industrial materials</li>
+               <li> <i class="fa-solid fa-circle-check" style=""></i>NDA-protected delivery</li>
+            </ul>
+         </div>
+      </div>
+   </section>
    <!-- <section class="about-service-hero-section">
    <h2 class="main-title">High-Tolerance <br class="m-hidden"> 3D Printing Miniatures</h2>
    <div class="about-container">

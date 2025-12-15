@@ -73,6 +73,92 @@
     html.pgfade-init body { opacity: 1; }
   }
 </style>
+
+<style>
+.sections-new-imac {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 80px 80px;
+    background: #ffffff;
+}
+.section-new-holder {
+    width: 100%;
+    max-width: 1700px;
+    height: auto;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+   .second-holder-wrapper{
+      width: 100%;
+      height: auto;
+      display: flex;
+      gap: 20px;
+   }
+   .sections-new-imac .imac-services-title{
+      margin-bottom: 0px;
+   }
+   .section-new-right{
+      width: 100%;
+      height: auto;
+      /* border: 1px solid red; */
+   }
+      .section-new-left{
+      width: 100%;
+      /* border: 1px solid blue; */
+      height: auto;
+      border-radius: 16px;
+      /* background: #f3f3f3; */
+      background-image: url('/assets/Process/Additive Manufacturing WEBP/Finishing-&-Quality-Control.webp');
+      background-size: cover;
+      background-position: center;
+   }
+   .card-service-holder{
+      width: 100%;
+      height: auto;
+      /* border: 1px solid green; */
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+   }
+   .service-card-general{
+      padding: 40px;
+      background: #f3f3f3;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      border: 1px solid lightgrey;
+      border-radius: 16px;
+   }
+   .printing-material-ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    row-gap: 5px;
+    font-size: 20px;
+    }
+    
+    .fa-circle-check{
+      color: #ff4612;
+    }
+    .printing-title{
+    font-size: 28px;
+    font-weight: 600;
+    }
+
+    .service-card-general ul li {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+
 <script>
   // Reveal as soon as DOM is ready
   document.addEventListener('DOMContentLoaded', function () {
@@ -140,6 +226,42 @@
 
 <?php include("client-logo-slider.php"); ?>
 
+</section>
+
+<section class="sections-new-imac">
+  <div class="section-new-holder">
+   <div class="title-holder">
+      <h2 class="imac-services-title">Sheet Metal Service Deliverables</h2>
+      <p>Precision 3D printing using industry-grade materials and reliable printers to support functional prototypes and production-ready parts.</p>
+   </div>
+   <div class="second-holder-wrapper">
+      <div class="section-new-left"></div>
+      <div class="section-new-right">
+         <div class="card-service-holder">
+            <div class="service-card-general">
+               <h3 class="printing-title">3D Printing Materials Available</h3>
+               <ul class="printing-material-ul">
+                  <li> <i class="fa-solid fa-circle-check"></i> PLA</li>
+                  <li><i class="fa-solid fa-circle-check"></i> ABS</li>
+                  <li><i class="fa-solid fa-circle-check"></i> PETG</li>
+                  <li><i class="fa-solid fa-circle-check"></i> PA12 Nylon</li>
+               </ul>
+            </div>
+            <div class="service-card-general">
+               <h3 class="printing-title">Printers We Use</h3>
+               <ul class="printing-material-ul">
+                  <li> <i class="fa-solid fa-circle-check"></i> Creality K2 Plus 350x350 Size</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Creality K1 MAx</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Creality Ender V3 Plus</li>
+                  <li><i class="fa-solid fa-circle-check"></i> Bambu Lab A1 Combo</li>
+                  <li><i class="fa-solid fa-circle-check"></i> SLA Printer </li>
+               </ul>
+            </div>
+
+         </div>
+      </div>
+   </div>
+  </div>
 </section>
 
 <!-- Services Section -->

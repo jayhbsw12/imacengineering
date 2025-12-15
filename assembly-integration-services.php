@@ -11,6 +11,7 @@
 <meta property="og:image:type" content="image/webp" />
 <meta property="og:image:alt" content="Integration-Services" />
 <meta name="keywords" content="">
+<link rel="stylesheet" href="/css/about-us.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -162,6 +163,51 @@
    .dm-carousel-ctrl {
       display: block !important;
    }
+</style>
+<style>
+.core-values-grid {
+    grid-template-columns: repeat(3,1fr);
+}
+.core-value-box {
+    background: #fff0;
+    padding: 20px;
+    background: #f3f3f3;
+}
+
+.core-values-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.title-protected {
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 10px;
+    background: #ff4612;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* border-radius: 50%; */
+}
+.core-value-box {
+    background: #fff0;
+    padding: 20px;
+    background: #f3f3f3;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.core-value-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 0px;
+    line-height: 1.3;
+}
 </style>
 <script>
   // Reveal as soon as DOM is ready
@@ -461,6 +507,55 @@
       </div>
    </div>
 </section>
+
+    <!-- core values section -->
+
+   <section class="core-values-section">
+      <div class="container">
+
+      <h2 class="imac-services-title">Assembly Workflow Overview</h2>
+         <!-- Core Values Grid -->
+         <div class="core-values-grid">
+               <!-- Core Value 1: Branding -->
+               <div class="core-value-box">
+                  <div class="title-protected">01.</div>
+                  <h3 class="core-value-title">Component Procurement & Preparation</h3>
+                  <p class="core-value-description">
+                  Components are sourced or received and prepared for assembly.
+                  </p>
+               </div>
+               <div class="core-value-box">
+                                    <div class="title-protected">02.</div>
+                  <h3 class="core-value-title">Component Alignment</h3>
+                  <p class="core-value-description">
+                  Sub-assemblies are positioned in the correct configuration.
+                  </p>
+               </div>
+               <div class="core-value-box">
+                                    <div class="title-protected">03.</div>
+                  <h3 class="core-value-title">Assembly</h3>
+                  <p class="core-value-description">
+                  Components are assembled using approved methods and standards.
+                  </p>
+               </div>
+               <div class="core-value-box">
+                                    <div class="title-protected">04.</div>
+                  <h3 class="core-value-title">Integration</h3>
+                  <p class="core-value-description">
+                  Electrical or software integration is completed where applicable.
+                  </p>
+               </div>
+               <div class="core-value-box">
+                                    <div class="title-protected">05.</div>
+                  <h3 class="core-value-title">Delivery</h3>
+                  <p class="core-value-description">
+                  Finished assemblies are delivered as per the committed timeline.
+                  </p>
+               </div>
+         </div>
+
+      </div>
+   </section>
 
 <!-- why us section -->
 <section class="features-section">

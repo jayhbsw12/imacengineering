@@ -175,6 +175,69 @@
       display: block !important;
    }
 </style>
+
+<style>
+   .sections-new-imac {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding: 80px 80px;
+    background: #ffffff;
+}
+.sections-new-imac h2{
+   margin-bottom: 0px;
+}
+.new-section-holder{
+   width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 20px;
+}
+.new-title-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.new-section-service-wrapper{
+   padding: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #f3f3f3;
+   max-width: 1300px;
+   width: 100%;
+   gap: 40px;
+   border-radius: 16px;
+   border: 1px solid #eaeaea;
+}
+   .sections-new-imac .imac-services-title{
+      margin-bottom: 0px;
+      text-align: center;
+   }
+    .imac-services-description{
+    text-align: center;
+    max-width: 800px;
+}
+    .printing-title{
+    font-size: 22px;
+    font-weight: 600;
+    }
+    .new-service-holder img{
+      height: 64px;
+      width: 64px;
+    }
+    .new-service-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+</style>
+
 <script>
    // Reveal as soon as DOM is ready
    document.addEventListener('DOMContentLoaded', function () {

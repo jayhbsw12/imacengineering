@@ -243,6 +243,11 @@
       height: 64px;
       width: 64px;
     }
+    .new-service-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 </style>
 
 <script>

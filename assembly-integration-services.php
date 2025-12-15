@@ -170,7 +170,7 @@
 }
 .core-value-box {
     background: #fff0;
-    padding: 20px;
+    padding: 30px;
     background: #f3f3f3;
 }
 
@@ -202,11 +202,14 @@
     flex-direction: column;
 }
 .core-value-title {
-    font-size: 1.25rem;
+    font-size: 1.45rem;
     font-weight: 600;
     color: #000;
     margin-bottom: 0px;
     line-height: 1.3;
+}
+.core-value-description{
+   max-width: 100%;
 }
 </style>
 <script>

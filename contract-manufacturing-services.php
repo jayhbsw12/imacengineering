@@ -845,7 +845,7 @@
    </section>
 
    <!-- New Section Hide -->
-   <section class="sections-new-imac">
+   <!-- <section class="sections-new-imac">
       <div class="new-section-holder">
          <div class="new-title-container">
             <h2 class="imac-services-title">Industries Using Our Contract Manufacturing Services </h2>
@@ -880,7 +880,7 @@
             </div>
          </div>
       </div>
-   </section>
+   </section> -->
 
    <!-- FAQ Section -->
    <section class="faq-section">

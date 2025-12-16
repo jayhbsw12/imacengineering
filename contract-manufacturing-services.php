@@ -257,7 +257,7 @@
       flex-direction: column;
       gap: 10px;
       width: 100%;
-      padding: 20px;
+      padding: 40px;
       min-height: 300px;
       justify-content: space-between;
    }
@@ -266,14 +266,29 @@
       font-size: 24px;
       font-weight: 600;
    }
-   .card-overlay-1{
-      background-image: url('assets/Contract Manufacturing/electronic-industry.webp')
+
+   .card-overlay-1 {
+      background-image: url('assets/Contract Manufacturing/electronic-industry.webp');
+      background-position: center;
+      background-size: cover;
    }
-   .card-overlay-2{
-      background-image: url('assets/Contract Manufacturing/electronic-industry.webp')
+
+   .card-overlay-1, .card-overlay-1 .printing-title,
+      .card-overlay-2, .card-overlay-2 h2,
+         .card-overlay-3, .card-overlay-3 h2 {
+      color: white;
    }
-   .card-overlay-3{
-      background-image: url('assets/Contract Manufacturing/electronic-industry.webp')
+
+   .card-overlay-2 {
+      background-image: url('assets/Contract Manufacturing/medical-industry.webp');
+      background-position: center;
+      background-size: cover;
+   }
+
+   .card-overlay-3 {
+      background-image: url('assets/Contract Manufacturing/iot-industry.webp');
+      background-position: center;
+      background-size: cover;
    }
 </style>
 

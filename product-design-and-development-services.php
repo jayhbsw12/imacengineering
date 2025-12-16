@@ -74,6 +74,15 @@
   }
 </style>
 <style>
+   .bg-grey-new {
+    background-color: #f3f3f3 !important;
+    background-image: none !important;
+   }
+   .faq-section {
+      padding-top: 80px !important;
+   }
+</style>
+<style>
    @media (prefers-reduced-motion: no-preference) {
       html.pgfade-init body {
          opacity: 0;
@@ -404,7 +413,7 @@
 
 
 <!-- Benefits Section -->
-<section class="benefits-section">
+<section class="benefits-section bg-grey-new">
    <div class="benefits-background">
       <div class="benefits-container">
          <h2 class="benefits-title">Benefits of Product Design <br class="m-hidden">and Development Services</h2>
@@ -495,7 +504,7 @@
       </div>
    </div>
 </section>
-<main class="main-container-section">
+<main class="main-container-section bg-grey-new">
    <!-- Product Development Process Section -->
    <section class="product-development-section">
       <div class="development-container">

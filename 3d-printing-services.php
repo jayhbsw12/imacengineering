@@ -163,14 +163,18 @@
    }
 
    .middle-horizontal-holder ul {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+   }
 
-.horizontal-image{
-   background-image: url('./assets/Plastic Injection Molding Services/3d printing material.webp');
-}
+   .horizontal-image {
+      background-image: url('./assets/Plastic Injection Molding Services/3d printing material.webp');
+   }
+
+   .horizontal-image-2 {
+      background-image: url('./assets/Plastic Injection Molding Services/3d printer.webp');
+   }
 </style>
 
 <script>
@@ -273,6 +277,25 @@
             </div>
             <div class="horizontal-last-image">
                <div class="horizontal-image"></div>
+            </div>
+         </div>
+         <hr class="horizontal-imac">
+         <div class="horizontal-holder">
+            <div class="title-holder-horizontal">
+               <h2>3D Printing Materials</h2>
+            </div>
+            <div class="middle-horizontal-holder">
+               <p>Sed ut unde omnis iste natus sit volur tatem accus antium laudan tium totam rem aperiam eaque ipsa ab
+                  illo inventore et architecto.</p>
+               <ul>
+                  <li><i class="fa-solid fa-circle-check"></i>PLA</li>
+                  <li><i class="fa-solid fa-circle-check"></i>ABS</li>
+                  <li><i class="fa-solid fa-circle-check"></i>PETG</li>
+                  <li><i class="fa-solid fa-circle-check"></i>PA12 Nylon</li>
+               </ul>
+            </div>
+            <div class="horizontal-last-image">
+               <div class="horizontal-image-2"></div>
             </div>
          </div>
       </div>

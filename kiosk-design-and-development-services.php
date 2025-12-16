@@ -65,6 +65,15 @@
   document.documentElement.classList.add('pgfade-init');
 </script>
 <style>
+   .bg-grey-new {
+    background-color: #f3f3f3 !important;
+    background-image: none !important;
+   }
+   .faq-section {
+      padding-top: 80px !important;
+   }
+</style>
+<style>
   @media (prefers-reduced-motion: no-preference) {
     html.pgfade-init body { opacity: 0; }
     html.pgfaderdy body { opacity: 1; transition: opacity 220ms ease-out; }
@@ -495,7 +504,7 @@
    </section>
 </main> 
 
-<section class="services-section-kiosk">
+<section class="services-section-kiosk bg-grey-new">
     <div class="container-kiosk">
       <header class="section-header-kiosk">
         <h2 class="imac-services-title">Types of Kiosks iMAC Designs and Develops</h2>
@@ -729,7 +738,7 @@
    </div>
 </section>
 <!-- why us section -->
-<section class="features-section">
+<section class="features-section bg-grey-new">
    <div class="container">
       <h2 class="benefits-title">Why Choose Kiosk Design <br class="m-hidden">Solutions from iDES?   </h2>
       <div class="features-container">

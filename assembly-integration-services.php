@@ -66,6 +66,12 @@
   document.documentElement.classList.add('pgfade-init');
 </script>
 <style>
+   .bg-grey-new {
+    background-color: #f3f3f3 !important;
+    background-image: none !important;
+   }
+</style>
+<style>
   @media (prefers-reduced-motion: no-preference) {
     html.pgfade-init body { opacity: 0; }
     html.pgfaderdy body { opacity: 1; transition: opacity 220ms ease-out; }
@@ -283,7 +289,7 @@
 
 </section>
 
-<section class="about-service-hero-section">
+<section class="about-service-hero-section bg-grey-new">
    <h2 class="main-title">How iDES Precision Assembly Services Work?</h2>
    <div class="about-container">
       <div class="left-section">
@@ -561,7 +567,7 @@
    </section>
 
 <!-- why us section -->
-<section class="features-section">
+<section class="features-section bg-grey-new">
    <div class="container">
       <h2 class="benefits-title">Why Choose iDES<br class="m-hidden">for Assembly Integration Services?</h2>
       <div class="features-container">

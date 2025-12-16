@@ -84,6 +84,13 @@
 </style>
 
 <style>
+   .bg-grey-new {
+    background-color: #f3f3f3 !important;
+    background-image: none !important;
+   }
+   .features-section {
+      padding-bottom: 80px !important;
+   }
    .imac-services-title{
       color:#24282b;
       font-size:40px !important;
@@ -317,7 +324,7 @@
 
 
 <!-- why us section -->
-<section class="features-section">
+<section class="features-section bg-grey-new">
    <div class="container">
       <h2 class="benefits-title">Why iMAC Design and Engineering? </h2>
       <div class="features-container">

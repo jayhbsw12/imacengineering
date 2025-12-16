@@ -105,6 +105,20 @@
    }
 </style>
 <style>
+   .bg-grey-new {
+    background-color: #f3f3f3 !important;
+    background-image: none !important;
+   }
+   .about-service-hero-section {
+      padding-bottom: 80px !important;
+   }
+   .features-section {
+      padding-top: 40px !important;
+   }
+   .faq-section{
+      padding-top: 80px !important;
+   }
+ 
 .right-section-ul {
     font-size: 22px;
     color: #ff4612;
@@ -193,7 +207,7 @@
    </section>
 
 
-      <section class="about-service-hero-section">
+      <section class="about-service-hero-section bg-grey-new">
       <h2 class="main-title">3D Miniature Design Services</h2>
       <div class="about-container">
          <div class="left-section">
@@ -361,7 +375,7 @@
 
 
    <!-- Benefits Section -->
-   <section class="benefits-section">
+   <section class="benefits-section bg-grey-new">
       <div class="benefits-background">
          <div class="benefits-container">
             <h2 class="benefits-title">Benefits of 3D Miniature Design & Development Services </h2>
@@ -506,7 +520,7 @@
    </main>
 
       <!-- why us section -->
-   <section class="features-section">
+   <section class="features-section bg-grey-new">
       <div class="container">
          <h2 class="benefits-title">Why Choose Our 3D Miniature <br class="m-hidden"> Design Services? </h2>
          <div class="features-container">

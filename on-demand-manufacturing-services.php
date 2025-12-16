@@ -67,6 +67,21 @@
    document.documentElement.classList.add('pgfade-init');
 </script>
 <style>
+   .bg-grey-new {
+    background-color: #f3f3f3 !important;
+    background-image: none !important;
+   }
+   .faq-section {
+      padding-top: 60px !important;
+   }
+   .faq-question {
+      background-color: #ffffff !important;
+   }
+   .faq-item.active {
+      background-color: #ffffff !important;
+   }
+</style>
+<style>
    @media (prefers-reduced-motion: no-preference) {
       html.pgfade-init body {
          opacity: 0;
@@ -462,7 +477,7 @@
 
 
    <!-- why us section -->
-   <section class="features-section">
+   <section class="features-section bg-grey-new">
       <div class="container">
          <h2 class="benefits-title">Why Choose Our On-Demand <br class="m-hidden"> Prototyping And Manufacturing? </h2>
          <div class="features-container">
@@ -780,7 +795,7 @@
 
 
    <!-- FAQ Section -->
-   <section class="faq-section">
+   <section class="faq-section bg-grey-new">
       <div class="faq-container">
          <div class="faq-content">
             <h2 class="faq-title">Frequently Asked<br>Questions Answered</h2>

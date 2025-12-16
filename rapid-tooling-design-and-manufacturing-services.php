@@ -67,6 +67,12 @@
    document.documentElement.classList.add('pgfade-init');
 </script>
 <style>
+   .bg-grey-new {
+    background-color: #f3f3f3 !important;
+    background-image: none !important;
+   }
+</style>
+<style>
    @media (prefers-reduced-motion: no-preference) {
       html.pgfade-init body {
          opacity: 0;
@@ -604,7 +610,7 @@
    </main>
 
       <!-- why us section -->
-   <section class="features-section">
+   <section class="features-section bg-grey-new">
       <div class="container">
          <h2 class="benefits-title">The Reasons Why You Should Choose <br class="m-hidden"> Our Tooling Manufacturing
             Services </h2>

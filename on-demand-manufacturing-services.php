@@ -180,64 +180,75 @@
    }
 </style>
 <style>
-       .sections-new-imac .imac-services-title{
+   .sections-new-imac .imac-services-title {
       margin-bottom: 0px;
       text-align: left;
    }
-.sections-new-imac {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    padding: 0px 80px 80px 80px;
-    background: #ffffff;
+
+   .sections-new-imac {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+      padding: 80px 80px 80px 80px;
+      background: #f3f3f3;
+   }
+
+   .sections-new-imac h2 {
+      margin-bottom: 0px;
+   }
+
+   .new-section-holder {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      width: 100%;
+      max-width: 1440px;
+   }
+
+   .printing-title {
+      font-size: 22px;
+      font-weight: 600;
+   }
+
+   .new-header-holder {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   .new-header-holder p {
+      max-width: 500px;
+   }
+
+   .new-holder-cards-wrapper {
+      display: flex;
+      width: 100%;
+      gap: 30px;
+   }
+
+   .new-holder-card {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+   }
+
+   .new-number-holder {
+      font-size: 24px;
+      font-weight: 600;
+   }
+
+   .faq-section{
+      padding: 0px 80px 0px 80px !important;
+   }
+.benefits-background {
+    padding: 40px 0px 32px 0px !important;
 }
-.sections-new-imac h2{
-   margin-bottom: 0px;
-}
-.new-section-holder {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 100%;
-    max-width: 1440px;
-}
-.service-protected-wrapper {
-    width: 100%;
-    height: auto;
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-.service-protected-card {
-    background: #f3f3f3;
-    width: auto;
-    height: auto;
-    padding: 20px;
-    border: 1px solid lightgrey;
-    border-radius: 16px;
-    display: flex;
-    /* flex-direction: column; */
-    gap: 10px;
-    align-items: center;
-}
-.title-protected {
-    width: 80px;
-    height: 80px;
-    font-size: 32px;
-    font-weight: 500;
-    padding: 10px;
-    background: #ff4612;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    border-radius: 50%;
-}
-.printing-title {
-    font-size: 22px;
-    font-weight: 600;
+.benefits-container{
+   padding: 0px !important;
 }
 </style>
 <script>
@@ -660,29 +671,49 @@
       </section>
    </main>
 
-      <!-- <section class="sections-new-imac">
+   <!-- <section class="sections-new-imac">
       <div class="new-section-holder">
-         <h2 class="imac-services-title">How We Protect Client Innovations</h2>
-         <div class="service-protected-wrapper">
-            <div class="service-protected-card">
-               <div class="title-protected">01.</div>
-               <h3 class="printing-title">
-               NDA Execution
-               </h3>
+
+         <div class="new-header-holder">
+            <h2 class="imac-services-title">How We Protect <br>Client Innovations</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequuntur error iure numquam nostrum
+               corporis perspiciatis deleniti autem magnam aliquid.</p>
+         </div>
+
+         <div class="new-holder-cards-wrapper">
+            <div class="new-holder-card">
+               <div class="new-number-holder">01.</div>
+               <hr class="new-hr-line">
+               <h3>Enquiry Received</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, corrupti!</p>
             </div>
 
-            <div class="service-protected-card">
-               <div class="title-protected">02.</div>
-               <h3 class="printing-title">
-               Confidential Information Exchange
-               </h3>
+            <div class="new-holder-card">
+               <div class="new-number-holder">02.</div>
+               <hr class="new-hr-line">
+               <h3>Quote in ≤ 48 Hrs</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, corrupti!</p>
             </div>
 
-            <div class="service-protected-card">
-               <div class="title-protected">03.</div>
-               <h3 class="printing-title">
-               Protected Innovation Guarnteed 
-               </h3>
+            <div class="new-holder-card">
+               <div class="new-number-holder">03.</div>
+               <hr class="new-hr-line">
+               <h3>Client Approval</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, corrupti!</p>
+            </div>
+
+            <div class="new-holder-card">
+               <div class="new-number-holder">04.</div>
+               <hr class="new-hr-line">
+               <h3>Production Starts</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, corrupti!</p>
+            </div>
+
+            <div class="new-holder-card">
+               <div class="new-number-holder">05.</div>
+               <hr class="new-hr-line">
+               <h3>Delivery as Committed</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, corrupti!</p>
             </div>
          </div>
       </div>

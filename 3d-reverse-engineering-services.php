@@ -69,9 +69,6 @@
     background-color: #f3f3f3 !important;
     background-image: none !important;
    }
-   .imac-services-section {
-      background: none !important;
-   }
 </style>
 <style>
   @media (prefers-reduced-motion: no-preference) {
@@ -248,7 +245,7 @@
 
 </section>
 
-<main class="main-container-section">
+<main class="main-container-section bg-grey-new">
    <!-- Product Development Process Section -->
    <section class="product-development-section">
       <div class="development-container">
@@ -364,7 +361,7 @@
    </div>
 </section> -->
 
-<section class="about-service-hero-section bg-grey-new">
+<section class="about-service-hero-section">
    <h2 class="main-title">When Do You Need <br/>3D Reverse Engineering Services?</h2>
    <div class="about-container">
       <div class="right-section">
@@ -399,7 +396,7 @@
    </div>
 </section>
 
-<section class="benefits-section">
+<section class="benefits-section bg-grey-new">
    <div class="benefits-background">
       <div class="benefits-container">
          <h2 class="benefits-title">Why Do You Need Reverse Engineering?<br class="m-hidden"></h2>
@@ -439,7 +436,7 @@
 
 
 <!-- why us section -->
-<section class="features-section bg-grey-new">
+<section class="features-section">
    <div class="container">
       <h2 class="benefits-title">Why Choose iMAC Design and Engineering ?</h2>
       <div class="features-container">
@@ -542,7 +539,7 @@
 </section> -->
 
 
-<section class="imac-services-section">
+<section class="imac-services-section bg-grey-new">
    <div class="imac-services-container">
       <h2 class="imac-services-title">Our 3D Reverse Engineering Services</h2>
       <div class="services-carousel-container">

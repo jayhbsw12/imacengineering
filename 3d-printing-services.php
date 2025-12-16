@@ -144,7 +144,7 @@
       gap: 20px;
    }
 
-   .horizontal-image {
+   .horizontal-image, .horizontal-image-2 {
       width: 100%;
       height: 300px;
       /* background: #000000; */

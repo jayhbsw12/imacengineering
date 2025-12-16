@@ -170,6 +170,10 @@
 </style>
 
 <style>
+   .holder-right {
+    display: flex;
+    flex-direction: row !important;
+   }
     .sections-new-imac .imac-services-title{
       margin-bottom: 0px;
       text-align: left;
@@ -188,24 +192,30 @@
 }
 .section-new-ul {
     display: flex;
-    gap: 20px;
-    max-width: 760px;
+    /* gap: 20px; */
+    max-width: 100%;
+    width: 100%;
     flex-wrap: wrap;
     height: auto;
-    align-items: stretch;
+    align-items: flex-start;
     justify-content: center;
+    flex-direction: column;
 }
+
 .section-new-ul li {
     font-size: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 10px;
     padding: 20px;
-    background: #ff4612;
-    border-radius: 12px;
-    color: white;
-    width: auto;
+    /* background: #ff4612; */
+    /* border-radius: 12px; */
+    /* color: white; */
+    width: 100%;
+    flex-direction: row;
+    border-bottom: 1px solid #e3e3e3;
+    color: #ff4612;
 }
 .new-section-holder {
     display: flex;
@@ -684,6 +694,37 @@
    </div>
    </div>
 </section> -->
+
+<!-- New Section Hide -->
+   <!-- <section class="sections-new-imac">
+      <div class="section-container">
+         <div class="new-section-holder">
+            <h2 class="imac-services-title">Sheet Metal Service Deliverables</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eveniet sequi explicabo nihil quis
+               reiciendis.</p>
+            <div class="cta-button-banner">
+               <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Let’s Discuss</span>
+               <img src="https://static.codia.ai/custom_image/2025-07-05/131851/arrow-icon.svg" alt="Arrow"
+                  class="cta-arrow-banner">
+            </div>
+         </div>
+
+         <div class="new-section-holder holder-right">
+            <ul class="section-new-ul">
+               <li><i class="fa-solid fa-circle-check"></i>PADR Document(File)</li>
+               <li><i class="fa-solid fa-circle-check"></i>DXF File</li>
+               <li><i class="fa-solid fa-circle-check"></i>DWG File</li>
+            </ul>
+            <ul class="section-new-ul">
+               <li><i class="fa-solid fa-circle-check"></i>PDF File</li>
+               <li><i class="fa-solid fa-circle-check"></i>STEP File</li>
+               <li><i class="fa-solid fa-circle-check"></i>Bill Of Materials</li>
+            </ul>
+         </div>
+
+
+      </div>
+   </section> -->
 
 <!-- FAQ Section -->
 <section class="faq-section">

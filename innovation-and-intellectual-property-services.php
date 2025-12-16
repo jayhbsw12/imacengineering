@@ -181,6 +181,7 @@
    .service-card-drafting:last-child {
       display: none;
    }
+
    .main-container-section {
       padding: 50px 0 100px 0px !important;
    }
@@ -192,63 +193,82 @@
 </style>
 
 <style>
-       .sections-new-imac .imac-services-title{
+   .sections-new-imac .imac-services-title {
       margin-bottom: 0px;
       text-align: left;
    }
+
    .sections-new-imac {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    padding: 80px 80px;
-    background: #ffffff;
-}
-.sections-new-imac h2{
-   margin-bottom: 0px;
-}
-.new-section-holder {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 100%;
-    max-width: 1440px;
-}
-.service-protected-wrapper {
-    width: 100%;
-    height: auto;
-    display: flex;
-    gap: 40px;
-}
-.service-protected-card {
-    background: #f3f3f3;
-    width: 100%;
-    height: auto;
-    padding: 30px;
-    border: 1px solid lightgrey;
-    border-radius: 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.title-protected {
-    width: 80px;
-    height: 80px;
-    font-size: 32px;
-    font-weight: 500;
-    padding: 10px;
-    background: #ff4612;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    border-radius: 50%;
-}
-.printing-title {
-    font-size: 22px;
-    font-weight: 600;
-}
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+      padding: 80px 80px;
+      background: #ffffff;
+   }
+
+   .sections-new-imac h2 {
+      margin-bottom: 0px;
+   }
+
+   .new-section-holder {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+      max-width: 1440px;
+   }
+
+   .service-protected-wrapper {
+      width: 100%;
+      height: auto;
+      display: flex;
+      gap: 40px;
+   }
+
+   .service-protected-card {
+      background: #f3f3f3;
+      width: 100%;
+      height: auto;
+      padding: 30px;
+      border: 1px solid lightgrey;
+      /* border-radius: 16px; */
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+   }
+
+   .title-protected {
+      width: 80px;
+      height: 80px;
+      font-size: 32px;
+      font-weight: 500;
+      padding: 10px;
+      background: #ff4612;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      /* border-radius: 50%; */
+   }
+
+   .printing-title {
+      font-size: 22px;
+      font-weight: 600;
+   }
+
+   .faq-section {
+      padding: 0 !important;
+   }
+
+   .benefits-background {
+      padding: 0px 0px 80px 0px !important;
+   }
+
+   .benefits-container {
+      padding: 0px !important;
+   }
 </style>
 
 <script>

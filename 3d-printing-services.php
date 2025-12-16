@@ -228,7 +228,8 @@
 
 </section>
 
-<section class="sections-new-imac">
+<!-- New Section Hide -->
+<!-- <section class="sections-new-imac">
   <div class="section-new-holder">
    <div class="title-holder">
       <h2 class="imac-services-title">Sheet Metal Service Deliverables</h2>
@@ -262,7 +263,7 @@
       </div>
    </div>
   </div>
-</section>
+</section> -->
 
 <!-- Services Section -->
 <section class="imac-services-section">

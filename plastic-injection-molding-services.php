@@ -261,7 +261,8 @@
    </div>
 </section>
 
-<section class="sections-new-imac">
+<!-- New Section Hide -->
+<!-- <section class="sections-new-imac">
    <div class="section-container">
    <div class="new-section-holder">
       <h2 class="imac-services-title">Injection Molding Materials List</h2>
@@ -281,7 +282,7 @@
       </ul>
    </div>
    </div>
-</section>
+</section> -->
 
 <!-- Benefits Section -->
 <section class="benefits-section">

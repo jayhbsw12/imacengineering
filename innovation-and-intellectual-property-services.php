@@ -617,7 +617,8 @@
       </div>
    </section>
 
-   <section class="sections-new-imac">
+   <!-- New Section Hide -->
+   <!-- <section class="sections-new-imac">
       <div class="new-section-holder">
          <h2 class="imac-services-title">How We Protect Client Innovations</h2>
          <div class="service-protected-wrapper">
@@ -646,7 +647,7 @@
             </div>
          </div>
       </div>
-   </section>
+   </section> -->
 
    <!-- why us section -->
    <section class="features-section">

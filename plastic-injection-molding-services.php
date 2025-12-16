@@ -347,6 +347,27 @@
       </div>
    </section> -->
 
+   <!-- deliverables -->
+<section class="sections-new-imac">
+   <div class="section-container">
+   <div class="new-section-holder">
+      <h2 class="imac-services-title">Sheet Metal Service Deliverables</h2>
+      <p>Our injection moulding capabilities support a wide range of engineering and commodity plastics, allowing us to match material performance with application requirements. We work with ABS, Polycarbonate, PP, HDPE, PA (Nylon), PBT, PMMA, and PPS to deliver components that meet specific needs for strength, flexibility, heat resistance, chemical stability, and surface finish—ensuring reliable performance across diverse industrial applications.</p>
+   </div>
+
+   <div class="new-section-holder">
+      <ul class="section-new-ul">
+         <li><i class="fa-solid fa-circle-check"></i>PADR Document(File)</li>
+         <li><i class="fa-solid fa-circle-check"></i>DXF File</li>
+         <li><i class="fa-solid fa-circle-check"></i>DWG File</li>
+         <li><i class="fa-solid fa-circle-check"></i>PDF File</li>
+         <li><i class="fa-solid fa-circle-check"></i>STEP File</li>
+         <li><i class="fa-solid fa-circle-check"></i>Bill Of Materials</li>
+      </ul>
+   </div>
+   </div>
+</section>
+
    <!-- Benefits Section -->
    <section class="benefits-section">
       <div class="benefits-background">

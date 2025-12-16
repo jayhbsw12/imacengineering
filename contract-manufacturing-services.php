@@ -84,7 +84,7 @@
       }
    }
 
-   .faq-section{
+   .faq-section {
       padding: 100px 40px !important;
    }
 
@@ -183,71 +183,98 @@
       padding: 100px 0px 100px 0px !important;
    }
 
-   .features-section{
+   .features-section {
       padding: 0px 40px 85px 40px !important;
    }
 </style>
 
 <style>
    .sections-new-imac {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    padding: 80px 80px;
-    background: #ffffff;
-}
-.sections-new-imac h2{
-   margin-bottom: 0px;
-}
-.new-section-holder{
-   width: 100%;
-   height: auto;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   gap: 20px;
-}
-.new-title-container{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-}
-.new-section-service-wrapper{
-   padding: 40px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   background-color: #f3f3f3;
-   max-width: 1300px;
-   width: 100%;
-   gap: 40px;
-   border-radius: 16px;
-   border: 1px solid #eaeaea;
-}
-   .sections-new-imac .imac-services-title{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+      padding: 80px 80px;
+      background: #ffffff;
+   }
+
+   .sections-new-imac h2 {
+      margin-bottom: 0px;
+   }
+
+   .new-section-holder {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+   }
+
+   .new-title-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+
+   .new-section-service-wrapper {
+      /* padding: 40px; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #f3f3f3;
+      /* max-width: 1300px; */
+      width: 100%;
+      /* gap: 40px; */
+      /* border-radius: 16px; */
+      border: 1px solid #eaeaea;
+   }
+
+   .sections-new-imac .imac-services-title {
       margin-bottom: 0px;
       text-align: center;
    }
-    .imac-services-description{
-    text-align: center;
-    max-width: 800px;
-}
-    .printing-title{
-    font-size: 22px;
-    font-weight: 600;
-    }
-    .new-service-holder img{
+
+   .imac-services-description {
+      text-align: center;
+      max-width: 800px;
+   }
+
+   .printing-title {
+      font-size: 22px;
+      font-weight: 600;
+   }
+
+   .new-service-holder img {
       height: 64px;
       width: 64px;
-    }
-    .new-service-holder {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
+   }
+
+   .new-service-holder {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      padding: 20px;
+      min-height: 300px;
+      justify-content: space-between;
+   }
+
+   .new-service-counter {
+      font-size: 24px;
+      font-weight: 600;
+   }
+   .card-overlay-1{
+      background-image: url('assets/Contract Manufacturing/electronic-industry.webp')
+   }
+   .card-overlay-2{
+      background-image: url('assets/Contract Manufacturing/electronic-industry.webp')
+   }
+   .card-overlay-3{
+      background-image: url('assets/Contract Manufacturing/electronic-industry.webp')
+   }
 </style>
 
 <script>
@@ -743,7 +770,7 @@
             </div>
          </div>
       </section>
-</main>
+   </main>
 
    <!-- why us section -->
    <section class="features-section">
@@ -803,31 +830,42 @@
    </section>
 
    <!-- New Section Hide -->
-<!-- <section class="sections-new-imac">
-   <div class="new-section-holder">
-      <div class="new-title-container">
-         <h2 class="imac-services-title">Industries Using Our Contract Manufacturing Services </h2>
-         <p class="imac-services-description">We provide contract manufacturing solutions across diverse industries, supporting products that demand precision, consistency, and scalable production. Our capabilities adapt to sector-specific requirements without compromising quality or timelines.</p>
+   <section class="sections-new-imac">
+      <div class="new-section-holder">
+         <div class="new-title-container">
+            <h2 class="imac-services-title">Industries Using Our Contract Manufacturing Services </h2>
+            <p class="imac-services-description">We provide contract manufacturing solutions across diverse industries,
+               supporting products that demand precision, consistency, and scalable production. Our capabilities adapt
+               to sector-specific requirements without compromising quality or timelines.</p>
+         </div>
+         <div class="new-section-service-wrapper">
+            <div class="new-service-holder card-overlay-1">
+               <div class="new-service-counter"> 01.</div>
+               <div>
+                  <h2 class="printing-title">Consumer Electronics Industry</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+               </div>
+
+            </div>
+            <div class="new-service-holder card-overlay-2">
+               <div class="new-service-counter"> 02.</div>
+               <div>
+                  <h2 class="printing-title">Medical & Laboratory</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+               </div>
+
+            </div>
+            <div class="new-service-holder card-overlay-3">
+               <div class="new-service-counter"> 03.</div>
+               <div>
+                  <h2 class="printing-title">Internet of Things (IoT)</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+               </div>
+
+            </div>
+         </div>
       </div>
-      <div class="new-section-service-wrapper">
-         <div class="new-service-holder">
-            <img src="./assets/Contract Manufacturing/troubleshooting.png" alt="Consumer Electronics Industry">
-            <h2 class="printing-title">Consumer Electronics Industry</h2>
-            <p>We support consumer electronics brands with precision manufacturing for enclosures, internal components, and functional assemblies. Our processes ensure consistent quality, tight tolerances, and scalable production—ideal for both rapid product launches and volume manufacturing.</p>
-         </div>
-         <div class="new-service-holder">
-            <img src="./assets/Contract Manufacturing/experiment.png" alt="Consumer Electronics Industry">
-            <h2 class="printing-title">Medical & Laboratory</h2>
-            <p>We support consumer electronics brands with precision manufacturing for enclosures, internal components, and functional assemblies. Our processes ensure consistent quality, tight tolerances, and scalable production—ideal for both rapid product launches and volume manufacturing.</p>
-         </div>
-         <div class="new-service-holder">
-            <img src="./assets/Contract Manufacturing/iot.png" alt="Consumer Electronics Industry">
-            <h2 class="printing-title">Internet of Things (IoT)</h2>
-            <p>We support consumer electronics brands with precision manufacturing for enclosures, internal components, and functional assemblies. Our processes ensure consistent quality, tight tolerances, and scalable production—ideal for both rapid product launches and volume manufacturing.</p>
-         </div>
-      </div>
-   </div>
-</section> -->
+   </section>
 
    <!-- FAQ Section -->
    <section class="faq-section">
@@ -848,7 +886,10 @@
                   </div>
                </div>
                <div class="faq-answer">
-                  <p>Contract manufacturing is the outsourcing of production processes to a third-party manufacturer. A company (the client) contracts with another company (the contract manufacturer) to produce components or entire products on their behalf, based on the client's designs, specifications, and quality standards. </p>
+                  <p>Contract manufacturing is the outsourcing of production processes to a third-party manufacturer. A
+                     company (the client) contracts with another company (the contract manufacturer) to produce
+                     components or entire products on their behalf, based on the client's designs, specifications, and
+                     quality standards. </p>
                </div>
             </div>
             <div class="faq-item">
@@ -859,36 +900,46 @@
                   </div>
                </div>
                <div class="faq-answer">
-                  <p>The key benefits of contract manufacturing include reduced production costs, access to specialized expertise and equipment, increased production capacity, faster time to market, and the ability to focus internal resources on core competencies like design, marketing, and sales.</p>
+                  <p>The key benefits of contract manufacturing include reduced production costs, access to specialized
+                     expertise and equipment, increased production capacity, faster time to market, and the ability to
+                     focus internal resources on core competencies like design, marketing, and sales.</p>
                </div>
             </div>
             <div class="faq-item">
                <div class="faq-question">
-                  <span class="faq-question-text">How do you handle intellectual property and confidentiality in contract manufacturing?</span>
+                  <span class="faq-question-text">How do you handle intellectual property and confidentiality in
+                     contract manufacturing?</span>
                   <div class="faq-icon">
                      <div class="faq-icon-open"></div>
                   </div>
                </div>
                <div class="faq-answer">
-                  <p>We handle intellectual property (IP) and confidentiality in contract manufacturing through legally binding Non-Disclosure Agreements (NDAs) and comprehensive manufacturing agreements. These agreements outline the ownership of intellectual property, define confidentiality obligations, and detail security measures to protect your designs, processes, and sensitive information throughout the entire production lifecycle. We implement strict internal protocols to ensure compliance.</p>
+                  <p>We handle intellectual property (IP) and confidentiality in contract manufacturing through legally
+                     binding Non-Disclosure Agreements (NDAs) and comprehensive manufacturing agreements. These
+                     agreements outline the ownership of intellectual property, define confidentiality obligations, and
+                     detail security measures to protect your designs, processes, and sensitive information throughout
+                     the entire production lifecycle. We implement strict internal protocols to ensure compliance.</p>
                </div>
             </div>
 
             <div class="faq-item">
                <div class="faq-question">
-                  <span class="faq-question-text">Do you offer post-manufacturing support, such as packaging and assembly?</span>
+                  <span class="faq-question-text">Do you offer post-manufacturing support, such as packaging and
+                     assembly?</span>
                   <div class="faq-icon">
                      <div class="faq-icon-open"></div>
                   </div>
                </div>
                <div class="faq-answer">
-                  <p>Yes, we offer comprehensive post-manufacturing support, including packaging and assembly services. </p>
+                  <p>Yes, we offer comprehensive post-manufacturing support, including packaging and assembly services.
+                  </p>
                </div>
             </div>
 
             <div class="faq-item">
                <div class="faq-question">
-                  <span class="faq-question-text">What are your payment terms for contract manufacturing agreements?</span>
+                  <span class="faq-question-text">What are your payment terms for contract manufacturing
+                     agreements?</span>
                   <div class="faq-icon">
                      <div class="faq-icon-open"></div>
                   </div>

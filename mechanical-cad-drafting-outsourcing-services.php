@@ -74,6 +74,20 @@
     html.pgfade-init body { opacity: 1; }
   }
 </style>
+
+
+<style>
+   .bg-grey-new {
+    background-color: #f3f3f3;
+    background-image: none !important;
+   }
+   .faq-section {
+      background-image: none !important;
+      padding-top: 80px !important;
+   }
+</style>
+
+
 <script>
   // Reveal as soon as DOM is ready
   document.addEventListener('DOMContentLoaded', function () {
@@ -228,7 +242,7 @@
    </div>
 </section>
 <!-- why us section -->
-<section class="features-section">
+<section class="features-section bg-grey-new">
    <div class="container">
       <h2 class="benefits-title">Why Should You Work With Us? </h2>
       <div class="features-container">

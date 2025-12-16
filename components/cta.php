@@ -43,6 +43,7 @@
         width: 30%;
     }
 
+    
     .cta-section-left-holder,
     .cta-section-right-holder {
         /* width: 100%; */

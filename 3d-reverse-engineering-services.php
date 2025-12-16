@@ -65,6 +65,15 @@
   document.documentElement.classList.add('pgfade-init');
 </script>
 <style>
+   .bg-grey-new {
+    background-color: #f3f3f3 !important;
+    background-image: none !important;
+   }
+   .imac-services-section {
+      background: none !important;
+   }
+</style>
+<style>
   @media (prefers-reduced-motion: no-preference) {
     html.pgfade-init body { opacity: 0; }
     html.pgfaderdy body { opacity: 1; transition: opacity 220ms ease-out; }
@@ -355,7 +364,7 @@
    </div>
 </section> -->
 
-<section class="about-service-hero-section">
+<section class="about-service-hero-section bg-grey-new">
    <h2 class="main-title">When Do You Need <br/>3D Reverse Engineering Services?</h2>
    <div class="about-container">
       <div class="right-section">
@@ -430,7 +439,7 @@
 
 
 <!-- why us section -->
-<section class="features-section">
+<section class="features-section bg-grey-new">
    <div class="container">
       <h2 class="benefits-title">Why Choose iMAC Design and Engineering ?</h2>
       <div class="features-container">
@@ -609,7 +618,7 @@
 
 
 <!-- Benefits Section -->
-<section class="benefits-section">
+<!-- <section class="benefits-section">
    <div class="benefits-background">
       <div class="benefits-container">
          <h2 class="benefits-title">What are the Benefits of<br class="m-hidden"> Reverse Engineering?</h2>
@@ -643,21 +652,11 @@
                <p class="benefit-text">Get perfectly fitting molds from any object to minimize prototyping and tooling costs.</p>
             </div>
          </div>
-        
-        <!-- <div class="benefits-grid-2">
-            <div class="benefit-card benefit-card-5">
-               <div class="benefit-icon benefit-icon-5"></div>
-               <p class="benefit-text">It gets easy to get the insights into competitor designs by studying layout, function, and features through our expert reverse engineering services.</p>
-            </div> -->
-            <!-- <div class="benefit-card benefit-card-4">
-               <div class="benefit-icon benefit-icon-4"></div>
-               <p class="benefit-text">It becomes easy to capture the exact shapes through scanning to design accurate, cost-effective molds for manufacturing or prototyping purposes using our reverse engineering services. </p>
-            </div> -->
          </div>
 
       </div>
    </div>
-</section>
+</section> -->
 
 <main class="main-container-section">
    <!-- Product Development Process Section -->

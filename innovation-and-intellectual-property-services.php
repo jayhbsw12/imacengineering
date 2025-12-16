@@ -68,6 +68,15 @@
    document.documentElement.classList.add('pgfade-init');
 </script>
 <style>
+   .bg-grey-new {
+    background-color: #f3f3f3 !important;
+    background-image: none !important;
+   }
+   .faq-section {
+      padding-top: 80px !important;
+   }
+</style>
+<style>
    @media (prefers-reduced-motion: no-preference) {
       html.pgfade-init body {
          opacity: 0;
@@ -315,7 +324,7 @@
 
    </section>
 
-   <section class="about-service-hero-section">
+   <section class="about-service-hero-section bg-grey-new">
       <h2 class="main-title">Safeguard Your Innovations with Us <br /></h2>
       <div class="about-container">
          <div class="left-section">
@@ -726,7 +735,7 @@
    </section>
 
    <!-- Benefits Section -->
-   <section class="benefits-section">
+   <section class="benefits-section bg-grey-new">
       <div class="benefits-background">
          <div class="benefits-container">
             <h2 class="benefits-title"> Benefits of Our Intellectual Property Services <br class="m-hidden"></h2>

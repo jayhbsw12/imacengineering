@@ -230,6 +230,7 @@
     width: 100%;
     height: auto;
     max-width: 1400px;
+    gap: 40px;
 }
 </style>
 
@@ -696,12 +697,11 @@
 </section> -->
 
 <!-- New Section Hide -->
-   <!-- <section class="sections-new-imac">
+   <section class="sections-new-imac">
       <div class="section-container">
          <div class="new-section-holder">
             <h2 class="imac-services-title">Sheet Metal Service Deliverables</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eveniet sequi explicabo nihil quis
-               reiciendis.</p>
+            <p>Files that work with your workflow. Every deliverable is formatted for engineering review and manufacturing execution.</p>
             <div class="cta-button-banner">
                <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Let’s Discuss</span>
                <img src="https://static.codia.ai/custom_image/2025-07-05/131851/arrow-icon.svg" alt="Arrow"
@@ -724,7 +724,7 @@
 
 
       </div>
-   </section> -->
+   </section>
 
 <!-- FAQ Section -->
 <section class="faq-section">

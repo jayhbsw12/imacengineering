@@ -845,20 +845,18 @@
    </section>
 
    <!-- New Section Hide -->
-   <!-- <section class="sections-new-imac">
+   <section class="sections-new-imac">
       <div class="new-section-holder">
          <div class="new-title-container">
             <h2 class="imac-services-title">Industries Using Our Contract Manufacturing Services </h2>
-            <p class="imac-services-description">We provide contract manufacturing solutions across diverse industries,
-               supporting products that demand precision, consistency, and scalable production. Our capabilities adapt
-               to sector-specific requirements without compromising quality or timelines.</p>
+            <p class="imac-services-description">Different sectors demand different approaches; we deliver both the quality and compliance your market requires. Tight tolerances for medical devices or high-volume consistency for consumer p roducts, our manufacturing scales to your sector's requirements.</p>
          </div>
          <div class="new-section-service-wrapper">
             <div class="new-service-holder card-overlay-1">
                <div class="new-service-counter"> 01.</div>
                <div>
                   <h2 class="printing-title">Consumer Electronics Industry</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <p>Delivering the reliability consumer electronics demand at the speed markets require.</p>
                </div>
 
             </div>
@@ -866,7 +864,7 @@
                <div class="new-service-counter"> 02.</div>
                <div>
                   <h2 class="printing-title">Medical & Laboratory</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <p>Precision manufacturing with traceability at every step.</p>
                </div>
 
             </div>
@@ -874,13 +872,13 @@
                <div class="new-service-counter"> 03.</div>
                <div>
                   <h2 class="printing-title">Internet of Things (IoT)</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <p>Volume production of connected devices with consistency and durability.</p>
                </div>
 
             </div>
          </div>
       </div>
-   </section> -->
+   </section>
 
    <!-- FAQ Section -->
    <section class="faq-section">

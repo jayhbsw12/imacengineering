@@ -255,7 +255,7 @@
    </section>
 
    <!-- New Section Hide -->
-   <!-- <section class="sections-new-imac">
+   <section class="sections-new-imac">
       <div class="section-new-holder">
          <div class="title-holder">
             <h2 class="imac-services-title">3D Printing Materials Available</h2>
@@ -268,8 +268,7 @@
                <h2>3D Printing Materials</h2>
             </div>
             <div class="middle-horizontal-holder">
-               <p>Sed ut unde omnis iste natus sit volur tatem accus antium laudan tium totam rem aperiam eaque ipsa ab
-                  illo inventore et architecto.</p>
+               <p>3D material- Not all plastic materials are equal. Some print fast for early iterations. Others withstand heat and stress for real testing. We have the whole range that your development process actually needs.</p>
                <ul>
                   <li><i class="fa-solid fa-circle-check"></i>PLA</li>
                   <li><i class="fa-solid fa-circle-check"></i>ABS</li>
@@ -287,8 +286,7 @@
                <h2>3D Printers Available</h2>
             </div>
             <div class="middle-horizontal-holder">
-               <p>Sed ut unde omnis iste natus sit volur tatem accus antium laudan tium totam rem aperiam eaque ipsa ab
-                  illo inventore et architecto.</p>
+               <p>3D printer - Precision, speed, or strength select according to your priority. We have all those printers that cover what matters most to your prototype. </p>
                <ul>
                   <li><i class="fa-solid fa-circle-check"></i>Creality K2 Plus 350x350 Size</li>
                   <li><i class="fa-solid fa-circle-check"></i>Creality K1 MAx</li>
@@ -302,7 +300,7 @@
             </div>
          </div>
       </div>
-   </section> -->
+   </section>
 
    <!-- Services Section -->
    <section class="imac-services-section">

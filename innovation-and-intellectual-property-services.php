@@ -647,7 +647,7 @@
    </section>
 
    <!-- New Section Hide -->
-   <!-- <section class="sections-new-imac">
+   <section class="sections-new-imac">
       <div class="new-section-holder">
          <h2 class="imac-services-title">How We Protect Client Innovations</h2>
          <div class="service-protected-wrapper">
@@ -656,7 +656,7 @@
                <h3 class="printing-title">
                NDA Execution
                </h3>
-               <p>We follow a clear confidentiality process—starting with NDA execution, followed by secure information exchange, and ending with complete protection of your innovation throughout development and manufacturing.</p>
+               <p>Legal protection is established before any discussion. We initiate every client relationship with comprehensive NDA execution. All parties sign binding confidentiality agreements before any proprietary information, designs, or specifications are shared, ensuring legal recourse and clear obligations from day one.</p>
             </div>
 
             <div class="service-protected-card">
@@ -664,7 +664,7 @@
                <h3 class="printing-title">
                Confidential Information Exchange
                </h3>
-               <p>Protecting your ideas is fundamental to our partnership. Through NDA-backed engagement and controlled handling of confidential information, we ensure your innovation remains secure from first discussion to final delivery.</p>
+               <p>Secure channels for all technical and proprietary data. Your designs, specifications, and business information are transmitted through encrypted systems with access limited to essential personnel only. Information is compartmentalized, tracked, and stored under strict security protocols that prevent unauthorized access or disclosure.</p>
             </div>
 
             <div class="service-protected-card">
@@ -672,11 +672,11 @@
                <h3 class="printing-title">
                Protected Innovation Guarnteed 
                </h3>
-               <p>Our innovation protection framework combines legally binding NDAs with disciplined information access and secure workflows, ensuring all client intellectual property is safeguarded at every project stage.</p>
+               <p>Multi-layer security throughout development and production. Your intellectual property remains protected at every project stage through controlled facility access, secure documentation systems, manufacturing processes, and employee confidentiality commitments. We maintain separation between client projects to eliminate cross-contamination of proprietary information.</p>
             </div>
          </div>
       </div>
-   </section> -->
+   </section>
 
    <!-- why us section -->
    <section class="features-section">

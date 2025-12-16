@@ -1,4 +1,4 @@
-<!-- <style>
+<style>
     .cta-section-service {
         width: 100%;
         height: auto;
@@ -109,20 +109,18 @@
     <div class="cta-section-service-holder">
         <div class="cta-section-left-holder">
             <h2 class="benefits-title">
-                Transform Your Product Ideas into Reality with iMAC Engineering
+                Your Trusted Partner for Complete Product Development
             </h2>
             <p class="cta-section-description">
-                Bring your vision to life with iMAC Engineering’s cutting-edge design, development, and manufacturing
-                services. From virtual prototyping to precision engineering, we help accelerate your time to market and
-                deliver innovative solutions.
+                Join leading companies who've launched successful products with iMAC Engineering. Our set of services includes design, prototyping, tooling, and manufacturing. Everything in one place that's responsible for your success from day one.
             </p>
         </div>
         <div class="cta-section-right-holder">
             <a href="./contact-us">
                 <button class="cta-button" style="transform: translateY(0px); box-shadow: none;">
-                    <span>Contact Us</span>
+                    <span>Talk to us</span>
                 </button>
             </a>
         </div>
     </div>
-</section> -->
+</section>

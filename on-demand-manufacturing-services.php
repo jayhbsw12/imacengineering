@@ -257,7 +257,7 @@
    }
 
    .faq-section{
-      padding: 0px 80px 0px 80px !important;
+      padding: 80px 80px 0px 80px !important;
    }
 .benefits-background {
     padding: 40px 0px 32px 0px !important;
@@ -686,13 +686,12 @@
       </section>
    </main>
 
-   <!-- <section class="sections-new-imac">
+   <section class="sections-new-imac">
       <div class="new-section-holder">
 
          <div class="new-header-holder">
             <h2 class="imac-services-title">How We Protect <br>Client Innovations</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi consequuntur error iure numquam nostrum
-               corporis perspiciatis deleniti autem magnam aliquid.</p>
+            <p>We provide injection molding solutions that deliver consistent parts at the quantities you need and when you need them, including high production molds.</p>
          </div>
 
          <div class="new-holder-cards-wrapper">
@@ -700,39 +699,39 @@
                <div class="new-number-holder">01.</div>
                <hr class="new-hr-line">
                <h3>Enquiry Received</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, corrupti!</p>
+               <p>Submit your part specifications, material requirements, and production volumes. </p>
             </div>
 
             <div class="new-holder-card">
                <div class="new-number-holder">02.</div>
                <hr class="new-hr-line">
                <h3>Quote in ≤ 48 Hrs</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, corrupti!</p>
+               <p>Detailed quotation shared including tooling costs, unit pricing, material specifications, and production timelines.</p>
             </div>
 
             <div class="new-holder-card">
                <div class="new-number-holder">03.</div>
                <hr class="new-hr-line">
                <h3>Client Approval</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, corrupti!</p>
+               <p>Review technical specifications, pricing, and delivery schedules. Upon approval, we finalize the mold design.</p>
             </div>
 
             <div class="new-holder-card">
                <div class="new-number-holder">04.</div>
                <hr class="new-hr-line">
                <h3>Production Starts</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, corrupti!</p>
+               <p>Mold fabrication completed and validated through first article inspection. Production begins with continuous quality.</p>
             </div>
 
             <div class="new-holder-card">
                <div class="new-number-holder">05.</div>
                <hr class="new-hr-line">
                <h3>Delivery as Committed</h3>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, corrupti!</p>
+               <p>Parts delivered per the agreed schedule with full documentation, including every documentation.</p>
             </div>
          </div>
       </div>
-   </section> -->
+   </section>
 
 
    <!-- <section class="imac-services-section">
@@ -824,6 +823,60 @@
 </section> -->
 
 
+
+
+
+   <!-- Benefits Section -->
+   <section class="benefits-section">
+      <div class="benefits-background">
+         <div class="benefits-container">
+            <h2 class="benefits-title">Benefits of On-Demand Manufacturing Services<br class="m-hidden"></h2>
+            <div class="benefits-grid">
+               <div class="benefit-card benefit-card-1">
+                  <div class="benefit-icon benefit-icon-1"></div>
+                  <p class="benefit-text">With our on-demand manufacturing, eliminate costly tooling and inventory.
+                     We produce only what you need, reducing waste and overhead - ideal for prototypes and low-volume
+                     metal/plastic parts.</p>
+               </div>
+               <div class="benefit-card benefit-card-2">
+                  <div class="benefit-icon benefit-icon-2"></div>
+                  <p class="benefit-text">Our CNC machining (±0.005mm) and industrial 3D printing (SLS, DMLS) deliver
+                     functional
+                     prototypes or end-use parts in days, accelerating your product development cycle.</p>
+               </div>
+            </div>
+            <div class="benefits-grid-2">
+               <div class="benefit-card benefit-card-3">
+                  <div class="benefit-icon benefit-icon-3"></div>
+                  <p class="benefit-text">We enable complex geometries, that is, lattice structures, organic shapes,
+                     using additive
+                     manufacturing (MJF, SLA) without costly molds. Your most innovative designs, realized without any
+                     compromise.</p>
+               </div>
+               <div class="benefit-card benefit-card-4">
+                  <div class="benefit-icon benefit-icon-4"></div>
+                  <p class="benefit-text"> From a single prototype to multiple units, our services scale smoothly. Rapid
+                     tooling and
+                     distributed manufacturing ensure consistent quality at any volume.</p>
+               </div>
+            </div>
+            <div class="benefits-grid-2">
+               <div class="benefit-card benefit-card-5">
+                  <div class="benefit-icon benefit-icon-5"></div>
+                  <p class="benefit-text">Every part undergoes strict and strong inspection (CMM, CT scanning) in our
+                     ISO-certified facilities.
+                     You can expect aerospace-standard tolerances and repeatability in every order.</p>
+               </div>
+               <div class="benefit-card benefit-card-4">
+                  <div class="benefit-icon benefit-icon-4"></div>
+                  <p class="benefit-text">Our distributed manufacturing network reduces lead times and shipping costs
+                     while maintaining
+                     quality, serving your regional or international needs excellently.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
 
    <!-- FAQ Section -->
    <section class="faq-section bg-grey-new">
@@ -927,60 +980,6 @@
          </div>
       </div>
    </section>
-
-   <!-- Benefits Section -->
-   <section class="benefits-section">
-      <div class="benefits-background">
-         <div class="benefits-container">
-            <h2 class="benefits-title">Benefits of On-Demand Manufacturing Services<br class="m-hidden"></h2>
-            <div class="benefits-grid">
-               <div class="benefit-card benefit-card-1">
-                  <div class="benefit-icon benefit-icon-1"></div>
-                  <p class="benefit-text">With our on-demand manufacturing, eliminate costly tooling and inventory.
-                     We produce only what you need, reducing waste and overhead - ideal for prototypes and low-volume
-                     metal/plastic parts.</p>
-               </div>
-               <div class="benefit-card benefit-card-2">
-                  <div class="benefit-icon benefit-icon-2"></div>
-                  <p class="benefit-text">Our CNC machining (±0.005mm) and industrial 3D printing (SLS, DMLS) deliver
-                     functional
-                     prototypes or end-use parts in days, accelerating your product development cycle.</p>
-               </div>
-            </div>
-            <div class="benefits-grid-2">
-               <div class="benefit-card benefit-card-3">
-                  <div class="benefit-icon benefit-icon-3"></div>
-                  <p class="benefit-text">We enable complex geometries, that is, lattice structures, organic shapes,
-                     using additive
-                     manufacturing (MJF, SLA) without costly molds. Your most innovative designs, realized without any
-                     compromise.</p>
-               </div>
-               <div class="benefit-card benefit-card-4">
-                  <div class="benefit-icon benefit-icon-4"></div>
-                  <p class="benefit-text"> From a single prototype to multiple units, our services scale smoothly. Rapid
-                     tooling and
-                     distributed manufacturing ensure consistent quality at any volume.</p>
-               </div>
-            </div>
-            <div class="benefits-grid-2">
-               <div class="benefit-card benefit-card-5">
-                  <div class="benefit-icon benefit-icon-5"></div>
-                  <p class="benefit-text">Every part undergoes strict and strong inspection (CMM, CT scanning) in our
-                     ISO-certified facilities.
-                     You can expect aerospace-standard tolerances and repeatability in every order.</p>
-               </div>
-               <div class="benefit-card benefit-card-4">
-                  <div class="benefit-icon benefit-icon-4"></div>
-                  <p class="benefit-text">Our distributed manufacturing network reduces lead times and shipping costs
-                     while maintaining
-                     quality, serving your regional or international needs excellently.</p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-
-
 
 
 

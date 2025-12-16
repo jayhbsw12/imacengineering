@@ -314,12 +314,11 @@
    </section>
 
    <!-- New Section Hide -->
-   <!-- <section class="sections-new-imac">
+   <section class="sections-new-imac">
       <div class="section-container">
          <div class="new-section-holder">
             <h2 class="imac-services-title">Injection Molding Materials List</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eveniet sequi explicabo nihil quis
-               reiciendis.</p>
+            <p>We offer a wide range of thermoplastics for injection moulding, selected to meet your product’s mechanical, thermal, and regulatory requirements. From high-impact housings to precision engineering components, our material expertise ensures consistent quality, durability, and performance across industries.</p>
             <div class="cta-button-banner">
                <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Let’s Discuss</span>
                <img src="https://static.codia.ai/custom_image/2025-07-05/131851/arrow-icon.svg" alt="Arrow"
@@ -345,7 +344,7 @@
 
 
       </div>
-   </section> -->
+   </section>
 
 
    <!-- Benefits Section -->

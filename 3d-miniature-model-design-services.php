@@ -217,6 +217,7 @@
          <div class="right-section">
             <p>3D miniature design creates precise, small versions of your product, machine, or device. </p>
             <p> Perfect for manufacturers, engineers, R&D teams, and product developers who need tangible, high-detail miniatures for demonstrating complex machinery, showcasing product designs, training teams, or presenting new innovations to clients and investors.</p>
+            <p> We scale down assemblies while maintaining accurate proportions, moving parts, and critical details. Our 3D miniatures replicate the functionality and aesthetics of full-scale products, making them invaluable for sales presentations, trade shows, and technical documentation, where physical demonstration outperforms 3D renderings.</p>
 
             <ul class="right-section-ul">
                <li> <i class="fa-solid fa-circle-check" style=""></i>Custom scales</li>

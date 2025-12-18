@@ -183,13 +183,19 @@
 </style>
 
 <style>
+   .sections-new-imac .imac-services-title {
+      margin-bottom: 0px;
+      text-align: left;
+   }
+
    .sections-new-imac {
       display: flex;
+      align-items: center;
       justify-content: center;
       width: 100%;
       height: auto;
-      padding: 80px 80px;
-      background: #ffffff;
+      padding: 80px 80px 80px 80px;
+      background: #f3f3f3;
    }
 
    .sections-new-imac h2 {
@@ -197,43 +203,11 @@
    }
 
    .new-section-holder {
-      width: 100%;
-      height: auto;
       display: flex;
-      justify-content: center;
-      align-items: center;
       flex-direction: column;
-      gap: 20px;
-   }
-
-   .new-title-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-   }
-
-   .new-section-service-wrapper {
-      padding: 40px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #f3f3f3;
-      max-width: 1300px;
-      width: 100%;
       gap: 40px;
-      border-radius: 16px;
-      border: 1px solid #eaeaea;
-   }
-
-   .sections-new-imac .imac-services-title {
-      margin-bottom: 0px;
-      text-align: center;
-   }
-
-   .imac-services-description {
-      text-align: center;
-      max-width: 800px;
+      width: 100%;
+      max-width: 1440px;
    }
 
    .printing-title {
@@ -241,15 +215,64 @@
       font-weight: 600;
    }
 
-   .new-service-holder img {
-      height: 64px;
-      width: 64px;
+   .new-header-holder {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-direction: column;
    }
 
-   .new-service-holder {
+   .new-header-holder p {
+      max-width: 500px;
+   }
+
+   .new-holder-cards-wrapper {
+      display: flex;
+      width: 100%;
+      gap: 40px;
+   }
+
+   .new-holder-card {
+      width: 100%;
+      height: auto;
       display: flex;
       flex-direction: column;
       gap: 10px;
+      /* background-color: grey; */
+      min-height: 500px;
+   }
+
+   .new-number-holder {
+      font-size: 24px;
+      font-weight: 600;
+   }
+
+   .faq-section {
+      padding: 80px 80px 0px 80px !important;
+   }
+
+   .benefits-background {
+      padding: 40px 0px 32px 0px !important;
+   }
+
+   .benefits-container {
+      padding: 0px !important;
+   }
+
+   .rapid-card-1 {
+      background-image: url('assets/Tooling And Manufacturing Services/BIOTECH - FOOTPADEL.webp');
+   }
+
+   .rapid-card-2 {
+      background-image: url('assets/Tooling And Manufacturing Services/CENTRIFUGE MACHINE.webp');
+   }
+
+   .rapid-card-3 {
+      background-image: url('assets/Tooling And Manufacturing Services/MECHA COMET.webp');
+   }
+
+   .rapid-card-4 {
+      background-image: url('assets/Tooling And Manufacturing Services/PORTABLE CARAVAN FAN.webp');
    }
 </style>
 
@@ -684,8 +707,33 @@
       </div>
    </section>
 
-   <section>
-      
+   <section class="sections-new-imac">
+      <div class="new-section-holder">
+
+         <div class="new-header-holder">
+            <h2 class="imac-services-title">Use Cases for Rapid Tooling</h2>
+            <p>We provide injection molding solutions that deliver consistent parts at the quantities you need and when
+               you need them, including high production molds.</p>
+         </div>
+
+         <div class="new-holder-cards-wrapper">
+            <div class="new-holder-card rapid-card-1">
+            </div>
+
+            <div class="new-holder-card rapid-card-2">
+            </div>
+         </div>
+
+         <div class="new-holder-cards-wrapper">
+            <div class="new-holder-card rapid-card-3">
+            </div>
+
+            <div class="new-holder-card rapid-card-4">
+
+            </div>
+
+         </div>
+      </div>
    </section>
 
    <!-- Benefits Section -->

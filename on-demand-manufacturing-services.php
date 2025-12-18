@@ -68,15 +68,18 @@
 </script>
 <style>
    .bg-grey-new {
-    background-color: #f3f3f3 !important;
-    background-image: none !important;
+      background-color: #f3f3f3 !important;
+      background-image: none !important;
    }
+
    .faq-section {
       padding-top: 60px !important;
    }
+
    .faq-question {
       background-color: #ffffff !important;
    }
+
    .faq-item.active {
       background-color: #ffffff !important;
    }
@@ -256,15 +259,17 @@
       font-weight: 600;
    }
 
-   .faq-section{
+   .faq-section {
       padding: 80px 80px 0px 80px !important;
    }
-.benefits-background {
-    padding: 40px 0px 32px 0px !important;
-}
-.benefits-container{
-   padding: 0px !important;
-}
+
+   .benefits-background {
+      padding: 40px 0px 32px 0px !important;
+   }
+
+   .benefits-container {
+      padding: 0px !important;
+   }
 </style>
 <script>
    // Reveal as soon as DOM is ready
@@ -685,13 +690,14 @@
          </div>
       </section>
    </main>
-
+   <!-- New section -->
    <section class="sections-new-imac">
       <div class="new-section-holder">
 
          <div class="new-header-holder">
             <h2 class="imac-services-title">How We Protect <br>Client Innovations</h2>
-            <p>We provide injection molding solutions that deliver consistent parts at the quantities you need and when you need them, including high production molds.</p>
+            <p>We provide injection molding solutions that deliver consistent parts at the quantities you need and when
+               you need them, including high production molds.</p>
          </div>
 
          <div class="new-holder-cards-wrapper">
@@ -706,21 +712,24 @@
                <div class="new-number-holder">02.</div>
                <hr class="new-hr-line">
                <h3>Quote in ≤ 48 Hrs</h3>
-               <p>Detailed quotation shared including tooling costs, unit pricing, material specifications, and production timelines.</p>
+               <p>Detailed quotation shared including tooling costs, unit pricing, material specifications, and
+                  production timelines.</p>
             </div>
 
             <div class="new-holder-card">
                <div class="new-number-holder">03.</div>
                <hr class="new-hr-line">
                <h3>Client Approval</h3>
-               <p>Review technical specifications, pricing, and delivery schedules. Upon approval, we finalize the mold design.</p>
+               <p>Review technical specifications, pricing, and delivery schedules. Upon approval, we finalize the mold
+                  design.</p>
             </div>
 
             <div class="new-holder-card">
                <div class="new-number-holder">04.</div>
                <hr class="new-hr-line">
                <h3>Production Starts</h3>
-               <p>Mold fabrication completed and validated through first article inspection. Production begins with continuous quality.</p>
+               <p>Mold fabrication completed and validated through first article inspection. Production begins with
+                  continuous quality.</p>
             </div>
 
             <div class="new-holder-card">

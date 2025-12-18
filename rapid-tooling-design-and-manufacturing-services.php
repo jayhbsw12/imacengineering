@@ -217,9 +217,9 @@
 
    .new-header-holder {
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       align-items: flex-start;
-      flex-direction: column;
+      /* flex-direction: column; */
    }
 
    .new-header-holder p {
@@ -240,6 +240,8 @@
       gap: 10px;
       /* background-color: grey; */
       min-height: 500px;
+      align-items: flex-end;
+      justify-content: flex-end;
    }
 
    .new-number-holder {
@@ -273,6 +275,13 @@
 
    .rapid-card-4 {
       background-image: url('assets/Tooling And Manufacturing Services/PORTABLE CARAVAN FAN.webp');
+   }
+
+   .holder-last-text {
+      font-size: 24px;
+      color: #ffffff;
+      padding: 30px;
+      font-weight: 600;
    }
 </style>
 
@@ -712,24 +721,33 @@
 
          <div class="new-header-holder">
             <h2 class="imac-services-title">Use Cases for Rapid Tooling</h2>
-            <p>We provide injection molding solutions that deliver consistent parts at the quantities you need and when
-               you need them, including high production molds.</p>
          </div>
 
          <div class="new-holder-cards-wrapper">
             <div class="new-holder-card rapid-card-1">
+               <span class="holder-last-text">
+                  Biotech Footpedal
+               </span>
             </div>
 
             <div class="new-holder-card rapid-card-2">
+               <span class="holder-last-text">
+                  Centrifuge Machine
+               </span>
             </div>
          </div>
 
          <div class="new-holder-cards-wrapper">
             <div class="new-holder-card rapid-card-3">
+               <span class="holder-last-text">
+                  Mecha Comet
+               </span>
             </div>
 
             <div class="new-holder-card rapid-card-4">
-
+               <span class="holder-last-text">
+                  Portable Caravan Fan
+               </span>
             </div>
 
          </div>

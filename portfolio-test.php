@@ -224,7 +224,7 @@
 
             <!-- Image -->
             <div class="lightbox-image-container">
-                <img id="lightbox-image" src="" alt="" class="lightbox-image">
+                <img id="lightbox-image" src="" alt="portfolio" class="lightbox-image">
             </div>
 
             <!-- Caption -->

@@ -1974,7 +1974,7 @@
       </button>
       <!-- Image -->
       <div class="lightbox-image-container">
-         <img id="lightbox-image" src="" alt="" class="lightbox-image" decoding="async" width="1600" height="1067">
+         <img id="lightbox-image" src="" alt="image" class="lightbox-image" decoding="async" width="1600" height="1067">
 
       </div>
       <!-- Caption -->
@@ -2645,7 +2645,7 @@
                      <!-- Hidden template for dynamic blogs -->
                      <div class="dm-insight-card" id="carousel-blog-template" style="display: none;">
                         <div class="dm-card-img-wrap">
-                           <img src="" alt="">
+                           <img src="" alt="blog">
                         </div>
                         <div class="dm-card-body">
                            <span class="dm-card-tag dm-blog-tag">BLOG</span>

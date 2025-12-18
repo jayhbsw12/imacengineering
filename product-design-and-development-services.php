@@ -246,12 +246,34 @@
       padding: 40px;
       background: #ff4612;
       color: white;
+      justify-content: space-between;
+      gap: 20px;
    }
 
    .new-icon-wrapper-card {
       display: flex;
       justify-content: flex-end;
    }
+
+   .new-section-card h3 {
+      font-size: 24px;
+      font-weight: 600;
+   }
+
+   .big-card-number {
+      font-size: 28px;
+      background: #e13100;
+      padding: 10px 15px;
+      width: fit-content;
+      font-weight: 500;
+   }
+   .card-upper-holder {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 </style>
 <script>
    // Reveal as soon as DOM is ready
@@ -574,43 +596,61 @@
          </div>
          <div class="new-section-cards-holder">
             <div class="new-section-card">
-               <h3>Ideation</h3>
-               <p>We assess your idea against manufacturing realities, material options, and cost implications. </p>
+               <div class="card-upper-holder">
+                  <span class="big-card-number">01.</span>
+                  <h3>Ideation</h3>
+                  <p>We assess your idea against manufacturing realities, material options, and cost implications. </p>
+               </div>
                <div class="new-icon-wrapper-card">
-                  <img src="./assets/Product-Design-and-Development/idea.webp" alt="">
+                  <img src="./assets/Product-Design-and-Development/idea.webp" alt="Ideation">
                </div>
 
             </div>
             <div class="new-section-card">
-               <h3>Design</h3>
-               <p>Engineering with manufacturing in mind. </p>
+               <div class="card-upper-holder">
+                  <span class="big-card-number">02.</span>
+                  <h3>Design</h3>
+                  <p>Engineering with manufacturing in mind. </p>
+               </div>
                <div class="new-icon-wrapper-card">
-                  <img src="./assets/Product-Design-and-Development/idea.webp" alt="">
+                  <img src="./assets/Product-Design-and-Development/vector.webp" alt="Design">
                </div>
             </div>
 
             <div class="new-section-card">
-               <h3>Prototyping</h3>
-               <p>Physical validation before production investment. </p>
+               <div class="card-upper-holder">
+                  <span class="big-card-number">03.</span>
+                  <h3>Prototyping</h3>
+                  <p>Physical validation before production investment. </p>
+               </div>
                <div class="new-icon-wrapper-card">
-                  <img src="./assets/Product-Design-and-Development/idea.webp" alt="">
+                  <img src="./assets/Product-Design-and-Development/3d-modeling.webp" alt="Prototyping">
                </div>
             </div>
 
             <div class="new-section-card">
-               <h3>Testing</h3>
-               <p>Performance verification under real conditions. </p>
+               <div class="card-upper-holder">
+                  <span class="big-card-number">04.</span>
+                  <h3>Testing</h3>
+                  <p>Performance verification under real conditions. </p>
+               </div>
                <div class="new-icon-wrapper-card">
-                  <img src="./assets/Product-Design-and-Development/idea.webp" alt="">
+                  <img src="./assets/Product-Design-and-Development/exam.webp" alt="Testing">
                </div>
             </div>
 
             <div class="new-section-card">
-               <h3>Manufacturing</h3>
-               <p>Volume manufacturing with process controls that maintain part quality across the production cycle.
-               </p>
+               <div class="card-upper-holder">
+                  <span class="big-card-number">05.</span>
+                  <div>
+                     <h3>Manufacturing</h3>
+                     <p>Volume manufacturing with process controls that maintain part quality across the production
+                        cycle.
+                     </p>
+                  </div>
+               </div>
                <div class="new-icon-wrapper-card">
-                  <img src="./assets/Product-Design-and-Development/idea.webp" alt="">
+                  <img src="./assets/Product-Design-and-Development/automation.webp" alt="Manufacturing">
                </div>
             </div>
 

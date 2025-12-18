@@ -77,7 +77,7 @@
         <div class="blog-listing">
           <article class="article-card" id="blog-template" style="display: none;">
             <div class="article-image">
-              <img src="" alt="" />
+              <img src="" alt="article grid" />
             </div>
             <time class="article-date">
               <span class="article-day">00</span>

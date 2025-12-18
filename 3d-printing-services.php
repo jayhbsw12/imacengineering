@@ -316,7 +316,7 @@
             </div> -->
             <article class="service-card-drafting main-service">
                <div class="service-icon service-icon-1"><img
-                     src="./assets/Additive Manufacturing/Alpha Beta Validation AM Model.svg" alt=""></div>
+                     src="./assets/Additive Manufacturing/Alpha Beta Validation AM Model.svg" alt="AM Model"></div>
                <h3 class="service-title-drafting">Alpha/Beta Validation AM Model (FDM/SLA)</h3>
                <div class="service-divider"></div>
                <p class="service-description">We build alpha and beta prototypes using advanced FDM and SLA
@@ -327,7 +327,7 @@
             </article>
             <article class="service-card-drafting">
                <div class="service-icon service-icon-2"><img
-                     src="./assets/Additive Manufacturing/Miniature Exhibition Model.svg" alt=""></div>
+                     src="./assets/Additive Manufacturing/Miniature Exhibition Model.svg" alt="exhibition model"></div>
                <h3 class="service-title-drafting">Miniature Exhibition Model</h3>
                <div class="service-divider"></div>
                <p class="service-description">We design compact, high-detail miniature models for exhibitions using the
@@ -339,7 +339,7 @@
             </article>
             <article class="service-card-drafting">
                <div class="service-icon service-icon-3"><img
-                     src="./assets/Additive Manufacturing/Scaled Working Model.svg" alt=""></div>
+                     src="./assets/Additive Manufacturing/Scaled Working Model.svg" alt="working model"></div>
                <h3 class="service-title-drafting">Scaled Working Model</h3>
                <div class="service-divider"></div>
                <p class="service-description">We deliver fully functional scaled models built through advanced additive

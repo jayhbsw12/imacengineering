@@ -519,56 +519,57 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                   <div class="mega-menu-right">
                      <ul class="menu-list">
                         <li><a href="https://imacengineering.com/mechanical-cad-drafting-outsourcing-services"><img
-                                 src="assets/icons/mega-menu/cad-outsourcing-services.svg?v=<?= ASSET_VERSION ?>" alt=""
+                                 src="assets/icons/mega-menu/cad-outsourcing-services.svg?v=<?= ASSET_VERSION ?>" alt="CAD Outsourcing"
                                  loading="lazy" decoding="async"> <span>CAD Outsourcing
                                  Services</span></a></li>
                         <li><a href="https://imacengineering.com/innovation-and-intellectual-property-services"><img
-                                 src="assets/icons/mega-menu/Innovation-&-IP-Strategy.svg?v=<?= ASSET_VERSION ?>" alt=""
+                                 src="assets/icons/mega-menu/Innovation-&-IP-Strategy.svg?v=<?= ASSET_VERSION ?>" alt="Innovation & IP"
                                  loading="lazy" decoding="async"> <span>Innovation & IP
                                  Strategy</span></a></li>
                         <li><a href="https://imacengineering.com/product-design-and-development-services"><img
                                  src="assets/icons/mega-menu/product-design-development.svg?v=<?= ASSET_VERSION ?>"
-                                 alt="" loading="lazy" decoding="async"> <span>Product
+                                 alt="Design and Development" loading="lazy" decoding="async"> <span>Product
                                  Design and Development</span></a></li>
                         <li><a href="https://imacengineering.com/medical-device-design-and-development-services"><img
                                  src="assets/icons/mega-menu/Medical-Product-Design-&-Development.svg?v=<?= ASSET_VERSION ?>"
-                                 alt="" loading="lazy" decoding="async">
+                                 alt="Medical Product" loading="lazy" decoding="async">
                               <span>Medical Product Design</span></a></li>
                         <li><a href="https://imacengineering.com/3d-reverse-engineering-services"><img
                                  src="assets/icons/mega-menu/Reverse-Engineering-Services.svg?v=<?= ASSET_VERSION ?>"
-                                 alt="" loading="lazy" decoding="async"> <span>Reverse
+                                 alt="Reverse Engineering" loading="lazy" decoding="async"> <span>Reverse
                                  Engineering Services</span></a></li>
                         <li><a href="https://imacengineering.com/on-demand-manufacturing-services"><img
                                  src="assets/icons/mega-menu/MVP-Prototyping-&-Manufacturing-as-Services.svg?v=<?= ASSET_VERSION ?>"
-                                 alt="" loading="lazy" decoding="async">
+                                 alt="On Demand Manufacturing" loading="lazy" decoding="async">
                               <span>On Demand Manufacturing</span></a></li>
                         <li><a href="https://imacengineering.com/sheet-metal-design-and-development-services"><img
                                  src="assets/icons/mega-menu/Sheet-Metal-Design-Services.svg?v=<?= ASSET_VERSION ?>"
-                                 alt="" loading="lazy" decoding="async"> <span>Sheet Metal
+                                 alt="Sheet Metal" loading="lazy" decoding="async"> <span>Sheet Metal
                                  Design</span></a></li>
                         <li><a href="https://imacengineering.com/rapid-tooling-design-and-manufacturing-services"><img
                                  src="assets/icons/mega-menu/Tooling-Design-and-Manufacturing-Services.svg?v=<?= ASSET_VERSION ?>"
-                                 alt="" loading="lazy" decoding="async">
+                                 alt="Tooling Design" loading="lazy" decoding="async">
                               <span>Tooling Design <br>and Manufacturing</span></a></li>
                         <li><a href="https://imacengineering.com/3d-printing-services"><img
-                                 src="assets/icons/mega-menu/Additive-Manufacturing.svg?v=<?= ASSET_VERSION ?>" alt=""
+                                 src="assets/icons/mega-menu/Additive-Manufacturing.svg?v=<?= ASSET_VERSION ?>" alt="Additive Manufacturing"
                                  loading="lazy" decoding="async"> <span>Additive
                                  Manufacturing/<br>3D Printing</span></a></li>
                         <li><a href="https://imacengineering.com/3d-miniature-model-design-services"><img
                                  src="assets/icons/mega-menu/3D-Printed-Miniature-Exhibition-Model.svg?v=<?= ASSET_VERSION ?>"
-                                 alt="" loading="lazy" decoding="async"> <span>3D
+                                 alt="Miniature Design" loading="lazy" decoding="async"> <span>3D
                                  Miniature Design</span></a></li>
                         <li><a href="https://imacengineering.com/contract-manufacturing-services"><img
-                                 src="assets/icons/mega-menu/contract-menufacturing.svg?v=<?= ASSET_VERSION ?>" alt=""
+                                 src="assets/icons/mega-menu/contract-menufacturing.svg?v=<?= ASSET_VERSION ?>" alt="Contract
+                                 Manufacturing"
                                  loading="lazy" decoding="async"> <span>Contract
                                  Manufacturing</span></a></li>
                         <li><a href="https://imacengineering.com/assembly-integration-services"><img
-                                 src="assets/icons/mega-menu/Integration-Services.svg?v=<?= ASSET_VERSION ?>" alt=""
+                                 src="assets/icons/mega-menu/Integration-Services.svg?v=<?= ASSET_VERSION ?>" alt="Integration Services"
                                  loading="lazy" decoding="async"> <span>Integration
                                  Services</span></a></li>
                         <li><a href="https://imacengineering.com/plastic-injection-molding-services"><img
                                  src="assets/icons/mega-menu/plastic injection moulding.svg?v=<?= ASSET_VERSION ?>"
-                                 alt="" loading="lazy" decoding="async"> <span>Plastic
+                                 alt="Injection Molding" loading="lazy" decoding="async"> <span>Plastic
                                  Injection Molding</span></a></li>
                         <li><a href="https://imacengineering.com/kiosk-design-and-development-services"><img
                                  src="assets/icons/mega-menu/Kiosk-design-&-development-service icon.svg?v=<?= ASSET_VERSION ?>"
@@ -610,7 +611,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
             </button>
             <div class="logo-group">
                <div class="logo-icons">
-                  <a href="https://imacengineering.com/"> <img src="assets/image/logo.svg?v=<?= ASSET_VERSION ?>" alt=""
+                  <a href="https://imacengineering.com/"> <img src="assets/image/logo.svg?v=<?= ASSET_VERSION ?>" alt="imac-logo"
                         class="small-icon" loading="lazy" decoding="async"></a>
                </div>
             </div>
@@ -622,7 +623,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                <li class="nav-item"><a href="https://imacengineering.com/about-us" class="nav-link">About us</a></li>
                <li class="nav-item has-mega-menu dropdown">
                   <a href="#" class="nav-link">Services</a>
-                  <img src="./assets/image/dropdown-icon-1.svg?v=<?= ASSET_VERSION ?>" alt="" class="dropdown-icon"
+                  <img src="./assets/image/dropdown-icon-1.svg?v=<?= ASSET_VERSION ?>" alt="services" class="dropdown-icon"
                      loading="lazy" decoding="async">
                   <div class="mega-menu">
                      <div class="mega-menu-left">
@@ -639,21 +640,21 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                            <li>
                               <a href="https://imacengineering.com/mechanical-cad-drafting-outsourcing-services">
                                  <img src="assets/icons/mega-menu/cad-outsourcing-services.svg?v=<?= ASSET_VERSION ?>"
-                                    alt="" loading="lazy" decoding="async"> <span> CAD
+                                    alt="cad" loading="lazy" decoding="async"> <span> CAD
                                     Outsourcing Services </span>
                               </a>
                            </li>
                            <li>
                               <a href="https://imacengineering.com/innovation-and-intellectual-property-services">
                                  <img src="assets/icons/mega-menu/Innovation-&-IP-Strategy.svg?v=<?= ASSET_VERSION ?>"
-                                    alt="" loading="lazy" decoding="async"> <span>
+                                    alt="ip-strategy" loading="lazy" decoding="async"> <span>
                                     Innovation & IP Strategy </span>
                               </a>
                            </li>
                            <li>
                               <a href="https://imacengineering.com/product-design-and-development-services">
                                  <img src="assets/icons/mega-menu/product-design-development.svg?v=<?= ASSET_VERSION ?>"
-                                    alt="" loading="lazy" decoding="async"><span> Product
+                                    alt="product design" loading="lazy" decoding="async"><span> Product
                                     Design and Development </span>
                               </a>
                            </li>
@@ -661,7 +662,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                               <a href="https://imacengineering.com/medical-device-design-and-development-services">
                                  <img
                                     src="assets/icons/mega-menu/Medical-Product-Design-&-Development.svg?v=<?= ASSET_VERSION ?>"
-                                    alt="" loading="lazy" decoding="async">
+                                    alt="medical product" loading="lazy" decoding="async">
                                  <span> Medical Product Design </span>
                               </a>
                            </li>
@@ -669,7 +670,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                               <a href="https://imacengineering.com/3d-reverse-engineering-services">
                                  <img
                                     src="assets/icons/mega-menu/Reverse-Engineering-Services.svg?v=<?= ASSET_VERSION ?>"
-                                    alt="" loading="lazy" decoding="async"> <span>
+                                    alt="reverse engineering" loading="lazy" decoding="async"> <span>
                                     Reverse Engineering Services </span>
                               </a>
                            </li>
@@ -677,14 +678,14 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                               <a href="https://imacengineering.com/on-demand-manufacturing-services">
                                  <img
                                     src="assets/icons/mega-menu/MVP-Prototyping-&-Manufacturing-as-Services.svg?v=<?= ASSET_VERSION ?>"
-                                    alt="" loading="lazy" decoding="async"> <span> On Demand Manufacturing </span>
+                                    alt="on demand manufacturing" loading="lazy" decoding="async"> <span> On Demand Manufacturing </span>
                               </a>
                            </li>
                            <li>
                               <a href="https://imacengineering.com/sheet-metal-design-and-development-services">
                                  <img
                                     src="assets/icons/mega-menu/Sheet-Metal-Design-Services.svg?v=<?= ASSET_VERSION ?>"
-                                    alt="" loading="lazy" decoding="async"> <span> Sheet
+                                    alt="sheet metal design" loading="lazy" decoding="async"> <span> Sheet
                                     Metal Design </span>
                               </a>
                            </li>
@@ -692,14 +693,14 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                               <a href="https://imacengineering.com/rapid-tooling-design-and-manufacturing-services">
                                  <img
                                     src="assets/icons/mega-menu/Tooling-Design-and-Manufacturing-Services.svg?v=<?= ASSET_VERSION ?>"
-                                    alt="" loading="lazy" decoding="async">
+                                    alt="tooling design" loading="lazy" decoding="async">
                                  <span> Tooling Design <br> and Manufacturing </span>
                               </a>
                            </li>
                            <li>
                               <a href="https://imacengineering.com/3d-printing-services">
                                  <img src="assets/icons/mega-menu/Additive-Manufacturing.svg?v=<?= ASSET_VERSION ?>"
-                                    alt="" loading="lazy" decoding="async"> <span> Additive
+                                    alt="3D Printing" loading="lazy" decoding="async"> <span> Additive
                                     Manufacturing/<br>3D Printing </span>
                               </a>
                            </li>
@@ -707,14 +708,14 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                               <a href="https://imacengineering.com/3d-miniature-model-design-services">
                                  <img
                                     src="assets/icons/mega-menu/3D-Printed-Miniature-Exhibition-Model.svg?v=<?= ASSET_VERSION ?>"
-                                    alt="" loading="lazy" decoding="async">
+                                    alt="3D Miniature Design" loading="lazy" decoding="async">
                                  <span> 3D Miniature Design </span>
                               </a>
                            </li>
                            <li>
                               <a href="https://imacengineering.com/contract-manufacturing-services">
                                  <img src="assets/icons/mega-menu/contract-menufacturing.svg?v=<?= ASSET_VERSION ?>"
-                                    alt="" loading="lazy" decoding="async"> <span> Contract
+                                    alt="Contract Manufacturing" loading="lazy" decoding="async"> <span> Contract
                                     Manufacturing </span>
                               </a>
                            </li>
@@ -722,14 +723,14 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                            <li>
                               <a href="https://imacengineering.com/assembly-integration-services">
                                  <img src="assets/icons/mega-menu/Integration-Services.svg?v=<?= ASSET_VERSION ?>"
-                                    alt="" loading="lazy" decoding="async"> <span> Integration
+                                    alt="Integration Services" loading="lazy" decoding="async"> <span> Integration
                                     Services </span>
                               </a>
                            </li>
                            <li>
                               <a href="https://imacengineering.com/plastic-injection-molding-services">
                                  <img src="assets/icons/mega-menu/plastic injection moulding.svg?v=<?= ASSET_VERSION ?>"
-                                    alt="" loading="lazy" decoding="async"> <span> Plastic
+                                    alt="Injection Molding" loading="lazy" decoding="async"> <span> Plastic
                                     Injection Molding </span>
                               </a>
                            </li>
@@ -737,7 +738,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                               <a href="https://imacengineering.com/kiosk-design-and-development-services">
                                  <img
                                     src="assets/icons/mega-menu/Kiosk-design-&-development-service icon.svg?v=<?= ASSET_VERSION ?>"
-                                    alt="" loading="lazy" decoding="async">
+                                    alt="Kiosk Design" loading="lazy" decoding="async">
                                  <span> Kiosk Design &<br> Development </span>
                               </a>
                            </li>
@@ -750,7 +751,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                </li>
                <li class="nav-item has-mega-menu dropdown">
                   <a href="#" class="nav-link">Resources</a>
-                  <img src="./assets/image/dropdown-icon-1.svg?v=<?= ASSET_VERSION ?>" alt="" class="dropdown-icon"
+                  <img src="./assets/image/dropdown-icon-1.svg?v=<?= ASSET_VERSION ?>" alt="resources" class="dropdown-icon"
                      loading="lazy" decoding="async">
                   <div class="mega-menu small-megamenu">
                      <div class="mega-menu-right small">
@@ -770,7 +771,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
          <div class="cta-section">
             <div class="appointment-btn">
                <a href="#" class="appointment-link open-appointment-modal">Schedule a Consultation </a>
-               <img src="https://static.codia.ai/custom_image/2025-07-05/073118/dropdown-arrow.svg" alt=""
+               <img src="https://static.codia.ai/custom_image/2025-07-05/073118/dropdown-arrow.svg" alt="Schedule a Consultation"
                   class="appointment-arrow" loading="lazy" decoding="async">
             </div>
          </div>

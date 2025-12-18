@@ -577,7 +577,7 @@
                <h3>Ideation</h3>
                <p>We assess your idea against manufacturing realities, material options, and cost implications. </p>
                <div class="new-icon-wrapper-card">
-                  <img src=".assets/Product-Design-and-Development/idea.webp" alt="">
+                  <img src="./assets/Product-Design-and-Development/idea.webp" alt="">
                </div>
 
             </div>
@@ -585,7 +585,7 @@
                <h3>Design</h3>
                <p>Engineering with manufacturing in mind. </p>
                <div class="new-icon-wrapper-card">
-                  <img src=".assets/Product-Design-and-Development/idea.webp" alt="">
+                  <img src="./assets/Product-Design-and-Development/idea.webp" alt="">
                </div>
             </div>
 
@@ -593,7 +593,7 @@
                <h3>Prototyping</h3>
                <p>Physical validation before production investment. </p>
                <div class="new-icon-wrapper-card">
-                  <img src=".assets/Product-Design-and-Development/idea.webp" alt="">
+                  <img src="./assets/Product-Design-and-Development/idea.webp" alt="">
                </div>
             </div>
 
@@ -601,7 +601,7 @@
                <h3>Testing</h3>
                <p>Performance verification under real conditions. </p>
                <div class="new-icon-wrapper-card">
-                  <img src=".assets/Product-Design-and-Development/idea.webp" alt="">
+                  <img src="./assets/Product-Design-and-Development/idea.webp" alt="">
                </div>
             </div>
 
@@ -610,7 +610,7 @@
                <p>Volume manufacturing with process controls that maintain part quality across the production cycle.
                </p>
                <div class="new-icon-wrapper-card">
-                  <img src=".assets/Product-Design-and-Development/idea.webp" alt="">
+                  <img src="./assets/Product-Design-and-Development/idea.webp" alt="">
                </div>
             </div>
 

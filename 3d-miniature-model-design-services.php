@@ -100,36 +100,118 @@
       padding: 0px 120px 32px 100px !important;
    }
 
-   .features-section{
+   .features-section {
       padding: 0px 40px 85px 40px !important;
    }
 </style>
 <style>
    .bg-grey-new {
-    background-color: #f3f3f3 !important;
-    background-image: none !important;
+      background-color: #f3f3f3 !important;
+      background-image: none !important;
    }
+
    .about-service-hero-section {
       padding-bottom: 80px !important;
    }
+
    .features-section {
       padding-top: 40px !important;
    }
-   .faq-section{
+
+   .faq-section {
       padding-top: 80px !important;
    }
- 
-.right-section-ul {
-    font-size: 22px;
-    color: #ff4612;
-}
-.right-section-ul li {
-    display: flex;
-    gap: 10px;
-    justify-content: left;
-    align-items: center;
-}
+
+   .right-section-ul {
+      font-size: 22px;
+      color: #ff4612;
+   }
+
+   .right-section-ul li {
+      display: flex;
+      gap: 10px;
+      justify-content: left;
+      align-items: center;
+   }
 </style>
+
+<style>
+   .sections-new-imac .imac-services-title {
+      margin-bottom: 0px;
+   }
+
+   .sections-new-imac {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: auto;
+      padding: 80px 80px;
+      background: #ffffff;
+   }
+
+   .section-new-holder {
+      width: 100%;
+      max-width: 1440px;
+      height: auto;
+      /* padding: 20px; */
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+   }
+
+   .center-title {
+      text-align: center;
+   }
+
+   .new-section-bottom-holder {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+   }
+
+   .new-holder {
+      width: 450px;
+      /* background: grey; */
+      height: 450px;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-start;
+      padding-bottom: 50px;
+   }
+
+   .inner-tab-title {
+      padding: 16px;
+      background-color: white;
+      font-size: 20px;
+   }
+
+   .holder-1 {
+      background-image: url('./assets/Miniature 3D Printed Prototype Design/Airplane Working Miniature.webp');
+   }
+
+   .holder-2 {
+      background-image: url('./assets/Miniature 3D Printed Prototype Design/Filtration Machine Miniature.webp');
+   }
+
+   .holder-3 {
+      background-image: url('./assets/Miniature 3D Printed Prototype Design/Heat Exchanger Miniature.webp');
+   }
+
+   .holder-4 {
+      background-image: url('./assets/Miniature 3D Printed Prototype Design/Smart E Toilet Miniature.webp');
+   }
+
+   .holder-5 {
+      background-image: url('./assets/Miniature 3D Printed Prototype Design/Solar Tracker Working Miniature.webp');
+   }
+
+   .holder-6 {
+      background-image: url('./assets/Miniature 3D Printed Prototype Design/Vision Ice Cream Plant.webp');
+   }
+</style>
+
 <script>
    // Reveal as soon as DOM is ready
    document.addEventListener('DOMContentLoaded', function () {
@@ -207,7 +289,7 @@
    </section>
 
 
-      <section class="about-service-hero-section bg-grey-new">
+   <section class="about-service-hero-section bg-grey-new">
       <h2 class="main-title">3D Miniature Design Services</h2>
       <div class="about-container">
          <div class="left-section">
@@ -216,8 +298,13 @@
          </div>
          <div class="right-section">
             <p>3D miniature design creates precise, small versions of your product, machine, or device. </p>
-            <p> Perfect for manufacturers, engineers, R&D teams, and product developers who need tangible, high-detail miniatures for demonstrating complex machinery, showcasing product designs, training teams, or presenting new innovations to clients and investors.</p>
-            <p> We scale down assemblies while maintaining accurate proportions, moving parts, and critical details. Our 3D miniatures replicate the functionality and aesthetics of full-scale products, making them invaluable for sales presentations, trade shows, and technical documentation, where physical demonstration outperforms 3D renderings.</p>
+            <p> Perfect for manufacturers, engineers, R&D teams, and product developers who need tangible, high-detail
+               miniatures for demonstrating complex machinery, showcasing product designs, training teams, or presenting
+               new innovations to clients and investors.</p>
+            <p> We scale down assemblies while maintaining accurate proportions, moving parts, and critical details. Our
+               3D miniatures replicate the functionality and aesthetics of full-scale products, making them invaluable
+               for sales presentations, trade shows, and technical documentation, where physical demonstration
+               outperforms 3D renderings.</p>
 
             <ul class="right-section-ul">
                <li> <i class="fa-solid fa-circle-check" style=""></i>Custom scales</li>
@@ -309,12 +396,12 @@
 
 
    <!-- Services Section -->
-   <!--<section class="imac-services-section">-->
+   <!-- <section class="imac-services-section">-->
    <!--   <div class="imac-services-container">-->
    <!--      <h2 class="imac-services-title">Benefits of 3D Miniature Design & Development Services <br class="m-hidden"></h2>-->
    <!--      <div class="services-grid">-->
-   <!-- <div class="service-dividers">
-<!--            <div class="divider divider-left"></div>-->
+   <!--         <div class="service-dividers">
+   <!--            <div class="divider divider-left"></div>-->
    <!--            <div class="divider divider-section-1"></div>-->
    <!--            <div class="divider divider-middle"></div>-->
    <!--            <div class="divider divider-section-2"></div>-->
@@ -423,104 +510,143 @@
    <main class="main-container-section">
       <!-- Product Development Process Section -->
       <section class="product-development-section">
-      <div class="development-container">
-         <h2 class="section-title-process">The Process Of Creating <br class="m-hidden">a 3D Miniature Model</h2>
-         <div class="accordion-container">
-            <div class="accordion-images">
-               <img src="assets/Process/Additive Manufacturing WEBP/PROJECT-INITIATION.webp" alt="Project Initiation" class="accordion-image active" data-tab="Project Initiation">
-               <img src="assets/Process/Additive Manufacturing WEBP/DESIGN-FINALIZATION.webp" alt="Design Finalization" class="accordion-image" data-tab="Design Finalization">
-               <img src="assets/Process/Additive Manufacturing WEBP/Pre-Execution-Planning.webp" alt="Pre-Execution Planning" class="accordion-image" data-tab="Pre-Execution Planning">
-               <img src="assets/Process/Additive Manufacturing WEBP/Model Fabrication.webp" alt="Model Fabrication" class="accordion-image" data-tab="Model Fabrication">
-               <img src="assets/Process/Additive Manufacturing WEBP/Finishing-&-Quality-Control.webp" alt="Finishing & Quality Control" class="accordion-image" data-tab="Finishing & Quality Control">
-               <img src="assets/Process/Additive Manufacturing WEBP/Quality-control-checks.webp" alt="Quality control checks" class="accordion-image" data-tab="Quality control checks">
-               <img src="assets/Process/Additive Manufacturing WEBP/Final-Delivery-&-Project-Closure.webp" alt="Final Delivery & Project Closure" class="accordion-image" data-tab="Final Delivery & Project Closure">
-            </div>
-            <div class="accordion-content">
-               <div class="accordion-item active" data-tab="Project Initiation">
-                  <div class="accordion-header">
-                     <span class="step-number">01.</span>
-                     <h3 class="step-title">Project Initiation</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>The first step of the process begins with reviews and approval of the quotation, then we proceed by
-                         issuing the Purchase Order (PO) to the client, and after that client releases advance payment to
-                          initiate the project.</p>
-                  </div>
+         <div class="development-container">
+            <h2 class="section-title-process">The Process Of Creating <br class="m-hidden">a 3D Miniature Model</h2>
+            <div class="accordion-container">
+               <div class="accordion-images">
+                  <img src="assets/Process/Additive Manufacturing WEBP/PROJECT-INITIATION.webp" alt="Project Initiation"
+                     class="accordion-image active" data-tab="Project Initiation">
+                  <img src="assets/Process/Additive Manufacturing WEBP/DESIGN-FINALIZATION.webp"
+                     alt="Design Finalization" class="accordion-image" data-tab="Design Finalization">
+                  <img src="assets/Process/Additive Manufacturing WEBP/Pre-Execution-Planning.webp"
+                     alt="Pre-Execution Planning" class="accordion-image" data-tab="Pre-Execution Planning">
+                  <img src="assets/Process/Additive Manufacturing WEBP/Model Fabrication.webp" alt="Model Fabrication"
+                     class="accordion-image" data-tab="Model Fabrication">
+                  <img src="assets/Process/Additive Manufacturing WEBP/Finishing-&-Quality-Control.webp"
+                     alt="Finishing & Quality Control" class="accordion-image" data-tab="Finishing & Quality Control">
+                  <img src="assets/Process/Additive Manufacturing WEBP/Quality-control-checks.webp"
+                     alt="Quality control checks" class="accordion-image" data-tab="Quality control checks">
+                  <img src="assets/Process/Additive Manufacturing WEBP/Final-Delivery-&-Project-Closure.webp"
+                     alt="Final Delivery & Project Closure" class="accordion-image"
+                     data-tab="Final Delivery & Project Closure">
                </div>
-               <div class="accordion-item" data-tab="Design Finalization">
-                  <div class="accordion-header">
-                     <span class="step-number">02.</span>
-                     <h3 class="step-title">Design Finalization</h3>
-                     <div class="arrow-icon"></div>
+               <div class="accordion-content">
+                  <div class="accordion-item active" data-tab="Project Initiation">
+                     <div class="accordion-header">
+                        <span class="step-number">01.</span>
+                        <h3 class="step-title">Project Initiation</h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>The first step of the process begins with reviews and approval of the quotation, then we
+                           proceed by
+                           issuing the Purchase Order (PO) to the client, and after that client releases advance payment
+                           to
+                           initiate the project.</p>
+                     </div>
                   </div>
-                  <div class="accordion-body">
-                     <p>At step two of our process, we review and modify the 3D model, only if it's needed. 
-                        After modifications, we share the final 3D model with the client for approval.</p>
+                  <div class="accordion-item" data-tab="Design Finalization">
+                     <div class="accordion-header">
+                        <span class="step-number">02.</span>
+                        <h3 class="step-title">Design Finalization</h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>At step two of our process, we review and modify the 3D model, only if it's needed.
+                           After modifications, we share the final 3D model with the client for approval.</p>
+                     </div>
                   </div>
-               </div>
-               <div class="accordion-item" data-tab="Pre-Execution Planning">
-                  <div class="accordion-header">
-                     <span class="step-number">03.</span>
-                     <h3 class="step-title">Pre-Execution Planning </h3>
-                     <div class="arrow-icon"></div>
+                  <div class="accordion-item" data-tab="Pre-Execution Planning">
+                     <div class="accordion-header">
+                        <span class="step-number">03.</span>
+                        <h3 class="step-title">Pre-Execution Planning </h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>Then we proceed with the confirmation of painting details, colors, finishes, or any
+                           sticker/branding
+                           requirements. After that, we begin the preparation of the Bill of Materials (BOM) execution
+                           sheet,
+                           incorporating all design and finish specifications; without BOM sheet approval, execution or
+                           procurement
+                           is not possible. </p>
+                     </div>
                   </div>
-                  <div class="accordion-body">
-                     <p>Then we proceed with the confirmation of painting details, colors, finishes, or any sticker/branding 
-                        requirements. After that, we begin the preparation of the Bill of Materials (BOM) execution sheet, 
-                        incorporating all design and finish specifications; without BOM sheet approval, execution or procurement
-                         is not possible. </p>
+                  <div class="accordion-item" data-tab="Model Fabrication">
+                     <div class="accordion-header">
+                        <span class="step-number">04.</span>
+                        <h3 class="step-title">Model Fabrication </h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>At the fourth stage, there is the execution of the miniature model-making process using
+                           approved 3D files and BOM.</p>
+                     </div>
                   </div>
-               </div>
-               <div class="accordion-item" data-tab="Model Fabrication">
-                  <div class="accordion-header">
-                     <span class="step-number">04.</span>
-                     <h3 class="step-title">Model Fabrication </h3>
-                     <div class="arrow-icon"></div>
+                  <div class="accordion-item" data-tab="Finishing & Quality Control">
+                     <div class="accordion-header">
+                        <span class="step-number">05.</span>
+                        <h3 class="step-title">Finishing & Quality Control </h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>After execution, we begin with the assembly and post-processing (sanding, painting, decals,
+                           etc).</p>
+                     </div>
                   </div>
-                  <div class="accordion-body">
-                     <p>At the fourth stage, there is the execution of the miniature model-making process using approved 3D files and BOM.</p>
-                  </div>
-               </div>
-               <div class="accordion-item" data-tab="Finishing & Quality Control">
-                  <div class="accordion-header">
-                     <span class="step-number">05.</span>
-                     <h3 class="step-title">Finishing & Quality Control </h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>After execution, we begin with the assembly and post-processing (sanding, painting, decals, etc).</p>
-                  </div>
-               </div>
 
-                <div class="accordion-item" data-tab="Quality control checks">
-                  <div class="accordion-header">
-                     <span class="step-number">06.</span>
-                     <h3 class="step-title">Quality Control Checks</h3>
-                     <div class="arrow-icon"></div>
+                  <div class="accordion-item" data-tab="Quality control checks">
+                     <div class="accordion-header">
+                        <span class="step-number">06.</span>
+                        <h3 class="step-title">Quality Control Checks</h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>The next stage is to send the model for pre-dispatch review to the client for approval. We
+                           provide both of the methods for reviews ( online and offline)</p>
+                     </div>
                   </div>
-                  <div class="accordion-body">
-                     <p>The next stage is to send the model for pre-dispatch review to the client for approval. We provide both of the methods for reviews ( online and offline)</p>
-                  </div>
-               </div>
 
-               <div class="accordion-item" data-tab="Final Delivery & Project Closure">
-                  <div class="accordion-header">
-                     <span class="step-number">07.</span>
-                     <h3 class="step-title">Final Delivery & Project Closure</h3>
-                     <div class="arrow-icon"></div>
-                  </div>
-                  <div class="accordion-body">
-                     <p>The last stage comes with the final dispatch of the completed model. We then collect the feedback and make changes if any. Then comes the closure of the PO upon final approval and delivery, and the remaining payment gets cleared at this stage.</p>
+                  <div class="accordion-item" data-tab="Final Delivery & Project Closure">
+                     <div class="accordion-header">
+                        <span class="step-number">07.</span>
+                        <h3 class="step-title">Final Delivery & Project Closure</h3>
+                        <div class="arrow-icon"></div>
+                     </div>
+                     <div class="accordion-body">
+                        <p>The last stage comes with the final dispatch of the completed model. We then collect the
+                           feedback and make changes if any. Then comes the closure of the PO upon final approval and
+                           delivery, and the remaining payment gets cleared at this stage.</p>
+                     </div>
                   </div>
                </div>
             </div>
          </div>
-      </div>
-   </section>
+      </section>
    </main>
 
-      <!-- why us section -->
+   <!-- new-section -->
+   <section class="sections-new-imac">
+      <div class="section-new-holder">
+         <h2 class="imac-services-title center-title">Types of Miniature Models We Design</h2>
+         <div class="new-section-bottom-holder">
+            <div class="new-holder holder-1">
+            </div>
+            <div class="new-holder holder-2">
+            </div>
+            <div class="new-holder holder-3">
+            </div>
+            <div class="new-holder holder-4">
+            </div>
+            <div class="new-holder holder-5">
+            </div>
+            <div class="new-holder holder-6">
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- why us section -->
    <section class="features-section bg-grey-new">
       <div class="container">
          <h2 class="benefits-title">Why Choose Our 3D Miniature <br class="m-hidden"> Design Services? </h2>

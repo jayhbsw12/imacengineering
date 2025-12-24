@@ -273,16 +273,12 @@
 </main>
 
 <!--certificate section-->
-<!-- <div class="home-certi-setion">
+<div class="home-certi-setion">
    <section class="certificate-section-container">
       <div class="certificate-section-title">
          <h2 class="imac-services-title">Compliance & Certification Support</h2>
       </div>
       <div class="certificate-section">
-         <div class="certificate-card">
-            <img src="assets/image/iso-9001-2015.webp" alt="ISO 9001:2015" loading="lazy" decoding="async" width=""
-               height="">
-         </div>
          <div class="certificate-card">
             <img src="assets/image/iso-13485-2016.webp" alt="Certificate 2" class="certificate-image" loading="lazy">
          </div>
@@ -291,7 +287,7 @@
          </div>
       </div>
    </section>
-</div> -->
+</div>
 
 <section class="about-service-hero-section">
    <h2 class="main-title">Medical Device Product Design and Development Solutions</h2>

@@ -241,11 +241,15 @@
 }
 
 .new-holder-left{
-   background-image: url('./assets/Reverse Engineering Services/Mini-3d-truck-front.webp')
+   background-image: url('./assets/Reverse Engineering Services/Mini-3d-truck-front.webp');
+   background-position: center;
+   background-size: cover;
 }
 
 .new-holder-right{
-   background-image: url('./assets/Reverse Engineering Services/Mini-3d-truck-backward.webp')
+   background-image: url('./assets/Reverse Engineering Services/Mini-3d-truck-backward.webp');
+   background-position: center;
+   background-size: cover;
 }
 
 .title-holder-box {

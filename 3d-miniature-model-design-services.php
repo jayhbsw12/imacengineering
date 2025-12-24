@@ -179,6 +179,8 @@
       align-items: flex-end;
       justify-content: flex-start;
       padding-bottom: 50px;
+      background-position: center;
+      background-size: cover;
    }
 
    .inner-tab-title {

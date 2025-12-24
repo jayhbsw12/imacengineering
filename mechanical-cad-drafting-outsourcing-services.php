@@ -141,6 +141,8 @@
       display: flex;
       align-items: flex-end;
       justify-content: flex-start;
+      background-position: center;
+      background-size: cover;
    }
 
    .short-1 {
@@ -153,30 +155,35 @@
       margin-top: 20px;
    }
 
-/* .inner-tab-title {
+   /* .inner-tab-title {
     padding: 16px;
     background-color: white;
     font-size: 20px;
 } */
 
-.mcdos-1{
-   background-image: url('./assets/CAD Outsourcing Services/Cad-outsourcing-image-1.webp');
-}
-.mcdos-2{
-   background-image: url('./assets/CAD Outsourcing Services/Cad-outsourcing-image-2.webp');
-}
-.mcdos-3{
-   background-image: url('./assets/CAD Outsourcing Services/Cad-outsourcing-image-3.webp');
-}
-.mcdos-4{
-   background-image: url('./assets/CAD Outsourcing Services/Cad-outsourcing-image-4.webp');
-}
-.mcdos-5{
-   background-image: url('./assets/CAD Outsourcing Services/Cad-outsourcing-image-5.webp');
-}
-.mcdos-6{
-   background-image: url('./assets/CAD Outsourcing Services/Cad-outsourcing-image-6.webp');
-}
+   .mcdos-1 {
+      background-image: url('./assets/CAD Outsourcing Services/Cad-outsourcing-image-1.webp');
+   }
+
+   .mcdos-2 {
+      background-image: url('./assets/CAD Outsourcing Services/Cad-outsourcing-image-2.webp');
+   }
+
+   .mcdos-3 {
+      background-image: url('./assets/CAD Outsourcing Services/Cad-outsourcing-image-3.webp');
+   }
+
+   .mcdos-4 {
+      background-image: url('./assets/CAD Outsourcing Services/Cad-outsourcing-image-4.webp');
+   }
+
+   .mcdos-5 {
+      background-image: url('./assets/CAD Outsourcing Services/Cad-outsourcing-image-5.webp');
+   }
+
+   .mcdos-6 {
+      background-image: url('./assets/CAD Outsourcing Services/Cad-outsourcing-image-6.webp');
+   }
 </style>
 
 <script>

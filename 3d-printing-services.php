@@ -184,6 +184,7 @@
    @media(max-width:480px) {
       .horizontal-holder {
          display: flex;
+         flex-direction: column;
          gap: 20px;
       }
    }

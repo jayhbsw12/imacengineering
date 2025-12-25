@@ -997,7 +997,10 @@ p.test i {
     padding: 40px 50px;
   }
   .faq-section{
-    padding-top: 20px;
+    padding-top: 40px !important;
+  }
+  .service-card-drafting{
+    padding: 0px;
   }
 }
 @media (max-width: 1140px) {

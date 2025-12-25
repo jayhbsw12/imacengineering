@@ -996,17 +996,20 @@ p.test i {
   .sections-new-imac {
     padding: 40px 20px;
   }
-.faq-section {
+  .faq-section {
     padding-top: 40px !important;
     padding-left: 20px;
     padding-right: 20px;
-}
-  .service-card-drafting{
+  }
+  .service-card-drafting {
     padding: 0px;
   }
-.cta-section-service-holder {
+  .cta-section-service-holder {
     padding: 20px 0px !important;
-}
+  }
+  .new-section-service-wrapper {
+    flex-direction: column;
+  }
 }
 @media (max-width: 1140px) {
   .about-container {

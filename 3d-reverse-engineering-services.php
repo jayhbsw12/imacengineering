@@ -230,45 +230,58 @@
       /* padding: 20px; */
    }
 
-.new-holder-left, .new-holder-right {
-    width: 100%;
-    height: auto;
-    padding: 20px 50px 20px 20px;
-    min-height: 400px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
+   .new-holder-left,
+   .new-holder-right {
+      width: 100%;
+      height: auto;
+      padding: 20px 50px 20px 20px;
+      min-height: 400px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+   }
 
-.new-holder-left{
-   background-image: url('./assets/Reverse Engineering Services/Mini-3d-truck-front.webp');
-   background-position: center;
-   background-size: cover;
-}
+   .new-holder-left {
+      background-image: url('./assets/Reverse Engineering Services/Mini-3d-truck-front.webp');
+      background-position: center;
+      background-size: cover;
+   }
 
-.new-holder-right{
-   background-image: url('./assets/Reverse Engineering Services/Mini-3d-truck-backward.webp');
-   background-position: center;
-   background-size: cover;
-}
+   .new-holder-right {
+      background-image: url('./assets/Reverse Engineering Services/Mini-3d-truck-backward.webp');
+      background-position: center;
+      background-size: cover;
+   }
 
-.title-holder-box {
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
-}
+   .title-holder-box {
+      font-size: 20px;
+      font-weight: 600;
+      color: white;
+   }
 </style>
 
 <style>
-   @media(max-width:480px){
-      .about-service-div{
+   @media(max-width:480px) {
+      .about-service-div {
          height: auto;
       }
-      .main-title{
+
+      .main-title {
          text-align: center;
       }
-      .main-title br{
+
+      .main-title br {
          display: none;
+      }
+
+      .new-section-bottom-holder {
+         flex-direction: column;
+      }
+
+      .new-holder-left,
+      .new-holder-right {
+         height: 200px;
+         min-height: 200px;
       }
    }
 </style>
@@ -641,7 +654,7 @@
                <div class="title-holder-box"></div>
             </div>
             <div class="new-holder-right">
-               <div class="title-holder-box"></div>              
+               <div class="title-holder-box"></div>
             </div>
          </div>
       </div>

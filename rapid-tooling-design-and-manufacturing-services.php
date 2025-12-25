@@ -285,6 +285,19 @@
    }
 </style>
 
+<style>
+   @media (max-width: 480px) {
+      .new-holder-cards-wrapper{
+         flex-direction: column;
+      }
+      .new-holder-card{
+         min-height: 300px;
+         background-position: center;
+         background-size: cover;
+      }
+   }
+</style>
+
 <script>
    // Reveal as soon as DOM is ready
    document.addEventListener('DOMContentLoaded', function () {

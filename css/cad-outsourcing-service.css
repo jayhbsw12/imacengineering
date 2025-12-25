@@ -990,8 +990,11 @@ p.test i {
   .new-holder {
     height: 200px;
   }
-  .mcdos-2{
+  .mcdos-2 {
     margin-bottom: 20px;
+  }
+  .sections-new-imac {
+    padding: 40px 50px;
   }
 }
 @media (max-width: 1140px) {

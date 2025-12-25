@@ -77,7 +77,7 @@
         box-shadow: 0 8px 32px rgba(0, 0, 0, .15);
         max-width: 1200px;
         width: 100%;
-        max-height: 70vh;
+        max-height: 85vh;
         overflow-y: auto;
         position: relative;
         transform: scale(.9);

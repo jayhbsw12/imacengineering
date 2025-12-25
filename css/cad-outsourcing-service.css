@@ -960,7 +960,7 @@ p.test i {
     line-height: 27px;
   }
   .benefits-background {
-    padding: 60px 20px 40px;
+    padding: 60px 20px 40px !important;
   }
   .imac-services-title {
     color: #24282b;

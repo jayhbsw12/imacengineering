@@ -1005,7 +1005,7 @@ p.test i {
     padding: 0px;
   }
 .cta-section-service-holder {
-    padding: 20px 0px;
+    padding: 20px 0px !important;
 }
 }
 @media (max-width: 1140px) {

@@ -134,6 +134,15 @@
       column-count: 3;
    }
 
+   @media (max-width:1000px) {
+      .new-section-bottom-holder {
+         column-count: 2;
+      }
+      .mcdos-4 {
+         margin-bottom: 20px;
+      }
+   }
+
    .new-holder {
       width: 100%;
       /* background: grey; */

@@ -535,7 +535,7 @@ p.test i {
     padding: 100px 0px 100px 0px;
   }
   .imac-services-container {
-    margin: 0 26px 0 26px;
+    /* margin: 0 26px 0 26px; */
     padding-top: 100px;
     padding-bottom: 100px;
   }

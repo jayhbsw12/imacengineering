@@ -996,6 +996,9 @@ p.test i {
   .sections-new-imac {
     padding: 40px 50px;
   }
+  .faq-section{
+    padding-top: 20px;
+  }
 }
 @media (max-width: 1140px) {
   .about-container {

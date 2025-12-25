@@ -6,6 +6,13 @@
         color: #1a1a1a
     }
 
+    /* Prevent background scrolling when modal is open */
+    body.modal-open {
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+    }
+
     .service-description ul {
         margin-left: 37px;
         margin: 25px
@@ -192,10 +199,14 @@
         font-size: 16px
     }
 
-    .address-item i {
+    .address-item a {
+        color: inherit;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .address-item a:hover {
         color: #f15a24;
-        margin-top: .2rem;
-        flex-shrink: 0
     }
 
     .social-links {
@@ -350,22 +361,26 @@
                     </ul>
                     <p>Just pick a date & time of your convenience and book a meeting with us.</p>
                 </div>
-
+<style>
+    .address-item i {
+    margin-top: 3px;
+}
+</style>
                 <div class="contact-details">
                     <div class="location-info">
                         <h4>We Serve Globally</h4>
                         <h5 class="add-text">Ahmedabad</h5>
-                        <div class="address-item"><i class="fas fa-map-marker-alt"></i><span>203, Harsh Avenue,
-                                Navrangpura, Ahmedabad, Gujarat 380009</span></div>
+                        <div class="address-item"><i class="fas fa-map-marker-alt"></i><a href="https://maps.app.goo.gl/kUES8dPGESWaq8Cy8" target="_blank"><span>203, Harsh Avenue,
+                                Navrangpura, Ahmedabad, Gujarat 380009</span></a></div>
                         <h5 class="add-text">United States</h5>
-                        <div class="address-item"><i class="fas fa-map-marker-alt"></i><span>21512 Lake Forest Dr, Lake
-                                Forest, California 92630, United States</span></div>
+                        <div class="address-item"><i class="fas fa-map-marker-alt"></i><a href="https://maps.app.goo.gl/Ji3hhKYaJejgewBH9" target="_blank"><span>21512 Lake Forest Dr, Lake
+                                Forest, California 92630, United States</span></a></div>
                         <h5 class="add-text">United Kingdom</h5>
-                        <div class="address-item"><i class="fas fa-map-marker-alt"></i><span>6 Sutton Rd, Harrow HA2
-                                6ET, London, United Kingdom</span></div>
+                        <div class="address-item"><i class="fas fa-map-marker-alt"></i><a href="https://maps.app.goo.gl/eyDAuENYx4rPxYdSA" target="_blank"><span>6 Sutton Rd, Harrow HA2
+                                6ET, London, United Kingdom</span></a></div>
                         <h5 class="add-text">Canada</h5>
-                        <div class="address-item"><i class="fas fa-map-marker-alt"></i><span>140 Cherryhill Pl, 809,
-                                London, Ontario N6H 4M5, Canada</span></div>
+                        <div class="address-item"><i class="fas fa-map-marker-alt"></i><a href="https://maps.app.goo.gl/7zETRNbGcRoVrJpW6" target="_blank"><span>140 Cherryhill Pl, 809,
+                                London, Ontario N6H 4M5, Canada</span></a></div>
                     </div>
 
                     <div class="contact-info">

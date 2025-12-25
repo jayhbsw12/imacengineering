@@ -133,7 +133,10 @@
     document.querySelectorAll('.open-appointment-modal').forEach(function (button) {
       button.addEventListener('click', function () {
         var modal = document.querySelector('.modal-overlay-wrapper');
-        if (modal) modal.classList.add('active');
+        if (modal) {
+          modal.classList.add('active');
+          document.body.classList.add('modal-open');
+        }
       });
     });
 
@@ -141,7 +144,10 @@
     document.querySelectorAll('.close-appointment-modal').forEach(function (button) {
       button.addEventListener('click', function () {
         var modal = button.closest('.modal-overlay-wrapper');
-        if (modal) modal.classList.remove('active');
+        if (modal) {
+          modal.classList.remove('active');
+          document.body.classList.remove('modal-open');
+        }
       });
     });
 
@@ -150,6 +156,7 @@
       modalOverlay.addEventListener('click', function (event) {
         if (event.target === modalOverlay) {
           modalOverlay.classList.remove('active');
+          document.body.classList.remove('modal-open');
         }
       });
     });

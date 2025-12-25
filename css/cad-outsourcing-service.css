@@ -312,9 +312,9 @@ p.benefit-text.last-card {
   margin: 0 auto;
 }
 .faq-content {
-  position: absolute;
-  width: 513.79px;
-  height: 220px;
+  /* position: absolute; */
+  /* width: 513.79px; */
+  /* height: 220px; */
   left: 0;
 }
 .faq-title {

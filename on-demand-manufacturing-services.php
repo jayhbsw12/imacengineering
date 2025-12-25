@@ -257,6 +257,7 @@
    .new-number-holder {
       font-size: 24px;
       font-weight: 600;
+      color: grey;
    }
 
    .faq-section {

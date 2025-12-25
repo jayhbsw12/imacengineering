@@ -187,13 +187,13 @@ p.benefit-text.last-card {
   height: 100%;
   background-size: cover;
   padding: 102px 0 128px;
-  padding: 100px 120px 32px 100px;
+  padding: 100px 50px 50px 50px;
 }
 .benefits-container {
   position: relative;
   max-width: 1920px;
   margin: 0 auto;
-  padding: 0 195px;
+  padding: 0 10px;
 }
 .benefits-title {
   display: flex;

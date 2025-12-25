@@ -144,7 +144,8 @@
       gap: 20px;
    }
 
-   .horizontal-image, .horizontal-image-2 {
+   .horizontal-image,
+   .horizontal-image-2 {
       width: 100%;
       height: 300px;
       /* background: #000000; */
@@ -176,6 +177,15 @@
 
    .horizontal-image-2 {
       background-image: url('./assets/Plastic Injection Molding Services/3d printer.webp');
+   }
+</style>
+
+<style>
+   @media(max-width:480px) {
+      .horizontal-holder {
+         display: flex;
+         gap: 20px;
+      }
    }
 </style>
 
@@ -268,7 +278,9 @@
                <h2>3D Printing Materials</h2>
             </div>
             <div class="middle-horizontal-holder">
-               <p>3D material- Not all plastic materials are equal. Some print fast for early iterations. Others withstand heat and stress for real testing. We have the whole range that your development process actually needs.</p>
+               <p>3D material- Not all plastic materials are equal. Some print fast for early iterations. Others
+                  withstand heat and stress for real testing. We have the whole range that your development process
+                  actually needs.</p>
                <ul>
                   <li><i class="fa-solid fa-circle-check"></i>PLA</li>
                   <li><i class="fa-solid fa-circle-check"></i>ABS</li>
@@ -286,7 +298,8 @@
                <h2>3D Printers Available</h2>
             </div>
             <div class="middle-horizontal-holder">
-               <p>3D printer - Precision, speed, or strength select according to your priority. We have all those printers that cover what matters most to your prototype. </p>
+               <p>3D printer - Precision, speed, or strength select according to your priority. We have all those
+                  printers that cover what matters most to your prototype. </p>
                <ul>
                   <li><i class="fa-solid fa-circle-check"></i>Creality K2 Plus 350x350 Size</li>
                   <li><i class="fa-solid fa-circle-check"></i>Creality K1 MAx</li>

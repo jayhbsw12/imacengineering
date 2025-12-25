@@ -21,10 +21,7 @@ p.benefit-text.last-card {
   max-width: 1200px;
   margin: 0 auto;
 }
-.left-section,
-.right-section {
-  /* flex: 1 1 400px; */
-}
+
 .left-section img {
   width: 100%;
   border-radius: 12px;

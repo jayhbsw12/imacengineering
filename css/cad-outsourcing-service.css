@@ -970,10 +970,10 @@ p.test i {
     margin-bottom: 40px;
   }
   .features-section {
-    padding: 20px 40px 58px 40px;
+    padding: 20px 40px 58px 20px;
   }
   main.main-container-section {
-    padding: 20px 15px;
+    padding: 20px 20px;
   }
   .logo-slider-inside-service {
     position: absolute;
@@ -994,11 +994,13 @@ p.test i {
     margin-bottom: 20px;
   }
   .sections-new-imac {
-    padding: 40px 50px;
+    padding: 40px 20px;
   }
-  .faq-section{
+.faq-section {
     padding-top: 40px !important;
-  }
+    padding-left: 20px;
+    padding-right: 20px;
+}
   .service-card-drafting{
     padding: 0px;
   }

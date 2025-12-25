@@ -1004,6 +1004,9 @@ p.test i {
   .service-card-drafting{
     padding: 0px;
   }
+  .cta-section-service-holder{
+    padding: 20px 0px;
+  }
 }
 @media (max-width: 1140px) {
   .about-container {

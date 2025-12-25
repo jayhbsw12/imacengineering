@@ -350,13 +350,13 @@ p.benefit-text.last-card {
   text-decoration: none;
 }
 .faq-accordion {
-  position: relative;
+  /* position: relative; */
   padding-bottom: 50px;
-  width: 700px;
+  /* width: 700px; */
   top: 0;
   right: -46%;
   border-radius: 16px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .faq-item {
   background: #fafafb;
@@ -567,7 +567,7 @@ p.test i {
     overflow: hidden;
     width: 100%;
   }
-  .faq-accordion {
+  /* .faq-accordion {
     position: relative;
     padding-bottom: 50px;
     width: 630px;
@@ -575,7 +575,7 @@ p.test i {
     right: -47%;
     border-radius: 16px;
     overflow: hidden;
-  }
+  } */
   .imac-services-container {
     margin: 0 0 0 25px;
     padding-top: 100px;

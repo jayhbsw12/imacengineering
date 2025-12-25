@@ -59,7 +59,8 @@
       padding-bottom: 75%;
       /* Even taller map for portrait view */
     }
-    .section-title{
+
+    .section-title {
       line-height: 55px;
     }
   }
@@ -74,11 +75,13 @@
     transition: opacity .6s ease, transform .6s ease;
     will-change: opacity, transform;
   }
+
   /* Revealed state when in view */
   .js .has_fade_anim.is-inview {
     opacity: 1;
     transform: none;
   }
+
   /* Respect reduced motion users */
   @media (prefers-reduced-motion: reduce) {
     .js .has_fade_anim {
@@ -90,7 +93,7 @@
 </style>
 
 <style>
-  .contact-list a:hover{
+  .contact-list a:hover {
     color: #f15a24;
   }
 </style>
@@ -132,7 +135,9 @@
             <hr>
             <h6 class="contact-title-details">Headquarters Address:</h6>
             <li><img src="assets/icons/location.svg" alt="Address" class="location-icon" style="margin:0px;" /> &nbsp;
-              <a href="https://maps.app.goo.gl/kUES8dPGESWaq8Cy8" target="_blank">203, Harsh Avenue, Navrangpura, <br> Ahmedabad, Gujarat 380009</a></li>
+              <a href="https://maps.app.goo.gl/kUES8dPGESWaq8Cy8" target="_blank">203, Harsh Avenue, Navrangpura, <br>
+                Ahmedabad, Gujarat 380009</a>
+            </li>
           </ul>
         </div>
         <div class="contact-wrap has_fade_anim" data-delay="0.30">
@@ -180,6 +185,7 @@
               </div>
             </div>
             <div class="submit-btn">
+              <input type="hidden" name="g-recaptcha-response" id="gRecaptchaResponse">
               <button type="submit" class="wc-btn wc-btn-primary btn-text-flip">
                 <span data-text="Send Message">Send Message</span>
               </button>
@@ -365,22 +371,46 @@
     }
 
     if (isValid) {
-      const formData = new FormData(form);
-      fetch('mail.php', {
-        method: 'POST',
-        body: formData
-      })
-        .then(res => res.text())
-        .then(result => {
-          if (result.trim() === 'success') {
-            window.location.href = '/thank-you.php'; // ✅ Redirect on success
-          } else {
-            responseDiv.innerHTML = `<div class="form-message error">❌ Something went wrong. Please try again.</div>`;
-          }
-        })
-        .catch(() => {
-          responseDiv.innerHTML = `<div class="form-message error">❌ Server error. Try again later.</div>`;
-        });
+      // ✅ reCAPTCHA v3 token generation
+      if (typeof grecaptcha === 'undefined') {
+        responseDiv.innerHTML = `<div class="form-message error">❌ reCAPTCHA failed to load. Please refresh and try again.</div>`;
+        return;
+      }
+
+      grecaptcha.ready(function () {
+        grecaptcha.execute('6LeGsTUsAAAAAPdyUaFFed_s8EMdwYGjzNFn5zVA', { action: 'contact_main' })
+          .then(function (token) {
+
+            // Put token into hidden field (optional but clean)
+            const tokenField = document.getElementById('gRecaptchaResponse');
+            if (tokenField) tokenField.value = token;
+
+            // Continue your existing flow (same fetch, same redirect)
+            const formData = new FormData(form);
+            formData.set('g-recaptcha-response', token);
+            formData.set('g-recaptcha-action', 'contact_main'); // helps server-side action match
+
+            fetch('mail.php', {
+              method: 'POST',
+              body: formData
+            })
+              .then(res => res.text())
+              .then(result => {
+                if (result.trim() === 'success') {
+                  window.location.href = '/thank-you.php'; // ✅ Redirect on success
+                } else {
+                  responseDiv.innerHTML = `<div class="form-message error">❌ Something went wrong. Please try again.</div>`;
+                }
+              })
+              .catch(() => {
+                responseDiv.innerHTML = `<div class="form-message error">❌ Server error. Try again later.</div>`;
+              });
+
+          })
+          .catch(function () {
+            responseDiv.innerHTML = `<div class="form-message error">❌ reCAPTCHA verification failed. Please try again.</div>`;
+          });
+      });
     }
   });
 

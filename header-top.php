@@ -34,3 +34,4 @@ if (file_exists($sourceFile)) {
     <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeGsTUsAAAAAPdyUaFFed_s8EMdwYGjzNFn5zVA"></script>

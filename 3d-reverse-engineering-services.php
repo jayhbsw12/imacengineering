@@ -267,6 +267,9 @@
       .main-title{
          text-align: center;
       }
+      .main-title br{
+         display: none;
+      }
    }
 </style>
 

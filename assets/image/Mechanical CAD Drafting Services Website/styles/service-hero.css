@@ -101,7 +101,7 @@
   width: 100%;
   min-height: 100vh;
   background: var(--white);
-  overflow: hidden;
+  overflow: auto;
 }
 
 .cta-button {

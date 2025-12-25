@@ -1013,5 +1013,6 @@ p.test i {
   .benefits-grid-2 {
     width: 100%;
     height: auto;
+    flex-direction: column;
   }
 }

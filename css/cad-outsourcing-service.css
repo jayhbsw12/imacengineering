@@ -722,7 +722,7 @@ p.test i {
     position: relative;
     width: 100%;
     min-height: 40px;
-    padding: 0 15px;
+    padding: 0 45px;
     background-image: url(../assets/image/long-grid.svg);
   }
   .faq-item.active .faq-answer {

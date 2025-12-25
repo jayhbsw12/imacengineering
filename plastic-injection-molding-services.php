@@ -172,6 +172,10 @@
          gap: 0;
       }
    }
+
+   .services-grid.for-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+   }
 </style>
 <script>
    // Reveal as soon as DOM is ready
@@ -279,7 +283,7 @@
    <section class="imac-services-section">
       <div class="imac-services-container">
          <h2 class="imac-services-title">Customized Plastic Injection Molding Services</h2>
-         <div class="services-grid">
+         <div class="services-grid for-3">
             <!-- <div class="service-dividers">
             <div class="divider divider-left"></div>
             <div class="divider divider-section-1"></div>

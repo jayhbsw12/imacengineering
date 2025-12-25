@@ -793,7 +793,7 @@ p.test i {
     width: auto !important;
   }
   .benefit-card-5 {
-    width: 480px;
+    /* width: 480px; */
     background: #fef5ed;
   }
   .faq-accordion {

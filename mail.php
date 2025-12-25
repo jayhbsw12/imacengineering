@@ -34,7 +34,7 @@ if (!filter_var($Email, FILTER_VALIDATE_EMAIL)) {
 }
 
 // ---------- Mail settings (aligned with popup-mail.php style) ----------
-$to = "business@imacengineering.com";
+$to = "jaymodihbsoftweb@gmail.com";
 $subject = "Received inquiry from website : www.imacengineering.com";
 
 // Addresses & names
@@ -44,7 +44,7 @@ $replyToEmail = "business@imacengineering.com";
 $replyToName = "IMAC Engineering";
 
 // Optional CC (set to "" to disable)
-$cc = "info@hbsoftweb.com";
+$cc = "digital@hbsoftweb.com";
 
 // ---------- Headers ----------
 $headers = "MIME-Version: 1.0\r\n";

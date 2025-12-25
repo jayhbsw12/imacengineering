@@ -151,7 +151,7 @@
    }
 
    @media (max-width:678px) {
-            .new-section-bottom-holder {
+      .new-section-bottom-holder {
          column-count: 1;
       }
    }

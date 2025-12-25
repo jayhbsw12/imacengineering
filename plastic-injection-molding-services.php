@@ -162,7 +162,7 @@
 </style>
 
 <style>
-   @media(max-width) {
+   @media(max-width:480px) {
       .section-container {
          flex-direction: column;
       }

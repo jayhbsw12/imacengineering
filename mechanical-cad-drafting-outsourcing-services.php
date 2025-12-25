@@ -138,8 +138,15 @@
       .new-section-bottom-holder {
          column-count: 2;
       }
+
       .mcdos-4 {
          margin-bottom: 20px;
+      }
+   }
+
+   @media (max-width:800px) {
+      .sections-new-imac {
+         padding: 80px 50px;
       }
    }
 

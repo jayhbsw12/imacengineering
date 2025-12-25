@@ -34,11 +34,11 @@ if (!filter_var($Email, FILTER_VALIDATE_EMAIL)) {
 }
 
 // ---------- Mail settings (aligned with popup-mail.php style) ----------
-$to = "business@imacengineering.com";
+$to = "jay.m@hbsoftweb.in";
 $subject = "Received inquiry from website : www.imacengineering.com";
 
 // Addresses & names
-$fromEmail = "jay.m@hbsoftweb.in";
+$fromEmail = "digital@hbsoftweb.com";
 $fromName = "HB Softweb";
 $replyToEmail = "business@imacengineering.com";
 $replyToName = "IMAC Engineering";

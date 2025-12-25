@@ -214,6 +214,14 @@
    }
 </style>
 
+<style>
+   @media (max-width:480px){
+      .about-service-div{
+         height: auto;
+      }
+   }
+</style>
+
 <script>
    // Reveal as soon as DOM is ready
    document.addEventListener('DOMContentLoaded', function () {

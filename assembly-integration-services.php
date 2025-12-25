@@ -224,6 +224,9 @@
       .core-values-grid{
          grid-template-columns: repeat(1, 1fr)
       }
+      .features-section .container{
+         padding: 0;
+      }
    }
 </style>
 

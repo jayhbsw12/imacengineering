@@ -1005,7 +1005,12 @@ p.test i {
     flex-direction: column;
   }
 
-  .benefit-card{
+  .benefit-card {
+    width: 100%;
+    height: auto;
+  }
+
+  .benefits-grid-2 {
     width: 100%;
     height: auto;
   }

@@ -47,12 +47,12 @@ p.benefit-text.last-card {
   background: #fff;
 }
 .about-service-hero-section {
-    position: relative;
-    width: 100%;
-    background: #fff;
-    overflow: hidden;
-    z-index: 1;
-    padding: 80px 40px 80px 40px;
+  position: relative;
+  width: 100%;
+  background: #fff;
+  overflow: hidden;
+  z-index: 1;
+  padding: 80px 40px 80px 40px;
 }
 .about-service-hero-title {
   display: flex;
@@ -810,7 +810,9 @@ p.test i {
 }
 
 @media (max-width: 1080px) {
-
+  .faq-container {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 810px) {

@@ -242,8 +242,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        text-align: center
+        text-align: center;
+        justify-content: flex-start;
     }
 
     .calendar-wrapper h3 {

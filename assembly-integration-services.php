@@ -218,6 +218,15 @@
    max-width: 100%;
 }
 </style>
+
+<style>
+   @media (max-width: 480px){
+      .core-values-grid{
+         grid-template-columns: repeat(1, 1fr)
+      }
+   }
+</style>
+
 <script>
   // Reveal as soon as DOM is ready
   document.addEventListener('DOMContentLoaded', function () {

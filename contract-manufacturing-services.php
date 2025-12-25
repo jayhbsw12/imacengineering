@@ -259,6 +259,7 @@
       width: 100%;
       padding: 40px;
       min-height: 300px;
+      height: 100%;
       justify-content: space-between;
    }
 

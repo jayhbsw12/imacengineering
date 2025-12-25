@@ -150,6 +150,12 @@
       }
    }
 
+   @media (max-width:678px) {
+            .new-section-bottom-holder {
+         column-count: 1;
+      }
+   }
+
    .new-holder {
       width: 100%;
       /* background: grey; */

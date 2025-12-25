@@ -89,6 +89,12 @@
   }
 </style>
 
+<style>
+  .contact-list a:hover{
+    color: #f15a24;
+  }
+</style>
+
 <!-- hero area start  -->
 <!-- (kept as-is, commented) -->
 <!-- hero area end  -->

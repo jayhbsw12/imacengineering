@@ -986,6 +986,13 @@ p.test i {
     font-size: 18px;
     text-align: left;
   }
+
+  .new-holder {
+    height: 200px;
+  }
+  .mcdos-2{
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 1140px) {
   .about-container {

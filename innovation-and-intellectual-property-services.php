@@ -269,6 +269,12 @@
    .benefits-container {
       padding: 0px !important;
    }
+
+   @media (max-width: 480px){
+      .service-protected-wrapper{
+         flex-direction: column;
+      }
+   }
 </style>
 
 <script>

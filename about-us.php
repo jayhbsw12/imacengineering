@@ -155,13 +155,13 @@
                   <div class="counter-box">
                     <h2 class="text has_fade_anim">We have 100+ <br>
                       satisfied clients</h2>
-                    <h2 class="number wc-counter has_fade_anim">100+</h2>
+                    <!-- <h2 class="number wc-counter has_fade_anim">100+</h2> -->
                   </div>
                   <div class="counter-box dark">
                     <h2 class="text has_fade_anim">We helped to get <br>
                       companies with $25M+ <br>
                       funding</h2>
-                    <h2 class="number wc-counter has_fade_anim">25M+</h2>
+                    <!-- <h2 class="number wc-counter has_fade_anim">25M+</h2> -->
                   </div>
                   <div class="thumb overflow-hidden">
                     <img src="assets/image/about/img-s-29.webp" data-speed="0.9" alt="image">

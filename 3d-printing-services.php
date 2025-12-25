@@ -191,6 +191,10 @@
          margin-bottom: 0;
       }
    }
+   .services-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+
+}
 </style>
 
 <script>

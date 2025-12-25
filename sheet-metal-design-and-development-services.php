@@ -257,7 +257,7 @@
 
       .holder-right {
          display: flex;
-         flex-direction: column;
+         flex-direction: column !important;
       }
    }
 </style>

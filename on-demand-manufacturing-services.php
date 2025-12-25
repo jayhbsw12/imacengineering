@@ -271,6 +271,17 @@
       padding: 0px !important;
    }
 </style>
+
+<style>
+   @media (max-width: 480px) {
+      .new-header-holder{
+         flex-direction: column;
+      }
+      .new-holder-cards-wrapper{
+         flex-direction: column;
+      }
+   }
+</style>
 <script>
    // Reveal as soon as DOM is ready
    document.addEventListener('DOMContentLoaded', function () {

@@ -264,6 +264,9 @@
       .about-service-div{
          height: auto;
       }
+      .main-title{
+         text-align: center;
+      }
    }
 </style>
 

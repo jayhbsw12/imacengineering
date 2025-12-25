@@ -9,13 +9,13 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 }
 
 // ---------- Sanitize inputs (match form field *names*) ----------
-$Name = isset($_POST['Name']) ? htmlspecialchars($_POST['Name'], ENT_QUOTES, 'UTF-8') : '';
-$Email = isset($_POST['Email']) ? htmlspecialchars($_POST['Email'], ENT_QUOTES, 'UTF-8') : '';
-$Phone = isset($_POST['Phone']) ? htmlspecialchars($_POST['Phone'], ENT_QUOTES, 'UTF-8') : '';
-$Organization = isset($_POST['Organization']) ? htmlspecialchars($_POST['Organization'], ENT_QUOTES, 'UTF-8') : '';
-$Service = isset($_POST['Service']) ? htmlspecialchars($_POST['Service'], ENT_QUOTES, 'UTF-8') : '';
+$Name = htmlspecialchars($_POST['Name'] ?? '', ENT_QUOTES, 'UTF-8');
+$Email = htmlspecialchars($_POST['Email'] ?? '', ENT_QUOTES, 'UTF-8');
+$Phone = htmlspecialchars($_POST['Phone'] ?? '', ENT_QUOTES, 'UTF-8');
+$Organization = htmlspecialchars($_POST['Organization'] ?? '', ENT_QUOTES, 'UTF-8');
+$Service = htmlspecialchars($_POST['Service'] ?? '', ENT_QUOTES, 'UTF-8');
 // HTML has name="Message" (singular). Keep fallback to "Messages" just in case.
-$MessagesRaw = $_POST['Message'] ?? ($_POST['Messages'] ?? '');
+$Messages = htmlspecialchars($_POST['Message'] ?? '', ENT_QUOTES, 'UTF-8');
 $Messages = htmlspecialchars($MessagesRaw, ENT_QUOTES, 'UTF-8');
 
 // ---------- Visitor info ----------
@@ -33,8 +33,14 @@ if (!filter_var($Email, FILTER_VALIDATE_EMAIL)) {
     exit;
 }
 
+// ✅ Add phone validation here
+if (!preg_match('/^\+?[0-9]{10,15}$/', $Phone)) {
+    echo 'error';
+    exit;
+}
+
 // ---------- Mail settings (aligned with popup-mail.php style) ----------
-$to = "business@imacengineering.com";
+$to = "jaymodihbsoftweb@gmail.com";
 $subject = "Received inquiry from website : www.imacengineering.com";
 
 // Addresses & names
@@ -44,7 +50,7 @@ $replyToEmail = "business@imacengineering.com";
 $replyToName = "IMAC Engineering";
 
 // Optional CC (set to "" to disable)
-$cc = "info@hbsoftweb.com";
+$cc = "digital@hbsoftweb.com";
 
 // ---------- Headers ----------
 $headers = "MIME-Version: 1.0\r\n";

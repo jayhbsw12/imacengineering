@@ -797,7 +797,7 @@ p.test i {
     background: #fef5ed;
   }
   .faq-accordion {
-    position: absolute;
+    /* position: absolute; */
     width: 560px;
     top: 0;
     /* right: 0; */
@@ -808,6 +808,11 @@ p.test i {
     margin: 0 50px 0 50px;
   }
 }
+
+@media (max-width: 1080px) {
+
+}
+
 @media (max-width: 810px) {
   .breadcrumb-text {
     width: 100%;

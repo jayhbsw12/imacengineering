@@ -108,33 +108,33 @@
       margin-bottom: 0px;
    }
 
-.section-new-ul {
-    display: flex;
-    /* gap: 20px; */
-    max-width: 100%;
-    width: 100%;
-    flex-wrap: wrap;
-    height: auto;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-}
+   .section-new-ul {
+      display: flex;
+      /* gap: 20px; */
+      max-width: 100%;
+      width: 100%;
+      flex-wrap: wrap;
+      height: auto;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;
+   }
 
-.section-new-ul li {
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 10px;
-    padding: 20px;
-    /* background: #ff4612; */
-    /* border-radius: 12px; */
-    /* color: white; */
-    width: 100%;
-    flex-direction: row;
-    border-bottom: 1px solid #e3e3e3;
-    color: #ff4612;
-}
+   .section-new-ul li {
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 10px;
+      padding: 20px;
+      /* background: #ff4612; */
+      /* border-radius: 12px; */
+      /* color: white; */
+      width: 100%;
+      flex-direction: row;
+      border-bottom: 1px solid #e3e3e3;
+      color: #ff4612;
+   }
 
    .new-section-holder {
       display: flex;
@@ -158,6 +158,19 @@
       flex-direction: row;
       justify-content: space-around;
       gap: 50px;
+   }
+</style>
+
+<style>
+   @media(max-width) {
+      .section-container {
+         flex-direction: column;
+      }
+
+      .new-section-holder.holder-right {
+         flex-direction: column;
+         gap: 0;
+      }
    }
 </style>
 <script>
@@ -318,7 +331,9 @@
       <div class="section-container">
          <div class="new-section-holder">
             <h2 class="imac-services-title">Injection Molding Materials List</h2>
-            <p>Each material offers distinct properties for different applications - strength, flexibility, heat resistance, or chemical stability. Our material options are based on your product's functional requirements, operating environment, and production economics.</p>
+            <p>Each material offers distinct properties for different applications - strength, flexibility, heat
+               resistance, or chemical stability. Our material options are based on your product's functional
+               requirements, operating environment, and production economics.</p>
             <div class="cta-button-banner">
                <span class="cta-text-banner openModalBtn" data-redirect="thank-you">Let’s Discuss</span>
                <img src="https://static.codia.ai/custom_image/2025-07-05/131851/arrow-icon.svg" alt="Arrow"

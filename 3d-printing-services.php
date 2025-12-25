@@ -187,6 +187,9 @@
          flex-direction: column;
          gap: 20px;
       }
+      .horizontal-holder h2{
+         margin-bottom: 0;
+      }
    }
 </style>
 

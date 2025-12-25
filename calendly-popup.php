@@ -411,7 +411,7 @@
             <!-- Right Section - Calendar -->
             <div class="calendar-wrapper">
                 <!-- Calendly inline widget container (no script loaded yet) -->
-                <div id="calendlyContainer" style="min-width:550px;height:700px;"></div>
+                <div id="calendlyContainer" style="min-width:550px;height:700px;overflow-y:hidden"></div>
             </div>
         </div>
     </div>

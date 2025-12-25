@@ -82,7 +82,7 @@ if (
 
 
 // ---------- Mail settings (aligned with popup-mail.php style) ----------
-$to = "jay.m@hbsoftweb.in";
+$to = "business@imacengineering.com";
 $subject = "Received inquiry from website : www.imacengineering.com";
 
 // Addresses & names
@@ -92,7 +92,7 @@ $replyToEmail = "business@imacengineering.com";
 $replyToName = "IMAC Engineering";
 
 // Optional CC (set to "" to disable)
-$cc = "digital@hbsoftweb.com";
+$cc = "info@hbsoftweb.com";
 
 // ---------- Headers ----------
 $headers = "MIME-Version: 1.0\r\n";

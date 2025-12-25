@@ -251,7 +251,12 @@
    }
 
    @media(max-width:480px) {
-      .section-container{
+      .section-container {
+         flex-direction: column;
+      }
+
+      .holder-right {
+         display: flex;
          flex-direction: column;
       }
    }

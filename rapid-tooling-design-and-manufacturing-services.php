@@ -295,6 +295,9 @@
          background-position: center;
          background-size: cover;
       }
+      .holder-last-text{
+         font-size: 22px;
+      }
    }
 </style>
 

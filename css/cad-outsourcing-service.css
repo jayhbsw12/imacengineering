@@ -302,7 +302,7 @@ p.benefit-text.last-card {
 .faq-section {
   position: relative;
   width: 100%;
-  padding: 0 308px;
+  padding: 0 40px;
   background-image: url(../assets/image/long-grid.svg);
 }
 .faq-container {

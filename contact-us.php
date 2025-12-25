@@ -59,8 +59,7 @@
       padding-bottom: 75%;
       /* Even taller map for portrait view */
     }
-
-    .section-title {
+    .section-title{
       line-height: 55px;
     }
   }
@@ -75,13 +74,11 @@
     transition: opacity .6s ease, transform .6s ease;
     will-change: opacity, transform;
   }
-
   /* Revealed state when in view */
   .js .has_fade_anim.is-inview {
     opacity: 1;
     transform: none;
   }
-
   /* Respect reduced motion users */
   @media (prefers-reduced-motion: reduce) {
     .js .has_fade_anim {
@@ -93,7 +90,7 @@
 </style>
 
 <style>
-  .contact-list a:hover {
+  .contact-list a:hover{
     color: #f15a24;
   }
 </style>
@@ -135,9 +132,7 @@
             <hr>
             <h6 class="contact-title-details">Headquarters Address:</h6>
             <li><img src="assets/icons/location.svg" alt="Address" class="location-icon" style="margin:0px;" /> &nbsp;
-              <a href="https://maps.app.goo.gl/kUES8dPGESWaq8Cy8" target="_blank">203, Harsh Avenue, Navrangpura, <br>
-                Ahmedabad, Gujarat 380009</a>
-            </li>
+              <a href="https://maps.app.goo.gl/kUES8dPGESWaq8Cy8" target="_blank">203, Harsh Avenue, Navrangpura, <br> Ahmedabad, Gujarat 380009</a></li>
           </ul>
         </div>
         <div class="contact-wrap has_fade_anim" data-delay="0.30">
@@ -156,7 +151,7 @@
                 <span class="error-message" id="PhoneError"></span>
               </div>
               <div class="contact-formfield">
-                <input type="text" name="Organization" id="Organization" placeholder="Organisation*" required>
+                <input type="text" name="Organization" id="Organization" placeholder="Organization Name*" required>
                 <span class="error-message" id="OrganizationError"></span>
               </div>
               <div class="contact-formfield contact-service">
@@ -180,7 +175,7 @@
                 <span class="error-message" id="ServiceError"></span>
               </div>
               <div class="contact-formfield messages">
-                <input name="Message" id="Message" placeholder="Message*" required></input>
+                <input type="text" name="Message" id="Messages" placeholder="Messages*" required>
                 <span class="error-message" id="MessagesError"></span>
               </div>
             </div>
@@ -338,7 +333,7 @@
     // Clear previous errors
     form.querySelectorAll('.error-message').forEach(el => el.textContent = '');
 
-    const fields = ['Name', 'Email', 'Phone', 'Organization', 'Service', 'Message']; // Updated for select ID
+    const fields = ['Name', 'Email', 'Phone', 'Organization', 'Messages', 'contact-Service']; // Updated for select ID
     fields.forEach(id => {
       const input = form.querySelector(`#${id}`);
       const error = form.querySelector(`#${id}Error`);

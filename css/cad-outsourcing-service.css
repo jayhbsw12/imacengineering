@@ -23,7 +23,7 @@ p.benefit-text.last-card {
 }
 .left-section,
 .right-section {
-  flex: 1 1 400px;
+  /* flex: 1 1 400px; */
 }
 .left-section img {
   width: 100%;

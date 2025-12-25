@@ -267,13 +267,22 @@
       width: fit-content;
       font-weight: 500;
    }
+
    .card-upper-holder {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+   }
+</style>
+
+<style>
+   @media(max-width:480px) {
+      .new-section-cards-holder {
+         grid-template-columns: auto;
+      }
+   }
 </style>
 <script>
    // Reveal as soon as DOM is ready

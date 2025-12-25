@@ -132,7 +132,7 @@
             <hr>
             <h6 class="contact-title-details">Headquarters Address:</h6>
             <li><img src="assets/icons/location.svg" alt="Address" class="location-icon" style="margin:0px;" /> &nbsp;
-              203, Harsh Avenue, Navrangpura, <br> Ahmedabad, Gujarat 380009</li>
+              <a href="https://maps.app.goo.gl/kUES8dPGESWaq8Cy8" target="_blank">203, Harsh Avenue, Navrangpura, <br> Ahmedabad, Gujarat 380009</a></li>
           </ul>
         </div>
         <div class="contact-wrap has_fade_anim" data-delay="0.30">

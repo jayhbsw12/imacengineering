@@ -451,7 +451,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                               & IP Strategy</a></li>
                         <li><a href="https://imacengineering.com/medical-device-design-and-development-services">Medical
                               Product Design</a></li>
-                        <li><a href="https://imacengineering.com/on-demand-manufacturing-services">On Demand
+                        <li><a href="https://imacengineering.com/manufacturing/on-demand">On Demand
                               Manufacturing</a></li>
                         <li><a href="https://imacengineering.com/rapid-tooling-design-and-manufacturing-services">Tooling
                               Design <br>and Manufacturing</a></li>
@@ -538,7 +538,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                                  src="assets/icons/mega-menu/Reverse-Engineering-Services.svg?v=<?= ASSET_VERSION ?>"
                                  alt="Reverse Engineering" loading="lazy" decoding="async"> <span>Reverse
                                  Engineering Services</span></a></li>
-                        <li><a href="https://imacengineering.com/on-demand-manufacturing-services"><img
+                        <li><a href="https://imacengineering.com/manufacturing/on-demand"><img
                                  src="assets/icons/mega-menu/MVP-Prototyping-&-Manufacturing-as-Services.svg?v=<?= ASSET_VERSION ?>"
                                  alt="On Demand Manufacturing" loading="lazy" decoding="async">
                               <span>On Demand Manufacturing</span></a></li>
@@ -675,7 +675,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                               </a>
                            </li>
                            <li>
-                              <a href="https://imacengineering.com/on-demand-manufacturing-services">
+                              <a href="https://imacengineering.com/manufacturing/on-demand">
                                  <img
                                     src="assets/icons/mega-menu/MVP-Prototyping-&-Manufacturing-as-Services.svg?v=<?= ASSET_VERSION ?>"
                                     alt="on demand manufacturing" loading="lazy" decoding="async"> <span> On Demand Manufacturing </span>

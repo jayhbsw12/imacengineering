@@ -1,12 +1,12 @@
-<?php include("header-top.php"); ?>
+<?php include("../header-top.php"); ?>
 <meta name="robots" content="index,follow">
 <title> On-Demand Prototyping and Manufacturing Services - Fast & Scalable </title>
 <meta name="description"
    content="iMAC offers On-Demand Manufacturing Services including CNC machining, 3D printing, injection molding & more—supporting your complete product development cycle.">
-<link rel="canonical" href="https://imacengineering.com/on-demand-manufacturing-services" />
+<link rel="canonical" href="https://imacengineering.com/manufacturing/on-demand" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="On-Demand Prototyping and Manufacturing Services - Fast & Scalable" />
-<meta property="og:url" content="https://imacengineering.com/on-demand-manufacturing-services" />
+<meta property="og:url" content="https://imacengineering.com/manufacturing/on-demand" />
 <meta property="og:description"
    content="iMAC offers On-Demand Manufacturing Services including CNC machining, 3D printing, injection molding & more—supporting your complete product development cycle." />
 <meta property="og:image" content="https://imacengineering.com/assets/main-service-page/MVP-prototyping.webp" />
@@ -21,7 +21,7 @@
   "Image": "https://imacengineering.com/assets/main-service-page/MVP-prototyping.webp",
   "logo": "https://imacengineering.com/assets/image/logo.svg",
   "description": "iMAC offers On-Demand Manufacturing Services including CNC machining, 3D printing, injection molding & more—supporting your complete product development cycle.",
-  "url": "https://imacengineering.com/on-demand-manufacturing-services",
+  "url": "https://imacengineering.com/manufacturing/on-demand",
   "telephone": "+91-63571-73693",
   "address": {
     "@type": "PostalAddress",
@@ -290,7 +290,7 @@
    });
 </script>
 
-<?php include("header.php"); ?>
+<?php include("../header.php"); ?>
 <main class="service-main-container">
    <!-- Hero + Testimonial + Logo Section Combined -->
    <section class="service-section">
@@ -1007,7 +1007,7 @@
 
    <!-- contact section end -->
 
-   <?php include("./components/cta.php"); ?>
+   <?php include("../components/cta.php"); ?>
 
    <script>
       document.addEventListener('DOMContentLoaded', function () {
@@ -1200,4 +1200,4 @@
    <script src="js/logo-slider.js"></script>
 
    <script src="js/banner-logo-slider.js"></script>
-   <?php include("footer.php"); ?>
+   <?php include("../footer.php"); ?>

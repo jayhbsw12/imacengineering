@@ -1113,10 +1113,10 @@
          </div>
       </div>
       <div class="service-slide">
-         <a href="https://imacengineering.com/on-demand-manufacturing-services"><img loading="lazy"
+         <a href="https://imacengineering.com/manufacturing/on-demand"><img loading="lazy"
                src="assets/main-service-page/MVP-prototyping.webp" alt="MVP Prototyping" class="service-image" /></a>
          <div class="service-content">
-            <a href="https://imacengineering.com/on-demand-manufacturing-services">
+            <a href="https://imacengineering.com/manufacturing/on-demand">
                <h3 class="service-slide-title"> On-Demand Manufacturing (Manufacturing as a Services)</h3>
             </a>
             <p class="service-slide-description">Our manufacturing services take the concepts from paper to product,
@@ -1125,7 +1125,7 @@
                deliver high-quality
                prototypes and limited-run parts that accelerate innovation without compromising time-to-market or
                production standards.</p>
-            <a href="https://imacengineering.com/on-demand-manufacturing-services" class="service-slide-cta">Know
+            <a href="https://imacengineering.com/manufacturing/on-demand" class="service-slide-cta">Know
                More</a>
          </div>
       </div>

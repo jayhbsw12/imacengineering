@@ -619,7 +619,7 @@
                <div class="card-upper-holder">
                   <span class="big-card-number">02.</span>
                   <h3>Design</h3>
-                  <p>Engineering with manufacturing in mind. </p>
+                  <p>As concepts progress toward detailed engineering, documentation created through professional <a style="font-weight: 700; color: #ffffff;" href="https://imacengineering.com/mechanical-cad-drafting-outsourcing-services">mechanical CAD drafting services</a> ensures design intent is accurately translated into manufacturable data.</p>
                </div>
                <div class="new-icon-wrapper-card">
                   <img src="./assets/Product-Design-and-Development/vector.webp" alt="Design">

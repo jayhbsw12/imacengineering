@@ -206,6 +206,10 @@
    .mcdos-6 {
       background-image: url('./assets/CAD Outsourcing Services/Cad-outsourcing-image-6.webp');
    }
+
+   a{
+      color: #ff4512;
+   }
 </style>
 
 <script>
@@ -336,9 +340,7 @@
                      alt="Manufacturing-Drawings&Tolerances"></div>
                <h3 class="service-title-drafting">Manufacturing Drawings & Tolerances</h3>
                <div class="service-divider"></div>
-               <p class="service-description">We deliver accurate manufacturing drawings with precise tolerances that
-                  meet specific production requirements. Our drawings provide exact details and information to ensure
-                  parts are produced within specifications, enhancing quality control and minimizing production errors.
+               <p class="service-description">Manufacturing-ready drawings produced through CAD drafting directly support downstream processes such as <a href="https://imacengineering.com/plastic-injection-molding-services ">plastic injection molding services</a>, where dimensional accuracy and tolerance control are critical.
                </p>
             </article>
             <article class="service-card-drafting">

@@ -58,7 +58,7 @@
 </url>
 
 <url>
-  <loc>https://imacengineering.com/on-demand-manufacturing-services</loc>
+  <loc>https://imacengineering.com/manufacturing/on-demand</loc>
   <priority>0.80</priority>
 </url>
 
@@ -214,6 +214,16 @@
 
 <url>
   <loc>https://imacengineering.com/blog/top-ways-rapid-prototyping-saves-development-time-and-costs</loc>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://imacengineering.com/blog/mechanical-cad-drafting-process-benefits-applications</loc>
+  <priority>0.70</priority>
+</url>
+
+<url>
+  <loc>https://imacengineering.com/blog/plastic-injection-molding-process-materials-applications</loc>
   <priority>0.70</priority>
 </url>
 

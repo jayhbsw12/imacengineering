@@ -176,6 +176,10 @@
    .services-grid.for-3 {
       grid-template-columns: repeat(3, minmax(0, 1fr));
    }
+   
+   a{
+      color: #ff4512;
+   }
 </style>
 <script>
    // Reveal as soon as DOM is ready
@@ -446,8 +450,7 @@
                         <div class="arrow-icon"></div>
                      </div>
                      <div class="accordion-body">
-                        <p>We optimize part geometry for manufacturability, durability, and cost, collaborating closely
-                           to finalize mold specifications.</p>
+                        <p>Successful injection molding outcomes often begin with robust <a href="https://imacengineering.com/product-design-and-development-services">product design and development</a>, where part geometry, material selection, and manufacturability are defined early.</p>
                      </div>
                   </div>
                   <div class="accordion-item" data-tab="Material">

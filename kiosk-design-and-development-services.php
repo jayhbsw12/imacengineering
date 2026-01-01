@@ -359,7 +359,7 @@
                   <div class="service-divider"></div>
                   <p class="service-description">Every kiosk undergoes rigorous testing before deployment. We simulate
                      real-world conditions from extreme temperatures to continuous user interactions, ensuring your
-                     investment performs reliably when it matters most.</p>
+                     investment performs reliably when it matters most.To support advanced hardware products like custom kiosks, our team also provides <a href="https://imacengineering.com/mechanical-cad-drafting-outsourcing-services" style="color:#ff4512">mechanical CAD drafting outsourcing</a> for complex component models and assemblies.</p>
                </div>
                <div class="service-card-drafting">
                   <div class="service-icon service-icon-2">

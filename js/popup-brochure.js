@@ -42,7 +42,7 @@ class BrochureModal {
 
   openModal() {
     this.modal.classList.add('active');
-    document.body.style.overflow = 'hidden';
+    document.body.classList.add('modal-open');
     setTimeout(() => {
       const firstInput = this.form.querySelector('input[type="text"]');
       if (firstInput) firstInput.focus();
@@ -51,7 +51,7 @@ class BrochureModal {
 
   closeModal() {
     this.modal.classList.remove('active');
-    document.body.style.overflow = '';
+    document.body.classList.remove('modal-open');
     this.resetForm();
   }
 

@@ -21,11 +21,13 @@
   flex-direction: column;
 }
 
-.top-headingbar{
-  background: #ff4612;
-  padding: 40px;
+.top-headingbar {
+    background: #ff4612;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .service-page-main-heading{
   color: white;
   font-weight: 400;

@@ -105,12 +105,12 @@
 }
 </script> -->
 
- <?php include("header.php");?> 
+<?php include("header.php"); ?>
 
 
-<section class="service-page-section">
-    <div class="service-page-container">
-    hii
+<section class="service-page-section top-headingbar">
+    <div class="service-page-container flex">
+        hii
     </div>
 </section>
 

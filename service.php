@@ -110,7 +110,7 @@
 
 <section class="service-page-section top-headingbar">
     <div class="service-page-container flex">
-        hii
+        <h2 class="service-page-main-heading">Our Services</h2>
     </div>
 </section>
 

@@ -28,7 +28,8 @@
     justify-content: center;
     align-items: center;
 }
-.service-page-main-heading{
-  color: white;
-  font-weight: 400;
+.service-page-main-heading {
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
 }

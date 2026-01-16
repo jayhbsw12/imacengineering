@@ -505,7 +505,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
             <li><a href="https://imacengineering.com/">Home</a></li>
             <li><a href="https://imacengineering.com/about-us">About us</a></li>
             <li class="has-mega-menu">
-               <a href="#">Services <span class="arrow">&#9662;</span></a>
+               <a href="./services.php">Services <span class="arrow">&#9662;</span></a>
                <div class="mega-menu">
                   <div class="mega-menu-left">
                      <div>

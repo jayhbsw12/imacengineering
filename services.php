@@ -12,6 +12,118 @@
         transition: opacity .15s ease;
     }
 </style>
+<style>
+    .sections-new-imac .imac-services-title {
+        margin-bottom: 0px;
+        text-align: left;
+    }
+
+    .sections-new-imac {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        padding: 80px 80px 80px 80px;
+        background: #ffffff;
+    }
+
+    .new-section-holder,
+    .conclusion-service-holder {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        max-width: 1440px;
+    }
+
+    .new-section-cards-holder {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .new-section-card {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        background: #e5e5e5;
+        color: #ff4612;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .new-icon-wrapper-card {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .new-section-card h3 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .big-card-number {
+        font-size: 28px;
+        background: #fff;
+        padding: 10px 15px;
+        width: fit-content;
+        font-weight: 500;
+    }
+
+    .card-upper-holder {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .new-section-cards-holder {
+        max-width: 1440px;
+    }
+
+    .service-page-section.cards-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 80px 0px;
+        flex-direction: column;
+    }
+
+    p.new-section-description {
+        color: black;
+    }
+
+    a.new-service-btn {
+        padding: 10px;
+        background: #ff4612;
+        color: #fff;
+    }
+
+    .new-button-holder {
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .new-section-ul li {
+        list-style: disc;
+        margin-left: 20px;
+    }
+
+    .conclusion-service-holder{
+    margin-top: 80px;
+    }
+    .conclusion-service-holder h2{
+        margin: 0;
+    }
+</style>
 <noscript>
     <style>
         html.fp-preload body {
@@ -115,78 +227,155 @@
 </section>
 
 <section class="service-page-section cards-section">
-    <div class="container service-cards-holder">
-        <div class="service-card-wrapper"></div>
-        <div class="service-card-wrapper"></div>
-        <div class="service-card-wrapper"></div>
-        <div class="service-card-wrapper"></div>
-        <div class="service-card-wrapper"></div>
-        <div class="service-card-wrapper"></div>
-    </div>
     <div class="new-section-cards-holder">
+
         <div class="new-section-card">
             <div class="card-upper-holder">
                 <span class="big-card-number">01.</span>
-                <h3>Ideation</h3>
-                <p>We assess your idea against manufacturing realities, material options, and cost implications. </p>
-            </div>
-            <div class="new-icon-wrapper-card">
-                <img src="./assets/Product-Design-and-Development/idea.webp" alt="Ideation" loading="lazy">
+                <h3>Engineering Design & Manufacturing Services</h3>
+                <p class="new-section-description">At iMAC Engineering Services, we provide integrated engineering
+                    design and manufacturing solutions
+                    that support products from early concept through production. Our services are structured to help
+                    organizations reduce development risk, improve manufacturability, and achieve consistent execution
+                    across design, documentation, and manufacturing stages.</p>
+
+                <p class="new-section-description">
+                    This page outlines our core engineering capabilities and how each service fits within the overall
+                    product development and manufacturing lifecycle.
+                </p>
             </div>
 
         </div>
         <div class="new-section-card">
             <div class="card-upper-holder">
                 <span class="big-card-number">02.</span>
-                <h3>Design</h3>
-                <p>As concepts progress toward detailed engineering, documentation created through professional <a
-                        style="font-weight: 700; color: #ffffff;"
-                        href="https://imacengineering.com/mechanical-cad-drafting-outsourcing-services">mechanical CAD
-                        drafting services</a> ensures design intent is accurately translated into manufacturable data.
-                </p>
-            </div>
-            <div class="new-icon-wrapper-card">
-                <img src="./assets/Product-Design-and-Development/vector.webp" alt="Design" loading="lazy">
-            </div>
-        </div>
+                <h3>Product Design & Development Services</h3>
+                <p class="new-section-description">Our product design and development services focus on transforming
+                    ideas into functional, manufacturable products. We support concept development, design refinement,
+                    material selection, and design validation while ensuring alignment with downstream manufacturing
+                    requirements.</p>
 
+                <p class="new-section-description">
+                    This stage establishes the foundation for performance, cost control, and scalability throughout the
+                    product lifecycle.
+                </p>
+
+                <div class="new-button-holder">
+                    <a href="https://imacengineering.com/product-design-and-development-services" target="_blank"
+                        class="new-service-btn">
+                        Read More
+                    </a>
+                </div>
+            </div>
+
+        </div>
         <div class="new-section-card">
             <div class="card-upper-holder">
                 <span class="big-card-number">03.</span>
-                <h3>Prototyping</h3>
-                <p>Physical validation before production investment. </p>
-            </div>
-            <div class="new-icon-wrapper-card">
-                <img src="./assets/Product-Design-and-Development/3d-modeling.webp" alt="Prototyping" loading="lazy">
-            </div>
-        </div>
+                <h3>Mechanical CAD Drafting Outsourcing Services</h3>
+                <p class="new-section-description">Mechanical CAD drafting converts design intent into precise technical
+                    documentation required for manufacturing, procurement, and quality control. Our drafting services
+                    include detailed part drawings, assembly drawings, tolerance definition, and revision control
+                    aligned with industry standards.</p>
 
+                <p class="new-section-description">
+                    These drawings enable accurate communication across engineering teams and manufacturing partners.
+                </p>
+                <div class="new-button-holder">
+                    <a href="https://imacengineering.com/mechanical-cad-drafting-outsourcing-services" target="_blank"
+                        class="new-service-btn">
+                        Read More
+                    </a>
+                </div>
+            </div>
+
+        </div>
         <div class="new-section-card">
             <div class="card-upper-holder">
                 <span class="big-card-number">04.</span>
-                <h3>Testing</h3>
-                <p>Performance verification under real conditions. </p>
-            </div>
-            <div class="new-icon-wrapper-card">
-                <img src="./assets/Product-Design-and-Development/exam.webp" alt="Testing" loading="lazy">
-            </div>
-        </div>
+                <h3>Plastic Injection Molding Services</h3>
+                <p class="new-section-description">Our plastic injection molding services support high-volume production
+                    of precision plastic components. We work closely with design and tooling requirements to ensure part
+                    geometry, material selection, and mold design are optimized for repeatable production and consistent
+                    quality.</p>
 
+                <p class="new-section-description">
+                    Injection molding solutions are developed to support scalable manufacturing and long-term production
+                    stability.
+                </p>
+
+                <div class="new-button-holder">
+                    <a href="https://imacengineering.com/plastic-injection-molding-services" target="_blank"
+                        class="new-service-btn">
+                        Read More
+                    </a>
+                </div>
+            </div>
+
+        </div>
         <div class="new-section-card">
             <div class="card-upper-holder">
                 <span class="big-card-number">05.</span>
-                <div>
-                    <h3>Manufacturing</h3>
-                    <p>Volume manufacturing with process controls that maintain part quality across the production
-                        cycle.
-                    </p>
-                </div>
+                <h3>Additive Manufacturing & Rapid Prototyping</h3>
+                <p class="new-section-description">Additive manufacturing and rapid prototyping services enable fast
+                    validation of design concepts, functional testing, and design iteration. These services help reduce
+                    development timelines and support early-stage decision making before committing to production
+                    tooling.</p>
             </div>
-            <div class="new-icon-wrapper-card">
-                <img src="./assets/Product-Design-and-Development/automation.webp" alt="Manufacturing" loading="lazy">
+
+        </div>
+        <div class="new-section-card">
+            <div class="card-upper-holder">
+                <span class="big-card-number">06.</span>
+                <h3>Contract Manufacturing & Production Support</h3>
+                <p class="new-section-description">We provide manufacturing support services that help bridge the gap
+                    between engineering and production. Our capabilities include supplier coordination, production
+                    planning, and documentation support to ensure consistent execution during manufacturing scale-up.
+                </p>
             </div>
+
+        </div>
+        <div class="new-section-card">
+            <div class="card-upper-holder">
+                <span class="big-card-number">07.</span>
+                <h3>Integrated Engineering Workflow</h3>
+                <p class="new-section-description">Our services are designed to function as a connected workflow:</p>
+                <ul class="new-section-ul">
+                    <li>Product design establishes functionality and manufacturability</li>
+                    <li>CAD drafting defines technical documentation and tolerances</li>
+                    <li>Manufacturing services execute production with accuracy and consistency</li>
+                </ul>
+                <p class="new-section-description">This integrated approach helps reduce rework, shorten development
+                    cycles, and improve production reliability.</p>
+            </div>
+
+        </div>
+        <div class="new-section-card">
+            <div class="card-upper-holder">
+                <span class="big-card-number">08.</span>
+                <h3>Industries We Support</h3>
+                <p class="new-section-description">Our engineering and manufacturing services support a wide range of
+                    industries, including:</p>
+                <ul class="new-section-ul">
+                    <li>Medical devices</li>
+                    <li>Automotive components</li>
+                    <li>Industrial equipment</li>
+                    <li>Consumer products</li>
+                    <li>Electronics and electromechanical systems</li>
+                </ul>
+                <p class="new-section-description">Each project is approached with attention to regulatory, performance,
+                    and production requirements.</p>
+            </div>
+
         </div>
 
+    </div>
+
+    <div class="conclusion-service-holder">
+        <h2>Conclusion</h2>
+        <p>iMAC Engineering Services delivers structured engineering and manufacturing solutions that support reliable
+            product execution. By aligning design, documentation, and manufacturing processes, we help organizations
+            achieve predictable outcomes and long-term production success.</p>
     </div>
 </section>
 

@@ -33,3 +33,8 @@
     font-weight: 600;
     font-size: 40px;
 }
+
+.service-cards-holder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

@@ -114,6 +114,17 @@
     </div>
 </section>
 
+<section class="service-page-section cards-section">
+    <div class="container service-cards-holder">
+        <div class="service-card-wrapper"></div>
+        <div class="service-card-wrapper"></div>
+        <div class="service-card-wrapper"></div>
+        <div class="service-card-wrapper"></div>
+        <div class="service-card-wrapper"></div>
+        <div class="service-card-wrapper"></div>
+    </div>
+</section>
+
 <script>
     async submitForm() {
         const submitBtn = this.form.querySelector('.submit-btn');

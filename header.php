@@ -437,7 +437,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                   <!-- Services with Dropdown -->
                   <li class="has-submenu">
                      <div class="menu-item-wrapper">
-                        <a href="./services.php" class="menu-link">Services</a>
+                        <a href="./services" class="menu-link">Services</a>
                         <button class="submenu-toggle-btn" aria-label="Toggle services submenu">
                            <i class="fa-solid fa-chevron-down"></i>
                         </button>
@@ -518,7 +518,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
             <li><a href="https://imacengineering.com/">Home</a></li>
             <li><a href="https://imacengineering.com/about-us">About us</a></li>
             <li class="has-mega-menu">
-               <a href="./services.php">Services <span class="arrow">&#9662;</span></a>
+               <a href="./services">Services <span class="arrow">&#9662;</span></a>
                <div class="mega-menu">
                   <div class="mega-menu-left">
                      <div>
@@ -634,7 +634,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                <li class="nav-item"><a href="https://imacengineering.com/">Home</a></li>
                <li class="nav-item"><a href="https://imacengineering.com/about-us" class="nav-link">About us</a></li>
                <li class="nav-item has-mega-menu dropdown">
-                  <a href="./services.php" class="nav-link">Services</a>
+                  <a href="./services" class="nav-link">Services</a>
                   <img src="./assets/image/dropdown-icon-1.svg?v=<?= ASSET_VERSION ?>" alt="services"
                      class="dropdown-icon" loading="lazy" decoding="async">
                   <div class="mega-menu">

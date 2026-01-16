@@ -123,6 +123,71 @@
         <div class="service-card-wrapper"></div>
         <div class="service-card-wrapper"></div>
     </div>
+    <div class="new-section-cards-holder">
+        <div class="new-section-card">
+            <div class="card-upper-holder">
+                <span class="big-card-number">01.</span>
+                <h3>Ideation</h3>
+                <p>We assess your idea against manufacturing realities, material options, and cost implications. </p>
+            </div>
+            <div class="new-icon-wrapper-card">
+                <img src="./assets/Product-Design-and-Development/idea.webp" alt="Ideation" loading="lazy">
+            </div>
+
+        </div>
+        <div class="new-section-card">
+            <div class="card-upper-holder">
+                <span class="big-card-number">02.</span>
+                <h3>Design</h3>
+                <p>As concepts progress toward detailed engineering, documentation created through professional <a
+                        style="font-weight: 700; color: #ffffff;"
+                        href="https://imacengineering.com/mechanical-cad-drafting-outsourcing-services">mechanical CAD
+                        drafting services</a> ensures design intent is accurately translated into manufacturable data.
+                </p>
+            </div>
+            <div class="new-icon-wrapper-card">
+                <img src="./assets/Product-Design-and-Development/vector.webp" alt="Design" loading="lazy">
+            </div>
+        </div>
+
+        <div class="new-section-card">
+            <div class="card-upper-holder">
+                <span class="big-card-number">03.</span>
+                <h3>Prototyping</h3>
+                <p>Physical validation before production investment. </p>
+            </div>
+            <div class="new-icon-wrapper-card">
+                <img src="./assets/Product-Design-and-Development/3d-modeling.webp" alt="Prototyping" loading="lazy">
+            </div>
+        </div>
+
+        <div class="new-section-card">
+            <div class="card-upper-holder">
+                <span class="big-card-number">04.</span>
+                <h3>Testing</h3>
+                <p>Performance verification under real conditions. </p>
+            </div>
+            <div class="new-icon-wrapper-card">
+                <img src="./assets/Product-Design-and-Development/exam.webp" alt="Testing" loading="lazy">
+            </div>
+        </div>
+
+        <div class="new-section-card">
+            <div class="card-upper-holder">
+                <span class="big-card-number">05.</span>
+                <div>
+                    <h3>Manufacturing</h3>
+                    <p>Volume manufacturing with process controls that maintain part quality across the production
+                        cycle.
+                    </p>
+                </div>
+            </div>
+            <div class="new-icon-wrapper-card">
+                <img src="./assets/Product-Design-and-Development/automation.webp" alt="Manufacturing" loading="lazy">
+            </div>
+        </div>
+
+    </div>
 </section>
 
 <script>

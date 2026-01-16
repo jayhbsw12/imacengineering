@@ -117,11 +117,33 @@
         margin-left: 20px;
     }
 
-    .conclusion-service-holder{
-    margin-top: 80px;
+    .conclusion-service-holder {
+        margin-top: 80px;
     }
-    .conclusion-service-holder h2{
+
+    .conclusion-service-holder h2 {
         margin: 0;
+    }
+
+    .cards-section {
+        padding: 20px !important;
+    }
+
+
+    @media(max-width:1024px) {
+        .top-headingbar{
+            margin-top: 96px;
+        }
+    }
+
+    @media(max-width:820px) {
+        .new-section-cards-holder {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .new-section-card {
+            padding: 20px;
+        }
     }
 </style>
 <noscript>

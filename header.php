@@ -622,7 +622,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                <li class="nav-item"><a href="https://imacengineering.com/">Home</a></li>
                <li class="nav-item"><a href="https://imacengineering.com/about-us" class="nav-link">About us</a></li>
                <li class="nav-item has-mega-menu dropdown">
-                  <a href="#" class="nav-link">Services</a>
+                  <a href="./services.php" class="nav-link">Services</a>
                   <img src="./assets/image/dropdown-icon-1.svg?v=<?= ASSET_VERSION ?>" alt="services" class="dropdown-icon"
                      loading="lazy" decoding="async">
                   <div class="mega-menu">

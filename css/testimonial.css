@@ -38,3 +38,8 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+.service-card-wrapper {
+    padding: 20px;
+    background: #f7f7f7;
+}

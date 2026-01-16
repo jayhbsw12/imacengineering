@@ -14,7 +14,7 @@
          if ($file->isFile()) {
             $ext = strtolower(pathinfo($file->getFilename(), PATHINFO_EXTENSION));
             // track only file types that matter for caching/versioning
-            if (in_array($ext, ['css','js','png','jpg','jpeg','webp','avif','svg','woff2','woff','ttf','eot','otf','ico'])) {
+            if (in_array($ext, ['css', 'js', 'png', 'jpg', 'jpeg', 'webp', 'avif', 'svg', 'woff2', 'woff', 'ttf', 'eot', 'otf', 'ico'])) {
                $assetFiles[] = $file->getPathname();
             }
          }
@@ -24,7 +24,8 @@
    $latest = 0;
    foreach ($assetFiles as $f) {
       $t = @filemtime($f);
-      if ($t && $t > $latest) $latest = $t;
+      if ($t && $t > $latest)
+         $latest = $t;
    }
 
    // If we found any file mtimes use the latest timestamp, otherwise fall back to a manual version
@@ -47,8 +48,10 @@
 <link rel="dns-prefetch" href="//notifier-configs.airbrake.io">
 
 <!-- Google Fonts: Poppins -->
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap">
+<link rel="preload" as="style"
+   href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap">
+<link rel="stylesheet"
+   href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap">
 
 <!-- ----------------------------------------------------------------------- >
 <!-- Background overlay images: prefetch for later use -->
@@ -416,8 +419,8 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
          <!-- Top Header -->
          <div class="top-header">
             <div class="logo">
-               <a href="/"><img src="assets/image/logo.svg?v=<?= ASSET_VERSION ?>"
-                     alt="IMAC Logo" aria-label="iMAC Engineering — home" decoding="async" /></a>
+               <a href="/"><img src="assets/image/logo.svg?v=<?= ASSET_VERSION ?>" alt="IMAC Logo"
+                     aria-label="iMAC Engineering — home" decoding="async" /></a>
                <a href="#" class="btn-orange open-appointment-modal">
                   Schedule a Consultation <i class="fa-solid fa-arrow-right"></i>
                </a>
@@ -433,7 +436,12 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                   <li><a href="https://imacengineering.com/about-us">About us</a></li>
                   <!-- Services with Dropdown -->
                   <li class="has-submenu">
-                     <a href="#">Services <i class="fa-solid fa-chevron-down submenu-toggle"></i></a>
+                     <div class="menu-item-wrapper">
+                        <a href="./services.php" class="menu-link">Services</a>
+                        <button class="submenu-toggle-btn" aria-label="Toggle services submenu">
+                           <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                     </div>
                      <ul class="submenu">
                         <li><a href="https://imacengineering.com/mechanical-cad-drafting-outsourcing-services">CAD
                               Outsourcing Services</a></li>
@@ -468,7 +476,12 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                   <li><a href="https://imacengineering.com/portfolio">Portfolio</a></li>
                   <!-- Resources with Dropdown -->
                   <li class="has-submenu">
-                     <a href="#">Resources <i class="fa-solid fa-chevron-down submenu-toggle"></i></a>
+                     <div class="menu-item-wrapper">
+                        <a href="#" class="menu-link">Resources</a>
+                        <button class="submenu-toggle-btn" aria-label="Toggle resources submenu">
+                           <i class="fa-solid fa-chevron-down"></i>
+                        </button>
+                     </div>
                      <ul class="submenu">
                         <li><a href="https://imacengineering.com/blogs">Blogs</a></li>
                         <li><a href="https://imacengineering.com/case-studies">Case Studies</a></li>
@@ -519,12 +532,12 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                   <div class="mega-menu-right">
                      <ul class="menu-list">
                         <li><a href="https://imacengineering.com/mechanical-cad-drafting-outsourcing-services"><img
-                                 src="assets/icons/mega-menu/cad-outsourcing-services.svg?v=<?= ASSET_VERSION ?>" alt="CAD Outsourcing"
-                                 loading="lazy" decoding="async"> <span>CAD Outsourcing
+                                 src="assets/icons/mega-menu/cad-outsourcing-services.svg?v=<?= ASSET_VERSION ?>"
+                                 alt="CAD Outsourcing" loading="lazy" decoding="async"> <span>CAD Outsourcing
                                  Services</span></a></li>
                         <li><a href="https://imacengineering.com/innovation-and-intellectual-property-services"><img
-                                 src="assets/icons/mega-menu/Innovation-&-IP-Strategy.svg?v=<?= ASSET_VERSION ?>" alt="Innovation & IP"
-                                 loading="lazy" decoding="async"> <span>Innovation & IP
+                                 src="assets/icons/mega-menu/Innovation-&-IP-Strategy.svg?v=<?= ASSET_VERSION ?>"
+                                 alt="Innovation & IP" loading="lazy" decoding="async"> <span>Innovation & IP
                                  Strategy</span></a></li>
                         <li><a href="https://imacengineering.com/product-design-and-development-services"><img
                                  src="assets/icons/mega-menu/product-design-development.svg?v=<?= ASSET_VERSION ?>"
@@ -551,8 +564,8 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                                  alt="Tooling Design" loading="lazy" decoding="async">
                               <span>Tooling Design <br>and Manufacturing</span></a></li>
                         <li><a href="https://imacengineering.com/3d-printing-services"><img
-                                 src="assets/icons/mega-menu/Additive-Manufacturing.svg?v=<?= ASSET_VERSION ?>" alt="Additive Manufacturing"
-                                 loading="lazy" decoding="async"> <span>Additive
+                                 src="assets/icons/mega-menu/Additive-Manufacturing.svg?v=<?= ASSET_VERSION ?>"
+                                 alt="Additive Manufacturing" loading="lazy" decoding="async"> <span>Additive
                                  Manufacturing/<br>3D Printing</span></a></li>
                         <li><a href="https://imacengineering.com/3d-miniature-model-design-services"><img
                                  src="assets/icons/mega-menu/3D-Printed-Miniature-Exhibition-Model.svg?v=<?= ASSET_VERSION ?>"
@@ -560,12 +573,11 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                                  Miniature Design</span></a></li>
                         <li><a href="https://imacengineering.com/contract-manufacturing-services"><img
                                  src="assets/icons/mega-menu/contract-menufacturing.svg?v=<?= ASSET_VERSION ?>" alt="Contract
-                                 Manufacturing"
-                                 loading="lazy" decoding="async"> <span>Contract
+                                 Manufacturing" loading="lazy" decoding="async"> <span>Contract
                                  Manufacturing</span></a></li>
                         <li><a href="https://imacengineering.com/assembly-integration-services"><img
-                                 src="assets/icons/mega-menu/Integration-Services.svg?v=<?= ASSET_VERSION ?>" alt="Integration Services"
-                                 loading="lazy" decoding="async"> <span>Integration
+                                 src="assets/icons/mega-menu/Integration-Services.svg?v=<?= ASSET_VERSION ?>"
+                                 alt="Integration Services" loading="lazy" decoding="async"> <span>Integration
                                  Services</span></a></li>
                         <li><a href="https://imacengineering.com/plastic-injection-molding-services"><img
                                  src="assets/icons/mega-menu/plastic injection moulding.svg?v=<?= ASSET_VERSION ?>"
@@ -611,8 +623,8 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
             </button>
             <div class="logo-group">
                <div class="logo-icons">
-                  <a href="https://imacengineering.com/"> <img src="assets/image/logo.svg?v=<?= ASSET_VERSION ?>" alt="imac-logo"
-                        class="small-icon" loading="lazy" decoding="async"></a>
+                  <a href="https://imacengineering.com/"> <img src="assets/image/logo.svg?v=<?= ASSET_VERSION ?>"
+                        alt="imac-logo" class="small-icon" loading="lazy" decoding="async"></a>
                </div>
             </div>
          </div>
@@ -623,8 +635,8 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                <li class="nav-item"><a href="https://imacengineering.com/about-us" class="nav-link">About us</a></li>
                <li class="nav-item has-mega-menu dropdown">
                   <a href="./services.php" class="nav-link">Services</a>
-                  <img src="./assets/image/dropdown-icon-1.svg?v=<?= ASSET_VERSION ?>" alt="services" class="dropdown-icon"
-                     loading="lazy" decoding="async">
+                  <img src="./assets/image/dropdown-icon-1.svg?v=<?= ASSET_VERSION ?>" alt="services"
+                     class="dropdown-icon" loading="lazy" decoding="async">
                   <div class="mega-menu">
                      <div class="mega-menu-left">
                         <div>
@@ -678,7 +690,8 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                               <a href="https://imacengineering.com/manufacturing/on-demand">
                                  <img
                                     src="assets/icons/mega-menu/MVP-Prototyping-&-Manufacturing-as-Services.svg?v=<?= ASSET_VERSION ?>"
-                                    alt="on demand manufacturing" loading="lazy" decoding="async"> <span> On Demand Manufacturing </span>
+                                    alt="on demand manufacturing" loading="lazy" decoding="async"> <span> On Demand
+                                    Manufacturing </span>
                               </a>
                            </li>
                            <li>
@@ -751,8 +764,8 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                </li>
                <li class="nav-item has-mega-menu dropdown">
                   <a href="#" class="nav-link">Resources</a>
-                  <img src="./assets/image/dropdown-icon-1.svg?v=<?= ASSET_VERSION ?>" alt="resources" class="dropdown-icon"
-                     loading="lazy" decoding="async">
+                  <img src="./assets/image/dropdown-icon-1.svg?v=<?= ASSET_VERSION ?>" alt="resources"
+                     class="dropdown-icon" loading="lazy" decoding="async">
                   <div class="mega-menu small-megamenu">
                      <div class="mega-menu-right small">
                         <ul class="menu-list">
@@ -771,8 +784,8 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
          <div class="cta-section">
             <div class="appointment-btn">
                <a href="#" class="appointment-link open-appointment-modal">Schedule a Consultation </a>
-               <img src="https://static.codia.ai/custom_image/2025-07-05/073118/dropdown-arrow.svg" alt="Schedule a Consultation"
-                  class="appointment-arrow" loading="lazy" decoding="async">
+               <img src="https://static.codia.ai/custom_image/2025-07-05/073118/dropdown-arrow.svg"
+                  alt="Schedule a Consultation" class="appointment-arrow" loading="lazy" decoding="async">
             </div>
          </div>
       </div>
@@ -847,23 +860,42 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
             mobileNav.classList.toggle("active");
          });
 
-         // Close mobile nav on link click (optional)
-         mobileNav.querySelectorAll("a").forEach(link => {
+         // Close mobile nav on regular link click
+         mobileNav.querySelectorAll("a:not(.menu-link)").forEach(link => {
             link.addEventListener("click", function () {
-               if (!this.closest(".has-submenu")) {
-                  mobileNav.classList.remove("active");
-               }
+               mobileNav.classList.remove("active");
             });
          });
 
-         // Toggle submenus
-         const submenuToggles = document.querySelectorAll(".has-submenu > a");
+         // Handle submenu toggles (chevron buttons)
+         const submenuToggles = document.querySelectorAll(".submenu-toggle-btn");
          submenuToggles.forEach(toggle => {
             toggle.addEventListener("click", function (e) {
                e.preventDefault();
-               const parentLi = this.parentElement;
-               document.querySelectorAll(".has-submenu").forEach(li => { if (li !== parentLi) li.classList.remove("active"); });
+               e.stopPropagation();
+               const parentLi = this.closest(".has-submenu");
+               
+               // Close other open submenus
+               document.querySelectorAll(".has-submenu.active").forEach(li => {
+                  if (li !== parentLi) {
+                     li.classList.remove("active");
+                  }
+               });
+               
+               // Toggle current submenu
                parentLi.classList.toggle("active");
+            });
+         });
+
+         // Handle Services/Resources link clicks (prevent closing on chevron area)
+         const menuLinks = document.querySelectorAll(".menu-link");
+         menuLinks.forEach(link => {
+            link.addEventListener("click", function (e) {
+               const parentLi = this.closest(".has-submenu");
+               if (parentLi) {
+                  // Only close if it's not a submenu
+                  mobileNav.classList.remove("active");
+               }
             });
          });
       });

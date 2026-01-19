@@ -169,7 +169,7 @@
     </style>
 </noscript>
 
-<meta name="robots" content="noindex,nofollow">
+<meta name="robots" content="index,follow">
 <title> Services - iMAC Engineering </title>
 <meta name="description" content="">
 <link rel="canonical" href="https://imacengineering.com/services" />

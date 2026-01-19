@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /service
+Disallow: /services
 
 Sitemap: https://imacengineering.com/sitemap.xml

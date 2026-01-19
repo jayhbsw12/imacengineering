@@ -63,9 +63,11 @@
         justify-content: flex-end;
     }
 
-    .new-section-card h3 {
+    .new-section-card h2 {
         font-size: 24px;
         font-weight: 600;
+        color: #ff4612;
+        margin: 0;
     }
 
     .big-card-number {
@@ -94,6 +96,7 @@
         align-items: center;
         margin: 80px 0px;
         flex-direction: column;
+        gap: 40px;
     }
 
     p.new-section-description {
@@ -118,7 +121,7 @@
     }
 
     .conclusion-service-holder {
-        margin-top: 80px;
+        margin-top: 50px;
     }
 
     .conclusion-service-holder h2 {
@@ -129,9 +132,21 @@
         padding: 20px !important;
     }
 
+    .page-heading-top-holder {
+        max-width: 1440px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    h1.services-top-title {
+        font-weight: 600;
+        font-size: 36px;
+    }
+
 
     @media(max-width:1024px) {
-        .top-headingbar{
+        .top-headingbar {
             margin-top: 96px;
         }
     }
@@ -248,13 +263,27 @@
     </div>
 </section>
 
+
 <section class="service-page-section cards-section">
+    <div class="page-heading-top-holder">
+        <h1 class="services-top-title">Engineering Design & Manufacturing Services</h1>
+        <p>At iMAC Engineering Services, we provide integrated engineering
+            design and manufacturing solutions
+            that support products from early concept through production. Our services are structured to help
+            organizations reduce development risk, improve manufacturability, and achieve consistent execution
+            across design, documentation, and manufacturing stages.
+        </p>
+        <p>
+            This page outlines our core engineering capabilities and how each service fits within the overall
+            product development and manufacturing lifecycle.
+        </p>
+    </div>
     <div class="new-section-cards-holder">
 
-        <div class="new-section-card">
+        <!-- <div class="new-section-card">
             <div class="card-upper-holder">
                 <span class="big-card-number">01.</span>
-                <h3>Engineering Design & Manufacturing Services</h3>
+                <h2>Engineering Design & Manufacturing Services</h2>
                 <p class="new-section-description">At iMAC Engineering Services, we provide integrated engineering
                     design and manufacturing solutions
                     that support products from early concept through production. Our services are structured to help
@@ -267,11 +296,11 @@
                 </p>
             </div>
 
-        </div>
+        </div> -->
         <div class="new-section-card">
             <div class="card-upper-holder">
-                <span class="big-card-number">02.</span>
-                <h3>Product Design & Development Services</h3>
+                <span class="big-card-number">01.</span>
+                <h2>Product Design & Development Services</h2>
                 <p class="new-section-description">Our product design and development services focus on transforming
                     ideas into functional, manufacturable products. We support concept development, design refinement,
                     material selection, and design validation while ensuring alignment with downstream manufacturing
@@ -293,8 +322,8 @@
         </div>
         <div class="new-section-card">
             <div class="card-upper-holder">
-                <span class="big-card-number">03.</span>
-                <h3>Mechanical CAD Drafting Outsourcing Services</h3>
+                <span class="big-card-number">02.</span>
+                <h2>Mechanical CAD Drafting Outsourcing Services</h2>
                 <p class="new-section-description">Mechanical CAD drafting converts design intent into precise technical
                     documentation required for manufacturing, procurement, and quality control. Our drafting services
                     include detailed part drawings, assembly drawings, tolerance definition, and revision control
@@ -314,8 +343,8 @@
         </div>
         <div class="new-section-card">
             <div class="card-upper-holder">
-                <span class="big-card-number">04.</span>
-                <h3>Plastic Injection Molding Services</h3>
+                <span class="big-card-number">03.</span>
+                <h2>Plastic Injection Molding Services</h2>
                 <p class="new-section-description">Our plastic injection molding services support high-volume production
                     of precision plastic components. We work closely with design and tooling requirements to ensure part
                     geometry, material selection, and mold design are optimized for repeatable production and consistent
@@ -337,8 +366,8 @@
         </div>
         <div class="new-section-card">
             <div class="card-upper-holder">
-                <span class="big-card-number">05.</span>
-                <h3>Additive Manufacturing & Rapid Prototyping</h3>
+                <span class="big-card-number">04.</span>
+                <h2>Additive Manufacturing & Rapid Prototyping</h2>
                 <p class="new-section-description">Additive manufacturing and rapid prototyping services enable fast
                     validation of design concepts, functional testing, and design iteration. These services help reduce
                     development timelines and support early-stage decision making before committing to production
@@ -348,8 +377,8 @@
         </div>
         <div class="new-section-card">
             <div class="card-upper-holder">
-                <span class="big-card-number">06.</span>
-                <h3>Contract Manufacturing & Production Support</h3>
+                <span class="big-card-number">05.</span>
+                <h2>Contract Manufacturing & Production Support</h2>
                 <p class="new-section-description">We provide manufacturing support services that help bridge the gap
                     between engineering and production. Our capabilities include supplier coordination, production
                     planning, and documentation support to ensure consistent execution during manufacturing scale-up.
@@ -359,8 +388,8 @@
         </div>
         <div class="new-section-card">
             <div class="card-upper-holder">
-                <span class="big-card-number">07.</span>
-                <h3>Integrated Engineering Workflow</h3>
+                <span class="big-card-number">06.</span>
+                <h2>Integrated Engineering Workflow</h2>
                 <p class="new-section-description">Our services are designed to function as a connected workflow:</p>
                 <ul class="new-section-ul">
                     <li>Product design establishes functionality and manufacturability</li>
@@ -374,8 +403,8 @@
         </div>
         <div class="new-section-card">
             <div class="card-upper-holder">
-                <span class="big-card-number">08.</span>
-                <h3>Industries We Support</h3>
+                <span class="big-card-number">07.</span>
+                <h2>Industries We Support</h2>
                 <p class="new-section-description">Our engineering and manufacturing services support a wide range of
                     industries, including:</p>
                 <ul class="new-section-ul">
@@ -394,7 +423,6 @@
     </div>
 
     <div class="conclusion-service-holder">
-        <h2>Conclusion</h2>
         <p>iMAC Engineering Services delivers structured engineering and manufacturing solutions that support reliable
             product execution. By aligning design, documentation, and manufacturing processes, we help organizations
             achieve predictable outcomes and long-term production success.</p>

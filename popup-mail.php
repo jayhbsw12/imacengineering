@@ -14,6 +14,46 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $userAgent = $_SERVER['HTTP_USER_AGENT'] ?? 'Unknown';
     $pageURL   = $_SERVER['HTTP_REFERER'] ?? 'Not Available';
 
+    // ---------- reCAPTCHA v3 verification ----------
+    $recaptchaSecret = '6LeGsTUsAAAAAGAK4CB78Gum39EN0torgDTP1C1s';
+    $recaptchaToken  = $_POST['g-recaptcha-response'] ?? '';
+    $recaptchaAction = $_POST['g-recaptcha-action'] ?? '';
+
+    if (empty($recaptchaToken)) {
+        echo 'error';
+        exit;
+    }
+
+    $verifyUrl = 'https://www.google.com/recaptcha/api/siteverify';
+    $postData = http_build_query([
+        'secret'   => $recaptchaSecret,
+        'response' => $recaptchaToken,
+        'remoteip' => $_SERVER['REMOTE_ADDR'] ?? ''
+    ]);
+
+    $ch = curl_init($verifyUrl);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $postData);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 10);
+    $verifyResponse = curl_exec($ch);
+    curl_close($ch);
+
+    if (!$verifyResponse) {
+        echo 'error';
+        exit;
+    }
+
+    $captchaResult = json_decode($verifyResponse, true);
+    $score = $captchaResult['score'] ?? 0;
+    $action = $captchaResult['action'] ?? '';
+
+    if (empty($captchaResult['success']) || $score < 0.5 || ($recaptchaAction && $action !== $recaptchaAction)) {
+        error_log('reCAPTCHA failed (popup): ' . $verifyResponse);
+        echo 'error';
+        exit;
+    }
+
     // Basic required fields check
     if ($fullName && $email && $contactNumber) {
         $to = "business@imacengineering.com";

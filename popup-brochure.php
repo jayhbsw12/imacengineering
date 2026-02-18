@@ -55,6 +55,8 @@
           <input type="tel" id="contactNumberBrochure" name="contactNumber">
           <div class="error-message"></div>
 
+          <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response-brochure">
+          <input type="hidden" name="g-recaptcha-action" id="g-recaptcha-action-brochure" value="popup_brochure">
           <button type="submit" class="submit-btn-popup">Submit</button>
         </form>
 
@@ -67,3 +69,23 @@
     </div>
   </div>
 </div>
+
+        <!-- reCAPTCHA v3: execute and attach token before submit (brochure popup) -->
+        <script src="https://www.google.com/recaptcha/api.js?render=6LeGsTUsAAAAAPdyUaFFed_s8EMdwYGjzNFn5zVA"></script>
+        <script>
+          (function(){
+            var form = document.getElementById('contactForm-brochure');
+            if (!form) return;
+            form.addEventListener('submit', function(e){
+              e.preventDefault();
+              grecaptcha.ready(function(){
+                grecaptcha.execute('6LeGsTUsAAAAAPdyUaFFed_s8EMdwYGjzNFn5zVA', {action: 'popup_brochure'})
+                .then(function(token){
+                  document.getElementById('g-recaptcha-response-brochure').value = token;
+                  document.getElementById('g-recaptcha-action-brochure').value = 'popup_brochure';
+                  form.submit();
+                });
+              });
+            });
+          })();
+        </script>

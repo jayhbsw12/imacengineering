@@ -1,5 +1,7 @@
 <?php include("header-top.php"); ?>
  <meta name="robots" content="index,follow">
+ <title>Nox Advaita: Designing The Future Of Medical Devices | iMAC Engineering</title>
+ <meta name="description" content="Explore how iMAC Engineering improved Nox Advaita through smart medical device design, enhanced reliability, and better usability for healthcare settings.">
 <?php include("header.php"); ?>
 
 <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"> -->

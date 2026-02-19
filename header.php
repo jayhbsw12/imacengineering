@@ -186,6 +186,70 @@
       font-display: swap;
       src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/webfonts/fa-brands-400.woff2") format("woff2");
    }
+
+   .sticky-cta-holder-bottom {
+      /* border: 1px solid red; */
+      padding: 20px;
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      z-index: 100;
+      display: flex;
+      justify-content: center;
+
+      /* NEW */
+      transform: translateY(100%);
+      opacity: 0;
+      transition: transform 0.4s ease, opacity 0.3s ease;
+      pointer-events: none;
+   }
+
+   .sticky-cta-holder-bottom.active {
+      transform: translateY(0);
+      opacity: 1;
+      pointer-events: auto;
+   }
+
+   .sticky-cta-item-wrapper {
+      width: max-content;
+      background: #ff4612;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px
+   }
+
+   .sticky-cta-btn-new:hover {
+      background: #efefef;
+   }
+
+   .sticky-cta-btn-new {
+      color: #ff4612;
+      background: #fff;
+      padding: 10px 20px;
+   }
+
+   .sticky-cta-text {
+      color: #fff;
+   }
+
+   @media(max-width: 775px){
+      .sticky-cta-item-wrapper{
+         flex-direction: column;
+         align-items: flex-start;
+      }
+
+      .sticky-cta-holder-bottom{
+         bottom: 40px;
+      }
+   }
+
+    @media(max-width: 500px){
+      .sticky-cta-item-wrapper{
+         display: none;
+      }
+    }
 </style>
 
 
@@ -804,20 +868,27 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
          </ul>
       </nav>
    </header>
+
+   <div class="sticky-cta-holder-bottom">
+      <div class="sticky-cta-item-wrapper">
+         <span class="sticky-cta-text">Let Us Help You in Designing Your Product and Launching to Market</span>
+         <a href="/contact-us" class="sticky-cta-btn-new">Contact Us</a>
+      </div>
+   </div>
    <!-- Sticky Actions -->
-   <div class="sticky-actions" id="stickyActions" aria-live="polite">
+   <!-- <div class="sticky-actions" id="stickyActions" aria-live="polite">
       <div class="sticky-actions__rail" aria-hidden="true"></div>
 
       <div class="sticky-actions__stack">
 
          <div id="saItems" class="sa-items" role="group" aria-label="Quick actions">
-            <!-- WhatsApp -->
+            
             <a class="sa-btn sa-hide-on-collapse" data-tip="WhatsApp" href="https://wa.me/+916357173693" target="_blank"
                rel="noopener" aria-label="WhatsApp">
                <i class="fab fa-whatsapp sa-icon"></i>
             </a>
 
-            <!-- LinkedIn -->
+            
             <a class="sa-btn sa-hide-on-collapse" data-tip="LinkedIn"
                href="https://www.linkedin.com/company/imac-design-engineering-services/" target="_blank" rel="noopener"
                aria-label="LinkedIn">
@@ -827,7 +898,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                </svg>
             </a>
 
-            <!-- Facebook -->
+            
             <a class="sa-btn sa-hide-on-collapse" data-tip="Facebook" href="https://www.facebook.com/iMACDesigns/"
                target="_blank" rel="noopener" aria-label="Facebook">
                <svg class="sa-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -836,7 +907,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                </svg>
             </a>
 
-            <!-- Instagram -->
+            
             <a class="sa-btn sa-hide-on-collapse" data-tip="Instagram" href="https://www.instagram.com/imac_designs/"
                target="_blank" rel="noopener" aria-label="Instagram">
                <svg class="sa-icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -848,7 +919,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
 
          </div>
       </div>
-   </div>
+   </div> -->
 
    <script>
       document.addEventListener("DOMContentLoaded", function () {
@@ -874,14 +945,14 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                e.preventDefault();
                e.stopPropagation();
                const parentLi = this.closest(".has-submenu");
-               
+
                // Close other open submenus
                document.querySelectorAll(".has-submenu.active").forEach(li => {
                   if (li !== parentLi) {
                      li.classList.remove("active");
                   }
                });
-               
+
                // Toggle current submenu
                parentLi.classList.toggle("active");
             });
@@ -898,5 +969,52 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                }
             });
          });
+      });
+   </script>
+
+   <script>
+      document.addEventListener("DOMContentLoaded", function () {
+
+         const stickyCTA = document.querySelector(".sticky-cta-holder-bottom");
+         if (!stickyCTA) return; // Guard clause if element doesn't exist
+
+         function updateSticky(scrollValue) {
+            // Show sticky CTA after scrolling past 150px
+            if (scrollValue > 150) {
+               stickyCTA.classList.add("active");
+            } else {
+               stickyCTA.classList.remove("active");
+            }
+         }
+
+         // Detect if Lenis is loaded and set up proper event listener
+         let lenisReady = false;
+
+         // Try to attach Lenis listener if available immediately
+         if (window.lenis && typeof window.lenis.on === 'function') {
+            lenisReady = true;
+            window.lenis.on("scroll", ({ scroll }) => {
+               updateSticky(scroll);
+            });
+            console.log("✅ Sticky CTA: Lenis scroll listener attached");
+         }
+
+         // Also set up fallback for native scroll (in case Lenis fails or not loaded)
+         window.addEventListener("scroll", function () {
+            updateSticky(window.scrollY);
+         }, { passive: true });
+
+         // If Lenis wasn't ready immediately, wait for it
+         if (!lenisReady) {
+            window.addEventListener("lenisInit", function () {
+               if (window.lenis && typeof window.lenis.on === 'function') {
+                  window.lenis.on("scroll", ({ scroll }) => {
+                     updateSticky(scroll);
+                  });
+                  console.log("✅ Sticky CTA: Lenis scroll listener attached (delayed)");
+               }
+            });
+         }
+
       });
    </script>

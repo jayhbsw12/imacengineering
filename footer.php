@@ -1,5 +1,198 @@
+<style>
+  .footer-quicklinks-wrapper {
+    padding-top: 0px;
+    margin-bottom: 40px;
+    max-width: 1728px;
+    margin: auto;
+    padding-bottom: 80px;
+  }
+
+  h5.quicklinks-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .quicklink-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 12px;
+    background: #ededed;
+    border-radius: 14px;
+  }
+
+  .quicklinks-holder {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+  }
+
+  /* Responsive: 2 columns on medium, 1 column on small */
+  @media (max-width: 992px) {
+    .quicklinks-holder {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .quicklinks-holder {
+      grid-template-columns: 1fr;
+    }
+
+    .quicklink-item {
+      padding: 10px;
+    }
+
+    .quicklink-icon {
+      height: 48px;
+      width: 48px;
+    }
+  }
+
+  .quicklink-icon {
+    /* padding: 10px; */
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #cfcfcf;
+    border-radius: 12px;
+  }
+
+  /* Make items clickable and accessible */
+  .quicklink-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 12px;
+    background: #ededed;
+    border-radius: 14px;
+    text-decoration: none;
+    color: inherit;
+    transition: background .12s ease, transform .08s ease;
+  }
+
+  .quicklink-item:hover,
+  .quicklink-item:focus {
+    background: #e6e6e6;
+    transform: translateY(-2px);
+    outline: none;
+  }
+
+  .quicklink-text {
+    font-size: 15px;
+    line-height: 1.2;
+  }
+</style>
+
 <!-- Get In Touch Section -->
 <section class="get-in-touch-section">
+  <div class="footer-quicklinks-wrapper">
+    <div class="quicklinks-title-holder">
+      <h5 class="quicklinks-title">Select a Service to Read More</h5>
+    </div>
+
+    <div class="quicklinks-holder">
+      <a class="quicklink-item" href="mechanical-cad-drafting-outsourcing-services"
+        aria-label="CAD Outsourcing Services">
+        <div class="quicklink-icon"><img src="assets/icons/mega-menu/cad-outsourcing-services.svg?v=1771403555"
+            alt="CAD" loading="lazy" decoding="async" width="32" height="32"></div>
+        <div class="quicklink-text">CAD Outsourcing Services</div>
+      </a>
+
+      <a class="quicklink-item" href="innovation-and-intellectual-property-services"
+        aria-label="Innovation and IP Strategy">
+        <div class="quicklink-icon"><img src="assets/icons/mega-menu/Innovation-&amp;-IP-Strategy.svg?v=1771403555"
+            alt="IP Strategy" loading="lazy" decoding="async" width="32" height="32"></div>
+        <div class="quicklink-text">Innovation &amp; IP Strategy</div>
+      </a>
+
+      <a class="quicklink-item" href="product-design-and-development-services"
+        aria-label="Product Design and Development">
+        <div class="quicklink-icon"><img src="assets/icons/mega-menu/product-design-development.svg?v=1771403555"
+            alt="Product Design" loading="lazy" decoding="async" width="32" height="32"></div>
+        <div class="quicklink-text">Product Design and Development</div>
+      </a>
+
+      <a class="quicklink-item" href="medical-device-design-and-development-services"
+        aria-label="Medical Product Design">
+        <div class="quicklink-icon"><img
+            src="assets/icons/mega-menu/Medical-Product-Design-&amp;-Development.svg?v=1771403555" alt="Medical Product"
+            loading="lazy" decoding="async" width="32" height="32"></div>
+        <div class="quicklink-text">Medical Product Design</div>
+      </a>
+
+      <a class="quicklink-item" href="3d-reverse-engineering-services" aria-label="Reverse Engineering Services">
+        <div class="quicklink-icon"><img src="assets/icons/mega-menu/Reverse-Engineering-Services.svg?v=1771403555"
+            alt="Reverse Engineering" loading="lazy" decoding="async" width="32" height="32"></div>
+        <div class="quicklink-text">Reverse Engineering Services</div>
+      </a>
+
+      <a class="quicklink-item" href="./manufacturing/on-demand" aria-label="On Demand Manufacturing">
+        <div class="quicklink-icon"><img
+            src="assets/icons/mega-menu/MVP-Prototyping-&amp;-Manufacturing-as-Services.svg?v=1771403555"
+            alt="On Demand Manufacturing" loading="lazy" decoding="async" width="32" height="32"></div>
+        <div class="quicklink-text">On Demand Manufacturing</div>
+      </a>
+
+      <a class="quicklink-item" href="sheet-metal-design-and-development-services" aria-label="Sheet Metal Design">
+        <div class="quicklink-icon"><img src="assets/icons/mega-menu/Sheet-Metal-Design-Services.svg?v=1771403555"
+            alt="Sheet Metal" loading="lazy" decoding="async" width="32" height="32"></div>
+        <div class="quicklink-text">Sheet Metal Design</div>
+      </a>
+
+      <a class="quicklink-item" href="rapid-tooling-design-and-manufacturing-services"
+        aria-label="Tooling Design and Manufacturing">
+        <div class="quicklink-icon"><img
+            src="assets/icons/mega-menu/Tooling-Design-and-Manufacturing-Services.svg?v=1771403555" alt="Tooling"
+            loading="lazy" decoding="async" width="32" height="32"></div>
+        <div class="quicklink-text">Tooling Design and Manufacturing</div>
+      </a>
+
+      <a class="quicklink-item" href="3d-printing-services" aria-label="Additive Manufacturing / 3D Printing">
+        <div class="quicklink-icon"><img src="assets/icons/mega-menu/Additive-Manufacturing.svg?v=1771403555"
+            alt="3D Printing" loading="lazy" decoding="async" width="32" height="32"></div>
+        <div class="quicklink-text">Additive Manufacturing / 3D Printing</div>
+      </a>
+
+      <a class="quicklink-item" href="3d-miniature-model-design-services" aria-label="3D Miniature Design">
+        <div class="quicklink-icon"><img
+            src="assets/icons/mega-menu/3D-Printed-Miniature-Exhibition-Model.svg?v=1771403555" alt="3D Miniature"
+            loading="lazy" decoding="async" width="32" height="32"></div>
+        <div class="quicklink-text">3D Miniature Design</div>
+      </a>
+
+      <a class="quicklink-item" href="contract-manufacturing-services" aria-label="Contract Manufacturing">
+        <div class="quicklink-icon"><img src="assets/icons/mega-menu/contract-menufacturing.svg?v=1771403555"
+            alt="Contract Manufacturing" loading="lazy" decoding="async" width="32" height="32"></div>
+        <div class="quicklink-text">Contract Manufacturing</div>
+      </a>
+
+      <a class="quicklink-item" href="assembly-integration-services" aria-label="Integration Services">
+        <div class="quicklink-icon"><img src="assets/icons/mega-menu/Integration-Services.svg?v=1771403555"
+            alt="Integration Services" loading="lazy" decoding="async" width="32" height="32"></div>
+        <div class="quicklink-text">Integration Services</div>
+      </a>
+
+      <a class="quicklink-item" href="plastic-injection-molding-services" aria-label="Injection Molding">
+        <div class="quicklink-icon"><img src="assets/icons/mega-menu/plastic injection moulding.svg?v=1771403555"
+            alt="Injection Molding" loading="lazy" decoding="async" width="32" height="32"></div>
+        <div class="quicklink-text">Injection Molding</div>
+      </a>
+
+      <a class="quicklink-item" href="kiosk-design-and-development-services"
+        aria-label="Kiosk Design and Development">
+        <div class="quicklink-icon"><img
+            src="assets/icons/mega-menu/Kiosk-design-&amp;-development-service icon.svg?v=1771403555" alt="Kiosk Design"
+            loading="lazy" decoding="async" width="32" height="32"></div>
+        <div class="quicklink-text">Kiosk Design &amp; Development</div>
+      </a>
+    </div>
+  </div>
   <div class="get-in-touch-content">
     <div class="brochure-cards">
       <div class="brochure-card">
@@ -80,8 +273,8 @@
           </a>
           <div class="location-item">
             <img src="assets/icons/phone.svg" alt="Phone" class="location-icon" />
-            <span class="location-text"><a href="tel:+15483883470">+1 5483883470</a>, <a
-                href="tel:+15485670037">+1 5485670037</a></span>
+            <span class="location-text"><a href="tel:+15483883470">+1 5483883470</a>, <a href="tel:+15485670037">+1
+                5485670037</a></span>
           </div>
         </div>
       </div>

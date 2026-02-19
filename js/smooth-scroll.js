@@ -47,7 +47,7 @@
   });
 
   // ---- init Lenis (buttery + no jump)
-  const lenis = new Lenis({
+  window.lenis = new Lenis({
     // Lerp mode (don’t set duration)
     lerp: 0.12, // 0.10–0.16; higher = looser, lower = tighter
     easing: (t) => t, // linear, prevents elastic feel

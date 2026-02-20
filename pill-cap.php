@@ -2,7 +2,7 @@
  <meta name="robots" content="index,follow">
  <title>Pill Cap | iMAC Engineering</title>
  <meta name="description" content="iMAC Engineering designed an intelligent pillcap with SIM-based cellular connectivity to notify patients and doctors, featuring snap-fit assembly and sealed electronics.">
- <meta property="og:image" content="https://imacengineering.com//assets/case-study-images/Banner/Gaming-Headphone-banner.webp">
+ <meta property="og:image" content="https://imacengineering.com//assets/case-study-images/Banner/Pillcap-banner.webp">
  <meta property="og:title" content="Pill Cap | iMAC Engineering" />
  <meta property="og:description" content="iMAC Engineering designed an intelligent pillcap with SIM-based cellular connectivity to notify patients and doctors, featuring snap-fit assembly and sealed electronics." />
 <?php include("header.php"); ?>

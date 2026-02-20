@@ -19,8 +19,8 @@
         <!-- Hero Section -->
         <section class="hero">
             <div class="container">
-                <h1 class="hero-label case-study-new">case studies</h1>
-                <h2 class="hero-title">The Results When Businesses Choose Our Solutions</h2>
+                <h1 class="hero-label case-study-new">Case Studies</h1>
+                <h2 class="hero-title case-study-new-1">The Results When Businesses Choose Our Solutions</h2>
             </div>
         </section>
 

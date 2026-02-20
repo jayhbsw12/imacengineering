@@ -610,8 +610,8 @@ a.active span.name {
 <!-- Hero Section -->
         <section class="hero">
             <div class="container" bis_skin_checked="1">
-                <p class="hero-label">Portfolio</p>
-                <h1 class="hero-title">Our Latest Work</h1>
+                <h1 class="hero-label portfolio-new">Portfolio</h1>
+                <h2 class="hero-title portfolio-new-1">Our Latest Work</h2>
             </div>
         </section>
  <div id="page" class="site">

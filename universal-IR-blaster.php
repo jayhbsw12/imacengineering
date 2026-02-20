@@ -2,6 +2,9 @@
  <meta name="robots" content="index,follow">
   <title>Universal IR Blaster for Smart Device Control | iMAC Engineering</title>
  <meta name="description" content="iMAC Engineering designed and developed a compact, cost-effective Universal IR Blaster for controlling TVs, ACs, and IR-based appliances via mobile phones and microcontrollers.">
+ <meta property="og:image" content="https://imacengineering.com//assets/case-study-images/Banner/IR-Blaster-banner.webp">
+ <meta property="og:title" content="Universal IR Blaster for Smart Device Control | iMAC Engineering" />
+ <meta property="og:description" content="iMAC Engineering designed and developed a compact, cost-effective Universal IR Blaster for controlling TVs, ACs, and IR-based appliances via mobile phones and microcontrollers." />
 <?php include("header.php"); ?>
 
 <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"> -->

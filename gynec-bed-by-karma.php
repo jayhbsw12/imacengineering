@@ -2,6 +2,9 @@
  <meta name="robots" content="index,follow">
  <title>Gynec Bed By Karma : Revolutionizing Patient Care | iMAC Engineering</title>
  <meta name="description" content="See how iMAC Engineering has designed and developed a motorized gynec bed with hydraulic actuation, ergonomic support, height adjustment, and enhanced patient care.">
+ <meta property="og:image" content="https://imacengineering.com//assets/case-study-images/Banner/Gynec-Bed-banner.webp">
+ <meta property="og:title" content="Gynec Bed By Karma : Revolutionizing Patient Care | iMAC Engineering" />
+ <meta property="og:description" content="See how iMAC Engineering has designed and developed a motorized gynec bed with hydraulic actuation, ergonomic support, height adjustment, and enhanced patient care." />
 <?php include("header.php"); ?>
 
 <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"> -->

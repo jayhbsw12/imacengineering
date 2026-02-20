@@ -2,6 +2,9 @@
  <meta name="robots" content="index,follow">
  <title>EV Scooter Development | iMAC Engineering</title>
  <meta name="description" content="iMAC Engineering developed a fully integrated design for an electric vehicle (EV), encompassing interior and exterior components to enhance functionality, aesthetics, and user experience.">
+ <meta property="og:image" content="https://imacengineering.com//assets/case-study-images/Banner/EV-Scooter-Dev-banner.webp">
+ <meta property="og:title" content="EV Scooter Development | iMAC Engineering" />
+ <meta property="og:description" content="iMAC Engineering developed a fully integrated design for an electric vehicle (EV), encompassing interior and exterior components to enhance functionality, aesthetics, and user experience." />
 <?php include("header.php"); ?>
 
 <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"> -->

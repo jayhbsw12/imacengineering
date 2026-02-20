@@ -606,6 +606,18 @@ a.active span.name {
     padding: 0 45px;
 }
 }
+
+.portfolio-new {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.portfolio-new-1 {
+    font-size: 40px;
+    text-align: center;
+}
+
 </style>
 <!-- Hero Section -->
         <section class="hero">

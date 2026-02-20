@@ -2,6 +2,9 @@
  <meta name="robots" content="index,follow">
  <title>Patient Warmer | iMAC Engineering</title>
  <meta name="description" content="iMAC Engineering developed a next-generation surgical body warmer that is compact, whisper-quiet, and maintains normothermia with true HEPA filtration.">
+ <meta property="og:image" content="https://imacengineering.com//assets/case-study-images/Banner/Patient-Warmer-banner.webp">
+ <meta property="og:title" content="Patient Warmer | iMAC Engineering" />
+ <meta property="og:description" content="iMAC Engineering developed a next-generation surgical body warmer that is compact, whisper-quiet, and maintains normothermia with true HEPA filtration." />
 <?php include("header.php"); ?>
 
 <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"> -->

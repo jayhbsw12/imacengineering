@@ -2,6 +2,9 @@
  <meta name="robots" content="index,follow">
  <title>Centrifuge Machine | iMAC Engineering</title>
  <meta name="description" content="Blood-Separation Centrifuge Machine redesign by iMAC Engineering featuring refreshed styling, multiple concepts, and injection molding compatibility.">
+ <meta property="og:image" content="https://imacengineering.com//assets/case-study-images/Banner/Centrifuge-Machine-banner.webp">
+ <meta property="og:title" content="Centrifuge Machine | iMAC Engineering" />
+ <meta property="og:description" content="Blood-Separation Centrifuge Machine redesign by iMAC Engineering featuring refreshed styling, multiple concepts, and injection molding compatibility." />
 <?php include("header.php"); ?>
 
 <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous"> -->

@@ -214,10 +214,11 @@
    .sticky-cta-item-wrapper {
       width: max-content;
       background: #ff4612;
-      padding: 20px;
+      padding: 20px 20px 20px 30px;
       display: flex;
       align-items: center;
-      gap: 20px
+      gap: 20px;
+      border-radius: 50px;
    }
 
    .sticky-cta-btn-new:hover {
@@ -228,28 +229,29 @@
       color: #ff4612;
       background: #fff;
       padding: 10px 20px;
+      border-radius: 50px;
    }
 
    .sticky-cta-text {
       color: #fff;
    }
 
-   @media(max-width: 775px){
-      .sticky-cta-item-wrapper{
+   @media(max-width: 775px) {
+      .sticky-cta-item-wrapper {
          flex-direction: column;
          align-items: flex-start;
       }
 
-      .sticky-cta-holder-bottom{
+      .sticky-cta-holder-bottom {
          bottom: 40px;
       }
    }
 
-    @media(max-width: 500px){
-      .sticky-cta-item-wrapper{
+   @media(max-width: 500px) {
+      .sticky-cta-item-wrapper {
          display: none;
       }
-    }
+   }
 </style>
 
 
@@ -477,12 +479,12 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-F2Y7548TW5"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-F2Y7548TW5');
+   window.dataLayer = window.dataLayer || [];
+   function gtag() { dataLayer.push(arguments); }
+   gtag('js', new Date());
+   gtag('config', 'G-F2Y7548TW5');
 </script>
- 
+
 
 </head>
 
@@ -882,7 +884,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
    <div class="sticky-cta-holder-bottom">
       <div class="sticky-cta-item-wrapper">
          <span class="sticky-cta-text">Let Us Help You in Designing Your Product and Launching to Market</span>
-         <a href="/contact-us" class="sticky-cta-btn-new">Contact Us</a>
+         <a href="#  " class="sticky-cta-btn-new open-appointment-modal">Contact Us</a>
       </div>
    </div>
    <!-- Sticky Actions -->

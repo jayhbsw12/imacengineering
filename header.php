@@ -883,8 +883,8 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
 
    <div class="sticky-cta-holder-bottom">
       <div class="sticky-cta-item-wrapper">
-         <span class="sticky-cta-text">Let Us Help You in Designing Your Product and Launching to Market</span>
-         <a href="#  " class="sticky-cta-btn-new open-appointment-modal">Contact Us</a>
+         <span class="sticky-cta-text">Turn Your Idea into a Market-Ready Product  </span>
+         <a href="#  " class="sticky-cta-btn-new open-appointment-modal">Schedule a Consultation</a>
       </div>
    </div>
    <!-- Sticky Actions -->

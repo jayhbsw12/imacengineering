@@ -234,6 +234,7 @@
 
    .sticky-cta-text {
       color: #fff;
+      font-weight: 500;
    }
 
    @media(max-width: 775px) {

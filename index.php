@@ -2660,7 +2660,7 @@
                               </div>
                            </div>
                            <div class="dm-card-metadata">
-                              <span>Blog</span>
+                              <span class="dm-blog-date">Blog</span>
                               <span class="dm-read-duration">
                                  <svg class="dm-clock-svg" width="12" height="12" viewBox="0 0 24 24" fill="none"
                                     stroke="currentColor" stroke-width="2">
@@ -2967,6 +2967,11 @@
             const authorImg = clone.querySelector('.dm-author-img-wrap img');
             authorImg.src = blog.authorImage || 'https://imacengineering.com/assets/Author/Keshav-Bhavsar.webp';
             authorImg.alt = blog.authorName || 'Author';
+
+            const ts = getBlogTimestamp(blog);
+            const dateStr = (ts !== -Infinity && !Number.isNaN(ts)) ? new Date(ts).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }) : 'Blog';
+            const dateSpan = clone.querySelector('.dm-blog-date');
+            if(dateSpan) dateSpan.textContent = dateStr;
 
             clone.querySelector('.read-time').textContent = blog.readDuration || '5 Min Read';
 

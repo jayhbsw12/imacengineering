@@ -509,8 +509,8 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
             </button>
             <div class="mobile-nav" id="mobileNav">
                <ul>
-                  <li><a href="https://imacengineering.com/">Home</a></li>
-                  <li><a href="https://imacengineering.com/about-us">About us</a></li>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/about-us">About us</a></li>
                   <!-- Services with Dropdown -->
                   <li class="has-submenu">
                      <div class="menu-item-wrapper">
@@ -520,37 +520,37 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                         </button>
                      </div>
                      <ul class="submenu">
-                        <li><a href="https://imacengineering.com/mechanical-cad-drafting-outsourcing-services">CAD
+                        <li><a href="/mechanical-cad-drafting-outsourcing-services">CAD
                               Outsourcing Services</a></li>
-                        <li><a href="https://imacengineering.com/product-design-and-development-services">Product Design
+                        <li><a href="/product-design-and-development-services">Product Design
                               & Development</a></li>
-                        <li><a href="https://imacengineering.com/3d-reverse-engineering-services">Reverse Engineering
+                        <li><a href="/3d-reverse-engineering-services">Reverse Engineering
                               Services</a></li>
-                        <li><a href="https://imacengineering.com/sheet-metal-design-and-development-services">Sheet
+                        <li><a href="/sheet-metal-design-and-development-services">Sheet
                               Metal Design</a></li>
-                        <li><a href="https://imacengineering.com/3d-printing-services">Additive Manufacturing/<br>3D
+                        <li><a href="/3d-printing-services">Additive Manufacturing/<br>3D
                               Printing</a></li>
-                        <li><a href="https://imacengineering.com/contract-manufacturing-services">Contract
+                        <li><a href="/contract-manufacturing-services">Contract
                               Manufacturing</a></li>
-                        <li><a href="https://imacengineering.com/innovation-and-intellectual-property-services">Innovation
+                        <li><a href="/innovation-and-intellectual-property-services">Innovation
                               & IP Strategy</a></li>
-                        <li><a href="https://imacengineering.com/medical-device-design-and-development-services">Medical
+                        <li><a href="/medical-device-design-and-development-services">Medical
                               Product Design</a></li>
-                        <li><a href="https://imacengineering.com/manufacturing/on-demand">On Demand
+                        <li><a href="/manufacturing/on-demand">On Demand
                               Manufacturing</a></li>
-                        <li><a href="https://imacengineering.com/rapid-tooling-design-and-manufacturing-services">Tooling
+                        <li><a href="/rapid-tooling-design-and-manufacturing-services">Tooling
                               Design <br>and Manufacturing</a></li>
-                        <li><a href="https://imacengineering.com/3d-miniature-model-design-services">3D Miniature
+                        <li><a href="/3d-miniature-model-design-services">3D Miniature
                               Design</a></li>
-                        <li><a href="https://imacengineering.com/assembly-integration-services">Integration Services</a>
+                        <li><a href="/assembly-integration-services">Integration Services</a>
                         </li>
-                        <li><a href="https://imacengineering.com/plastic-injection-molding-services">Plastic Injection
+                        <li><a href="/plastic-injection-molding-services">Plastic Injection
                               Modeling</a></li>
-                        <li><a href="https://imacengineering.com/kiosk-design-and-development-services">Kiosk Design &
+                        <li><a href="/kiosk-design-and-development-services">Kiosk Design &
                               Development</a></li>
                      </ul>
                   </li>
-                  <li><a href="https://imacengineering.com/portfolio">Portfolio</a></li>
+                  <li><a href="/portfolio">Portfolio</a></li>
                   <!-- Resources with Dropdown -->
                   <li class="has-submenu">
                      <div class="menu-item-wrapper">
@@ -560,11 +560,11 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                         </button>
                      </div>
                      <ul class="submenu">
-                        <li><a href="https://imacengineering.com/blogs">Blogs</a></li>
-                        <li><a href="https://imacengineering.com/case-studies">Case Studies</a></li>
+                        <li><a href="/blogs">Blogs</a></li>
+                        <li><a href="/case-studies">Case Studies</a></li>
                      </ul>
                   </li>
-                  <li><a href="https://imacengineering.com/contact-us">Get in Touch</a></li>
+                  <li><a href="/contact-us">Get in Touch</a></li>
                </ul>
             </div>
             <div class="contact-group">
@@ -592,8 +592,8 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
       <!-- Desktop Nav -->
       <nav class="main-nav">
          <ul>
-            <li><a href="https://imacengineering.com/">Home</a></li>
-            <li><a href="https://imacengineering.com/about-us">About us</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about-us">About us</a></li>
             <li class="has-mega-menu">
                <a href="./services">Services <span class="arrow">&#9662;</span></a>
                <div class="mega-menu">
@@ -604,63 +604,63 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                            industry knowledge, expertise, and access to
                            the latest technology.</p>
                      </div>
-                     <a href="https://imacengineering.com/contact-us" class="get-started">Get Started</a>
+                     <a href="/contact-us" class="get-started">Get Started</a>
                   </div>
                   <div class="mega-menu-right">
                      <ul class="menu-list">
-                        <li><a href="https://imacengineering.com/mechanical-cad-drafting-outsourcing-services"><img
+                        <li><a href="/mechanical-cad-drafting-outsourcing-services"><img
                                  src="assets/icons/mega-menu/cad-outsourcing-services.svg?v=<?= ASSET_VERSION ?>"
                                  alt="CAD Outsourcing" loading="lazy" decoding="async"> <span>CAD Outsourcing
                                  Services</span></a></li>
-                        <li><a href="https://imacengineering.com/innovation-and-intellectual-property-services"><img
+                        <li><a href="/innovation-and-intellectual-property-services"><img
                                  src="assets/icons/mega-menu/Innovation-&-IP-Strategy.svg?v=<?= ASSET_VERSION ?>"
                                  alt="Innovation & IP" loading="lazy" decoding="async"> <span>Innovation & IP
                                  Strategy</span></a></li>
-                        <li><a href="https://imacengineering.com/product-design-and-development-services"><img
+                        <li><a href="/product-design-and-development-services"><img
                                  src="assets/icons/mega-menu/product-design-development.svg?v=<?= ASSET_VERSION ?>"
                                  alt="Design and Development" loading="lazy" decoding="async"> <span>Product
                                  Design and Development</span></a></li>
-                        <li><a href="https://imacengineering.com/medical-device-design-and-development-services"><img
+                        <li><a href="/medical-device-design-and-development-services"><img
                                  src="assets/icons/mega-menu/Medical-Product-Design-&-Development.svg?v=<?= ASSET_VERSION ?>"
                                  alt="Medical Product" loading="lazy" decoding="async">
                               <span>Medical Product Design</span></a></li>
-                        <li><a href="https://imacengineering.com/3d-reverse-engineering-services"><img
+                        <li><a href="/3d-reverse-engineering-services"><img
                                  src="assets/icons/mega-menu/Reverse-Engineering-Services.svg?v=<?= ASSET_VERSION ?>"
                                  alt="Reverse Engineering" loading="lazy" decoding="async"> <span>Reverse
                                  Engineering Services</span></a></li>
-                        <li><a href="https://imacengineering.com/manufacturing/on-demand"><img
+                        <li><a href="/manufacturing/on-demand"><img
                                  src="assets/icons/mega-menu/MVP-Prototyping-&-Manufacturing-as-Services.svg?v=<?= ASSET_VERSION ?>"
                                  alt="On Demand Manufacturing" loading="lazy" decoding="async">
                               <span>On Demand Manufacturing</span></a></li>
-                        <li><a href="https://imacengineering.com/sheet-metal-design-and-development-services"><img
+                        <li><a href="/sheet-metal-design-and-development-services"><img
                                  src="assets/icons/mega-menu/Sheet-Metal-Design-Services.svg?v=<?= ASSET_VERSION ?>"
                                  alt="Sheet Metal" loading="lazy" decoding="async"> <span>Sheet Metal
                                  Design</span></a></li>
-                        <li><a href="https://imacengineering.com/rapid-tooling-design-and-manufacturing-services"><img
+                        <li><a href="/rapid-tooling-design-and-manufacturing-services"><img
                                  src="assets/icons/mega-menu/Tooling-Design-and-Manufacturing-Services.svg?v=<?= ASSET_VERSION ?>"
                                  alt="Tooling Design" loading="lazy" decoding="async">
                               <span>Tooling Design <br>and Manufacturing</span></a></li>
-                        <li><a href="https://imacengineering.com/3d-printing-services"><img
+                        <li><a href="/3d-printing-services"><img
                                  src="assets/icons/mega-menu/Additive-Manufacturing.svg?v=<?= ASSET_VERSION ?>"
                                  alt="Additive Manufacturing" loading="lazy" decoding="async"> <span>Additive
                                  Manufacturing/<br>3D Printing</span></a></li>
-                        <li><a href="https://imacengineering.com/3d-miniature-model-design-services"><img
+                        <li><a href="/3d-miniature-model-design-services"><img
                                  src="assets/icons/mega-menu/3D-Printed-Miniature-Exhibition-Model.svg?v=<?= ASSET_VERSION ?>"
                                  alt="Miniature Design" loading="lazy" decoding="async"> <span>3D
                                  Miniature Design</span></a></li>
-                        <li><a href="https://imacengineering.com/contract-manufacturing-services"><img
+                        <li><a href="/contract-manufacturing-services"><img
                                  src="assets/icons/mega-menu/contract-menufacturing.svg?v=<?= ASSET_VERSION ?>" alt="Contract
                                  Manufacturing" loading="lazy" decoding="async"> <span>Contract
                                  Manufacturing</span></a></li>
-                        <li><a href="https://imacengineering.com/assembly-integration-services"><img
+                        <li><a href="/assembly-integration-services"><img
                                  src="assets/icons/mega-menu/Integration-Services.svg?v=<?= ASSET_VERSION ?>"
                                  alt="Integration Services" loading="lazy" decoding="async"> <span>Integration
                                  Services</span></a></li>
-                        <li><a href="https://imacengineering.com/plastic-injection-molding-services"><img
+                        <li><a href="/plastic-injection-molding-services"><img
                                  src="assets/icons/mega-menu/plastic injection moulding.svg?v=<?= ASSET_VERSION ?>"
                                  alt="Injection Molding" loading="lazy" decoding="async"> <span>Plastic
                                  Injection Molding</span></a></li>
-                        <li><a href="https://imacengineering.com/kiosk-design-and-development-services"><img
+                        <li><a href="/kiosk-design-and-development-services"><img
                                  src="assets/icons/mega-menu/Kiosk-design-&-development-service icon.svg?v=<?= ASSET_VERSION ?>"
                                  alt="Kiosk Design & Development" loading="lazy" decoding="async"> <span>Kiosk Design &
                                  Development</span></a></li>
@@ -668,20 +668,20 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                   </div>
                </div>
             </li>
-            <li><a href="https://imacengineering.com/portfolio">Portfolio</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
             <!-- Resources with Dropdown -->
             <li class="has-mega-menu">
                <a href="#">Resources<span class="arrow">&#9662;</span></a>
                <div class="mega-menu small-megamenu">
                   <div class="mega-menu-right small">
                      <ul class="menu-list">
-                        <li><a href="https://imacengineering.com/blogs"><span>Blogs</span></a></li>
-                        <li><a href="https://imacengineering.com/case-studies"><span>Case Studies</span></a></li>
+                        <li><a href="/blogs"><span>Blogs</span></a></li>
+                        <li><a href="/case-studies"><span>Case Studies</span></a></li>
                      </ul>
                   </div>
                </div>
             </li>
-            <li><a href="https://imacengineering.com/contact-us">Get in Touch</a></li>
+            <li><a href="/contact-us">Get in Touch</a></li>
          </ul>
       </nav>
       <!-- Desktop Button -->
@@ -700,7 +700,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
             </button>
             <div class="logo-group">
                <div class="logo-icons">
-                  <a href="https://imacengineering.com/"> <img src="assets/image/logo.svg?v=<?= ASSET_VERSION ?>"
+                  <a href="/"> <img src="assets/image/logo.svg?v=<?= ASSET_VERSION ?>"
                         alt="imac-logo" class="small-icon" loading="lazy" decoding="async"></a>
                </div>
             </div>
@@ -708,8 +708,8 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
          <!-- Navigation -->
          <nav class="navigation">
             <ul class="nav-list">
-               <li class="nav-item"><a href="https://imacengineering.com/">Home</a></li>
-               <li class="nav-item"><a href="https://imacengineering.com/about-us" class="nav-link">About us</a></li>
+               <li class="nav-item"><a href="/">Home</a></li>
+               <li class="nav-item"><a href="/about-us" class="nav-link">About us</a></li>
                <li class="nav-item has-mega-menu dropdown">
                   <a href="./services" class="nav-link">Services</a>
                   <img src="./assets/image/dropdown-icon-1.svg?v=<?= ASSET_VERSION ?>" alt="services"
@@ -722,33 +722,33 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                               industry
                               knowledge, expertise, and access to the latest technology.</p>
                         </div>
-                        <a href="https://imacengineering.com/contact-us" class="get-started">Get Started</a>
+                        <a href="/contact-us" class="get-started">Get Started</a>
                      </div>
                      <div class="mega-menu-right">
                         <ul class="menu-list">
                            <li>
-                              <a href="https://imacengineering.com/mechanical-cad-drafting-outsourcing-services">
+                              <a href="/mechanical-cad-drafting-outsourcing-services">
                                  <img src="assets/icons/mega-menu/cad-outsourcing-services.svg?v=<?= ASSET_VERSION ?>"
                                     alt="cad" loading="lazy" decoding="async"> <span> CAD
                                     Outsourcing Services </span>
                               </a>
                            </li>
                            <li>
-                              <a href="https://imacengineering.com/innovation-and-intellectual-property-services">
+                              <a href="/innovation-and-intellectual-property-services">
                                  <img src="assets/icons/mega-menu/Innovation-&-IP-Strategy.svg?v=<?= ASSET_VERSION ?>"
                                     alt="ip-strategy" loading="lazy" decoding="async"> <span>
                                     Innovation & IP Strategy </span>
                               </a>
                            </li>
                            <li>
-                              <a href="https://imacengineering.com/product-design-and-development-services">
+                              <a href="/product-design-and-development-services">
                                  <img src="assets/icons/mega-menu/product-design-development.svg?v=<?= ASSET_VERSION ?>"
                                     alt="product design" loading="lazy" decoding="async"><span> Product
                                     Design and Development </span>
                               </a>
                            </li>
                            <li>
-                              <a href="https://imacengineering.com/medical-device-design-and-development-services">
+                              <a href="/medical-device-design-and-development-services">
                                  <img
                                     src="assets/icons/mega-menu/Medical-Product-Design-&-Development.svg?v=<?= ASSET_VERSION ?>"
                                     alt="medical product" loading="lazy" decoding="async">
@@ -756,7 +756,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                               </a>
                            </li>
                            <li>
-                              <a href="https://imacengineering.com/3d-reverse-engineering-services">
+                              <a href="/3d-reverse-engineering-services">
                                  <img
                                     src="assets/icons/mega-menu/Reverse-Engineering-Services.svg?v=<?= ASSET_VERSION ?>"
                                     alt="reverse engineering" loading="lazy" decoding="async"> <span>
@@ -764,7 +764,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                               </a>
                            </li>
                            <li>
-                              <a href="https://imacengineering.com/manufacturing/on-demand">
+                              <a href="/manufacturing/on-demand">
                                  <img
                                     src="assets/icons/mega-menu/MVP-Prototyping-&-Manufacturing-as-Services.svg?v=<?= ASSET_VERSION ?>"
                                     alt="on demand manufacturing" loading="lazy" decoding="async"> <span> On Demand
@@ -772,7 +772,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                               </a>
                            </li>
                            <li>
-                              <a href="https://imacengineering.com/sheet-metal-design-and-development-services">
+                              <a href="/sheet-metal-design-and-development-services">
                                  <img
                                     src="assets/icons/mega-menu/Sheet-Metal-Design-Services.svg?v=<?= ASSET_VERSION ?>"
                                     alt="sheet metal design" loading="lazy" decoding="async"> <span> Sheet
@@ -780,7 +780,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                               </a>
                            </li>
                            <li>
-                              <a href="https://imacengineering.com/rapid-tooling-design-and-manufacturing-services">
+                              <a href="/rapid-tooling-design-and-manufacturing-services">
                                  <img
                                     src="assets/icons/mega-menu/Tooling-Design-and-Manufacturing-Services.svg?v=<?= ASSET_VERSION ?>"
                                     alt="tooling design" loading="lazy" decoding="async">
@@ -788,14 +788,14 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                               </a>
                            </li>
                            <li>
-                              <a href="https://imacengineering.com/3d-printing-services">
+                              <a href="/3d-printing-services">
                                  <img src="assets/icons/mega-menu/Additive-Manufacturing.svg?v=<?= ASSET_VERSION ?>"
                                     alt="3D Printing" loading="lazy" decoding="async"> <span> Additive
                                     Manufacturing/<br>3D Printing </span>
                               </a>
                            </li>
                            <li>
-                              <a href="https://imacengineering.com/3d-miniature-model-design-services">
+                              <a href="/3d-miniature-model-design-services">
                                  <img
                                     src="assets/icons/mega-menu/3D-Printed-Miniature-Exhibition-Model.svg?v=<?= ASSET_VERSION ?>"
                                     alt="3D Miniature Design" loading="lazy" decoding="async">
@@ -803,7 +803,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                               </a>
                            </li>
                            <li>
-                              <a href="https://imacengineering.com/contract-manufacturing-services">
+                              <a href="/contract-manufacturing-services">
                                  <img src="assets/icons/mega-menu/contract-menufacturing.svg?v=<?= ASSET_VERSION ?>"
                                     alt="Contract Manufacturing" loading="lazy" decoding="async"> <span> Contract
                                     Manufacturing </span>
@@ -811,21 +811,21 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                            </li>
 
                            <li>
-                              <a href="https://imacengineering.com/assembly-integration-services">
+                              <a href="/assembly-integration-services">
                                  <img src="assets/icons/mega-menu/Integration-Services.svg?v=<?= ASSET_VERSION ?>"
                                     alt="Integration Services" loading="lazy" decoding="async"> <span> Integration
                                     Services </span>
                               </a>
                            </li>
                            <li>
-                              <a href="https://imacengineering.com/plastic-injection-molding-services">
+                              <a href="/plastic-injection-molding-services">
                                  <img src="assets/icons/mega-menu/plastic injection moulding.svg?v=<?= ASSET_VERSION ?>"
                                     alt="Injection Molding" loading="lazy" decoding="async"> <span> Plastic
                                     Injection Molding </span>
                               </a>
                            </li>
                            <li>
-                              <a href="https://imacengineering.com/kiosk-design-and-development-services">
+                              <a href="/kiosk-design-and-development-services">
                                  <img
                                     src="assets/icons/mega-menu/Kiosk-design-&-development-service icon.svg?v=<?= ASSET_VERSION ?>"
                                     alt="Kiosk Design" loading="lazy" decoding="async">
@@ -837,7 +837,7 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                   </div>
                </li>
                <li class="nav-item">
-                  <a href="https://imacengineering.com/portfolio" class="nav-link">Portfolio</a>
+                  <a href="/portfolio" class="nav-link">Portfolio</a>
                </li>
                <li class="nav-item has-mega-menu dropdown">
                   <a href="#" class="nav-link">Resources</a>
@@ -846,14 +846,14 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
                   <div class="mega-menu small-megamenu">
                      <div class="mega-menu-right small">
                         <ul class="menu-list">
-                           <li><a href="https://imacengineering.com/blogs"><span>Blogs</span></a></li>
-                           <li><a href="https://imacengineering.com/case-studies"><span> Case Studies </span></a></li>
+                           <li><a href="/blogs"><span>Blogs</span></a></li>
+                           <li><a href="/case-studies"><span> Case Studies </span></a></li>
                         </ul>
                      </div>
                   </div>
                </li>
                <li class="nav-item">
-                  <a href="https://imacengineering.com/contact-us" class="nav-link">Get in Touch</a>
+                  <a href="/contact-us" class="nav-link">Get in Touch</a>
                </li>
             </ul>
          </nav>
@@ -869,14 +869,14 @@ if (!empty($JSON_LD_SCRIPTS) && is_array($JSON_LD_SCRIPTS)) {
       <!-- Mobile Navigation -->
       <nav class="mobile-navigation">
          <ul class="mobile-nav-list">
-            <li class="mobile-nav-item"><a href="https://imacengineering.com/" class="mobile-nav-link">Home</a></li>
-            <li class="mobile-nav-item"><a href="https://imacengineering.com/about-us" class="mobile-nav-link">About
+            <li class="mobile-nav-item"><a href="/" class="mobile-nav-link">Home</a></li>
+            <li class="mobile-nav-item"><a href="/about-us" class="mobile-nav-link">About
                   us</a></li>
             <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Services</a></li>
-            <li class="mobile-nav-item"><a href="https://imacengineering.com/portfolio"
+            <li class="mobile-nav-item"><a href="/portfolio"
                   class="mobile-nav-link">Portfolio</a></li>
             <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Resources</a></li>
-            <li class="mobile-nav-item"><a href="https://imacengineering.com/contact-us" class="mobile-nav-link">Get in
+            <li class="mobile-nav-item"><a href="/contact-us" class="mobile-nav-link">Get in
                   Touch</a></li>
          </ul>
       </nav>

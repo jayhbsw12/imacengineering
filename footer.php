@@ -284,9 +284,9 @@
 
 <!-- Footer -->
 <footer class="footer">
-  <a href="https://imacengineering.com/"><img src="assets/image/logo.svg" alt="iMAC Logo" class="footer-logo" /></a>
+  <a href="/"><img src="assets/image/logo.svg" alt="iMAC Logo" class="footer-logo" /></a>
   <div class="footer-content">
-    <a href="https://imacengineering.com/privacy-policy" class="footer-link">Privacy Policy</a>
+    <a href="/privacy-policy" class="footer-link">Privacy Policy</a>
     <span class="footer-text">© 2025 iMAC Design & Engineering Services. All Rights Reserved</span>
   </div>
 </footer>
@@ -382,7 +382,7 @@
 <script>
   (function () {
     // Fix logo link
-    var logoLink = document.querySelector('.logo-icons a[href="/"], .logo-icons a[href="https://imacengineering.com/"]');
+    var logoLink = document.querySelector('.logo-icons a[href="/"], .logo-icons a[href="/"]');
     if (logoLink) {
       if (!logoLink.getAttribute('aria-label')) logoLink.setAttribute('aria-label', 'iMAC Engineering — home');
       var img = logoLink.querySelector('img');

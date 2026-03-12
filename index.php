@@ -3611,36 +3611,74 @@ document.querySelectorAll('.dm-tab-nav-btn').forEach(btn => {
 
 
 /* ----------------------
-   BLOG SLIDER FIX
+   BLOG SLIDER FIX (INFINITE LOOP)
 ---------------------- */
 const blogTrack = document.getElementById('dmCarouselSliderBG');
-let blogOffset = 0;
 
 document.getElementById('dmNextBtnBG').addEventListener('click', () => {
-    blogOffset -= 320; // card width
-    blogTrack.style.transform = `translateX(${blogOffset}px)`;
+    if (blogTrack.children.length > 0) {
+        blogTrack.style.transition = 'transform 0.3s ease-in-out';
+        const cardWidth = blogTrack.children[0].offsetWidth + 20; // card width + gap
+        blogTrack.style.transform = `translateX(-${cardWidth}px)`;
+
+        setTimeout(() => {
+            blogTrack.style.transition = 'none';
+            blogTrack.appendChild(blogTrack.firstElementChild);
+            blogTrack.style.transform = 'translateX(0)';
+        }, 300);
+    }
 });
 
 document.getElementById('dmPrevBtnBG').addEventListener('click', () => {
-    blogOffset += 320;
-    blogTrack.style.transform = `translateX(${blogOffset}px)`;
+    if (blogTrack.children.length > 0) {
+        blogTrack.style.transition = 'none';
+        const cardWidth = blogTrack.children[0].offsetWidth + 20;
+        blogTrack.prepend(blogTrack.lastElementChild);
+        blogTrack.style.transform = `translateX(-${cardWidth}px)`;
+
+        requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+                blogTrack.style.transition = 'transform 0.3s ease-in-out';
+                blogTrack.style.transform = 'translateX(0)';
+            });
+        });
+    }
 });
 
 
 /* ----------------------
-   CASE STUDY SLIDER FIX
+   CASE STUDY SLIDER FIX (INFINITE LOOP)
 ---------------------- */
 const csTrack = document.getElementById('dmCarouselSliderCS');
-let csOffset = 0;
 
 document.getElementById('dmNextBtnCS').addEventListener('click', () => {
-    csOffset -= 320;
-    csTrack.style.transform = `translateX(${csOffset}px)`;
+    if (csTrack.children.length > 0) {
+        csTrack.style.transition = 'transform 0.3s ease-in-out';
+        const cardWidth = csTrack.children[0].offsetWidth + 20;
+        csTrack.style.transform = `translateX(-${cardWidth}px)`;
+
+        setTimeout(() => {
+            csTrack.style.transition = 'none';
+            csTrack.appendChild(csTrack.firstElementChild);
+            csTrack.style.transform = 'translateX(0)';
+        }, 300);
+    }
 });
 
 document.getElementById('dmPrevBtnCS').addEventListener('click', () => {
-    csOffset += 320;
-    csTrack.style.transform = `translateX(${csOffset}px)`;
+    if (csTrack.children.length > 0) {
+        csTrack.style.transition = 'none';
+        const cardWidth = csTrack.children[0].offsetWidth + 20;
+        csTrack.prepend(csTrack.lastElementChild);
+        csTrack.style.transform = `translateX(-${cardWidth}px)`;
+
+        requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+                csTrack.style.transition = 'transform 0.3s ease-in-out';
+                csTrack.style.transform = 'translateX(0)';
+            });
+        });
+    }
 });
 </script>
 

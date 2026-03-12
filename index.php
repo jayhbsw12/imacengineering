@@ -756,11 +756,12 @@
    }
 
    /* Hidden by default */
-   .portfolio-item-wrap.hidden {
-      opacity: 0 !important;
-      pointer-events: none;
+   /* Slider Mobile Hide Arrows */
+   @media (max-width: 1024px) {
+      .dm-carousel-ctrl {
+         display: none !important;
+      }
    }
-
 </style>
 
 
@@ -3611,75 +3612,147 @@ document.querySelectorAll('.dm-tab-nav-btn').forEach(btn => {
 
 
 /* ----------------------
-   BLOG SLIDER FIX (INFINITE LOOP)
+   SLIDER LOGIC (INFINITE + TOUCH)
 ---------------------- */
-const blogTrack = document.getElementById('dmCarouselSliderBG');
+function initInfiniteSlider(trackId, nextBtnId, prevBtnId) {
+    const track = document.getElementById(trackId);
+    const nextBtn = document.getElementById(nextBtnId);
+    const prevBtn = document.getElementById(prevBtnId);
+    
+    if (!track) return;
+    
+    let isDragging = false;
+    let startPos = 0;
+    let currentTranslate = 0;
+    let prevTranslate = 0;
+    let animationID = 0;
+    let currentIndex = 0;
+    let isTransitioning = false;
 
-document.getElementById('dmNextBtnBG').addEventListener('click', () => {
-    if (blogTrack.children.length > 0) {
-        blogTrack.style.transition = 'transform 0.3s ease-in-out';
-        const cardWidth = blogTrack.children[0].offsetWidth + 20; // card width + gap
-        blogTrack.style.transform = `translateX(-${cardWidth}px)`;
-
-        setTimeout(() => {
-            blogTrack.style.transition = 'none';
-            blogTrack.appendChild(blogTrack.firstElementChild);
-            blogTrack.style.transform = 'translateX(0)';
-        }, 300);
-    }
-});
-
-document.getElementById('dmPrevBtnBG').addEventListener('click', () => {
-    if (blogTrack.children.length > 0) {
-        blogTrack.style.transition = 'none';
-        const cardWidth = blogTrack.children[0].offsetWidth + 20;
-        blogTrack.prepend(blogTrack.lastElementChild);
-        blogTrack.style.transform = `translateX(-${cardWidth}px)`;
-
-        requestAnimationFrame(() => {
-            requestAnimationFrame(() => {
-                blogTrack.style.transition = 'transform 0.3s ease-in-out';
-                blogTrack.style.transform = 'translateX(0)';
-            });
+    // Button Navigation
+    if(nextBtn) {
+        nextBtn.addEventListener('click', () => {
+            if (isTransitioning || track.children.length === 0) return;
+            slideNext();
         });
     }
-});
 
-
-/* ----------------------
-   CASE STUDY SLIDER FIX (INFINITE LOOP)
----------------------- */
-const csTrack = document.getElementById('dmCarouselSliderCS');
-
-document.getElementById('dmNextBtnCS').addEventListener('click', () => {
-    if (csTrack.children.length > 0) {
-        csTrack.style.transition = 'transform 0.3s ease-in-out';
-        const cardWidth = csTrack.children[0].offsetWidth + 20;
-        csTrack.style.transform = `translateX(-${cardWidth}px)`;
-
-        setTimeout(() => {
-            csTrack.style.transition = 'none';
-            csTrack.appendChild(csTrack.firstElementChild);
-            csTrack.style.transform = 'translateX(0)';
-        }, 300);
-    }
-});
-
-document.getElementById('dmPrevBtnCS').addEventListener('click', () => {
-    if (csTrack.children.length > 0) {
-        csTrack.style.transition = 'none';
-        const cardWidth = csTrack.children[0].offsetWidth + 20;
-        csTrack.prepend(csTrack.lastElementChild);
-        csTrack.style.transform = `translateX(-${cardWidth}px)`;
-
-        requestAnimationFrame(() => {
-            requestAnimationFrame(() => {
-                csTrack.style.transition = 'transform 0.3s ease-in-out';
-                csTrack.style.transform = 'translateX(0)';
-            });
+    if(prevBtn) {
+        prevBtn.addEventListener('click', () => {
+            if (isTransitioning || track.children.length === 0) return;
+            slidePrev();
         });
     }
-});
+
+    function slideNext() {
+        isTransitioning = true;
+        track.style.transition = 'transform 0.3s ease-in-out';
+        const cardWidth = track.children[0].offsetWidth + 20; // width + gap
+        track.style.transform = `translateX(-${cardWidth}px)`;
+
+        setTimeout(() => {
+            track.style.transition = 'none';
+            track.appendChild(track.firstElementChild);
+            track.style.transform = 'translateX(0)';
+            isTransitioning = false;
+        }, 300);
+    }
+
+    function slidePrev() {
+        isTransitioning = true;
+        track.style.transition = 'none';
+        const cardWidth = track.children[0].offsetWidth + 20;
+        track.prepend(track.lastElementChild);
+        track.style.transform = `translateX(-${cardWidth}px)`;
+
+        // Force reflow
+        void track.offsetWidth;
+
+        track.style.transition = 'transform 0.3s ease-in-out';
+        track.style.transform = 'translateX(0)';
+
+        setTimeout(() => {
+            isTransitioning = false;
+        }, 300);
+    }
+
+    // Touch / Drag Events
+    track.addEventListener('touchstart', touchStart);
+    track.addEventListener('touchend', touchEnd);
+    track.addEventListener('touchmove', touchMove, {passive: false});
+
+    track.addEventListener('mousedown', touchStart);
+    track.addEventListener('mouseup', touchEnd);
+    track.addEventListener('mouseleave', () => {
+        if(isDragging) touchEnd();
+    });
+    track.addEventListener('mousemove', touchMove);
+
+    function getPositionX(event) {
+        return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
+    }
+
+    function touchStart(event) {
+        if (isTransitioning || track.children.length === 0) return;
+        isDragging = true;
+        startPos = getPositionX(event);
+        animationID = requestAnimationFrame(animation);
+        track.style.cursor = 'grabbing';
+        track.style.transition = 'none';
+    }
+
+    function touchMove(event) {
+        if (isDragging) {
+            // Prevent scrolling on touch devices if dragging horizontally
+            if(event.type.includes('touch')) {
+               const currentPosition = getPositionX(event);
+               if(Math.abs(currentPosition - startPos) > 10) {
+                 event.preventDefault(); 
+               }
+            }
+            const currentPosition = getPositionX(event);
+            currentTranslate = prevTranslate + currentPosition - startPos;
+        }
+    }
+
+    function touchEnd() {
+        isDragging = false;
+        cancelAnimationFrame(animationID);
+        track.style.cursor = 'grab';
+        
+        const movedBy = currentTranslate - prevTranslate;
+        
+        // Reset translation state immediately so that button logic doesn't compound
+        currentTranslate = 0;
+        prevTranslate = 0;
+        track.style.transform = 'translateX(0)';
+        
+        // Threshold to register a swipe (e.g. 50px)
+        if (movedBy < -50) {
+            slideNext();
+        } else if (movedBy > 50) {
+            slidePrev();
+        } else {
+             // Snap back if didn't swipe enough
+             track.style.transition = 'transform 0.3s ease-in-out';
+             track.style.transform = 'translateX(0)';
+        }
+    }
+
+    function animation() {
+        if(isDragging) {
+            track.style.transform = `translateX(${currentTranslate}px)`;
+            requestAnimationFrame(animation);
+        }
+    }
+}
+
+// Ensure elements exist when firing init
+setTimeout(() => {
+    initInfiniteSlider('dmCarouselSliderBG', 'dmNextBtnBG', 'dmPrevBtnBG');
+    initInfiniteSlider('dmCarouselSliderCS', 'dmNextBtnCS', 'dmPrevBtnCS');
+}, 500); // Small delay to let fetch populate DOM if necessary
+
 </script>
 
 
